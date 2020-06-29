@@ -1,13 +1,3 @@
----
-page_type: sample
-languages:
-- csharp
-products:
-- dotnet
-description: "Add 150 character max description"
-urlFragment: "update-this-to-unique-url-stub"
----
-
 # Azure Communication Services (ACS) - Samples and Tools
 
 Application sample and tools for ACS. Many small samples are co-located with the Azure SDK, but complete application samples are available here.
