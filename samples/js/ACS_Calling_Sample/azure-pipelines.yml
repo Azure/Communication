@@ -8,7 +8,7 @@ trigger:
 - master
 
 pool:
-  name: ess-corp-w10-f-vs2019-1615-eu # https://dev.azure.com/skype/SKYPECENTRAL/_wiki/wikis/SKYPECENTRAL.wiki/85/Skype-ESS-VSTS-Build-agents-and-pools
+  vmImage: 'windows-latest'
 
 variables:
   solution: '**/*.sln'
@@ -22,14 +22,14 @@ steps:
 - task: Npm@1
   inputs:
     command: 'install'
-    workingDir: 'ClientApp'
+    workingDir: 'samples/js/ACS_Calling_Sample/ClientApp'
 - task: Npm@1
   inputs:
     command: 'custom'
-    workingDir: 'ClientApp'
+    workingDir: 'samples/js/ACS_Calling_Sample/ClientApp'
     customCommand: 'run build:prod'
 - task: DotNetCoreCLI@2
   inputs:
     command: 'build'
-    projects: 'Service.NET/ServiceSampleDotNet.csproj'
+    projects: 'samples/js/ACS_Calling_Sample/Service.NET/ServiceSampleDotNet.csproj'
     arguments: '-c Release'
