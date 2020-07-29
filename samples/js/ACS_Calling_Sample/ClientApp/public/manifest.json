@@ -1,0 +1,8 @@
+{
+  "name": "Azure Communication Calling Sample",
+  "short_name": "AzureCommunicationCallingSample",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

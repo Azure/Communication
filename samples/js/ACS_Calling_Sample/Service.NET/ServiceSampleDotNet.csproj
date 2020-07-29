@@ -1,0 +1,62 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <Copyright>Copyright © Microsoft 2019</Copyright>
+    <EnableDefaultContentItems>false</EnableDefaultContentItems>
+    <SpaRoot>..\ClientApp\</SpaRoot>
+    <DefaultItemExcludes>$(DefaultItemExcludes);$(SpaRoot)node_modules\**</DefaultItemExcludes>
+    <UserSecretsId>993e79c3-3e6b-4568-a927-be0373315b06</UserSecretsId>
+    <LangVersion>7.1</LangVersion>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'Calling' ">
+    <StartAction>Project</StartAction>
+    <ApplicationURL>http://localhost:5001</ApplicationURL>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.HttpsPolicy" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.ResponseCompression" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.SpaServices" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.SpaServices.Extensions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="2.2.0" />
+    <PackageReference Include="Azure.Core" Version="1.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- Don't publish the SPA source files, but do show them in the project files list -->
+    <Content Remove="$(SpaRoot)**" />
+    <None Remove="$(SpaRoot)**" />
+    </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="SpoolServiceClient\" />
+    <Folder Include="Controllers\" />
+
+    <Content Include="$(SpaRoot)\dist\*">
+        <Link>ClientBuild\%(RecursiveDir)%(Filename)%(Extension)</Link>
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="appsettings.json" />
+  </ItemGroup>
+  <Target Name="DebugEnsureNodeEnv" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('$(SpaRoot)node_modules') ">
+    <!-- Ensure Node.js is installed -->
+    <Exec Command="node --version" ContinueOnError="true">
+      <Output TaskParameter="ExitCode" PropertyName="ErrorCode" />
+    </Exec>
+    <Error Condition="'$(ErrorCode)' != '0'" Text="Node.js is required to build and run this project. To continue, please install Node.js from https://nodejs.org/, and then restart your command prompt or IDE." />
+    <Message Importance="high" Text="Restoring dependencies using 'npm'. This may take several minutes..." />
+    <Exec WorkingDirectory="$(SpaRoot)" Command="npm install" />
+  </Target>
+
+  <Target Name="BuildSPA" AfterTargets="Build" Condition="Exists('$(SpaRoot)node_modules') And !Exists('$(SpaRoot)dist')">
+    <Message Importance="high" Text="Building SPA. This may take several minutes..." />
+    <Exec WorkingDirectory="$(SpaRoot)" Command="npm run build:prod" />
+  </Target>
+
+</Project>

@@ -1,0 +1,35 @@
+# ASP.NET
+
+# Build and test ASP.NET projects.
+# Add steps that publish symbols, save build artifacts, deploy, and more:
+# https://docs.microsoft.com/azure/devops/pipelines/apps/aspnet/build-aspnet-4
+
+trigger:
+- master
+
+pool:
+  name: ess-corp-w10-f-vs2019-1615-eu # https://dev.azure.com/skype/SKYPECENTRAL/_wiki/wikis/SKYPECENTRAL.wiki/85/Skype-ESS-VSTS-Build-agents-and-pools
+
+variables:
+  solution: '**/*.sln'
+  buildPlatform: 'Any CPU'
+  buildConfiguration: 'Release'
+
+steps:
+- task: UseNode@1
+  inputs:
+    checkLatest: true
+- task: Npm@1
+  inputs:
+    command: 'install'
+    workingDir: 'ClientApp'
+- task: Npm@1
+  inputs:
+    command: 'custom'
+    workingDir: 'ClientApp'
+    customCommand: 'run build:prod'
+- task: DotNetCoreCLI@2
+  inputs:
+    command: 'build'
+    projects: 'Service.NET/ServiceSampleDotNet.csproj'
+    arguments: '-c Release'
