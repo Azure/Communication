@@ -1,6 +1,6 @@
 {
-  "short_name": "SpoolCallingSample",
-  "name": "SpoolCallingSample",
+  "name": "Azure Communication Calling Sample",
+  "short_name": "AzureCommunicationCallingSample",
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",

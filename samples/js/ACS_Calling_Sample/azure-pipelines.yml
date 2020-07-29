@@ -5,7 +5,7 @@
 # https://docs.microsoft.com/azure/devops/pipelines/apps/aspnet/build-aspnet-4
 
 trigger:
-- alkwa/private-preview-group
+- master
 
 pool:
   name: ess-corp-w10-f-vs2019-1615-eu # https://dev.azure.com/skype/SKYPECENTRAL/_wiki/wikis/SKYPECENTRAL.wiki/85/Skype-ESS-VSTS-Build-agents-and-pools

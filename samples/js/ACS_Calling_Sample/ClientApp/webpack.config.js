@@ -18,7 +18,7 @@ module.exports = (env) => ({
       cacheGroups: {
         commons: {
           test: /[\\/]spool-sdk[\\/]/,
-          name: 'SkypeCallingSDK',
+          name: 'AzureCommunicationCallingSDK',
           chunks: 'all'
         }
       }
