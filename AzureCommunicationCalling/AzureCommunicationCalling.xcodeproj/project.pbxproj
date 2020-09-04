@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DEEF7C5524FEA7AA0091E795 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEF7C5424FEA7AA0091E795 /* AppDelegate.swift */; };
+		DEEF7C5724FEA7AA0091E795 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEF7C5624FEA7AA0091E795 /* SceneDelegate.swift */; };
+		DEEF7C5924FEA7AB0091E795 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEF7C5824FEA7AB0091E795 /* ContentView.swift */; };
+		DEEF7C5B24FEA7B00091E795 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEEF7C5A24FEA7B00091E795 /* Assets.xcassets */; };
+		DEEF7C5E24FEA7B00091E795 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEEF7C5D24FEA7B00091E795 /* Preview Assets.xcassets */; };
+		DEEF7C6124FEA7B00091E795 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEEF7C5F24FEA7B00091E795 /* LaunchScreen.storyboard */; };
+		DEEF7C6A24FEB79D0091E795 /* SpoolCallingSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEEF7C6924FEB79D0091E795 /* SpoolCallingSDK.framework */; };
+		DEEF7C6B24FEB79D0091E795 /* SpoolCallingSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DEEF7C6924FEB79D0091E795 /* SpoolCallingSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DEEF7C6E24FECF1D0091E795 /* AzureCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEEF7C6D24FECF1D0091E795 /* AzureCore.framework */; };
+		DEEF7C6F24FECF1D0091E795 /* AzureCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DEEF7C6D24FECF1D0091E795 /* AzureCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DEEF7C7124FECF4B0091E795 /* AzureCommunication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEEF7C7024FECF4B0091E795 /* AzureCommunication.framework */; };
+		DEEF7C7224FECF4B0091E795 /* AzureCommunication.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DEEF7C7024FECF4B0091E795 /* AzureCommunication.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DEEF7C6C24FEB79D0091E795 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				DEEF7C6B24FEB79D0091E795 /* SpoolCallingSDK.framework in Embed Frameworks */,
+				DEEF7C7224FECF4B0091E795 /* AzureCommunication.framework in Embed Frameworks */,
+				DEEF7C6F24FECF1D0091E795 /* AzureCore.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DEEF7C5124FEA7AA0091E795 /* AzureCommunicationCalling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AzureCommunicationCalling.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEEF7C5424FEA7AA0091E795 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DEEF7C5624FEA7AA0091E795 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DEEF7C5824FEA7AB0091E795 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DEEF7C5A24FEA7B00091E795 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DEEF7C5D24FEA7B00091E795 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DEEF7C6024FEA7B00091E795 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DEEF7C6224FEA7B00091E795 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEEF7C6924FEB79D0091E795 /* SpoolCallingSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpoolCallingSDK.framework; path = /Users/augustorighetto/Code/Skype/SpoolCallingStack/spool/staging.d/debug/sdk/x86_64/SpoolCallingSDK.framework; sourceTree = "<absolute>"; };
+		DEEF7C6D24FECF1D0091E795 /* AzureCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AzureCore.framework; path = /Users/augustorighetto/Code/Skype/SpoolCallingStack/spool/staging.d/debug/sdk/x86_64/deps/AzureCore.framework; sourceTree = "<absolute>"; };
+		DEEF7C7024FECF4B0091E795 /* AzureCommunication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AzureCommunication.framework; path = /Users/augustorighetto/Code/Skype/SpoolCallingStack/spool/staging.d/debug/sdk/x86_64/deps/AzureCommunication.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DEEF7C4E24FEA7AA0091E795 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEEF7C6A24FEB79D0091E795 /* SpoolCallingSDK.framework in Frameworks */,
+				DEEF7C7124FECF4B0091E795 /* AzureCommunication.framework in Frameworks */,
+				DEEF7C6E24FECF1D0091E795 /* AzureCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DEEF7C4824FEA7AA0091E795 = {
+			isa = PBXGroup;
+			children = (
+				DEEF7C5324FEA7AA0091E795 /* AzureCommunicationCalling */,
+				DEEF7C5224FEA7AA0091E795 /* Products */,
+				DEEF7C6824FEB79D0091E795 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DEEF7C5224FEA7AA0091E795 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DEEF7C5124FEA7AA0091E795 /* AzureCommunicationCalling.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEEF7C5324FEA7AA0091E795 /* AzureCommunicationCalling */ = {
+			isa = PBXGroup;
+			children = (
+				DEEF7C5424FEA7AA0091E795 /* AppDelegate.swift */,
+				DEEF7C5624FEA7AA0091E795 /* SceneDelegate.swift */,
+				DEEF7C5824FEA7AB0091E795 /* ContentView.swift */,
+				DEEF7C5A24FEA7B00091E795 /* Assets.xcassets */,
+				DEEF7C5F24FEA7B00091E795 /* LaunchScreen.storyboard */,
+				DEEF7C6224FEA7B00091E795 /* Info.plist */,
+				DEEF7C5C24FEA7B00091E795 /* Preview Content */,
+			);
+			path = AzureCommunicationCalling;
+			sourceTree = "<group>";
+		};
+		DEEF7C5C24FEA7B00091E795 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DEEF7C5D24FEA7B00091E795 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DEEF7C6824FEB79D0091E795 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DEEF7C7024FECF4B0091E795 /* AzureCommunication.framework */,
+				DEEF7C6D24FECF1D0091E795 /* AzureCore.framework */,
+				DEEF7C6924FEB79D0091E795 /* SpoolCallingSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DEEF7C5024FEA7AA0091E795 /* AzureCommunicationCalling */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEEF7C6524FEA7B00091E795 /* Build configuration list for PBXNativeTarget "AzureCommunicationCalling" */;
+			buildPhases = (
+				DEEF7C4D24FEA7AA0091E795 /* Sources */,
+				DEEF7C4E24FEA7AA0091E795 /* Frameworks */,
+				DEEF7C4F24FEA7AA0091E795 /* Resources */,
+				DEEF7C6C24FEB79D0091E795 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AzureCommunicationCalling;
+			productName = AzureCommunicationCalling;
+			productReference = DEEF7C5124FEA7AA0091E795 /* AzureCommunicationCalling.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DEEF7C4924FEA7AA0091E795 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = Contoso;
+				TargetAttributes = {
+					DEEF7C5024FEA7AA0091E795 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = DEEF7C4C24FEA7AA0091E795 /* Build configuration list for PBXProject "AzureCommunicationCalling" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DEEF7C4824FEA7AA0091E795;
+			productRefGroup = DEEF7C5224FEA7AA0091E795 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEEF7C5024FEA7AA0091E795 /* AzureCommunicationCalling */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DEEF7C4F24FEA7AA0091E795 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEEF7C6124FEA7B00091E795 /* LaunchScreen.storyboard in Resources */,
+				DEEF7C5E24FEA7B00091E795 /* Preview Assets.xcassets in Resources */,
+				DEEF7C5B24FEA7B00091E795 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DEEF7C4D24FEA7AA0091E795 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEEF7C5524FEA7AA0091E795 /* AppDelegate.swift in Sources */,
+				DEEF7C5724FEA7AA0091E795 /* SceneDelegate.swift in Sources */,
+				DEEF7C5924FEA7AB0091E795 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DEEF7C5F24FEA7B00091E795 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEEF7C6024FEA7B00091E795 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DEEF7C6324FEA7B00091E795 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DEEF7C6424FEA7B00091E795 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DEEF7C6624FEA7B00091E795 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"AzureCommunicationCalling/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Users/augustorighetto/Code/Skype/SpoolCallingStack/spool/staging.d/debug/sdk/x86_64,
+					/Users/augustorighetto/Code/Skype/SpoolCallingStack/spool/staging.d/debug/sdk/x86_64/deps,
+				);
+				INFOPLIST_FILE = AzureCommunicationCalling/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.contoso.AzureCommunicationCalling;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DEEF7C6724FEA7B00091E795 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"AzureCommunicationCalling/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Users/augustorighetto/Code/Skype/SpoolCallingStack/spool/staging.d/debug/sdk/x86_64,
+					/Users/augustorighetto/Code/Skype/SpoolCallingStack/spool/staging.d/debug/sdk/x86_64/deps,
+				);
+				INFOPLIST_FILE = AzureCommunicationCalling/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.contoso.AzureCommunicationCalling;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DEEF7C4C24FEA7AA0091E795 /* Build configuration list for PBXProject "AzureCommunicationCalling" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEEF7C6324FEA7B00091E795 /* Debug */,
+				DEEF7C6424FEA7B00091E795 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEEF7C6524FEA7B00091E795 /* Build configuration list for PBXNativeTarget "AzureCommunicationCalling" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEEF7C6624FEA7B00091E795 /* Debug */,
+				DEEF7C6724FEA7B00091E795 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DEEF7C4924FEA7AA0091E795 /* Project object */;
+}
