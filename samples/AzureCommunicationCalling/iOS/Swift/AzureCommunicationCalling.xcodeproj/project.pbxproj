@@ -46,9 +46,9 @@
 		DEEF7C5D24FEA7B00091E795 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DEEF7C6024FEA7B00091E795 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DEEF7C6224FEA7B00091E795 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DEEF7C6924FEB79D0091E795 /* SpoolCallingSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpoolCallingSDK.framework; path = /Users/augustorighetto/Code/Skype/SpoolCallingStack/spool/staging.d/debug/sdk/x86_64/SpoolCallingSDK.framework; sourceTree = "<absolute>"; };
-		DEEF7C6D24FECF1D0091E795 /* AzureCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AzureCore.framework; path = /Users/augustorighetto/Code/Skype/SpoolCallingStack/spool/staging.d/debug/sdk/x86_64/deps/AzureCore.framework; sourceTree = "<absolute>"; };
-		DEEF7C7024FECF4B0091E795 /* AzureCommunication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AzureCommunication.framework; path = /Users/augustorighetto/Code/Skype/SpoolCallingStack/spool/staging.d/debug/sdk/x86_64/deps/AzureCommunication.framework; sourceTree = "<absolute>"; };
+		DEEF7C6924FEB79D0091E795 /* SpoolCallingSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpoolCallingSDK.framework; path = /Users/acsdev/sdk/x86_64/SpoolCallingSDK.framework; sourceTree = "<absolute>"; };
+		DEEF7C6D24FECF1D0091E795 /* AzureCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AzureCore.framework; path = /Users/acsdev/sdk/x86_64/deps/AzureCore.framework; sourceTree = "<absolute>"; };
+		DEEF7C7024FECF4B0091E795 /* AzureCommunication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AzureCommunication.framework; path = /Users/acsdev/sdk/x86_64/deps/AzureCommunication.framework; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -328,8 +328,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"AzureCommunicationCalling/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				FRAMEWORK_SEARCH_PATHS = (
-					/Users/augustorighetto/Code/Skype/SpoolCallingStack/spool/staging.d/debug/sdk/x86_64,
-					/Users/augustorighetto/Code/Skype/SpoolCallingStack/spool/staging.d/debug/sdk/x86_64/deps,
+					/Users/acsdev/sdk/x86_64,
+					/Users/acsdev/sdk/x86_64/deps,
 				);
 				INFOPLIST_FILE = AzureCommunicationCalling/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -351,8 +351,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"AzureCommunicationCalling/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				FRAMEWORK_SEARCH_PATHS = (
-					/Users/augustorighetto/Code/Skype/SpoolCallingStack/spool/staging.d/debug/sdk/x86_64,
-					/Users/augustorighetto/Code/Skype/SpoolCallingStack/spool/staging.d/debug/sdk/x86_64/deps,
+					/Users/acsdev/sdk/x86_64,
+					/Users/acsdev/sdk/x86_64/deps,
 				);
 				INFOPLIST_FILE = AzureCommunicationCalling/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
