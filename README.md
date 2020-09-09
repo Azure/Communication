@@ -42,7 +42,7 @@ These are JavaScript-based web applications implemented using Microsoft's Fluent
 - Chat Hero Sample - Demonstrates rich text chat
 - Calling Hero Sample - Demonstrates voice and video calling
 
-**Help**
+## Help
 
 We encourage developers to submit questions and report problems as issues in this repo. Other forums include:
 
