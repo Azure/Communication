@@ -1,5 +1,5 @@
 # Azure Communication Services - SDKs, Samples, and Help
-This repo provides links, code, client libraries (SDKs), and samples for developers using Azure Communication Services.
+This repo provides links, code, client libraries (SDKs), and samples for developers using [Azure Communication Services](https://azure.microsoft.com/en-us/services/azure-communication-services/).
 
 - **SDKs** - Download client libraries
 - **Samples** - Download samples
@@ -9,9 +9,17 @@ For more information about Azure Communication Services APIs and SDKs please see
 
 ## SDKs
 
-REST-based SDKs: ARM, Common, Administration, Chat, and SMS, are built and published through centralized Azure repos and channels linked below. Calling SDKs are available through this repo.
+Azure Communication Services capabilities are conceptually organized into six areas. REST-based SDKs: ARM, Common, Administration, Chat, and SMS, are open-source and published through centralized Azure repos and channels linked below. Calling SDKs are available through this repo. REST APIs are documented in the [Azure REST API repo](https://github.com/Azure/azure-rest-api-specs).
 
-REST APIs are documented in the Azure REST APi repo.
+
+| Assembly               | Protocols             | Namespaces                          | Capabilities                                                      |
+| ---------------------- | --------------------- | ----------------------------------- | -------------------------------------------------------------------------------------------------- |
+| Azure Resource Manager (ARM)| REST             | Azure.ResourceManager.Communication | Provision and manage Communication Services resources             |
+| Common                 | REST                  | Azure.Communication.Common          | Provides base types for other client libraries |
+| Administration         | REST                  | Azure.Communication.Administration  | Manage users, access tokens, and phone numbers, allocate standards-compliant STUN and TURN servers |
+| Chat                   | REST                  | Azure.Communication.Chat            | Add real-time text based chat to your applications  |
+| SMS                    | REST                  | Azure.Communication.SMS             | Send and receive SMS messages |
+| Calling                | Proprietary transport | Azure.Communication.Calling         | Leverage voice, video, screen-sharing, and other real-time data communication capabilities          |
 
 
 | Language    | Packages             | Repo                             | Documentation                    |
