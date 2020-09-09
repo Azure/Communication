@@ -9,7 +9,10 @@ For more information about Azure Communication Services APIs and SDKs please see
 
 ## SDKs
 
-Azure Communication Services capabilities are conceptually organized into six areas. REST-based SDKs: ARM, Common, Administration, Chat, and SMS, are open-source and published through centralized Azure repos and channels linked below. Calling SDKs are available through this repo. REST APIs are documented in the [Azure REST API repo](https://github.com/Azure/azure-rest-api-specs).
+Azure Communication Services capabilities are conceptually organized into six areas. 
+- REST-based SDKs: ARM, Common, Administration, Chat, and SMS, are open-source and published through centralized Azure repos and channels linked below. 
+- REST APIs are documented in the [Azure REST API repo](https://github.com/Azure/azure-rest-api-specs).
+- Calling SDKs are available through this repo. 
 
 
 | Assembly               | Protocols             | Namespaces                          | Capabilities                                                      |
