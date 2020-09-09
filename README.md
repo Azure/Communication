@@ -1,4 +1,4 @@
-# Azure Communication Services (ACS) - SDK, Samples, and Help
+# Azure Communication Services - SDKs, Samples, and Help
 This repo provides links, code, client libraries (SDKs), and samples for developers using Azure Communication Services.
 
 - **SDKs** - Download client libraries
