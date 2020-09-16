@@ -51,8 +51,13 @@ struct ContentView: View {
     }
 
     func startCall() {
-        let callees:[CommunicationIdentifier] = [CommunicationUser(identifier: self.callee)]
-        self.call = self.callAgent?.call(callees, options: ACSStartCallOptions())
+        // Ask permissions
+        AVAudioSession.sharedInstance().requestRecordPermission { (granted) in
+            if granted {
+                let callees:[CommunicationIdentifier] = [CommunicationUser(identifier: self.callee)]
+                self.call = self.callAgent?.call(callees, options: ACSStartCallOptions())
+            }
+        }
     }
 
     func endCall() {
