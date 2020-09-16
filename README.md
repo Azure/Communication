@@ -3,7 +3,7 @@ This repo provides links, code, client libraries (SDKs), and samples for develop
 
 - **SDKs** - Download client libraries
 - **Samples** - Download samples
-- **Help** - Ask questions or file issues
+- **Help** - Ask questions, file issues, or request features
 
 For more information about Azure Communication Services APIs and SDKs please see [docs.microsoft.com](https://aka.ms/spooldocs).
 
@@ -47,7 +47,7 @@ These are JavaScript-based web applications implemented using Microsoft's Fluent
 
 ## Help
 
-We encourage developers to submit questions and report problems as issues in this repo. Other forums include:
+We encourage developers to submit questions, suggust features, and report problems as issues in this repo. Other forums include:
 
 - [Microsoft Q&A](https://docs.microsoft.com/en-us/answers/index.html)
 - [StackOverflow](https://stackoverflow.com/questions/tagged/azure+communication)
