@@ -38,7 +38,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		DEEF7C5124FEA7AA0091E795 /* AzureCommunicationCalling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AzureCommunicationCalling.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEEF7C5124FEA7AA0091E795 /* AzureCommunicationCallingSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AzureCommunicationCallingSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEEF7C5424FEA7AA0091E795 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DEEF7C5624FEA7AA0091E795 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		DEEF7C5824FEA7AB0091E795 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -68,7 +68,7 @@
 		DEEF7C4824FEA7AA0091E795 = {
 			isa = PBXGroup;
 			children = (
-				DEEF7C5324FEA7AA0091E795 /* AzureCommunicationCalling */,
+				DEEF7C5324FEA7AA0091E795 /* AzureCommunicationCallingSample */,
 				DEEF7C5224FEA7AA0091E795 /* Products */,
 				DEEF7C6824FEB79D0091E795 /* Frameworks */,
 			);
@@ -77,12 +77,12 @@
 		DEEF7C5224FEA7AA0091E795 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DEEF7C5124FEA7AA0091E795 /* AzureCommunicationCalling.app */,
+				DEEF7C5124FEA7AA0091E795 /* AzureCommunicationCallingSample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DEEF7C5324FEA7AA0091E795 /* AzureCommunicationCalling */ = {
+		DEEF7C5324FEA7AA0091E795 /* AzureCommunicationCallingSample */ = {
 			isa = PBXGroup;
 			children = (
 				DEEF7C5424FEA7AA0091E795 /* AppDelegate.swift */,
@@ -93,7 +93,7 @@
 				DEEF7C6224FEA7B00091E795 /* Info.plist */,
 				DEEF7C5C24FEA7B00091E795 /* Preview Content */,
 			);
-			path = AzureCommunicationCalling;
+			path = AzureCommunicationCallingSample;
 			sourceTree = "<group>";
 		};
 		DEEF7C5C24FEA7B00091E795 /* Preview Content */ = {
@@ -117,9 +117,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DEEF7C5024FEA7AA0091E795 /* AzureCommunicationCalling */ = {
+		DEEF7C5024FEA7AA0091E795 /* AzureCommunicationCallingSample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DEEF7C6524FEA7B00091E795 /* Build configuration list for PBXNativeTarget "AzureCommunicationCalling" */;
+			buildConfigurationList = DEEF7C6524FEA7B00091E795 /* Build configuration list for PBXNativeTarget "AzureCommunicationCallingSample" */;
 			buildPhases = (
 				DEEF7C4D24FEA7AA0091E795 /* Sources */,
 				DEEF7C4E24FEA7AA0091E795 /* Frameworks */,
@@ -130,9 +130,9 @@
 			);
 			dependencies = (
 			);
-			name = AzureCommunicationCalling;
+			name = AzureCommunicationCallingSample;
 			productName = AzureCommunicationCalling;
-			productReference = DEEF7C5124FEA7AA0091E795 /* AzureCommunicationCalling.app */;
+			productReference = DEEF7C5124FEA7AA0091E795 /* AzureCommunicationCallingSample.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -150,7 +150,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DEEF7C4C24FEA7AA0091E795 /* Build configuration list for PBXProject "AzureCommunicationCalling" */;
+			buildConfigurationList = DEEF7C4C24FEA7AA0091E795 /* Build configuration list for PBXProject "AzureCommunicationCallingSample" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -163,7 +163,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DEEF7C5024FEA7AA0091E795 /* AzureCommunicationCalling */,
+				DEEF7C5024FEA7AA0091E795 /* AzureCommunicationCallingSample */,
 			);
 		};
 /* End PBXProject section */
@@ -369,7 +369,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DEEF7C4C24FEA7AA0091E795 /* Build configuration list for PBXProject "AzureCommunicationCalling" */ = {
+		DEEF7C4C24FEA7AA0091E795 /* Build configuration list for PBXProject "AzureCommunicationCallingSample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DEEF7C6324FEA7B00091E795 /* Debug */,
@@ -378,7 +378,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DEEF7C6524FEA7B00091E795 /* Build configuration list for PBXNativeTarget "AzureCommunicationCalling" */ = {
+		DEEF7C6524FEA7B00091E795 /* Build configuration list for PBXNativeTarget "AzureCommunicationCallingSample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DEEF7C6624FEA7B00091E795 /* Debug */,
