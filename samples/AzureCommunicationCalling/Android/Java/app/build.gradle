@@ -44,19 +44,12 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
-    implementation 'com.azure:azure-communication-common-client:1.0.0-beta.1.dev.20200720.1'
+    implementation 'com.azure.android:azure-communication-calling:1.0.0-beta.1'
     implementation(name: callingSDKArtifactName, ext: 'aar')
 }
 
 allprojects {
     repositories {
-        maven {
-            url 'https://skype.pkgs.visualstudio.com/_packaging/tps/maven/v1/'
-            credentials {
-                // So for builds non-orient agents, we'll be passing the credentials as command line arguments
-                username property('gradle.wrapperUser')
-                password property('gradle.wrapperPassword')
-            }
-        }
+        mavenCentral()
     }
 }
