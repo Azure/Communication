@@ -18,7 +18,7 @@
 
 ### Onboarding
 The SDK is packaged as FAT SDK artifact with all ABIs (arm64-v8a, armeabi-v7a, x86_64) supported on the Android platform.
-<br/>Please refer to the Microsoft docs of how to bootstrap a Calling sample application on android.
+<br/>Please refer to the [Microsoft docs](https://review.docs.microsoft.com/en-us/azure/project-spool/quickstarts/voice-video-calling/getting-started-with-calling) of how to bootstrap a Calling sample application on android.
 
 ### Limitations
 * While ability of making PSTN calls is availble in the SDK, you need a PSTN number in ACS to make the call. The ability to aquire the number comes in October
@@ -46,7 +46,7 @@ The SDK is packaged as FAT SDK artifact with all ABIs (arm64-v8a, armeabi-v7a, x
 ### Onboarding
 The SDK is released for the following platforms: arm64 and x86_64 (simulator)
 <br/>Minimum supported iOS SDK version is 12.0
-<br/>Please refer to the Microsoft docs of how to bootstrap a Calling sample application on iOS.
+<br/>Please refer to the [Microsoft docs](https://review.docs.microsoft.com/en-us/azure/project-spool/quickstarts/voice-video-calling/getting-started-with-calling) of how to bootstrap a Calling sample application on iOS.
 
 ### Limitations
 * While ability of making PSTN calls is availble in the SDK, you need a PSTN number in ACS to make the call. The ability to aquire the number comes in October
@@ -74,7 +74,7 @@ The SDK is released for the following platforms: arm64 and x86_64 (simulator)
 *   Place a call to PSTN
 
 ### Onboarding
-Please refer to the Microsoft docs of how to bootstrap a Calling sample application on web.
+Please refer to the [Microsoft docs](https://review.docs.microsoft.com/en-us/azure/project-spool/quickstarts/voice-video-calling/getting-started-with-calling) of how to bootstrap a Calling sample application on web.
 
 ### Limitations
 * While ability of making PSTN calls is availble in the SDK, you need a PSTN number in ACS to make the call. The ability to aquire the number comes in October
