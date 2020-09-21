@@ -3,6 +3,7 @@
 
 import SwiftUI
 import AzureCommunicationCalling
+import AVFoundation
 
 struct ContentView: View {
     @State var callee: String = ""

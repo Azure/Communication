@@ -7,18 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		56166EC925195C5A00020878 /* AzureCommunicationCalling.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56166EC825195C5A00020878 /* AzureCommunicationCalling.framework */; };
+		56166ECA25195C5A00020878 /* AzureCommunicationCalling.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 56166EC825195C5A00020878 /* AzureCommunicationCalling.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		56166ECD25195C7000020878 /* AzureCommunication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56166ECB25195C7000020878 /* AzureCommunication.framework */; };
+		56166ECE25195C7000020878 /* AzureCommunication.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 56166ECB25195C7000020878 /* AzureCommunication.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		56166ECF25195C7000020878 /* AzureCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56166ECC25195C7000020878 /* AzureCore.framework */; };
+		56166ED025195C7000020878 /* AzureCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 56166ECC25195C7000020878 /* AzureCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		DEEF7C5524FEA7AA0091E795 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEF7C5424FEA7AA0091E795 /* AppDelegate.swift */; };
 		DEEF7C5724FEA7AA0091E795 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEF7C5624FEA7AA0091E795 /* SceneDelegate.swift */; };
 		DEEF7C5924FEA7AB0091E795 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEF7C5824FEA7AB0091E795 /* ContentView.swift */; };
 		DEEF7C5B24FEA7B00091E795 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEEF7C5A24FEA7B00091E795 /* Assets.xcassets */; };
 		DEEF7C5E24FEA7B00091E795 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEEF7C5D24FEA7B00091E795 /* Preview Assets.xcassets */; };
 		DEEF7C6124FEA7B00091E795 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEEF7C5F24FEA7B00091E795 /* LaunchScreen.storyboard */; };
-		DEEF7C6A24FEB79D0091E795 /* SpoolCallingSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEEF7C6924FEB79D0091E795 /* SpoolCallingSDK.framework */; };
-		DEEF7C6B24FEB79D0091E795 /* SpoolCallingSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DEEF7C6924FEB79D0091E795 /* SpoolCallingSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		DEEF7C6E24FECF1D0091E795 /* AzureCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEEF7C6D24FECF1D0091E795 /* AzureCore.framework */; };
-		DEEF7C6F24FECF1D0091E795 /* AzureCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DEEF7C6D24FECF1D0091E795 /* AzureCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		DEEF7C7124FECF4B0091E795 /* AzureCommunication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEEF7C7024FECF4B0091E795 /* AzureCommunication.framework */; };
-		DEEF7C7224FECF4B0091E795 /* AzureCommunication.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DEEF7C7024FECF4B0091E795 /* AzureCommunication.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,9 +28,9 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				DEEF7C6B24FEB79D0091E795 /* SpoolCallingSDK.framework in Embed Frameworks */,
-				DEEF7C7224FECF4B0091E795 /* AzureCommunication.framework in Embed Frameworks */,
-				DEEF7C6F24FECF1D0091E795 /* AzureCore.framework in Embed Frameworks */,
+				56166ECA25195C5A00020878 /* AzureCommunicationCalling.framework in Embed Frameworks */,
+				56166ED025195C7000020878 /* AzureCore.framework in Embed Frameworks */,
+				56166ECE25195C7000020878 /* AzureCommunication.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -38,6 +38,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		56166EC825195C5A00020878 /* AzureCommunicationCalling.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AzureCommunicationCalling.framework; path = ../../../../../../../Documents/Work/iOSRelease/AzureCommunicationCalling.framework; sourceTree = "<group>"; };
+		56166ECB25195C7000020878 /* AzureCommunication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AzureCommunication.framework; path = "../../../../../azure-sdk-for-ios-pr/build/Release-iphoneos/AzureCommunication.framework"; sourceTree = "<group>"; };
+		56166ECC25195C7000020878 /* AzureCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AzureCore.framework; path = "../../../../../azure-sdk-for-ios-pr/build/Release-iphoneos/AzureCore.framework"; sourceTree = "<group>"; };
 		DEEF7C5124FEA7AA0091E795 /* AzureCommunicationCallingSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AzureCommunicationCallingSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEEF7C5424FEA7AA0091E795 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DEEF7C5624FEA7AA0091E795 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -46,9 +49,6 @@
 		DEEF7C5D24FEA7B00091E795 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DEEF7C6024FEA7B00091E795 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DEEF7C6224FEA7B00091E795 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DEEF7C6924FEB79D0091E795 /* SpoolCallingSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpoolCallingSDK.framework; path = /Users/acsdev/sdk/x86_64/SpoolCallingSDK.framework; sourceTree = "<absolute>"; };
-		DEEF7C6D24FECF1D0091E795 /* AzureCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AzureCore.framework; path = /Users/acsdev/sdk/x86_64/deps/AzureCore.framework; sourceTree = "<absolute>"; };
-		DEEF7C7024FECF4B0091E795 /* AzureCommunication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AzureCommunication.framework; path = /Users/acsdev/sdk/x86_64/deps/AzureCommunication.framework; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +56,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEEF7C6A24FEB79D0091E795 /* SpoolCallingSDK.framework in Frameworks */,
-				DEEF7C7124FECF4B0091E795 /* AzureCommunication.framework in Frameworks */,
-				DEEF7C6E24FECF1D0091E795 /* AzureCore.framework in Frameworks */,
+				56166EC925195C5A00020878 /* AzureCommunicationCalling.framework in Frameworks */,
+				56166ECF25195C7000020878 /* AzureCore.framework in Frameworks */,
+				56166ECD25195C7000020878 /* AzureCommunication.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,9 +107,9 @@
 		DEEF7C6824FEB79D0091E795 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				DEEF7C7024FECF4B0091E795 /* AzureCommunication.framework */,
-				DEEF7C6D24FECF1D0091E795 /* AzureCore.framework */,
-				DEEF7C6924FEB79D0091E795 /* SpoolCallingSDK.framework */,
+				56166ECB25195C7000020878 /* AzureCommunication.framework */,
+				56166ECC25195C7000020878 /* AzureCore.framework */,
+				56166EC825195C5A00020878 /* AzureCommunicationCalling.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -325,18 +325,21 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"AzureCommunicationCalling/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"AzureCommunicationCallingSample/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
 				ENABLE_PREVIEWS = YES;
 				FRAMEWORK_SEARCH_PATHS = (
-					/Users/acsdev/sdk/x86_64,
-					/Users/acsdev/sdk/x86_64/deps,
+					/Path/To/AzureCommunicationCalling,
+					/Path/To/AzureCommunication,
+					/Path/To/AzureCore,
 				);
-				INFOPLIST_FILE = AzureCommunicationCalling/Info.plist;
+				INFOPLIST_FILE = AzureCommunicationCallingSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.contoso.AzureCommunicationCalling;
+				PRODUCT_BUNDLE_IDENTIFIER = com.contoso.AzureCommunicationCallingSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -348,18 +351,21 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"AzureCommunicationCalling/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"AzureCommunicationCallingSample/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
 				ENABLE_PREVIEWS = YES;
 				FRAMEWORK_SEARCH_PATHS = (
-					/Users/acsdev/sdk/x86_64,
-					/Users/acsdev/sdk/x86_64/deps,
+					/Path/To/AzureCommunicationCalling,
+					/Path/To/AzureCommunication,
+					/Path/To/AzureCore,
 				);
 				INFOPLIST_FILE = AzureCommunicationCalling/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.contoso.AzureCommunicationCalling;
+				PRODUCT_BUNDLE_IDENTIFIER = com.contoso.AzureCommunicationCallingSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

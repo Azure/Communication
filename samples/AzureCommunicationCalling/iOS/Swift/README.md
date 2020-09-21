@@ -13,8 +13,8 @@ The following classes and interfaces handle some of the major features of the Az
 
 | Name                                  | Description                                                  |
 | ------------------------------------- | ------------------------------------------------------------ |
-| CallClient| The CallClient is the main entry point to the Calling client library.|
-| CallAgent| The CallAgent is used to start and manage calls. |
+| ACSCallClient| The CallClient is the main entry point to the Calling client library.|
+| ACSCallAgent| The CallAgent is used to start and manage calls. |
 | CommunicationUserCredential | The CommunicationUserCredential is used as the token credential to instantiate the CallAgent.|
 | CommunicationIndentifier | The CommunicationIndentifier is used to represent the identity of the user which can be one of the following: CommunicationUser/PhoneNumber/CallingApplication. |
 
