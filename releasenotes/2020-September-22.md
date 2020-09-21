@@ -23,7 +23,7 @@ The SDK is packaged as FAT SDK artifact with all ABIs (arm64-v8a, armeabi-v7a, x
 ### Limitations
 * While ability of making PSTN calls is availble in the SDK, you need a PSTN number in ACS to make the call. The ability to aquire the number comes in October
 * On mobile and desktop at any given time client multiple receive video streams might result in greater number of video freezes and/or quality fluctuations. We are working on improving the experience. We recommend to limit nimber of incoming streams to one if you experience such issues
-* If you specified a scope for the User Access Token (Chat, VoIP or PSTN),  the PSTN and/or VoIP scopes will not be enforced until further notice
+* The PSTN and VOIP access token scopes are currently not enforced. All access tokens implicitly authorize users to access VOIP and PSTN calling functionality until further notice. 
 *  We don't support x86 simulators, arm7 support is coming soon
 
 ## iOS SDK
@@ -51,7 +51,7 @@ The SDK is released for the following platforms: arm64 and x86_64 (simulator)
 ### Limitations
 * While ability of making PSTN calls is availble in the SDK, you need a PSTN number in ACS to make the call. The ability to aquire the number comes in October
 * On mobile and desktop at any given time client multiple receive video streams might result in greater number of video freezes and/or quality fluctuations. We are working on improving the experience. We recommend to limit nimber of incoming streams to one if you experience such issues
-* If you specified a scope for the User Access Token (Chat, VoIP or PSTN),  the PSTN and/or VoIP scopes will not be enforced until further notice 
+* The PSTN and VOIP access token scopes are currently not enforced. All access tokens implicitly authorize users to access VOIP and PSTN calling functionality until further notice. 
 
 ## JS (Web) SDK
 
@@ -79,5 +79,5 @@ Please refer to the [Microsoft docs](https://review.docs.microsoft.com/en-us/azu
 ### Limitations
 * While ability of making PSTN calls is availble in the SDK, you need a PSTN number in ACS to make the call. The ability to aquire the number comes in October
 * On mobile and desktop at any given time client should have only one remote video stream running, multiple receive streams will result in greater number of video freezes and/or quality fluctuations. You may still choose to have multiple streams on desktop but your experience will be degraded. We will update you when we officially support up-to 5 incoming streams (4 video+1 ss) on desktop.
-* If you specified a scope for the User Access Token (Chat, VoIP or PSTN),  the PSTN and/or VoIP scopes will not be enforced until further notice
+* The PSTN and VOIP access token scopes are currently not enforced. All access tokens implicitly authorize users to access VOIP and PSTN calling functionality until further notice. 
 
