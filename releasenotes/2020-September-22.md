@@ -21,9 +21,9 @@ The SDK is packaged as FAT SDK artifact with all ABIs (arm64-v8a, armeabi-v7a, x
 <br/>Please refer to the Microsoft docs of how to bootstrap a Calling sample application on android.
 
 ### Limitations
-The user can try PSTN calls mid October
-<br/>On mobile and desktop at any given time client should have only one remote video stream running, multiple receive streams will result in greater number of video freezes and/or quality fluctuations.
-<br/> We don't support x86 simulators, arm7 support is coming soon
+* While ability of making PSTN calls is availble in the SDK, you need a PSTN number in ACS to make the call. The ability to aquire the number comes in October
+* On mobile and desktop at any given time client multiple receive video streams might result in greater number of video freezes and/or quality fluctuations. We are working on improving the experience. We recommend to limit nimber of incoming streams to one if yo uexperience such issues
+*  We don't support x86 simulators, arm7 support is coming soon
 
 ## iOS SDK
 
