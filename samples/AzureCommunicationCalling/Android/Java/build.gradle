@@ -1,15 +1,7 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
-
-// Top-level build file where you can add configuration options common to all sub-projects/modules.
-def customBuildType = "debug"
-
-if (project.hasProperty("buildType")) {
-    customBuildType = project.getProperties().get("buildType")
-}
-def callingSDKArtifactPath = "../external_libs/$customBuildType/aars"
-
 buildscript {
     repositories {
+        mavenCentral()
         google()
         jcenter()
     }
@@ -23,11 +15,9 @@ buildscript {
 
 allprojects {
     repositories {
+        mavenCentral()
         google()
         jcenter()
-        flatDir{
-            dirs callingSDKArtifactPath
-        }
     }
 }
 
