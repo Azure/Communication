@@ -3,18 +3,22 @@
 ## Android SDK
 
 ### Features available
-*   1-1 and 1-N audio/video call outgoing and incoming
-*   Join group audio/video call
-*   Place a call to PSTN
-*   Render Video from remote participants
-*   Render screenshare from remote participants
-*   List audio and video devices
-*   Ability to preview local video camera
-*   Share local camera stream
-*   Mid-call operations (mute/unmute)
-*   Mid-call operations (Turn Video on/Turn Video off)
-*   Mid-call operations (Add/Remove remote participant to an ongoing call)
-*   Push notification support for incoming call
+* 1-1 incoming and outgoing audio/video call
+* 1-N incoming and outgoing audio/video call
+* Join group audio/video call
+* Preview local video camera
+* Share local video camera stream
+* Render video from participants
+* Render screenshare from participants
+* List audio/video devices
+* Mid-call operations (Mute/Unmute)
+* Mid-call operations (Turn Video on/Turn Video off)
+* Mid-call operations (Switch between Video devices)
+* Mid-call operations (Add/Remove participant to/from the ongoing call)
+* Push notification support for incoming call
+* Outgoing call to PSTN
+* Sending DTMF tones
+
 
 ### Onboarding
 The SDK is packaged as FAT SDK artifact with all ABIs (arm64-v8a, x86_64) supported on the Android platform.
@@ -30,18 +34,21 @@ The SDK is packaged as FAT SDK artifact with all ABIs (arm64-v8a, x86_64) suppor
 
 ### Features available
 
-*   1-1 and 1-N audio/video call outgoing and incoming
-*   Join group audio/video call
-*   Place a call to PSTN
-*   Render Video from remote participants
-*   Render screenshare from remote participants
-*   List audio and video devices
-*   Ability to preview local video camera
-*   Share local camera stream
-*   Mid-call operations (mute/unmute)
-*   Mid-call operations (Turn Video on/Turn Video off)
-*   Mid-call operations (Add/Remove remote participant to an ongoing call)
-*   Push notification support for incoming call
+* 1-1 incoming and outgoing audio/video call
+* 1-N incoming and outgoing audio/video call
+* Join group audio/video call
+* Preview local video camera
+* Share local video camera stream
+* Render video from participants
+* Render screenshare from participants
+* List audio/video devices
+* Mid-call operations (Mute/Unmute)
+* Mid-call operations (Turn Video on/Turn Video off)
+* Mid-call operations (Switch between Video devices)
+* Mid-call operations (Add/Remove participant to/from the ongoing call)
+* Push notification support for incoming call
+* Outgoing call to PSTN
+* Sending DTMF tones
 
 ### Onboarding
 The SDK is released for the following platforms: arm64 and x86_64 (simulator)
