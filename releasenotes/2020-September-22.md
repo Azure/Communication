@@ -48,8 +48,8 @@ The SDK is released for the following platforms: arm64 and x86_64 (simulator)
 <br/>Please refer to the Microsoft docs of how to bootstrap a Calling sample application on iOS.
 
 ### Limitations
-The user can try PSTN calls mid October
-<br/>On mobile and desktop at any given time client should have only one remote video stream running, multiple receive streams will result in greater number of video freezes and/or quality fluctuations.
+* While ability of making PSTN calls is availble in the SDK, you need a PSTN number in ACS to make the call. The ability to aquire the number comes in October
+* On mobile and desktop at any given time client multiple receive video streams might result in greater number of video freezes and/or quality fluctuations. We are working on improving the experience. We recommend to limit nimber of incoming streams to one if you experience such issues
 
 ## JS (Web) SDK
 
@@ -75,6 +75,6 @@ The user can try PSTN calls mid October
 Please refer to the Microsoft docs of how to bootstrap a Calling sample application on web.
 
 ### Limitations
-The user can try PSTN calls mid October.
-<br/>On mobile and desktop at any given time client should have only one remote video stream running, multiple receive streams will result in greater number of video freezes and/or quality fluctuations. You may still choose to have multiple streams on desktop but your experience will be degraded. We will update you when we officially support up-to 5 incoming streams (4 video+1 ss) on desktop.
+* While ability of making PSTN calls is availble in the SDK, you need a PSTN number in ACS to make the call. The ability to aquire the number comes in October
+* On mobile and desktop at any given time client should have only one remote video stream running, multiple receive streams will result in greater number of video freezes and/or quality fluctuations. You may still choose to have multiple streams on desktop but your experience will be degraded. We will update you when we officially support up-to 5 incoming streams (4 video+1 ss) on desktop.
 
