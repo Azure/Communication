@@ -17,7 +17,7 @@
 *   Push notification support for incoming call
 
 ### Onboarding
-The SDK is packaged as FAT SDK artifact with all ABIs (arm64-v8a, armeabi-v7a, x86_64) supported on the Android platform.
+The SDK is packaged as FAT SDK artifact with all ABIs (arm64-v8a, x86_64) supported on the Android platform.
 <br/>Please refer to the [Microsoft docs](https://review.docs.microsoft.com/en-us/azure/project-spool/quickstarts/voice-video-calling/getting-started-with-calling) of how to bootstrap a Calling sample application on android.
 
 ### Limitations
