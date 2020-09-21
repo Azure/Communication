@@ -16,10 +16,10 @@ import java.util.ArrayList;
 import com.azure.communication.calling.Call;
 import com.azure.communication.calling.CallAgent;
 import com.azure.communication.calling.CallClient;
-import com.azure.communication.calling.CommunicationUser;
+import com.azure.android.communication.common.CommunicationUser;
 import com.azure.communication.calling.StartCallOptions;
 import com.azure.communication.calling.VideoOptions;
-import com.azure.communication.common.client.CommunicationUserCredential;
+import com.azure.android.communication.common.CommunicationUserCredential;
 
 public class MainActivity extends AppCompatActivity {
     private static final String[] allPermissions = new String[] { Manifest.permission.RECORD_AUDIO, Manifest.permission.CAMERA, Manifest.permission.WRITE_EXTERNAL_STORAGE, Manifest.permission.READ_PHONE_STATE };
