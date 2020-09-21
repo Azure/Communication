@@ -11,19 +11,19 @@ For more information about Azure Communication Services APIs and SDKs please see
 ## SDKs
 
 Azure Communication Services capabilities are conceptually organized into six areas. 
-- **REST-based SDKs:** ARM, Common, Administration, Chat, and SMS, are open-source and published through centralized Azure repos and channels linked below. 
+- **REST-based SDKs:** ARM, Common, Administration, Chat, and SMS, are entirely or partially open-source and published through centralized Azure repos and channels linked below. 
 - **REST APIs** are documented in the [Azure REST API repo](https://github.com/Azure/azure-rest-api-specs).
 - **Calling SDKs** are available through this repo. 
 
 
-| Assembly               | Protocols             | Namespaces                          | Capabilities                                                      |
-| ---------------------- | --------------------- | ----------------------------------- | -------------------------------------------------------------------------------------------------- |
-| Azure Resource Manager (ARM)| REST             | Azure.ResourceManager.Communication | Provision and manage Communication Services resources             |
-| Common                 | REST                  | Azure.Communication.Common          | Provides base types for other client libraries |
-| Administration         | REST                  | Azure.Communication.Administration  | Manage users, access tokens, and phone numbers, allocate standards-compliant STUN and TURN servers |
-| Chat                   | REST                  | Azure.Communication.Chat            | Add real-time text based chat to your applications  |
-| SMS                    | REST                  | Azure.Communication.SMS             | Send and receive SMS messages |
-| Calling                | Proprietary transport | Azure.Communication.Calling         | Leverage voice, video, screen-sharing, and other real-time data communication capabilities          |
+| Assembly               | Protocols             |Open vs. Closed Source| Namespaces                          | Capabilities                                                      |
+| ---------------------- | --------------------- | ---|-------------------------- | --------------------------------------------------------------------------- |
+| Azure Resource Manager | REST | Open            | Azure.ResourceManager.Communication | Provision and manage Communication Services resources             |
+| Common                 | REST | Open               | Azure.Communication.Common          | Provides base types for other client libraries |
+| Administration         | REST | Open               | Azure.Communication.Administration  | Manage users, access tokens, and phone numbers, allocate standards-compliant STUN and TURN servers |
+| Chat                   | REST with proprietary signalling | Open with closed source signalling package    | Azure.Communication.Chat            | Add real-time text based chat to your applications  |
+| SMS                    | REST | Open              | Azure.Communication.SMS             | Send and receive SMS messages |
+| Calling                | Proprietary transport | Closed |Azure.Communication.Calling         | Leverage voice, video, screen-sharing, and other real-time data communication capabilities          |
 
 
 | Language    | Packages             | Repo                             | Documentation                    |
