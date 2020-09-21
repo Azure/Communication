@@ -3,8 +3,8 @@
 ## Android SDK
 
 ### Features available
-* 1-1 incoming and outgoing audio/video call
-* 1-N incoming and outgoing audio/video call
+* Place and receive 1-1 audio/video call
+* Place and receive 1-N (group) audio/video call
 * Join group audio/video call
 * Preview local video camera
 * Share local video camera stream
@@ -34,8 +34,8 @@ The SDK is packaged as FAT SDK artifact with all ABIs (arm64-v8a, x86_64) suppor
 
 ### Features available
 
-* 1-1 incoming and outgoing audio/video call
-* 1-N incoming and outgoing audio/video call
+* Place and receive 1-1 audio/video call
+* Place and receive 1-N (group) audio/video call
 * Join group audio/video call
 * Preview local video camera
 * Share local video camera stream
@@ -63,8 +63,9 @@ The SDK is released for the following platforms: arm64 and x86_64 (simulator)
 ## JS (Web) SDK
 
 ### Features available
-*   1-1 outgoing and incoming calling
-*   Join group call
+*   Place and receive 1-1 audio/video call
+*   Place and receive 1-N (group) audio/video call
+*   Join group audio/video call
 *   Allow to join call with microphone mute
 *   Allow to set camera device before call and to switch camera device during call
 *   Allow to enable/disable camera in-call and while call is ringing/incoming
