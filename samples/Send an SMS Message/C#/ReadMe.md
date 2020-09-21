@@ -1,4 +1,4 @@
-## Send an SMS Message Quickstart
+# Send an SMS Message Quickstart
 
 For full instructions on how to build this code sample from scratch, look at [Quickstart: Send an SMS Message](https://docs.microsoft.com/azure/project-spool/quickstarts/telephony-sms/send?&pivots=programming-language-csharp)
 
