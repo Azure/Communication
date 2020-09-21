@@ -6,6 +6,7 @@
 * Place and receive 1-1 audio/video call
 * Place and receive 1-N (group) audio/video call
 * Join (1-N) group audio/video call
+* Escalate a 1-1 call to a group call - by adding voip participant
 * Dial-out to another voip participant to join an ongoing group audio/video call
 * Preview local video camera
 * Share local video camera stream
@@ -38,6 +39,7 @@ The SDK is packaged as FAT SDK artifact with all ABIs (arm64-v8a, x86_64) suppor
 * Place and receive 1-1 audio/video call
 * Place and receive 1-N (group) audio/video call
 * Join (1-N) group audio/video call
+* Escalate a 1-1 call to a group call - by adding voip participant
 * Dial-out to another voip participant to join an ongoing group audio/video call
 * Preview local video camera
 * Share local video camera stream
@@ -68,6 +70,7 @@ The SDK is released for the following platforms: arm64 and x86_64 (simulator)
 *   Place and receive 1-1 audio/video call
 *   Place and receive 1-N (group) audio/video call
 *   Join 1-N (group) audio/video call
+*   Escalate a 1-1 call to a group call - by adding voip participant
 *   Allow to join call with microphone mute
 *   Allow to set camera device before call and to switch camera device during call
 *   Allow to enable/disable camera in-call and while call is ringing/incoming
@@ -83,6 +86,7 @@ The SDK is released for the following platforms: arm64 and x86_64 (simulator)
 *   Property changed and collection updated events
 *   Place a call to PSTN participant
 *   Test your mic, speaker, and camera via audio testing service (available by calling 8:echo123) 
+*   Hold/unhold
 
 ### Onboarding
 Please refer to the [Microsoft docs](https://review.docs.microsoft.com/en-us/azure/project-spool/quickstarts/voice-video-calling/getting-started-with-calling) of how to bootstrap a Calling sample application on web.
