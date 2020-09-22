@@ -6,7 +6,7 @@ This repo provides links, code, client libraries (SDKs), and samples for develop
 - **Samples** - Download samples
 - **Help** - Ask questions, file issues, or request features
 
-For more information about Azure Communication Services APIs and SDKs please see [docs.microsoft.com](https://aka.ms/spooldocs).
+For more information about Azure Communication Services APIs and SDKs please see [docs.microsoft.com](https://aka.ms/communication-services-docs).
 
 ## Latest Release Notes
 - [09/22/2020 Notes](./releasenotes/2020-September-22.md)
