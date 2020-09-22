@@ -5,7 +5,7 @@
 
 | Area           | JavaScript | .NET | Python | Java | Swift or Obj-C | Java (Android) | Other                          |
 | -------------- | ---------- | ---- | ------ | ---- | -------------- | -------------- | ------------------------------ |
-| Azure Resource Manager | ✔️         | [1.0.0-beta.1](https://www.nuget.org/packages/Azure.ResourceManager.Communication)    | ✔️      | -    | -              | *Not yet supported*  | GO and Azure CLI *Not yet supported* |
+| Azure Resource Manager | ✔️         | [1.0.0-beta.1](https://www.nuget.org/packages/Azure.ResourceManager.Communication)    | ✔️      | -    | -              | *Not yet supported*  | [Go v46.3.0](https://github.com/Azure/azure-sdk-for-go/releases/tag/v46.3.0) |
 | Common         | ✔️         | [1.0.0-beta.1](https://www.nuget.org/packages/Azure.Communication.Common/)    | -      | ✔️   | ✔️            | ✔️             | -                              |
 | Administration | ✔️         | [1.0.0-beta.1](https://www.nuget.org/packages/Azure.Communication.Administration)    | ✔️      | ✔️   | -              | -              | CLI                            |
 | Chat           | ✔️         | [1.0.0-beta.1](https://www.nuget.org/packages/Azure.Communication.Chat)     | ✔️      | ✔️   | *Not yet supported*  | *Not yet supported*  | -                              |
