@@ -16,6 +16,17 @@ To complete this tutorial, you’ll need the following prerequisites:
 - ./AzureCommunicationCallingSample/ContentView.swift: Contains core UI and logic for calling SDK integration.
 - ./AzureCommunicationCallingSample.xcodeproj: Xcode project for the sample.
 
+## Object model
+
+The following classes and interfaces used in the quickstart handle some of the major features of the Azure Communication Services Calling client library:
+
+| Name                                  | Description                                                  |
+| ------------------------------------- | ------------------------------------------------------------ |
+| ACSCallClient | The CallClient is the main entry point to the Calling client library.|
+| ACSCallAgent | The CallAgent is used to start and manage calls. |
+| CommunicationUserCredential | The CommunicationUserCredential is used as the token credential to instantiate the CallAgent.| 
+| CommunicationIdentifier | The CommunicationIdentifier is used to represent the identity of the user which can be one of the following: CommunicationUser/PhoneNumber/CallingApplication. |
+
 ## Before running sample code
 
 1. Open an instance of PowerShell, Windows Terminal, Command Prompt or equivalent and navigate to the directory that you'd like to clone the sample to.

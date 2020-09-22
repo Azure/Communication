@@ -16,6 +16,16 @@ To complete this tutorial, you’ll need the following prerequisites:
 - ./app/src/main/java/com/contoso/acsquickstart/MainActivity.java: Contains core logic for calling SDK integration.
 - ./app/src/main/res/layout/activity_main.xml: Contains core UI for sample app.
 
+## Object model
+
+The following classes and interfaces used in the quickstart handle some of the major features of the Azure Communication Services Calling client library:
+
+| Name                                  | Description                                                  |
+| ------------------------------------- | ------------------------------------------------------------ |
+| CallClient| The CallClient is the main entry point to the Calling client library.|
+| CallAgent | The CallAgent is used to start and manage calls. |
+| CommunicationUserCredential | The CommunicationUserCredential is used as the token credential to instantiate the CallAgent.|
+
 ## Before running sample code
 
 1. Open an instance of PowerShell, Windows Terminal, Command Prompt or equivalent and navigate to the directory that you'd like to clone the sample to.
