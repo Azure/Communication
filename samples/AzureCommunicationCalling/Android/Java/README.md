@@ -30,7 +30,7 @@ The following classes and interfaces used in the quickstart handle some of the m
 
 1. Open an instance of PowerShell, Windows Terminal, Command Prompt or equivalent and navigate to the directory that you'd like to clone the sample to.
 2. `git clone https://github.com/Azure/Communication.git` 
-3. With the `Access Token` procured in pre-requisites, add it to the **./app/src/main/java/com/contoso/acsquickstart/MainActivity.java** file. Assign your access token in line 26:
+3. With the `Access Token` procured in pre-requisites, add it to the **./app/src/main/java/com/contoso/acsquickstart/MainActivity.java** file. Assign your access token in line 27:
    ```private static final String UserToken = "<User_Access_Token>";```
 
 ## Run the sample
