@@ -1,6 +1,6 @@
 # Release Notes for September 22, 2020
 
-## Android SDK
+## Android Calling SDK
 
 ### Features available
 * Place and receive 1-1 audio/video call
@@ -31,7 +31,7 @@ The SDK is packaged as FAT SDK artifact with all ABIs (arm64-v8a, x86_64) suppor
 * The PSTN and VOIP access token scopes are currently not enforced. All-access tokens implicitly authorize users to access VOIP and PSTN calling functionality until further notice.  
 *  We don't support x86 simulators, arm7 support is coming soon
 
-## iOS SDK
+## iOS Calling SDK
 
 ### Features available
 
@@ -62,7 +62,7 @@ The SDK is released for the following platforms: arm64 and x86_64 (simulator)
 * While the ability to make PSTN calls is available in the SDK, you need a PSTN number in ACS to make the call. PSTN functionality is available under private preview; follow this [document](https://docs.microsoft.com/azure/communication-services/quickstarts/telephony-sms/get-phone-number) for availability updates
 * The PSTN and VOIP access token scopes are currently not enforced. All-access tokens implicitly authorize users to access VOIP and PSTN calling functionality until further notice. 
 
-## JS (Web) SDK
+## JS (Web) Calling SDK
 
 ### Features available
 *   Place and receive 1-1 audio/video call
