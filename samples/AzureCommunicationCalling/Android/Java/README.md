@@ -37,6 +37,6 @@ The following classes and interfaces used in the quickstart handle some of the m
 
 Open the sample project using Android Studio and run the application.
 
-![Final look and feel of the quick start app](../../../../media/quickstart-android-call-echobot.png)
+![Final look and feel of the quick start app](../../Media/quickstart-android-call-echobot.png)
 
 You can make an outbound VOIP call by providing a user ID in the text field and tapping the **Call** button. Calling `8:echo123` connects you with an echo bot, this is great for getting started and verifying your audio devices are working.
