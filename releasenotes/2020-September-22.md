@@ -1,11 +1,5 @@
 # Release Notes for September 22, 2020
 
-This is the first release of the preview for Azure Communication Services. Some functionality related to telephony scenarios has been published in this SDK release but remains limited to private preview customers until mid-October:
-
-1. Acquiring phone numbers via the Azure Portal or Administration APIs
-2. Sending and Receiving SMS messages
-3. Voice calling interaction with PSTN
-
 ## Package Links
 
 
@@ -44,7 +38,7 @@ This is the first release of the preview for Azure Communication Services. Some 
 
 ### Onboarding
 The SDK is packaged as FAT SDK artifact with all ABIs (arm64-v8a, x86_64) supported on the Android platform.
-<br/>Please refer to the [Microsoft docs](https://docs.microsoft.com/azure/communication-services/quickstarts/voice-video-calling/getting-started-with-calling) of how to bootstrap a Calling sample application on android.
+<br/>Please refer to the [Microsoft docs](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/getting-started-with-calling?pivots=platform-android) of how to bootstrap a Calling sample application on android.
 
 ### Limitations
 * While the ability to make PSTN calls is available in the SDK, you need a PSTN number in ACS to make the call. PSTN functionality is available under private preview; follow this [document](https://docs.microsoft.com/azure/communication-services/quickstarts/telephony-sms/get-phone-number) for availability updates
@@ -76,7 +70,7 @@ The SDK is packaged as FAT SDK artifact with all ABIs (arm64-v8a, x86_64) suppor
 ### Onboarding
 The SDK is released for the following platforms: arm64 and x86_64 (simulator)
 <br/>Minimum supported iOS SDK version is 12.0
-<br/>Please refer to the [Microsoft docs](https://docs.microsoft.com/azure/communication-services/quickstarts/voice-video-calling/getting-started-with-calling) of how to bootstrap a Calling sample application on iOS.
+<br/>Please refer to the [Microsoft docs](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/getting-started-with-calling?pivots=platform-ios) of how to bootstrap a Calling sample application on iOS.
 
 ### Limitations
 * While the ability to make PSTN calls is available in the SDK, you need a PSTN number in ACS to make the call. PSTN functionality is available under private preview; follow this [document](https://docs.microsoft.com/azure/communication-services/quickstarts/telephony-sms/get-phone-number) for availability updates
@@ -107,7 +101,7 @@ The SDK is released for the following platforms: arm64 and x86_64 (simulator)
 *   Hold/unhold
 
 ### Onboarding
-Please refer to the [Microsoft docs](https://docs.microsoft.com/azure/communication-services/quickstarts/voice-video-calling/getting-started-with-calling) of how to bootstrap a Calling sample application on web.
+Please refer to the [Microsoft docs](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/getting-started-with-calling?pivots=platform-web) of how to bootstrap a Calling sample application on web.
 
 ### Limitations
 * While the ability to make PSTN calls is available in the SDK, you need a PSTN number in ACS to make the call. PSTN functionality is available under private preview; follow this [document](https://docs.microsoft.com/azure/communication-services/quickstarts/telephony-sms/get-phone-number) for availability updates
