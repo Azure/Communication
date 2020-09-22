@@ -1,6 +1,6 @@
 # Send an SMS Message Quickstart
 
-For full instructions on how to build this code sample from scratch, look at [Quickstart: Send an SMS Message](https://docs.microsoft.com/azure/project-spool/quickstarts/telephony-sms/send?&pivots=programming-language-csharp)
+For full instructions on how to build this code sample from scratch, look at [Quickstart: Send an SMS Message](https://docs.microsoft.com/azure/project-spool/quickstarts/telephony-sms/send?pivots=programming-language-csharp)
 
 ## Prerequisites
 
@@ -19,7 +19,7 @@ For full instructions on how to build this code sample from scratch, look at [Qu
 ## Before running sample code
 
 1. Open an instance of PowerShell, Windows Terminal, Command Prompt or equivalent and navigate to the directory that you'd like to clone the sample to.
-2. git clone https://github.com/Azure/Communication.git 
+2. `git clone https://github.com/Azure/Communication.git`
 3. With the `Connection String` procured in pre-requisites, add it to the **SendSMS/program.cs** file. Assign your connection string in line 3:
    ```const string connectionString = "YOUR_CONNECTION_STRING";```
 4. With the SMS enabled telephone number procured in pre-requisites, add it to the **SendSMS/program.cs** file. Assign your telephone number in line 13:
