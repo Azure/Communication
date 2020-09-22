@@ -5,11 +5,11 @@
 
 | Area           | JavaScript | .NET | Python | Java | Swift or Obj-C | Java (Android) | Other                          |
 | -------------- | ---------- | ---- | ------ | ---- | -------------- | -------------- | ------------------------------ |
-| Azure Resource Manager | ✔️         | [1.0.0-beta.1](https://www.nuget.org/packages/Azure.ResourceManager.Communication)    | ✔️      | -    | -              | *Not yet supported*  | [Go v46.3.0](https://github.com/Azure/azure-sdk-for-go/releases/tag/v46.3.0) |
-| Common         | ✔️         | [1.0.0-beta.1](https://www.nuget.org/packages/Azure.Communication.Common/)    | -      | ✔️   | ✔️            | ✔️             | -                              |
-| Administration | ✔️         | [1.0.0-beta.1](https://www.nuget.org/packages/Azure.Communication.Administration)    | ✔️      | ✔️   | -              | -              | CLI                            |
-| Chat           | ✔️         | [1.0.0-beta.1](https://www.nuget.org/packages/Azure.Communication.Chat)     | ✔️      | ✔️   | *Not yet supported*  | *Not yet supported*  | -                              |
-| SMS            | ✔️         | [1.0.0-beta.1](https://www.nuget.org/packages/Azure.Communication.Sms)    | ✔️      | ✔️   | -              | -              | -                              |
+| Azure Resource Manager | -         | [1.0.0-beta.1](https://www.nuget.org/packages/Azure.ResourceManager.Communication)    | ✔️      | -    | -              | *Not yet supported*  | [Go v46.3.0](https://github.com/Azure/azure-sdk-for-go/releases/tag/v46.3.0) |
+| Common         | [1.0.0-beta.1](https://www.npmjs.com/package/@azure/communication-common)         | [1.0.0-beta.1](https://www.nuget.org/packages/Azure.Communication.Common/)    | -      | ✔️   | ✔️            | ✔️             | -                              |
+| Administration | [1.0.0-beta.1](https://www.npmjs.com/package/@azure/communication-administration)         | [1.0.0-beta.1](https://www.nuget.org/packages/Azure.Communication.Administration)    | ✔️      | ✔️   | -              | -              | CLI                            |
+| Chat           | [1.0.0-beta.1](https://www.npmjs.com/package/@azure/communication-chat)        | [1.0.0-beta.1](https://www.nuget.org/packages/Azure.Communication.Chat)     | ✔️      | ✔️   | *Not yet supported*  | *Not yet supported*  | -                              |
+| SMS            | [1.0.0-beta.1](https://www.npmjs.com/package/@azure/communication-sms)         | [1.0.0-beta.1](https://www.nuget.org/packages/Azure.Communication.Sms)    | ✔️      | ✔️   | -              | -              | -                              |
 | Calling        | ✔️         | -      | -      | -     | (Obj-C) ✔️     | ✔️            | -                              |
 | Reference Documentation     | ✔️         | [docs](https://azure.github.io/azure-sdk-for-net/communication.html)      | -      | -     | (Obj-C) ✔️     | ✔️            | -                              |
 
