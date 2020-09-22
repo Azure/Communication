@@ -55,7 +55,7 @@ Additional documentation for this sample can be found on [Microsoft Docs](https:
 
 ## Additional Reading
 
-- [Azure Communication Chat SDK](https://docs.microsoft.com/azure/project-spool/concepts/chat/sdk-features) - To learn more about the chat web sdk
+- [Azure Communication Chat SDK](https://docs.microsoft.com/azure/communication-services/concepts/chat/sdk-features) - To learn more about the chat web sdk
 - [Redux](https://redux.js.org/) - Client-side state management
 - [FluentUI](https://developer.microsoft.com/en-us/fluentui#/) - Microsoft powered UI library
 - [React](https://reactjs.org/) - Library for building user interfaces
