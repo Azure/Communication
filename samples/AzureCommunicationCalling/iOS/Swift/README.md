@@ -14,8 +14,8 @@ To complete this tutorial, you’ll need the following prerequisites:
 
 ## Code Structure
 
-- ./AzureCommunicationCallingSample/ContentView.swift: Contains core UI and logic for calling SDK integration.
-- ./AzureCommunicationCallingSample.xcodeproj: Xcode project for the sample.
+- **./AzureCommunicationCallingSample/ContentView.swift:** Contains core UI and logic for calling SDK integration.
+- **./AzureCommunicationCallingSample.xcodeproj:** Xcode project for the sample.
 
 ## Object model
 
@@ -39,6 +39,6 @@ The following classes and interfaces used in the quickstart handle some of the m
 
 You can build an run your app on iOS simulator by selecting **Product** > **Run** or by using the (&#8984;-R) keyboard shortcut.
 
-![Final look and feel of the quick start app](../../../../media/quick-start-make-call-ios.png)
+![Final look and feel of the quick start app](../../Media/quick-start-make-call-ios.png)
 
 You can make an outbound VOIP call by providing a user ID in the text field and tapping the **Start Call** button. Calling `8:echo123` connects you with an echo bot, this is great for getting started and verifying your audio devices are working.

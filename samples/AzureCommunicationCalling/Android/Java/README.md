@@ -7,14 +7,14 @@ For full instructions on how to build this code sample from scratch, look at [Qu
 To complete this tutorial, you’ll need the following prerequisites:
 
 - An Azure account with an active subscription. [Create an account for free](https://azure.microsoft.com/free/?WT.mc_id=A261C142F). 
-- [Android Studio](https://developer.android.com/studio), for creating your Android application.
+- [Android Studio](https://developer.android.com/studio), for running your Android application.
 - A deployed Communication Services resource. [Create a Communication Services resource](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/create-communication-resource).
 - A [User Access Token](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/access-tokens?pivots=programming-language-csharp) for your Azure Communication Service.
 
 ## Code Structure
 
-- ./app/src/main/java/com/contoso/acsquickstart/MainActivity.java: Contains core logic for calling SDK integration.
-- ./app/src/main/res/layout/activity_main.xml: Contains core UI for sample app.
+- **./app/src/main/java/com/contoso/acsquickstart/MainActivity.java:** Contains core logic for calling SDK integration.
+- **./app/src/main/res/layout/activity_main.xml:** Contains core UI for sample app.
 
 ## Object model
 
@@ -37,6 +37,6 @@ The following classes and interfaces used in the quickstart handle some of the m
 
 Open the sample project using Android Studio and run the application.
 
-![Final look and feel of the quick start app](../../../../media/quickstart-android-call-echobot.png)
+![Final look and feel of the quick start app](../../Media/quickstart-android-call-echobot.png)
 
 You can make an outbound VOIP call by providing a user ID in the text field and tapping the **Call** button. Calling `8:echo123` connects you with an echo bot, this is great for getting started and verifying your audio devices are working.
