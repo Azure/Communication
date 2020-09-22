@@ -4,7 +4,7 @@ This is a sample application to show how the Chat Web SDK can be used to build a
 The client-side application is a React based user interface which uses Redux for handling complex state while leveraging Microsoft Fluent UI. 
 Powering this front-end is a C# web application powered by ASP.net Core to connect this application with Azure Communication Services.
 
-Additional documentation for this sample can be found on [Microsoft Docs](https://docs.microsoft.com/azure/project-spool/samples/chat-hero-sample).
+Additional documentation for this sample can be found on [Microsoft Docs](https://docs.microsoft.com/azure/communication-services/samples/calling-hero-sample).
 
 ![Homepage](./Media/homepage-sample-chat.png)
 
@@ -55,7 +55,7 @@ Additional documentation for this sample can be found on [Microsoft Docs](https:
 
 ## Additional Reading
 
-- [Azure Communication Chat SDK](https://docs.microsoft.com/azure/project-spool/concepts/chat/sdk-features) - To learn more about the chat web sdk
+- [Azure Communication Chat SDK](https://docs.microsoft.com/azure/communication-services/concepts/chat/sdk-features) - To learn more about the chat web sdk
 - [Redux](https://redux.js.org/) - Client-side state management
 - [FluentUI](https://developer.microsoft.com/en-us/fluentui#/) - Microsoft powered UI library
 - [React](https://reactjs.org/) - Library for building user interfaces
