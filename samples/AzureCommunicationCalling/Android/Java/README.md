@@ -7,14 +7,14 @@ For full instructions on how to build this code sample from scratch, look at [Qu
 To complete this tutorial, you’ll need the following prerequisites:
 
 - An Azure account with an active subscription. [Create an account for free](https://azure.microsoft.com/free/?WT.mc_id=A261C142F). 
-- [Android Studio](https://developer.android.com/studio), for creating your Android application.
+- [Android Studio](https://developer.android.com/studio), for running your Android application.
 - A deployed Communication Services resource. [Create a Communication Services resource](https://docs.microsoft.com/azure/project-spool/quickstarts/create-communication-resource).
 - A [User Access Token](https://docs.microsoft.com/azure/project-spool/quickstarts/access-tokens?pivots=programming-language-csharp) for your Azure Communication Service.
 
 ## Code Structure
 
-- ./app/src/main/java/com/contoso/acsquickstart/MainActivity.java: Contains core logic for calling SDK integration.
-- ./app/src/main/res/layout/activity_main.xml: Contains core UI for sample app.
+- **./app/src/main/java/com/contoso/acsquickstart/MainActivity.java:** Contains core logic for calling SDK integration.
+- **./app/src/main/res/layout/activity_main.xml:** Contains core UI for sample app.
 
 ## Object model
 

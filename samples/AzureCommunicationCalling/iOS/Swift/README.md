@@ -13,8 +13,8 @@ To complete this tutorial, you’ll need the following prerequisites:
 
 ## Code Structure
 
-- ./AzureCommunicationCallingSample/ContentView.swift: Contains core UI and logic for calling SDK integration.
-- ./AzureCommunicationCallingSample.xcodeproj: Xcode project for the sample.
+- **./AzureCommunicationCallingSample/ContentView.swift:** Contains core UI and logic for calling SDK integration.
+- **./AzureCommunicationCallingSample.xcodeproj:** Xcode project for the sample.
 
 ## Object model
 

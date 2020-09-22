@@ -1,6 +1,20 @@
 # Release Notes for September 22, 2020
 
-## Android SDK
+## Package Links
+
+
+| Area           | JavaScript | .NET | Python | Java | Swift or Obj-C | Java (Android) | Other                          |
+| -------------- | ---------- | ---- | ------ | ---- | -------------- | -------------- | ------------------------------ |
+| Azure Resource Manager | -         | [nuget](https://www.nuget.org/packages/Azure.ResourceManager.Communication)    |   [PyPi](https://pypi.org/project/azure-mgmt-communication/)    | -    | -              | *Not yet supported*  | [Go via GitHub](https://github.com/Azure/azure-sdk-for-go/releases/tag/v46.3.0) |
+| Common         | [npm](https://www.npmjs.com/package/@azure/communication-common)         | [nuget](https://www.nuget.org/packages/Azure.Communication.Common/)    | N/A      | ✔️   | [Swift via GitHub](https://github.com/Azure/azure-sdk-for-ios/releases/tag/1.0.0-beta.1)            | ✔️             | -                              |
+| Administration | [npm](https://www.npmjs.com/package/@azure/communication-administration)         | [nuget](https://www.nuget.org/packages/Azure.Communication.Administration)    | [PyPi](https://pypi.org/project/azure-communication-administration/)      | ✔️   | -              | -              | -                            |
+| Chat           | [npm](https://www.npmjs.com/package/@azure/communication-chat)        | [nuget](https://www.nuget.org/packages/Azure.Communication.Chat)     | [PyPi](https://pypi.org/project/azure-communication-chat/)     | ✔️   | *Not yet supported*  | *Not yet supported*  | -                              |
+| SMS            | [npm](https://www.npmjs.com/package/@azure/communication-sms)         | [nuget](https://www.nuget.org/packages/Azure.Communication.Sms)    | [PyPi](https://pypi.org/project/azure-communication-sms/)       | ✔️   | -              | -              | -                              |
+| Calling        | ✔️         | -      | -      | -     | (Obj-C) ✔️     | ✔️            | -                              |
+| Reference Documentation     | [docs](https://azure.github.io/azure-sdk-for-js/communication.html)         | [docs](https://azure.github.io/azure-sdk-for-net/communication.html)      | -      | -     | (Obj-C) ✔️     | ✔️            | -                              |
+
+
+## Android Calling SDK
 
 ### Features available
 * Place and receive 1-1 audio/video call
@@ -24,15 +38,14 @@
 
 ### Onboarding
 The SDK is packaged as FAT SDK artifact with all ABIs (arm64-v8a, x86_64) supported on the Android platform.
-<br/>Please refer to the [Microsoft docs](https://review.docs.microsoft.com/en-us/azure/project-spool/quickstarts/voice-video-calling/getting-started-with-calling) of how to bootstrap a Calling sample application on android.
+<br/>Please refer to the [Microsoft docs](https://docs.microsoft.com/azure/communication-services/quickstarts/voice-video-calling/getting-started-with-calling) of how to bootstrap a Calling sample application on android.
 
 ### Limitations
-* While ability of making PSTN calls is available in the SDK, you need a PSTN number in ACS to make the call. PSTN functionality is available under private preview; follow this [document](https://review.docs.microsoft.com/en-us/azure/project-spool/quickstarts/telephony-sms/get-phone-number?branch=pr-en-us-104477) for availability updates
-* On web mobile and web desktop at any given time client multiple receive video streams might result in greater number of video freezes and/or quality fluctuations. We are working on improving the experience. We recommend to limit number of incoming streams to one if you experience such issues
-* The PSTN and VOIP access token scopes are currently not enforced. All access tokens implicitly authorize users to access VOIP and PSTN calling functionality until further notice. 
+* While the ability to make PSTN calls is available in the SDK, you need a PSTN number in ACS to make the call. PSTN functionality is available under private preview; follow this [document](https://docs.microsoft.com/azure/communication-services/quickstarts/telephony-sms/get-phone-number) for availability updates
+* The PSTN and VOIP access token scopes are currently not enforced. All-access tokens implicitly authorize users to access VOIP and PSTN calling functionality until further notice.  
 *  We don't support x86 simulators, arm7 support is coming soon
 
-## iOS SDK
+## iOS Calling SDK
 
 ### Features available
 
@@ -57,14 +70,13 @@ The SDK is packaged as FAT SDK artifact with all ABIs (arm64-v8a, x86_64) suppor
 ### Onboarding
 The SDK is released for the following platforms: arm64 and x86_64 (simulator)
 <br/>Minimum supported iOS SDK version is 12.0
-<br/>Please refer to the [Microsoft docs](https://review.docs.microsoft.com/en-us/azure/project-spool/quickstarts/voice-video-calling/getting-started-with-calling) of how to bootstrap a Calling sample application on iOS.
+<br/>Please refer to the [Microsoft docs](https://docs.microsoft.com/azure/communication-services/quickstarts/voice-video-calling/getting-started-with-calling) of how to bootstrap a Calling sample application on iOS.
 
 ### Limitations
-* While ability of making PSTN calls is available in the SDK, you need a PSTN number in ACS to make the call. PSTN functionality is available under private preview; follow this [document](https://review.docs.microsoft.com/en-us/azure/project-spool/quickstarts/telephony-sms/get-phone-number?branch=pr-en-us-104477) for availability updates
-* On web mobile and web desktop at any given time client multiple receive video streams might result in greater number of video freezes and/or quality fluctuations. We are working on improving the experience. We recommend to limit number of incoming streams to one if you experience such issues
-* The PSTN and VOIP access token scopes are currently not enforced. All access tokens implicitly authorize users to access VOIP and PSTN calling functionality until further notice. 
+* While the ability to make PSTN calls is available in the SDK, you need a PSTN number in ACS to make the call. PSTN functionality is available under private preview; follow this [document](https://docs.microsoft.com/azure/communication-services/quickstarts/telephony-sms/get-phone-number) for availability updates
+* The PSTN and VOIP access token scopes are currently not enforced. All-access tokens implicitly authorize users to access VOIP and PSTN calling functionality until further notice. 
 
-## JS (Web) SDK
+## JS (Web) Calling SDK
 
 ### Features available
 *   Place and receive 1-1 audio/video call
@@ -89,10 +101,10 @@ The SDK is released for the following platforms: arm64 and x86_64 (simulator)
 *   Hold/unhold
 
 ### Onboarding
-Please refer to the [Microsoft docs](https://review.docs.microsoft.com/en-us/azure/project-spool/quickstarts/voice-video-calling/getting-started-with-calling) of how to bootstrap a Calling sample application on web.
+Please refer to the [Microsoft docs](https://docs.microsoft.com/azure/communication-services/quickstarts/voice-video-calling/getting-started-with-calling) of how to bootstrap a Calling sample application on web.
 
 ### Limitations
-* While ability of making PSTN calls is available in the SDK, you need a PSTN number in ACS to make the call. PSTN functionality is available under private preview; follow this [document](https://review.docs.microsoft.com/en-us/azure/project-spool/quickstarts/telephony-sms/get-phone-number?branch=pr-en-us-104477) for availability updates
-* On web mobile and web desktop at any given time client multiple receive video streams might result in greater number of video freezes and/or quality fluctuations. We are working on improving the experience. We recommend to limit number of incoming streams to one if you experience such issues
-* The PSTN and VOIP access token scopes are currently not enforced. All access tokens implicitly authorize users to access VOIP and PSTN calling functionality until further notice. 
+* While the ability to make PSTN calls is available in the SDK, you need a PSTN number in ACS to make the call. PSTN functionality is available under private preview; follow this [document](https://docs.microsoft.com/azure/communication-services/quickstarts/telephony-sms/get-phone-number) for availability updates
+* On web mobile and web desktop at any given time client multiple receive video streams might result in a greater number of video freezes and/or quality fluctuations. We are working on improving the experience. We recommend limiting number of incoming streams to one if you experience such issues
+* The PSTN and VOIP access token scopes are currently not enforced. All-access tokens implicitly authorize users to access VOIP and PSTN calling functionality until further notice. 
 
