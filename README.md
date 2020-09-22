@@ -37,7 +37,7 @@ Several samples are available in this repo.
 These are JavaScript-based web applications implemented using Microsoft's Fluent design language and components. They function in both mobile and desktop browser settings.
 
 - [Chat Hero Sample](..samples/../samples/Group%20Chat%20Hero%20Sample/Web/Chat) - Demonstrates rich text chat
-- Calling Hero Sample - Demonstrates voice and video calling
+- [Calling Hero Sample](..samples/../samples/Group%20Calling%20Hero%20Sample/Web/Calling) - Demonstrates voice and video calling
 
 ## Help
 
