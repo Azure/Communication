@@ -1,5 +1,20 @@
 # Release Notes for September 22, 2020
 
+## Package Links
+
+
+| Area           | JavaScript | .NET | Python | Java | Swift or Obj-C | Java (Android) | Other                          |
+| -------------- | ---------- | ---- | ------ | ---- | -------------- | -------------- | ------------------------------ |
+| Azure Resource Manager | ✔️         | ✔️    | ✔️      | -    | -              | *Not yet supported*  | GO and Azure CLI *Not yet supported* |
+| Common         | ✔️         | [1.0.0-beta.1](https://www.nuget.org/packages/Azure.Communication.Common/)    | -      | ✔️   | ✔️            | ✔️             | -                              |
+| Administration | ✔️         | [1.0.0-beta.1](https://www.nuget.org/packages/Azure.Communication.Administration)    | ✔️      | ✔️   | -              | -              | CLI                            |
+| Chat           | ✔️         | [1.0.0-beta.1](https://www.nuget.org/packages/Azure.Communication.Chat)     | ✔️      | ✔️   | *Not yet supported*  | *Not yet supported*  | -                              |
+| SMS            | ✔️         | [1.0.0-beta.1](https://www.nuget.org/packages/Azure.Communication.Sms)    | ✔️      | ✔️   | -              | -              | -                              |
+| Calling        | ✔️         | -      | -      | -     | (Obj-C) ✔️     | ✔️            | -                              |
+
+
+
+
 ## Android Calling SDK
 
 ### Features available
