@@ -27,9 +27,9 @@ The SDK is packaged as FAT SDK artifact with all ABIs (arm64-v8a, x86_64) suppor
 <br/>Please refer to the [Microsoft docs](https://review.docs.microsoft.com/en-us/azure/project-spool/quickstarts/voice-video-calling/getting-started-with-calling) of how to bootstrap a Calling sample application on android.
 
 ### Limitations
-* While ability of making PSTN calls is available in the SDK, you need a PSTN number in ACS to make the call. PSTN functionality is available under private preview; follow this [document](https://review.docs.microsoft.com/en-us/azure/project-spool/quickstarts/telephony-sms/get-phone-number?branch=pr-en-us-104477) for availability updates
-* On web mobile and web desktop at any given time client multiple receive video streams might result in greater number of video freezes and/or quality fluctuations. We are working on improving the experience. We recommend to limit number of incoming streams to one if you experience such issues
-* The PSTN and VOIP access token scopes are currently not enforced. All access tokens implicitly authorize users to access VOIP and PSTN calling functionality until further notice. 
+* While the ability to make PSTN calls is available in the SDK, you need a PSTN number in ACS to make the call. PSTN functionality is available under private preview; follow this [document](https://review.docs.microsoft.com/en-us/azure/project-spool/quickstarts/telephony-sms/get-phone-number?branch=pr-en-us-104477) for availability updates
+* On web mobile and web desktop at any given time client multiple receive video streams might result in a greater number of video freezes and/or quality fluctuations. We are working on improving the experience. We recommend limiting number of incoming streams to one if you experience such issues
+* The PSTN and VOIP access token scopes are currently not enforced. All-access tokens implicitly authorize users to access VOIP and PSTN calling functionality until further notice.  
 *  We don't support x86 simulators, arm7 support is coming soon
 
 ## iOS SDK
@@ -60,9 +60,9 @@ The SDK is released for the following platforms: arm64 and x86_64 (simulator)
 <br/>Please refer to the [Microsoft docs](https://review.docs.microsoft.com/en-us/azure/project-spool/quickstarts/voice-video-calling/getting-started-with-calling) of how to bootstrap a Calling sample application on iOS.
 
 ### Limitations
-* While ability of making PSTN calls is available in the SDK, you need a PSTN number in ACS to make the call. PSTN functionality is available under private preview; follow this [document](https://review.docs.microsoft.com/en-us/azure/project-spool/quickstarts/telephony-sms/get-phone-number?branch=pr-en-us-104477) for availability updates
-* On web mobile and web desktop at any given time client multiple receive video streams might result in greater number of video freezes and/or quality fluctuations. We are working on improving the experience. We recommend to limit number of incoming streams to one if you experience such issues
-* The PSTN and VOIP access token scopes are currently not enforced. All access tokens implicitly authorize users to access VOIP and PSTN calling functionality until further notice. 
+* While the ability to make PSTN calls is available in the SDK, you need a PSTN number in ACS to make the call. PSTN functionality is available under private preview; follow this [document](https://review.docs.microsoft.com/en-us/azure/project-spool/quickstarts/telephony-sms/get-phone-number?branch=pr-en-us-104477) for availability updates
+* On web mobile and web desktop at any given time client multiple receive video streams might result in a greater number of video freezes and/or quality fluctuations. We are working on improving the experience. We recommend limiting number of incoming streams to one if you experience such issues
+* The PSTN and VOIP access token scopes are currently not enforced. All-access tokens implicitly authorize users to access VOIP and PSTN calling functionality until further notice. 
 
 ## JS (Web) SDK
 
@@ -92,7 +92,7 @@ The SDK is released for the following platforms: arm64 and x86_64 (simulator)
 Please refer to the [Microsoft docs](https://review.docs.microsoft.com/en-us/azure/project-spool/quickstarts/voice-video-calling/getting-started-with-calling) of how to bootstrap a Calling sample application on web.
 
 ### Limitations
-* While ability of making PSTN calls is available in the SDK, you need a PSTN number in ACS to make the call. PSTN functionality is available under private preview; follow this [document](https://review.docs.microsoft.com/en-us/azure/project-spool/quickstarts/telephony-sms/get-phone-number?branch=pr-en-us-104477) for availability updates
-* On web mobile and web desktop at any given time client multiple receive video streams might result in greater number of video freezes and/or quality fluctuations. We are working on improving the experience. We recommend to limit number of incoming streams to one if you experience such issues
-* The PSTN and VOIP access token scopes are currently not enforced. All access tokens implicitly authorize users to access VOIP and PSTN calling functionality until further notice. 
+* While the ability to make PSTN calls is available in the SDK, you need a PSTN number in ACS to make the call. PSTN functionality is available under private preview; follow this [document](https://review.docs.microsoft.com/en-us/azure/project-spool/quickstarts/telephony-sms/get-phone-number?branch=pr-en-us-104477) for availability updates
+* On web mobile and web desktop at any given time client multiple receive video streams might result in a greater number of video freezes and/or quality fluctuations. We are working on improving the experience. We recommend limiting number of incoming streams to one if you experience such issues
+* The PSTN and VOIP access token scopes are currently not enforced. All-access tokens implicitly authorize users to access VOIP and PSTN calling functionality until further notice. 
 
