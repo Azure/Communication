@@ -11,7 +11,7 @@
 | Chat           | [npm](https://www.npmjs.com/package/@azure/communication-chat)        | [nuget](https://www.nuget.org/packages/Azure.Communication.Chat)     | [PyPi](https://pypi.org/project/azure-communication-chat/)     | ✔️   | *Not yet supported*  | *Not yet supported*  | -                              |
 | SMS            | [npm](https://www.npmjs.com/package/@azure/communication-sms)         | [nuget](https://www.nuget.org/packages/Azure.Communication.Sms)    | [PyPi](https://pypi.org/project/azure-communication-sms/)       | ✔️   | -              | -              | -                              |
 | Calling        | ✔️         | -      | -      | -     | (Obj-C) ✔️     | ✔️            | -                              |
-| Reference Documentation     | [docs](https://azure.github.io/azure-sdk-for-js/communication.html)         | [docs](https://azure.github.io/azure-sdk-for-net/communication.html)      | -      | -     | (Obj-C) ✔️     | ✔️            | -                              |
+| Reference Documentation     | [docs](https://azure.github.io/azure-sdk-for-js/communication.html)         | [docs](https://azure.github.io/azure-sdk-for-net/communication.html)      | -      | [docs](http://azure.github.io/azure-sdk-for-java/communication.html)     | (Obj-C) ✔️     | ✔️            | -                              |
 
 
 ## Android Calling SDK
