@@ -62,7 +62,7 @@ The SDK is packaged as FAT SDK artifact with all ABIs (arm64-v8a, x86_64) suppor
 ### Onboarding
 The SDK is released for the following platforms: arm64 and x86_64 (simulator)
 <br/>Minimum supported iOS SDK version is 12.0
-<br/>*BuildAzurePackages.sh* script works only with Xcode 11.5 and above
+<br/>**BuildAzurePackages.sh script works only with Xcode 11.5 and above**
 <br/>Please refer to the [Microsoft docs](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/getting-started-with-calling?pivots=platform-ios) of how to bootstrap a Calling sample application on iOS.
 
 ### Limitations
