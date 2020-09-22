@@ -8,6 +8,9 @@ This repo provides links, code, client libraries (SDKs), and samples for develop
 
 For more information about Azure Communication Services APIs and SDKs please see [docs.microsoft.com](https://aka.ms/spooldocs).
 
+## Latest Release Notes
+- [09/22/2020 Notes](./releasenotes/2020-September-22.md)
+
 ## SDKs
 
 Azure Communication Services capabilities are conceptually organized into six areas. 
