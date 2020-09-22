@@ -13,8 +13,8 @@ To complete this tutorial, you’ll need the following prerequisites:
 
 ## Code Structure
 
-- ./app/src/main/java/com/contoso/acsquickstart/MainActivity.java: Contains core logic for calling SDK integration.
-- ./app/src/main/res/layout/activity_main.xml: Contains core UI for sample app.
+- **./app/src/main/java/com/contoso/acsquickstart/MainActivity.java:** Contains core logic for calling SDK integration.
+- **./app/src/main/res/layout/activity_main.xml:** Contains core UI for sample app.
 
 ## Object model
 
