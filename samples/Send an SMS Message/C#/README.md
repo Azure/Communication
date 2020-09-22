@@ -12,9 +12,9 @@ For full instructions on how to build this code sample from scratch, look at [Qu
 
 ## Code Structure
 
-- ./SendSMS/Program.cs: Core application code with send SMS implementation.
-- ./SendSMS/SendSMS.csproj: Project configuration file.
-- ./Samples.sln: Visual Studio solution.
+- **./SendSMS/Program.cs:** Core application code with send SMS implementation.
+- **./SendSMS/SendSMS.csproj:** Project configuration file.
+- **./Samples.sln:** Visual Studio solution.
 
 ## Before running sample code
 
