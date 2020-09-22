@@ -1,5 +1,11 @@
 # Release Notes for September 22, 2020
 
+This is the first release of the preview for Azure Communication Services. Some functionality related to telephony scenarios has been published in this SDK release but remains limited to private preview customers until mid-October:
+
+1. Acquiring phone numbers via the Azure Portal or Administration APIs
+2. Sending and Receiving SMS messages
+3. Voice calling interaction with PSTN
+
 ## Package Links
 
 
