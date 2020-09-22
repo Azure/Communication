@@ -1,0 +1,74 @@
+{
+  "name": "acs_calling_sample",
+  "version": "0.3.0",
+  "private": true,
+  "description": "This is a sample application to show how the ACS Calling Web SDK can be used to build a group calling experience. The client-side application is a React based user interface which uses Redux for handling complex state while leveraging Microsoft Fluent UI for how things look. Powering this front-end is a C# web application powered by ASP.net Core to connect this application with Azure.",
+  "dependencies": {
+    "@azure/communication-calling": "1.0.0-beta.1",
+    "@azure/communication-common": "1.0.0-beta.1",
+    "@fluentui/react": "^7.117.1",
+    "@fluentui/react-icons-northstar": "^0.51.0",
+    "@fluentui/react-northstar": "^0.51.0",
+    "@types/preval.macro": "^3.0.0",
+    "@types/react": "^16.9.49",
+    "@types/react-dom": "^16.9.8",
+    "@types/react-redux": "^7.1.9",
+    "@types/uuid": "^8.3.0",
+    "bootstrap": "^4.1.3",
+    "jquery": "^3.5.1",
+    "merge": "^1.2.1",
+    "oidc-client": "^1.9.0",
+    "preval.macro": "^5.0.0",
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0",
+    "react-redux": "^7.2.0",
+    "react-router-bootstrap": "^0.25.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "^3.4.3",
+    "reactstrap": "^8.4.1",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0",
+    "rimraf": "^2.6.2",
+    "source-map-explorer": "^2.5.0",
+    "uuid": "^8.1.0"
+  },
+  "devDependencies": {
+    "ajv": "^6.9.1",
+    "cross-env": "^5.2.0",
+    "typescript": "^3.7.5",
+    "eslint": "^6.8.0",
+    "eslint-config-react-app": "^5.2.0",
+    "eslint-plugin-flowtype": "^4.6.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.18.3",
+    "nan": "^2.14.1",
+    "prettier": "2.0.5"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "scripts": {
+    "analyze": "source-map-explorer 'build/static/js/*.js'",
+    "start": "rimraf ./build && react-scripts start",
+    "build": "react-scripts build",
+    "test": "cross-env CI=true react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "prettier": "prettier --write --config .prettierrc **/*.js **/*.ts",
+    "prettier:check": "prettier --check --config .prettierrc **/*.js **/*.ts",
+    "lint": "eslint */**/*.{ts,tsx} && echo Lint completed.",
+    "lint:quiet": "eslint */**/*.{ts,tsx} --quiet && echo Lint completed."
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
