@@ -1,14 +1,14 @@
 # Send an SMS Message Quickstart
 
-For full instructions on how to build this code sample from scratch, look at [Quickstart: Send an SMS Message](https://docs.microsoft.com/azure/project-spool/quickstarts/telephony-sms/send?pivots=programming-language-csharp)
+For full instructions on how to build this code sample from scratch, look at [Quickstart: Send an SMS Message](https://docs.microsoft.com/azure/communication-services/quickstarts/telephony-sms/send)
 
 ## Prerequisites
 
 - An Azure account with an active subscription. [Create an account for free](https://azure.microsoft.com/free/?WT.mc_id=A261C142F). 
 - Install [Visual Studio](https://visualstudio.microsoft.com/downloads/)
 - The latest version [.NET Core client library](https://dotnet.microsoft.com/download/dotnet-core) for your operating system.
-- An active Communication Services resource and connection string. [Create a Communication Services resource](https://docs.microsoft.com/azure/project-spool/quickstarts/create-communication-resource).
-- An SMS enabled telephone number. [Get a phone number](https://docs.microsoft.com/azure/project-spool/quickstarts/telephony-sms/get-phone-number).
+- An active Communication Services resource and connection string. [Create a Communication Services resource](https://docs.microsoft.com/azure/communication-services/quickstarts/create-communication-resource).
+- An SMS enabled telephone number. [Get a phone number](https://docs.microsoft.com/azure/communication-services/quickstarts/telephony-sms/get-phone-number).
 
 ## Code Structure
 
