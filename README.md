@@ -36,7 +36,7 @@ Several samples are available in this repo.
 **Application Samples**
 These are JavaScript-based web applications implemented using Microsoft's Fluent design language and components. They function in both mobile and desktop browser settings.
 
-- Chat Hero Sample - Demonstrates rich text chat
+- [Chat Hero Sample](..samples/../samples/Group%20Chat%20Hero%20Sample/Web/) - Demonstrates rich text chat
 - Calling Hero Sample - Demonstrates voice and video calling
 
 ## Help
