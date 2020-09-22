@@ -1,7 +1,7 @@
 # Group Calling Sample
 
-This is a sample application to show how the ACS Calling Web SDK can be used to build a group calling experience. 
-The client-side application is a React based user interface which uses Redux for handling complex state while leveraging Microsoft Fluent UI. 
+This is a sample application to show how the ACS Calling Web SDK can be used to build a group calling experience.
+The client-side application is a React based user interface which uses Redux for handling complex state while leveraging Microsoft Fluent UI.
 Powering this front-end is a C# web application powered by ASP.net Core to connect this application with Azure Communication Services.
 
 Additional documentation for this sample can be found on [Microsoft Docs](https://docs.microsoft.com/azure/communication-services/samples/calling-hero-sample).
@@ -13,7 +13,7 @@ Additional documentation for this sample can be found on [Microsoft Docs](https:
 - Create an Azure account with an active subscription. For details, see [Create an account for free](https://azure.microsoft.com/free/?WT.mc_id=A261C142F)
 - [Node.js (12.18.4 and above)](https://nodejs.org/en/download/)
 - [Visual Studio (2019 and above)](https://visualstudio.microsoft.com/vs/)
-- [.NET Core 2.2](https://dotnet.microsoft.com/download/dotnet-core/2.2) (Make sure to install version that corresponds with your visual studio instance, 32 vs 64 bit)
+- [.NET Core 3.1](https://dotnet.microsoft.com/download/dotnet-core/3.1) (Make sure to install version that corresponds with your visual studio instance, 32 vs 64 bit)
 - Create an Azure Communication Services resource. For details, see [Create an Azure Communication Resource](https://docs.microsoft.com/azure/communication-services/quickstarts/create-communication-resource). You'll need to record your resource **connection string** for this quickstart.
 
 ## Code structure
@@ -32,7 +32,7 @@ Additional documentation for this sample can be found on [Microsoft Docs](https:
 1. Open an instance of PowerShell, Windows Terminal, Command Prompt or equivalent and navigate to the directory that you'd like to clone the sample to.
 2. `git clone https://github.com/Azure/Communication.git`
 3. Get the `Connection String` from the Azure portal. For more information on connection strings, see [Create an Azure Communication Resources](https://docs.microsoft.com/azure/communication-services/quickstarts/create-communication-resource)
-4. Once you get the `Connection String`, add the connection string to the **Calling/appsetting.json** file found under the Calling folder. Input your connection string in the variable: `ResourceConnectionString`. 
+4. Once you get the `Connection String`, add the connection string to the **Calling/appsetting.json** file found under the Calling folder. Input your connection string in the variable: `ResourceConnectionString`.
 
 ## Locally deploying the sample app
 
@@ -42,7 +42,7 @@ Additional documentation for this sample can be found on [Microsoft Docs](https:
 ### Troubleshooting
 
 1. Solution doesn\'t build, it throws errors during NPM installation/build
-	
+
 	Clean/rebuild the C# solution
 
 ## Publish to Azure

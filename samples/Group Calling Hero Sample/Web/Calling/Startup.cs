@@ -28,7 +28,11 @@ namespace Calling
                 options.AddPolicy(AllowAnyOrigin,
                     builder =>
                     {
-                        builder.AllowAnyOrigin().AllowCredentials().AllowAnyMethod().AllowAnyHeader();
+                        builder
+                        .SetIsOriginAllowed(_ => true)
+                        .AllowCredentials()
+                        .AllowAnyMethod()
+                        .AllowAnyHeader();
                     });
             });
 
