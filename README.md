@@ -8,7 +8,7 @@ This repo provides links, code, client libraries (SDKs), and samples for develop
 
 For more information about Azure Communication Services APIs and SDKs please see [docs.microsoft.com](https://aka.ms/communication-services-docs).
 
-## Latest Release Notes (includes specific package links)
+## Latest Release Notes 
 - [09/22/2020 Notes](./releasenotes/2020-September-22.md)
 
 ## SDKs
@@ -18,16 +18,18 @@ Azure Communication Services capabilities are conceptually organized into six ar
 - **REST APIs** are documented in the [Azure REST API repo](https://github.com/Azure/azure-rest-api-specs).
 - **Calling SDKs** are available through this repo. 
 
+### Package Links
 
-| Language    | Packages             | Repo                             | Documentation                    |
-|:------------|:--------------------:|:--------------------------------:|:--------------------------------:|
-| General     |                      |[azure-sdk Repository](https://github.com/Azure/azure-sdk)            | [Official Azure Documentation](http://aka.ms/azure-sdk-docs)   |
-| Android     |                      |[azure-sdk-for-android Repository](https://github.com/Azure/azure-sdk-for-android)| Coming Soon                      |
-| C# /.NET    |[.NET Packages](https://azure.github.io/azure-sdk/releases/latest/dotnet.html)       |[azure-sdk-for-net Repository](https://github.com/Azure/azure-sdk-for-net)    | [.NET Documentation](http://aka.ms/net-docs)             |
-| iOS         |                      |[azure-sdk-for-ios Repository](https://github.com/Azure/azure-sdk-for-ios)    | Coming Soon                      |
-| Java        |[Java Packages](https://azure.github.io/azure-sdk/releases/latest/java.html)      |[azure-sdk-for-java Repository](https://github.com/Azure/azure-sdk-for-java)   | [Java Documentation](http://aka.ms/java-docs)             |
-| JavaScript  |[JavaScript Packages](https://azure.github.io/azure-sdk/releases/latest/js.html)|[azure-sdk-for-js Repository](https://github.com/Azure/azure-sdk-for-js)     | [JavaScript Documentation](http://aka.ms/js-docs)       |
-| Python      |[Python Packages](https://azure.github.io/azure-sdk/releases/latest/python.html)    |[azure-sdk-for-python Repository](https://github.com/Azure/azure-sdk-for-python) | [Python Documentation](https://aka.ms/python-docs)           |
+
+| Area           | JavaScript | .NET | Python | Java | Swift or Obj-C | Java (Android) | Other                          |
+| -------------- | ---------- | ---- | ------ | ---- | -------------- | -------------- | ------------------------------ |
+| Azure Resource Manager | -         | [nuget](https://www.nuget.org/packages/Azure.ResourceManager.Communication)    |   [PyPi](https://pypi.org/project/azure-mgmt-communication/)    |    | -              | *Not yet supported*  | [Go via GitHub](https://github.com/Azure/azure-sdk-for-go/releases/tag/v46.3.0) |
+| Common         | [npm](https://www.npmjs.com/package/@azure/communication-common)         | [nuget](https://www.nuget.org/packages/Azure.Communication.Common/)    | N/A      | [Maven](https://search.maven.org/search?q=a:azure-communication-common)   | [Swift via GitHub](https://github.com/Azure/azure-sdk-for-ios/releases/tag/1.0.0-beta.1)            | [Maven](https://search.maven.org/artifact/com.azure.android/azure-communication-common)             | -                              |
+| Administration | [npm](https://www.npmjs.com/package/@azure/communication-administration)         | [nuget](https://www.nuget.org/packages/Azure.Communication.Administration)    | [PyPi](https://pypi.org/project/azure-communication-administration/)      | [Maven](https://search.maven.org/search?q=a:azure-communication-administration)   | -              | -              | -                            |
+| Chat           | [npm](https://www.npmjs.com/package/@azure/communication-chat)        | [nuget](https://www.nuget.org/packages/Azure.Communication.Chat)     | [PyPi](https://pypi.org/project/azure-communication-chat/)     | [Maven](https://search.maven.org/search?q=a:azure-communication-chat)   | -  | -  | -                              |
+| SMS            | [npm](https://www.npmjs.com/package/@azure/communication-sms)         | [nuget](https://www.nuget.org/packages/Azure.Communication.Sms)    | [PyPi](https://pypi.org/project/azure-communication-sms/)       | [Maven](https://search.maven.org/artifact/com.azure/azure-communication-sms)   | -              | -              | -                              |
+| Calling        | [npm](https://www.npmjs.com/package/@azure/communication-calling)         | -      | -      | -     | [Obj-C via GitHub](https://github.com/Azure/Communication/releases/tag/v1.0.0-beta.2)     | [Maven](https://search.maven.org/artifact/com.azure.android/azure-communication-calling/)            | -                              |
+| Reference Documentation     | [docs](https://azure.github.io/azure-sdk-for-js/communication.html)         | [docs](https://azure.github.io/azure-sdk-for-net/communication.html)      | -      | [docs](http://azure.github.io/azure-sdk-for-java/communication.html)     | (Obj-C) ✔️     | ✔️            | -                              |
 
 ## Samples
 
