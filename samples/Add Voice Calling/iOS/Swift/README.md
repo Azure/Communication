@@ -10,7 +10,7 @@ To complete this tutorial, you’ll need the following prerequisites:
 - A Mac running [Xcode](https://go.microsoft.com/fwLink/p/?LinkID=266532), along with a valid developer certificate installed into your Keychain.
 - A deployed Communication Services resource. [Create a Communication Services resource](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/create-communication-resource).
 - A [User Access Token](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/access-tokens?pivots=programming-language-csharp) for your Azure Communication Service.
-- Run the shell script `BuildAzurePackages.sh` which is part of the release to build `AzureCommunication.framework` and `AzureCore.framework` packages and include the 2 packages in the sample
+- Run the shell script `BuildAzurePackages.sh` which is part of the release to build `AzureCommunication.framework` and `AzureCore.framework` packages and include the 2 packages in the sample. **BuildAzurePackages.sh script works only with Xcode 11.5 and above**
 
 ## Code Structure
 
