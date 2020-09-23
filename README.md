@@ -1,5 +1,5 @@
 # Azure Communication Services
-This repo collates client libraries (SDKs), release notes, and samples for developers using [Azure Communication Services](https://azure.microsoft.com/en-us/services/communication-services/). For quickstarts and other technical documentation about Azure Communication Services APIs and SDKs please see [docs.microsoft.com](https://aka.ms/communication-services-docs).
+This repo collates client libraries (SDKs), release notes, and samples for developers using [Azure Communication Services](https://azure.microsoft.com/en-us/services/communication-services/). For quickstarts and other technical documentation please see [docs.microsoft.com](https://docs.microsoft.com/azure/communication-services/overview).
 
 - **SDKs** - Download client libraries
 - **Release Notes** - Find [collated release notes](https://github.com/Azure/Communication/tree/master/releasenotes) for the service and SDKs
