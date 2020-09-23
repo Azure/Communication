@@ -29,14 +29,14 @@ Azure Communication Services capabilities are conceptually organized into six ar
 | Chat           | [npm](https://www.npmjs.com/package/@azure/communication-chat)        | [nuget](https://www.nuget.org/packages/Azure.Communication.Chat)     | [PyPi](https://pypi.org/project/azure-communication-chat/)     | [Maven](https://search.maven.org/search?q=a:azure-communication-chat)   | -  | -  | -                              |
 | SMS            | [npm](https://www.npmjs.com/package/@azure/communication-sms)         | [nuget](https://www.nuget.org/packages/Azure.Communication.Sms)    | [PyPi](https://pypi.org/project/azure-communication-sms/)       | [Maven](https://search.maven.org/artifact/com.azure/azure-communication-sms)   | -              | -              | -                              |
 | Calling        | [npm](https://www.npmjs.com/package/@azure/communication-calling)         | -      | -      | -     | [Obj-C via GitHub](https://github.com/Azure/Communication/releases/tag/v1.0.0-beta.2)     | [Maven](https://search.maven.org/artifact/com.azure.android/azure-communication-calling/)            | -                              |
-| Reference Documentation     | [docs](https://azure.github.io/azure-sdk-for-js/communication.html)         | [docs](https://azure.github.io/azure-sdk-for-net/communication.html)      | -      | [docs](http://azure.github.io/azure-sdk-for-java/communication.html)     | (Obj-C) ✔️     | ✔️            | -                              |
+| Reference Documentation     | [docs](https://azure.github.io/azure-sdk-for-js/communication.html)         | [docs](https://azure.github.io/azure-sdk-for-net/communication.html)      | -      | [docs](http://azure.github.io/azure-sdk-for-java/communication.html)     | -      | -            | -                              |
 
 ## Samples
 
 Several samples are available in this repo.
 
 **Application Samples**
-These are JavaScript-based web applications implemented using Microsoft's Fluent design language and components. They function in both mobile and desktop browser settings.
+These are comprehensive JavaScript-based web applications implemented using [Microsoft's Fluent design language and components](https://developer.microsoft.com/fluentui/). They function in both mobile and desktop browser settings.
 
 - [Chat Hero Sample](..samples/../samples/Group%20Chat%20Hero%20Sample/Web/Chat) - Demonstrates rich text chat
 - [Calling Hero Sample](..samples/../samples/Group%20Calling%20Hero%20Sample/Web/Calling) - Demonstrates voice and video calling
