@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.SpaServices.ReactDevelopmentServer;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
 using System;
 
 namespace Chat
@@ -20,40 +21,50 @@ namespace Chat
             Configuration = configuration;
         }
 
-        public IServiceProvider ConfigureServices(IServiceCollection services)
+        public void ConfigureServices(IServiceCollection services)
         {
-            //services.AddSingleton<INexusStore>(new InMemoryNexusStore());
             services.AddContosoServices(Configuration.GetSection("ContosoChat"));
 
             // Allow CORS as our client may be hosted on a different domain.
             services.AddCors(options =>
             {
-                options.AddPolicy(AllowAnyOrigin,
-                    builder =>
-                    {
-                        builder.AllowAnyOrigin().AllowCredentials().AllowAnyMethod().AllowAnyHeader();
-                    });
+                options.AddPolicy(AllowAnyOrigin, builder =>
+                {
+                    builder.SetIsOriginAllowed(origin => true);
+                    builder.AllowAnyMethod();
+                    builder.AllowAnyHeader();
+                    builder.AllowCredentials();
+                });
             });
 
-            services.AddMvc();
+            services.AddRazorPages();
+            services.AddControllers()
+                .AddNewtonsoftJson();
 
             // In production, the React files will be served from this directory
             services.AddSpaStaticFiles(configuration =>
             {
                 configuration.RootPath = "ClientApp/build";
             });
-
-            return services.BuildServiceProvider();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             app.UseStaticFiles();
             app.UseSpaStaticFiles();
 
+            app.UseRouting();
+
             app.UseCors(AllowAnyOrigin);
-            app.UseMvc();
+
+            app.UseEndpoints(endpoints =>
+            {
+                endpoints.MapRazorPages();
+                endpoints.MapControllers();
+            });
+
+            app.UseCors(AllowAnyOrigin);
 
             app.UseSpa(spa =>
             {
