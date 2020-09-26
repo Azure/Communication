@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.SpaServices.ReactDevelopmentServer;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
 
 namespace Calling
 {
@@ -20,7 +21,7 @@ namespace Calling
 
         public IConfiguration Configuration { get; }
 
-        public IServiceProvider ConfigureServices(IServiceCollection services)
+        public void ConfigureServices(IServiceCollection services)
         {
             // Allow CORS as our client may be hosted on a different domain.
             services.AddCors(options =>
@@ -28,29 +29,36 @@ namespace Calling
                 options.AddPolicy(AllowAnyOrigin,
                     builder =>
                     {
-                        builder.AllowAnyOrigin().AllowCredentials().AllowAnyMethod().AllowAnyHeader();
+                        builder.SetIsOriginAllowed(origin => true);
+                        builder.AllowCredentials();
+                        builder.AllowAnyMethod();
+                        builder.AllowAnyHeader();
                     });
             });
 
-            services.AddMvc(options => options.EnableEndpointRouting = false);
+            services.AddControllers();
 
             // In production, the React files will be served from this directory
             services.AddSpaStaticFiles(configuration =>
             {
                 configuration.RootPath = "ClientApp/build";
             });
-
-            return services.BuildServiceProvider();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             app.UseStaticFiles();
             app.UseSpaStaticFiles();
 
+            app.UseRouting();
+
             app.UseCors(AllowAnyOrigin);
-            app.UseMvc();
+
+            app.UseEndpoints(endpoints =>
+            {
+                endpoints.MapControllers();
+            });
 
             app.UseSpa(spa =>
             {
