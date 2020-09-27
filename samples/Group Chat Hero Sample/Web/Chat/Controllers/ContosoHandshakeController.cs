@@ -15,6 +15,7 @@ namespace Chat
 	/// <summary>
 	/// To enable test clients to chat in the same thread
 	/// </summary>
+	[ApiController]
 	public class ContosoHandshakeController : Controller
 	{
 		IUserTokenManager _userTokenManager;
@@ -76,7 +77,7 @@ namespace Chat
 		/// <returns>200 if successful and </returns>
 		[Route("addUser/{threadId}")]
 		[HttpPost]
-		public async Task<ActionResult> TryAddUserToThread(string threadId, [FromBody] ContosoMemberModel user)
+		public async Task<ActionResult> TryAddUserToThread(string threadId, ContosoMemberModel user)
 		{
 			try
             {
