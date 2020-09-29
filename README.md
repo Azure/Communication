@@ -41,7 +41,7 @@ These are designed JavaScript-based web applications implemented using [Microsof
 
 ## Help
 
-We encourage developers to submit questions, suggust features, and report problems as issues in this repo. Other forums include:
+We encourage developers to submit questions, suggest features, and report problems as issues in this repo. Other forums include:
 
 - [Microsoft Q&A](https://docs.microsoft.com/en-us/answers/index.html)
 - [StackOverflow](https://stackoverflow.com/questions/tagged/azure+communication)
