@@ -7,9 +7,9 @@ const responsiveLayoutStyle = mergeStyles({
   flexDirection: 'row',
   selectors: {
     '@media (max-width: 37.5rem)': {
-      flexDirection: 'column',
-    },
-  },
+      flexDirection: 'column'
+    }
+  }
 });
 
 const leftPreviewContainerStyle = mergeStyles({
@@ -18,9 +18,9 @@ const leftPreviewContainerStyle = mergeStyles({
   marginRight: '9.688rem',
   selectors: {
     '@media (max-width: 37.5rem)': {
-      marginRight: '0rem',
-    },
-  },
+      marginRight: '0rem'
+    }
+  }
 });
 
 const rightInputContainerStyle = mergeStyles({
@@ -28,9 +28,9 @@ const rightInputContainerStyle = mergeStyles({
   width: '19rem',
   selectors: {
     '@media (max-width: 37.5rem)': {
-      marginTop: '6.25rem',
-    },
-  },
+      marginTop: '6.25rem'
+    }
+  }
 });
 
 const smallAvatarContainerStyle = (avatar: string, selectedAvatar: string) =>
@@ -43,7 +43,7 @@ const smallAvatarContainerStyle = (avatar: string, selectedAvatar: string) =>
     alignItems: 'center',
     display: 'flex',
     justifyContent: 'center',
-    outline: 'none',
+    outline: 'none'
   });
 
 const largeAvatarContainerStyle = (avatar: string) =>
@@ -54,7 +54,7 @@ const largeAvatarContainerStyle = (avatar: string) =>
     borderRadius: '50%',
     alignItems: 'center',
     display: 'flex',
-    justifyContent: 'center',
+    justifyContent: 'center'
   });
 
 const smallAvatarStyle = mergeStyles({
@@ -65,7 +65,7 @@ const smallAvatarStyle = mergeStyles({
   fontSize: '1.5rem',
   letterSpacing: '0',
   lineHeight: '1.75rem',
-  textAlign: 'center',
+  textAlign: 'center'
 });
 
 const largeAvatarStyle = mergeStyles({
@@ -75,7 +75,7 @@ const largeAvatarStyle = mergeStyles({
   fontSize: '3.75rem', // 60px
   letterSpacing: '0',
   lineHeight: '4.938rem',
-  textAlign: 'center',
+  textAlign: 'center'
 });
 
 const namePreviewStyle = (isEmpty: boolean) => {
@@ -90,6 +90,7 @@ const namePreviewStyle = (isEmpty: boolean) => {
     opacity: isEmpty ? 1 : 0.34,
     color: isEmpty ? '#000000' : '#A19F9D',
     wordWrap: 'break-word',
+    overflowY: 'hidden'
   });
 };
 
@@ -101,7 +102,7 @@ const labelFontStyle = mergeStyles({
   fontWeight: 600,
   letterSpacing: '0',
   lineHeight: '2rem',
-  marginBottom: '0.625rem',
+  marginBottom: '0.625rem'
 });
 
 const nameInputFontStyle = mergeStyles({
@@ -110,7 +111,7 @@ const nameInputFontStyle = mergeStyles({
   fontWeight: 400,
   fontSize: '1rem', // 16px
   letterSpacing: '0',
-  lineHeight: '1.125rem',
+  lineHeight: '1.125rem'
 });
 
 const configContainerStyle = mergeStyles({
@@ -120,11 +121,11 @@ const configContainerStyle = mergeStyles({
   selectors: {
     '@media (max-width: 46.875rem)': {
       padding: 10,
-      height: '100%',
-    },
+      height: '100%'
+    }
   },
   horizontalAlign: 'center',
-  verticalAlign: 'center',
+  verticalAlign: 'center'
 });
 
 const inputBoxStyle = mergeStyles({
@@ -135,18 +136,36 @@ const inputBoxStyle = mergeStyles({
   borderRadius: '0.188rem',
   backgroundColor: '#FFFFFF',
   marginTop: '0.375rem',
-  marginBottom: '0.875rem',
+  marginBottom: '0.875rem'
 });
 
 const inputBoxTextStyle = mergeStyles({
   fontSize: '1rem', // 16px
   lineHeight: '1.5rem',
+  '::-webkit-input-placeholder': {
+    fontSize: '1rem'
+  },
+  '::-moz-placeholder': {
+    fontSize: '1rem'
+  },
+  ':-moz-placeholder': {
+    fontSize: '1rem'
+  }
 });
+
+const TextFieldStyleProps = {
+  wrapper: {
+    height: '2.25rem'
+  },
+  fieldGroup: {
+    height: '2.25rem'
+  }
+};
 
 const inputBoxTextWarningStyle = mergeStyles({
   fontSize: '1rem', // 16px
   lineHeight: '1.5rem',
-  color: 'red',
+  color: 'red'
 });
 
 const inputBoxWarningStyle = mergeStyles({
@@ -158,7 +177,7 @@ const inputBoxWarningStyle = mergeStyles({
   backgroundColor: '#FFFFFF',
   marginTop: '0.375rem',
   marginBottom: '0.875rem',
-  fontSize: '1rem', // 16px
+  fontSize: '1rem' // 16px
 });
 
 const warningStyle = mergeStyles({
@@ -168,12 +187,12 @@ const warningStyle = mergeStyles({
   marginBottom: '0.188rem',
   marginLeft: '0.188rem',
   color: 'red',
-  fontSize: '1rem', // 16px
+  fontSize: '1rem' // 16px
 });
 
 const chatIconStyle = mergeStyles({
   marginRight: '0.375rem',
-  fontSize: '1.375rem', // 22px
+  fontSize: '0.875rem' // 14px
 });
 
 const buttonStyle = mergeStyles({
@@ -182,7 +201,7 @@ const buttonStyle = mergeStyles({
   width: '100%',
   maxWidth: '18.75rem',
   minWidth: '12.5rem',
-  fontSize: '0.875rem', // 14px
+  fontSize: '0.875rem' // 14px
 });
 
 const mainContainerStyle = mergeStyles({
@@ -192,9 +211,13 @@ const mainContainerStyle = mergeStyles({
   selectors: {
     '@media (max-width: 46.875rem)': {
       padding: '0.625rem',
-      height: '100%',
-    },
-  },
+      height: '100%'
+    }
+  }
+});
+
+const startChatButtonTextStyle = mergeStyles({
+  fontSize: '0.875rem' // 14px
 });
 
 export {
@@ -211,10 +234,12 @@ export {
   configContainerStyle,
   inputBoxStyle,
   inputBoxTextStyle,
+  TextFieldStyleProps,
   inputBoxTextWarningStyle,
   inputBoxWarningStyle,
   warningStyle,
   chatIconStyle,
   buttonStyle,
   mainContainerStyle,
+  startChatButtonTextStyle
 };

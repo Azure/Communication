@@ -18,6 +18,12 @@ export const paneStyles: IStackItemStyles = {
     width: '17.875rem'
   }
 };
+export const overlayStyles: IStackItemStyles = {
+  root: {
+    background: palette.white,
+    marginTop: '4rem'
+  }
+};
 export const hiddenContainerClassName: IStackItemStyles = {
   root: {
     border: `solid 1px ${palette.neutralLighterAlt}`,

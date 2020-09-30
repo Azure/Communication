@@ -25,6 +25,8 @@ export interface LocalPreviewProps {
   setLocalVideoStream(device: LocalVideoStream | undefined): void;
   videoDeviceInfo: VideoDeviceInfo;
   audioDeviceInfo: AudioDeviceInfo;
+  videoDeviceList: VideoDeviceInfo[];
+  audioDeviceList: AudioDeviceInfo[];
   localVideoStream: LocalVideoStream;
 }
 
@@ -73,7 +75,7 @@ export default (props: LocalPreviewProps): JSX.Element => {
         id={Constants.CONFIGURATION_LOCAL_VIDEO_PREVIEW_ID}
         className={localPreviewStyle}
       >
-        {!props.localVideoStream && <Image styles={imgStyles} {...imageProps} />}
+        {!props.localVideoStream && <Image styles={imgStyles} {...imageProps} aria-label="Local video preview image"/>}
       </Stack>
       <Stack
         horizontal
@@ -90,11 +92,15 @@ export default (props: LocalPreviewProps): JSX.Element => {
             // }
           }}
           styles={toggleStyle}
-          disabled={!props.videoDeviceInfo}
+          disabled={!props.videoDeviceInfo || props.videoDeviceList.length == 0}
           onChange={handleLocalVideoOnOff}
+          ariaLabel="Video Icon"
         />
         <MicIcon size="medium" />
-        <Toggle styles={toggleStyle} disabled={!props.audioDeviceInfo} onChange={handleLocalMicOnOff} />
+        <Toggle
+          styles={toggleStyle} 
+          disabled={!props.audioDeviceInfo || props.audioDeviceList.length == 0}
+          onChange={handleLocalMicOnOff} ariaLabel="Microphone Icon"/>
       </Stack>
     </Stack>
   );

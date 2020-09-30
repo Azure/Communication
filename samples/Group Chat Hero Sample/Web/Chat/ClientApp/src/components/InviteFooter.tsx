@@ -12,6 +12,7 @@ import {
 import {
   inviteFooterStackContainerStyles,
   inviteFooterStackStyles,
+  saveButtonTextStyle
 } from './styles/SidePanel.styles';
 
 const copyJoinLink = () => {
@@ -50,7 +51,7 @@ export default (): JSX.Element => {
         onClick={copyJoinLink}
       >
         <Icon iconName="Copy" className={copyIconStyle} />
-        {copyJoinInfoString}
+        <div className={saveButtonTextStyle}>{copyJoinInfoString}</div>
       </PrimaryButton>
     </Stack>
   );

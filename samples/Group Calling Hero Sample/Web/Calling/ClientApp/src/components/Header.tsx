@@ -5,6 +5,7 @@ import { Call, LocalVideoStream, VideoDeviceInfo } from '@azure/communication-ca
 import MediaControls from './MediaControls';
 import { CommandPanelTypes } from './CommandPanel';
 import { UserFriendsIcon, SettingsIcon } from '@fluentui/react-icons-northstar';
+import { Constants } from 'core/constants';
 import {
   headerContainer,
   pivotItemStyles,
@@ -80,7 +81,7 @@ export default (props: HeaderProps): JSX.Element => {
   }, [props.call, props.localVideoStream]);
 
   return (
-    <Stack id="header" className={props.screenWidth > 360 ? headerContainer : headerCenteredContainer}>
+    <Stack id="header" className={props.screenWidth > Constants.MINI_HEADER_WINDOW_WIDTH ? headerContainer : headerCenteredContainer}>
       <Pivot
         onKeyDownCapture={(e) => {
           if ((e.target as HTMLElement).id === CommandPanelTypes.People && e.keyCode === 39) e.preventDefault();
@@ -118,7 +119,7 @@ export default (props: HeaderProps): JSX.Element => {
         />
         <PivotItem itemKey={CommandPanelTypes.None} />
       </Pivot>
-      {props.screenWidth > 360 && (
+      {props.screenWidth > Constants.MINI_HEADER_WINDOW_WIDTH && (
         <div className={separatorContainerStyle}>
           <Separator styles={separatorStyles} vertical={true} />
         </div>
@@ -138,7 +139,7 @@ export default (props: HeaderProps): JSX.Element => {
         cameraPermission={props.cameraPermission}
         microphonePermission={props.microphonePermission}
         localVideoRendererIsBusy={props.localVideoRendererIsBusy}
-        compressedMode={props.screenWidth <= 360}
+        compressedMode={props.screenWidth <= Constants.MINI_HEADER_WINDOW_WIDTH}
         isLocalScreenShareSupportedInBrowser={props.isLocalScreenShareSupportedInBrowser}
       />
     </Stack>

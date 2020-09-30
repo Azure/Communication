@@ -1,6 +1,6 @@
 import { DefaultButton, PrimaryButton, Stack } from '@fluentui/react';
 import { ChatIcon } from '@fluentui/react-icons-northstar';
-import React from 'react';
+import React, { useState } from 'react';
 
 import {
   bottomStackFooterStyle,
@@ -11,11 +11,12 @@ import {
   mainStackTokens,
   upperStackTokens,
   videoCameraIconStyle,
+  buttonTextStyle
 } from './styles/EndChat.styles';
 
 export interface EndCallProps {
   rejoinHandler(): void;
-  rejoinThread(): void;
+  rejoinThread(): Promise<void>;
   homeHandler(): void;
 }
 
@@ -23,6 +24,17 @@ export default (props: EndCallProps): JSX.Element => {
   const leftCall = 'You left the chat';
   const goHomePage = 'Go to homepage';
   const rejoinChat = 'Rejoin chat';
+  const rejoining = 'Rejoining...';
+
+  const [isRejoiningThread, setIsRejoiningThread] = useState(false);
+
+  const rejoinThread = async () => {
+    if (!isRejoiningThread) {
+      setIsRejoiningThread(true);
+      await props.rejoinThread();
+      props.rejoinHandler();
+    }
+  };
 
   return (
     <Stack
@@ -36,17 +48,15 @@ export default (props: EndCallProps): JSX.Element => {
         </div>
         <Stack horizontal tokens={buttonsStackTokens}>
           <PrimaryButton
+            disabled={isRejoiningThread}
             className={buttonStyle}
-            onClick={() => {
-              props.rejoinThread();
-              props.rejoinHandler();
-            }}
+            onClick={async () => { await rejoinThread(); }}
           >
             <ChatIcon className={videoCameraIconStyle} size="medium" />
-            {rejoinChat}
+            <div className={buttonTextStyle}>{isRejoiningThread ? rejoining : rejoinChat}</div>
           </PrimaryButton>
           <DefaultButton className={buttonStyle} onClick={props.homeHandler}>
-            {goHomePage}
+            <div className={buttonTextStyle}> {goHomePage}</div>
           </DefaultButton>
         </Stack>
       </Stack>

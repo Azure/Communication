@@ -9,7 +9,7 @@ export interface SetReceiptsAction {
 
 export const setReceipts = (receipts: ReadReceipt[]): SetReceiptsAction => ({
   type: SET_RECEIPTS,
-  receipts,
+  receipts
 });
 
 export type ConversationsActionTypes = SetReceiptsAction;

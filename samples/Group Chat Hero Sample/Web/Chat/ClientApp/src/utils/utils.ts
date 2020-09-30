@@ -36,31 +36,31 @@ export const getBackgroundColor = (avatar: string) => {
   switch (avatar) {
     case CAT:
       return {
-        backgroundColor: 'rgba(255, 250, 228, 1)',
+        backgroundColor: 'rgba(255, 250, 228, 1)'
       };
     case MOUSE:
       return {
-        backgroundColor: 'rgba(33, 131, 196, 0.1)',
+        backgroundColor: 'rgba(33, 131, 196, 0.1)'
       };
     case KOALA:
       return {
-        backgroundColor: 'rgba(197, 179, 173, 0.3)',
+        backgroundColor: 'rgba(197, 179, 173, 0.3)'
       };
     case OCTOPUS:
       return {
-        backgroundColor: 'rgba(255, 240, 245, 1)',
+        backgroundColor: 'rgba(255, 240, 245, 1)'
       };
     case MONKEY:
       return {
-        backgroundColor: 'rgba(255, 245, 222, 1)',
+        backgroundColor: 'rgba(255, 245, 222, 1)'
       };
     case FOX:
       return {
-        backgroundColor: 'rgba(255, 231, 205, 1)',
+        backgroundColor: 'rgba(255, 231, 205, 1)'
       };
     default:
       return {
-        backgroundColor: 'rgba(255, 250, 228, 1)',
+        backgroundColor: 'rgba(255, 250, 228, 1)'
       };
   }
 };
@@ -76,9 +76,7 @@ export const getBuildTime = () => {
 };
 
 export function getChatSDKVersion() {
-  return require('../../package.json')['dependencies'][
-    '@azure/communication-chat'
-  ];
+  return require('../../package.json')['dependencies']['@azure/communication-chat'];
 }
 
 export const compareMessages = (firstMessage: any, secondMessage: any) => {

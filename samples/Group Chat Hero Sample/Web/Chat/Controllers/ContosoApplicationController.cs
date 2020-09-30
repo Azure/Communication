@@ -1,7 +1,6 @@
 ﻿// © Microsoft Corporation. All rights reserved.
 
 using Microsoft.AspNetCore.Mvc;
-using System.Threading.Tasks;
 
 namespace Chat
 {

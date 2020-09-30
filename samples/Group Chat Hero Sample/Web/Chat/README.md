@@ -4,7 +4,7 @@ This is a sample application to show how the Chat Web SDK can be used to build a
 The client-side application is a React based user interface which uses Redux for handling complex state while leveraging Microsoft Fluent UI. 
 Powering this front-end is a C# web application powered by ASP.net Core to connect this application with Azure Communication Services.
 
-Additional documentation for this sample can be found on [Microsoft Docs](https://docs.microsoft.com/azure/communication-services/samples/calling-hero-sample).
+Additional documentation for this sample can be found on [Microsoft Docs](https://docs.microsoft.com/azure/project-spool/samples/chat-hero-sample).
 
 ![Homepage](./Media/homepage-sample-chat.png)
 
@@ -13,7 +13,7 @@ Additional documentation for this sample can be found on [Microsoft Docs](https:
 - Create an Azure account with an active subscription. For details, see [Create an account for free](https://azure.microsoft.com/free/?WT.mc_id=A261C142F).
 - [Node.js (12.18.4 and above)](https://nodejs.org/en/download/)
 - [Visual Studio (2017 and above)](https://visualstudio.microsoft.com/vs/)
-- [.NET Core 2.2](https://dotnet.microsoft.com/download/dotnet-core/2.2) (Make sure to install version that corresponds with your visual studio instance, 32 vs 64 bit)
+- [.NET Core 3.1](https://dotnet.microsoft.com/download/dotnet-core/3.1) (Make sure to install version that corresponds with your visual studio instance, 32 vs 64 bit)
 - Create an Azure Communication Services resource. For details, see [Create an Azure Communication Resource](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/create-communication-resource). You'll need to record your resource **connection string** for this quickstart.
 
 ## Code structure
@@ -55,7 +55,7 @@ Additional documentation for this sample can be found on [Microsoft Docs](https:
 
 ## Additional Reading
 
-- [Azure Communication Chat SDK](https://docs.microsoft.com/azure/communication-services/concepts/chat/sdk-features) - To learn more about the chat web sdk
+- [Azure Communication Chat SDK](https://docs.microsoft.com/azure/project-spool/concepts/chat/sdk-features) - To learn more about the chat web sdk
 - [Redux](https://redux.js.org/) - Client-side state management
 - [FluentUI](https://developer.microsoft.com/en-us/fluentui#/) - Microsoft powered UI library
 - [React](https://reactjs.org/) - Library for building user interfaces

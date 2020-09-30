@@ -23,6 +23,7 @@ import {
   upperStackStyle,
   upperStackTokens,
   videoCameraIconStyle,
+  startChatTextStyle
 } from './styles/HomeScreen.styles';
 
 export interface HomeScreenProps {
@@ -41,7 +42,7 @@ export default (props: HomeScreenProps): JSX.Element => {
   const iconName = 'SkypeCircleCheck';
   const imageProps = { src: heroSVG.toString() };
   const headerTitle = 'Exceptionally simple chat app';
-  const startCallButtonText = 'Start chat';
+  const startChatButtonText = 'Start chat';
   const listItems = [
     'Launch a conversation with a single click',
     'Real-time messaging with indicators',
@@ -100,7 +101,7 @@ export default (props: HomeScreenProps): JSX.Element => {
               }}
             >
               <ChatIcon className={videoCameraIconStyle} size="medium" />
-              <p>{startCallButtonText}</p>
+              <div className={startChatTextStyle}>{startChatButtonText}</div>
             </PrimaryButton>
           </Stack>
           <Image

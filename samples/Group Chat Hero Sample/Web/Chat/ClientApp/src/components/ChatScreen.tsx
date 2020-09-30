@@ -16,6 +16,7 @@ interface ChatScreenProps {
   errorHandler(): void;
   getThreadMembers(): void;
   getThread(): void;
+  getMessages(): void;
 }
 
 export default (props: ChatScreenProps): JSX.Element => {
@@ -25,6 +26,10 @@ export default (props: ChatScreenProps): JSX.Element => {
   );
 
   const { errorHandler, threadMembersError, getThread } = props;
+
+  useEffect(() => {
+    props.getMessages();
+  }, []);
 
   useEffect(() => {
     if (threadMembersError) {

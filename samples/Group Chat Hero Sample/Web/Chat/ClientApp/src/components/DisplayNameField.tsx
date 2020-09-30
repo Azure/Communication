@@ -4,6 +4,7 @@ import { TextField } from '@fluentui/react';
 import {
   inputBoxStyle,
   inputBoxTextStyle,
+  TextFieldStyleProps,
   inputBoxWarningStyle,
   labelFontStyle,
   warningStyle,
@@ -53,6 +54,7 @@ export default (props: DisplayNameFieldProps): JSX.Element => {
             props.validateName();
           }
         }}
+        styles={TextFieldStyleProps}
       />
       {(props.isEmpty && (
         <div role="alert" className={warningStyle}>

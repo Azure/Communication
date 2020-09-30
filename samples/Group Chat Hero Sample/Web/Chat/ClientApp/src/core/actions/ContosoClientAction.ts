@@ -30,30 +30,24 @@ export interface SetContosoUsersAction {
 
 export const setChatClient = (chatClient: ChatClient): SetChatClientAction => ({
   type: SET_CHAT_CLIENT,
-  chatClient,
+  chatClient
 });
 
-export const setContosoUser = (
-  identity: string,
-  token: string,
-  displayName: string
-): SetContosoUserAction => ({
+export const setContosoUser = (identity: string, token: string, displayName: string): SetContosoUserAction => ({
   type: SET_CURRENT_USER,
   identity,
   token,
-  displayName,
+  displayName
 });
 
-export const setContosoUserCoolPeriod = (
-  coolPeriod: Date
-): SetContosoUserCoolPeriodAction => ({
+export const setContosoUserCoolPeriod = (coolPeriod: Date): SetContosoUserCoolPeriodAction => ({
   type: SET_CURRENT_USER_COOL_PERIOD,
-  coolPeriod,
+  coolPeriod
 });
 
 export const setContosoUsers = (users: any): SetContosoUsersAction => ({
   type: SET_USERS,
-  users,
+  users
 });
 
 export type ContosoActionTypes =

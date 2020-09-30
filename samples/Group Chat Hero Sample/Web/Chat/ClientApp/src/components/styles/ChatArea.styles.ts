@@ -6,7 +6,7 @@ const chatAreaContainerStyle = mergeStyles({
   marginLeft: '6%',
   marginRight: '6%',
   paddingBottom: '1rem',
-  overflow: 'auto',
+  overflow: 'auto'
 });
 
 export { chatAreaContainerStyle };

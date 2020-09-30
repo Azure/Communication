@@ -26,32 +26,25 @@ export interface SetFailedMessagesAction {
   failedMessages: any;
 }
 
-export const setMessages = (
-  messages: ChatMessageWithClientMessageId[]
-): SetMessagesAction => ({
+export const setMessages = (messages: ChatMessageWithClientMessageId[]): SetMessagesAction => ({
   type: SET_MESSAGES,
-  messages,
+  messages
 });
 
-export const setTypingNotifications = (
-  id: string,
-  typingNotification: any
-): SetTypingNotificationsAction => ({
+export const setTypingNotifications = (id: string, typingNotification: any): SetTypingNotificationsAction => ({
   type: SET_TYPING_NOTIFICATIONS,
   id,
-  typingNotification,
+  typingNotification
 });
 
 export const setTypingUsers = (typingUsers: any): SetTypingUsersAction => ({
   type: SET_TYPING_USERS,
-  typingUsers,
+  typingUsers
 });
 
-export const setFailedMessages = (
-  failedMessages: any
-): SetFailedMessagesAction => ({
+export const setFailedMessages = (failedMessages: any): SetFailedMessagesAction => ({
   type: SET_FAILED_MESSAGES,
-  failedMessages,
+  failedMessages
 });
 
 export type MessagesActionTypes =

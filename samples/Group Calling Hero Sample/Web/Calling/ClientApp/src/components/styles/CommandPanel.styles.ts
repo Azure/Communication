@@ -3,7 +3,8 @@ import { IStackStyles, mergeStyles, ITextFieldStyles, IStackTokens, getTheme } f
 const palette = getTheme().palette;
 export const fullHeightStyles: IStackStyles = {
   root: {
-    height: '100%'
+    height: '100%',
+    overflowY: 'auto'
   }
 };
 export const paneFooterStyles: IStackStyles = {

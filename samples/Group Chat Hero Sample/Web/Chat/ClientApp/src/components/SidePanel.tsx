@@ -19,7 +19,6 @@ import InviteFooter from './InviteFooter';
 import MemberItem from './MemberItem';
 import { inputBoxTextStyle } from './styles/ConfigurationScreen.styles';
 import {
-  chatNameTextFieldStyle,
   memberListStyle,
   settingsListStyle,
   saveChatNameButtonStyle,
@@ -27,13 +26,13 @@ import {
   textFieldIconStyle,
   titleStyle,
   topicWarningStyle,
-  chatNameTextWarningFieldStyle,
   emptyWarningStyle,
+  saveButtonTextStyle, groupNameStyle, groupNameInputBoxStyle, groupNameInputBoxWarningStyle
 } from './styles/SidePanel.styles';
 
 interface SidePanelProps {
   setContosoUsers(users: any): void;
-  updateThreadTopicName(topicName: string): void;
+  updateThreadTopicName(topicName: string, setIsSavingTopicName: React.Dispatch<boolean>): void;
   users: any;
   threadMembers: ChatThreadMember[];
   identity: string;
@@ -95,6 +94,7 @@ export default (props: SidePanelProps): JSX.Element => {
   const [topicName, setTopicName] = useState('');
   const [isEditingTopicName, setIsEditingTopicName] = useState(false);
   const [isTopicNameOverflow, setTopicNameOverflow] = useState(false);
+  const [isSavingTopicName, setIsSavingTopicName] = useState(false);
 
   const onTopicNameTextChange = (event: any) => {
     setIsEditingTopicName(true);
@@ -108,7 +108,8 @@ export default (props: SidePanelProps): JSX.Element => {
 
   const onTopicNameSubmit = () => {
     if (topicName.length > MAXIMUM_LENGTH_OF_TOPIC) return;
-    props.updateThreadTopicName(topicName);
+    props.updateThreadTopicName(topicName, setIsSavingTopicName);
+    setIsSavingTopicName(true);
     setIsEditingTopicName(false);
     setTimeout(() => {
       document.getElementById('focusButton')?.focus();
@@ -156,24 +157,24 @@ export default (props: SidePanelProps): JSX.Element => {
         )}
       >
         {/* Title */}
-        <span className={titleStyle}>Settings</span>
+        <div className={titleStyle}>Settings</div>
         <div className={settingsListStyle}>
           {/* Change Chat Name */}
+          <div className={groupNameStyle}>Group Name</div>
           <TextField
             key={props.thread.topic}
-            label="Group name"
-            styles={
+            className={
               isTopicNameOverflow
-                ? chatNameTextWarningFieldStyle
-                : chatNameTextFieldStyle
+                ? groupNameInputBoxWarningStyle : groupNameInputBoxStyle
             }
             inputClassName={inputBoxTextStyle}
+            borderless={true}
             defaultValue={
               isEditingTopicName
                 ? topicName
                 : props.existsTopicName
-                ? props.thread.topic
-                : undefined
+                  ? props.thread.topic
+                  : undefined
             }
             placeholder={
               props.existsTopicName ? undefined : 'Type a group name'
@@ -198,9 +199,10 @@ export default (props: SidePanelProps): JSX.Element => {
             id="editThreadTopicButton"
             className={saveChatNameButtonStyle}
             onClick={(e: any) => onTopicNameSubmit()}
+            disabled={isSavingTopicName}
           >
             <Icon iconName="Save" className={textFieldIconStyle} />
-            Save
+            <div className={saveButtonTextStyle}>{isSavingTopicName ? "Saving..." : "Save"}</div>
           </PrimaryButton>
         </div>
       </Stack>

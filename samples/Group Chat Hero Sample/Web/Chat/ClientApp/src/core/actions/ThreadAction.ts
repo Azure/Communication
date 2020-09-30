@@ -19,22 +19,17 @@ export interface SetThreadIdAction {
 
 export const setThread = (thread: any): SetThreadAction => ({
   type: SET_THREAD,
-  thread,
+  thread
 });
 
-export const setThreadTopicName = (
-  topicName: string
-): SetThreadTopicNameAction => ({
+export const setThreadTopicName = (topicName: string): SetThreadTopicNameAction => ({
   type: SET_THREAD_TOPIC_NAME,
-  topicName,
+  topicName
 });
 
 export const setThreadId = (threadId: string): SetThreadIdAction => ({
   type: SET_THREAD_ID,
-  threadId,
+  threadId
 });
 
-export type ThreadActionTypes =
-  | SetThreadAction
-  | SetThreadTopicNameAction
-  | SetThreadIdAction;
+export type ThreadActionTypes = SetThreadAction | SetThreadTopicNameAction | SetThreadIdAction;

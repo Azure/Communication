@@ -21,7 +21,10 @@ export const nestedStackTokens: IStackTokens = {
 };
 export const listStyle = mergeStyles({
   listStyleType: 'none',
-  fontSize: '0.875rem'
+  fontSize: '0.875rem',
+  margin: 0,
+  padding: 0,
+  listStylePosition: 'outside'
 });
 export const iconStyle = mergeStyles({
   marginRight: '0.4375rem',
@@ -50,4 +53,8 @@ export const upperStackStyle = mergeStyles({
       padding: '0.625rem'
     }
   }
+});
+export const listItemStyle = mergeStyles({
+  paddingLeft: '2em',
+  textIndent: '-1em'
 });

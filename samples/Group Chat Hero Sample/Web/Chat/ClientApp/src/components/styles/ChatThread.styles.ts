@@ -14,46 +14,47 @@ const messageAvatarContainerStyle = (avatar: string) =>
     display: 'flex',
     justifyContent: 'center',
     fontFamily: 'Segoe UI Regular',
-    fontSize: '1rem', // 16px
+    fontSize: '1rem' // 16px
   });
 
 const chatContainerStyle = mergeStyles({
   height: '100%',
   width: '100%',
   maxHeight: '100%',
-  overflow: 'auto',
+  overflow: 'auto'
 });
 
 const noReadReceiptStyle = mergeStyles({
-  width: '1rem',
+  width: '1rem'
 });
 
 const chatStyle: ComponentSlotStyle = {
   backgroundColor: 'white',
   border: 'none',
-  overflow: 'auto',
+  overflow: 'auto'
 };
 
 const chatMessageStyle = (mine: boolean): ComponentSlotStyle => ({
   backgroundColor: mine ? 'rgba(42, 161,255, 0.25)' : 'rgba(243,242,241)',
+  overflowY: 'hidden'
 });
 
 const readReceiptIconStyle = (mine: boolean) =>
   mergeStyles({
-    marginLeft: mine ? '1rem' : '0rem',
+    marginLeft: mine ? '1rem' : '0rem'
   });
 
 const newMessageButtonStyle = mergeStyles({
   float: 'right',
-  width: 'fit-content',
+  width: 'fit-content'
 });
 
 const loadMoreMessageButtonStyle = mergeStyles({
-  minHeight: '1.5rem',
+  minHeight: '1.5rem'
 });
 
 const DownIconStyle = mergeStyles({
-  marginRight: '0.5em',
+  marginRight: '0.5em'
 });
 
 export {
@@ -65,5 +66,5 @@ export {
   chatStyle,
   newMessageButtonStyle,
   loadMoreMessageButtonStyle,
-  DownIconStyle,
+  DownIconStyle
 };

@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.SpaServices.ReactDevelopmentServer;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
 
 namespace Calling
 {
@@ -25,11 +26,10 @@ namespace Calling
             // Allow CORS as our client may be hosted on a different domain.
             services.AddCors(options =>
             {
-                options.AddPolicy(AllowAnyOrigin,
-                    builder =>
-                    {
-                        builder.AllowAnyOrigin().AllowCredentials().AllowAnyMethod().AllowAnyHeader();
-                    });
+                options.AddPolicy("CorsPolicy",
+                    builder => builder.AllowAnyOrigin()
+                .AllowAnyMethod()
+                .AllowAnyHeader());
             });
 
             services.AddMvc(options => options.EnableEndpointRouting = false);
@@ -44,12 +44,12 @@ namespace Calling
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        public void Configure(IApplicationBuilder app, IHostEnvironment env)
         {
             app.UseStaticFiles();
             app.UseSpaStaticFiles();
 
-            app.UseCors(AllowAnyOrigin);
+            app.UseCors("CorsPolicy");
             app.UseMvc();
 
             app.UseSpa(spa =>

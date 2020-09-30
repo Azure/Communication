@@ -12,6 +12,7 @@ import {
   sendBoxStyle,
   sendIconStyle,
   textFieldStyle,
+  TextFieldStyleProps
 } from './styles/SendBox.styles';
 import { User } from '../core/reducers/ContosoClientReducers';
 import ChatSystemMessage from '../containers/ChatSystemMessage';
@@ -77,6 +78,7 @@ export default (props: SendboxProps): JSX.Element => {
               setLastSentTypingNotificationDate
             );
           }}
+          styles={TextFieldStyleProps}
         />
         <SendIcon
           outline

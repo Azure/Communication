@@ -48,22 +48,35 @@ export const inputBoxStyle = mergeStyles({
   boxSizing: 'border-box',
   height: '2.5rem',
   width: '18.75rem',
-  border: '0.125rem solid #CCCCCC',
-  borderRadius: '0.188rem',
+  border: '1px solid #605e5c',
+  borderRadius: '2px',
   backgroundColor: '#FFFFFF'
 });
 
 export const inputBoxTextStyle = mergeStyles({
   fontSize: '0.875rem',
-  lineHeight: '1.5rem'
+  fontWeight: 600,
+  lineHeight: '1.5rem',
+  '::-webkit-input-placeholder': {
+    fontSize: '0.875rem',
+    fontWeight: 600
+  },
+  '::-moz-placeholder': {
+    fontSize: '0.875rem',
+    fontWeight: 600
+  },
+  ':-moz-placeholder': {
+    fontSize: '0.875rem',
+    fontWeight: 600
+  }
 });
 
 export const inputBoxWarningStyle = mergeStyles({
   boxSizing: 'border-box',
   height: '2.5rem',
   width: '18.75rem',
-  border: '0.125rem solid #e81123',
-  borderRadius: '0.188rem',
+  border: '1px solid #e81123',
+  borderRadius: '2px',
   backgroundColor: '#FFFFFF',
   fontSize: '0.875rem'
 });
