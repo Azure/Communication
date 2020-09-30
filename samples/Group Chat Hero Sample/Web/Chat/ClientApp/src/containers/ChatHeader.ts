@@ -10,9 +10,7 @@ import { removeThreadMemberByUserId } from '../core/sideEffects';
 const mapStateToProps = (state: State) => ({
   thread: state.thread.thread,
   userId: state.contosoClient.user.identity,
-  existsTopicName:
-    state.thread.thread &&
-    state.thread.thread.topic !== GUID_FOR_INITIAL_TOPIC_NAME,
+  existsTopicName: state.thread.thread && state.thread.thread.topic !== GUID_FOR_INITIAL_TOPIC_NAME,
   generateHeaderMessage: () => {
     let header = 'Chat with ';
 
@@ -22,8 +20,7 @@ const mapStateToProps = (state: State) => ({
     }
 
     let members = state.threadMembers.threadMembers.filter(
-      (member: ChatThreadMember) =>
-        member.user.communicationUserId !== state.contosoClient.user.identity
+      (member: ChatThreadMember) => member.user.communicationUserId !== state.contosoClient.user.identity
     );
     if (members.length === 0) {
       header += 'yourself';
@@ -33,9 +30,7 @@ const mapStateToProps = (state: State) => ({
     // if we have at least one other participant we want to show names for the first 3
     if (members.length > 0) {
       let namedMembers = members.slice(0, 3);
-      header += namedMembers
-        .map((member: ChatThreadMember) => member.displayName)
-        .join(', ');
+      header += namedMembers.map((member: ChatThreadMember) => member.displayName).join(', ');
     }
 
     // if we have more than 3 other participants we want to show the number of other participants
@@ -45,12 +40,11 @@ const mapStateToProps = (state: State) => ({
     }
 
     return header;
-  },
+  }
 });
 
 const mapDispatchToProps = (dispatch: any) => ({
-  removeThreadMemberByUserId: (userId: string) =>
-    dispatch(removeThreadMemberByUserId(userId)),
+  removeThreadMemberByUserId: (userId: string) => dispatch(removeThreadMemberByUserId(userId))
 });
 
 export default connect(mapStateToProps, mapDispatchToProps)(ChatHeader);

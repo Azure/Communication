@@ -17,8 +17,11 @@ interface DisplayNameFieldProps {
 }
 
 const TextFieldStyleProps = {
-  root: {
-    height: 'auto'
+  wrapper: {
+    height: '2.3rem'
+  },
+  fieldGroup: {
+    height: '2.3rem'
   }
 };
 

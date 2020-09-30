@@ -1,9 +1,4 @@
-import {
-  getTheme,
-  IIconProps,
-  IPivotStyles,
-  mergeStyles,
-} from '@fluentui/react';
+import { getTheme, IIconProps, IPivotStyles, mergeStyles } from '@fluentui/react';
 
 const chatHeaderContainerStyle = mergeStyles({
   width: '100%',
@@ -14,10 +9,10 @@ const chatHeaderContainerStyle = mergeStyles({
   selectors: {
     '@media (max-width: 65rem)': {
       paddingLeft: '5%',
-      paddingRight: '5%',
-    },
+      paddingRight: '5%'
+    }
   },
-  borderBottom: '0.063rem solid #DDDDDD',
+  borderBottom: '0.063rem solid #DDDDDD'
 });
 
 const topicNameContainerStyle = mergeStyles({
@@ -25,7 +20,7 @@ const topicNameContainerStyle = mergeStyles({
   maxWidth: '100%',
   display: 'flex',
   alignItems: 'center',
-  marginLeft: '0.625rem',
+  marginLeft: '0.625rem'
 });
 
 const topicNameLabelStyle = mergeStyles({
@@ -35,6 +30,7 @@ const topicNameLabelStyle = mergeStyles({
   marginRight: '0.125rem',
   width: '31.25rem',
   wordBreak: 'break-all',
+  overflowY: 'hidden'
 });
 
 const topicNameEditTextStyle1 = mergeStyles({
@@ -42,13 +38,13 @@ const topicNameEditTextStyle1 = mergeStyles({
   fontSize: '1rem', // 16px
   fontWeight: 600,
   width: '100%',
-  height: '100%',
+  height: '100%'
 });
 
 const leaveButtonContainerStyle = mergeStyles({
   height: '100%',
   display: 'flex',
-  alignItems: 'center',
+  alignItems: 'center'
 });
 
 const leaveButtonStyle = mergeStyles({
@@ -58,24 +54,24 @@ const leaveButtonStyle = mergeStyles({
   borderColor: '#CCCCCC',
   color: '#323130',
   fontSize: '0.875rem', // 14px
-  fontWeight: 600,
+  fontWeight: 600
 });
 
 const greyIconButtonStyle = mergeStyles({
   color: '#323130',
-  marginRight: '0.5rem',
+  marginRight: '0.5rem'
 });
 
 const editIcon: IIconProps = {
-  iconName: 'Edit',
+  iconName: 'Edit'
 };
 
 const leaveIcon: IIconProps = {
-  iconName: 'Leave',
+  iconName: 'Leave'
 };
 
 const pivotItemStyle = mergeStyles({
-  padding: '0px 13px',
+  padding: '0px 13px'
 });
 
 const palette = getTheme().palette;
@@ -86,8 +82,8 @@ const pivotItemStyles: Partial<IPivotStyles> = {
     height: '100%',
     color: palette.themePrimary,
     selectors: {
-      ':hover': { color: palette.themePrimary },
-    },
+      ':hover': { color: palette.themePrimary }
+    }
   },
   link: { padding: 0, marginRight: 0, height: 60 },
   root: {
@@ -95,26 +91,26 @@ const pivotItemStyles: Partial<IPivotStyles> = {
     height: 60,
     marginRight: '0.5rem',
     display: 'inline-block',
-    verticalAlign: 'top',
-  },
+    verticalAlign: 'top'
+  }
 };
 
 const iconButtonContainerStyle = mergeStyles({
   whiteSpace: 'nowrap',
   selectors: {
     '@media (min-width: 50rem)': {
-      display: 'none',
-    },
-  },
+      display: 'none'
+    }
+  }
 });
 
 const largeButtonContainerStyle = mergeStyles({
   whiteSpace: 'nowrap',
   selectors: {
     '@media (max-width: 50rem)': {
-      display: 'none',
-    },
-  },
+      display: 'none'
+    }
+  }
 });
 
 export {
@@ -130,5 +126,5 @@ export {
   pivotItemStyle,
   pivotItemStyles,
   iconButtonContainerStyle,
-  largeButtonContainerStyle,
+  largeButtonContainerStyle
 };

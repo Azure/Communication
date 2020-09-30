@@ -1,6 +1,6 @@
 // © Microsoft Corporation. All rights reserved.
 import React, { useState, useEffect } from 'react';
-import { Label, Stack } from '@fluentui/react';
+import { Label, Overlay, Stack } from '@fluentui/react';
 import Header from '../containers/Header';
 import MediaGallery from '../containers/MediaGallery';
 import MediaFullScreen from './MediaFullScreen';
@@ -12,7 +12,8 @@ import {
   paneStyles,
   hiddenContainerClassName,
   activeContainerClassName,
-  loadingStyle
+  loadingStyle,
+  overlayStyles
 } from './styles/GroupCall.styles';
 import {
   Call,
@@ -85,9 +86,14 @@ export default (props: GroupCallProps): JSX.Element => {
                 <MediaGallery />
               </Stack.Item>
               {selectedPane !== CommandPanelTypes.None && (
+                  window.innerWidth > Constants.MINI_HEADER_WINDOW_WIDTH ?
                 <Stack.Item disableShrink styles={paneStyles}>
                   <CommandPanel {...props} selectedPane={selectedPane} setSelectedPane={setSelectedPane} />
                 </Stack.Item>
+                :
+                <Overlay styles={overlayStyles}>
+                    <CommandPanel {...props} selectedPane={selectedPane} setSelectedPane={setSelectedPane} />
+                </Overlay>
               )}
             </Stack>
           )

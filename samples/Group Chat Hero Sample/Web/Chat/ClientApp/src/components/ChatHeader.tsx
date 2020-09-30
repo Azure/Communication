@@ -72,11 +72,11 @@ export default (props: ChatHeaderProps): JSX.Element => {
       horizontalAlign="space-between"
     >
       <Stack.Item align="center">
-        <label className={topicNameLabelStyle}>
+        <div className={topicNameLabelStyle}>
           {props.existsTopicName
             ? props.thread.topic
             : props.generateHeaderMessage()}
-        </label>
+        </div>
       </Stack.Item>
       <Stack.Item align="center">
         <Stack horizontal={true}>

@@ -5,7 +5,7 @@ import {
   SET_MESSAGES,
   SET_TYPING_NOTIFICATIONS,
   SET_TYPING_USERS,
-  SET_FAILED_MESSAGES,
+  SET_FAILED_MESSAGES
 } from '../actions/MessagesAction';
 
 export interface ChatMessageWithClientMessageId extends ChatMessage {
@@ -23,36 +23,33 @@ const initMessagesState: MessagesState = {
   messages: [],
   typingNotifications: {},
   typingUsers: [],
-  failedMessages: [],
+  failedMessages: []
 };
 
-export const MessagesReducer = (
-  state = initMessagesState,
-  action: MessagesActionTypes
-) => {
+export const MessagesReducer = (state = initMessagesState, action: MessagesActionTypes) => {
   switch (action.type) {
     case SET_MESSAGES:
       return {
         ...state,
-        messages: [...action.messages],
+        messages: [...action.messages]
       };
     case SET_TYPING_NOTIFICATIONS:
       return {
         ...state,
         typingNotifications: {
           ...state.typingNotifications,
-          [action.id]: action.typingNotification,
-        },
+          [action.id]: action.typingNotification
+        }
       };
     case SET_TYPING_USERS:
       return {
         ...state,
-        typingUsers: [...action.typingUsers],
+        typingUsers: [...action.typingUsers]
       };
     case SET_FAILED_MESSAGES:
       return {
         ...state,
-        failedMessages: [...action.failedMessages],
+        failedMessages: [...action.failedMessages]
       };
     default:
       return state;

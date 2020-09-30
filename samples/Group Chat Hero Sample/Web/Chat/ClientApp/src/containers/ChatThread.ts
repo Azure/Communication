@@ -17,8 +17,7 @@ const mapStateToProps = (state: State) => ({
     for (var i = 0; i < messages.length; i++) {
       let date: any = messages[i].createdOn;
       if (
-        messages[i].sender.communicationUserId ===
-          state.contosoClient.user.identity &&
+        messages[i].sender.communicationUserId === state.contosoClient.user.identity &&
         messages[i] &&
         new Date(date) >= new Date(latestArrivalTime)
       ) {
@@ -38,38 +37,25 @@ const mapStateToProps = (state: State) => ({
     return state.threadMembers.threadMembers.length >= PARTICIPANTS_THRESHOLD;
   },
   isMessageSeen: (clientMessageId: string, messages: any[]) => {
-    if (
-      !state.conversations.receipts ||
-      state.conversations.receipts.length === 0
-    ) {
+    if (!state.conversations.receipts || state.conversations.receipts.length === 0) {
       return false;
     }
 
-    let message = messages.find(
-      (message) => message.clientMessageId === clientMessageId
-    );
+    let message = messages.find((message) => message.clientMessageId === clientMessageId);
     let latestArrivalTime: any = message ? message.createdOn : -1;
 
     var numSeen = state.conversations.receipts.filter((receipt) => {
-      if (
-        (receipt.sender?.communicationUserId as string) ===
-        state.contosoClient.user.identity
-      ) {
+      if ((receipt.sender?.communicationUserId as string) === state.contosoClient.user.identity) {
         //don't count sender's own read receipt
         return false;
       }
-      let readMessagecreatedOn = messages.find(
-        (message) => message.id === receipt.chatMessageId
-      )?.createdOn;
+      let readMessagecreatedOn = messages.find((message) => message.id === receipt.chatMessageId)?.createdOn;
       return new Date(readMessagecreatedOn) >= new Date(latestArrivalTime);
     }).length;
 
     return numSeen > 0 ? true : false;
   },
-  isYourLatestSeenMessage: (
-    clientMessageId: string,
-    MessagesWithSeen: any[]
-  ) => {
+  isYourLatestSeenMessage: (clientMessageId: string, MessagesWithSeen: any[]) => {
     let latestArrivalTime: any = -1;
     let latestMessageId: string | undefined = undefined;
 
@@ -77,8 +63,7 @@ const mapStateToProps = (state: State) => ({
       let date: any = MessagesWithSeen[i].createdOn;
       if (
         MessagesWithSeen[i].isSeen &&
-        MessagesWithSeen[i].sender.communicationUserId ===
-          state.contosoClient.user.identity &&
+        MessagesWithSeen[i].sender.communicationUserId === state.contosoClient.user.identity &&
         MessagesWithSeen[i] &&
         new Date(date) >= new Date(latestArrivalTime)
       ) {
@@ -92,7 +77,7 @@ const mapStateToProps = (state: State) => ({
     }
 
     return true;
-  },
+  }
 });
 
 const mapDispatchToProps = (dispatch: any) => ({
@@ -107,10 +92,7 @@ const mapDispatchToProps = (dispatch: any) => ({
 
     for (var i = 0; i < messages.length; i++) {
       let date: any = messages[i].createdOn;
-      if (
-        messages[i].sender.communicationUserId !== userId &&
-        new Date(date) > new Date(latestArrivalTime)
-      ) {
+      if (messages[i].sender.communicationUserId !== userId && new Date(date) > new Date(latestArrivalTime)) {
         latestArrivalTime = messages[i].createdOn;
         latestMessageId = messages[i].id;
       }
@@ -118,7 +100,7 @@ const mapDispatchToProps = (dispatch: any) => ({
     if (latestMessageId) {
       dispatch(sendReadReceipt(latestMessageId));
     }
-  },
+  }
 });
 
 export default connect(mapStateToProps, mapDispatchToProps)(ChatThread);

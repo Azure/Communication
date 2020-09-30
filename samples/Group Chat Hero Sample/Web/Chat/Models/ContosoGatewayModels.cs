@@ -4,12 +4,10 @@ using System.Collections.Generic;
 
 namespace Chat
 {
-	public class ContosoMemberModel
+    public class ContosoMemberModel
     {
-        public string Id;
-        public string DisplayName;
-        public string MemberRole;
-        public string ShareHistoryTime;
+        public string Id { get; set; }
+        public string DisplayName { get; set; }
     }
 
     public class ContosoThreadMemberModelList

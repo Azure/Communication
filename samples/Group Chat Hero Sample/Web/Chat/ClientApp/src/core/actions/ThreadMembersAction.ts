@@ -24,32 +24,24 @@ export interface SetAddThreadMemberErrorAction {
   addThreadMemberError?: boolean;
 }
 
-export const setThreadMembers = (
-  threadMembers: ChatThreadMember[]
-): SetThreadMembersAction => ({
+export const setThreadMembers = (threadMembers: ChatThreadMember[]): SetThreadMembersAction => ({
   type: SET_THREAD_MEMBERS,
-  threadMembers,
+  threadMembers
 });
 
-export const setThreadMembersError = (
-  error: boolean
-): SetThreadMembersErrorAction => ({
+export const setThreadMembersError = (error: boolean): SetThreadMembersErrorAction => ({
   type: SET_THREAD_MEMBERS_ERROR,
-  error,
+  error
 });
 
-export const setRemoveThreadMemberError = (
-  removeThreadMemberError: boolean
-): SetRemoveThreadMemberErrorAction => ({
+export const setRemoveThreadMemberError = (removeThreadMemberError: boolean): SetRemoveThreadMemberErrorAction => ({
   type: SET_REMOVE_THREAD_MEMBER_ERROR,
-  removeThreadMemberError,
+  removeThreadMemberError
 });
 
-export const setAddThreadMemberError = (
-  addThreadMemberError: boolean | undefined
-): SetAddThreadMemberErrorAction => ({
+export const setAddThreadMemberError = (addThreadMemberError: boolean | undefined): SetAddThreadMemberErrorAction => ({
   type: SET_ADD_THREAD_MEMBER_ERROR,
-  addThreadMemberError,
+  addThreadMemberError
 });
 
 export type ThreadMembersActionTypes =

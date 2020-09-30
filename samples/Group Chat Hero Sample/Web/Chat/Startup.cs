@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.SpaServices.ReactDevelopmentServer;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
 using System;
 
 namespace Chat
@@ -22,20 +23,19 @@ namespace Chat
 
         public IServiceProvider ConfigureServices(IServiceCollection services)
         {
-            //services.AddSingleton<INexusStore>(new InMemoryNexusStore());
-            services.AddContosoServices(Configuration.GetSection("ContosoChat"));
+            services.AddSingleton<IUserTokenManager, UserTokenManager>();
+            services.AddSingleton<IChatAdminThreadStore, InMemoryChatAdminThreadStore>();
 
             // Allow CORS as our client may be hosted on a different domain.
             services.AddCors(options =>
             {
-                options.AddPolicy(AllowAnyOrigin,
-                    builder =>
-                    {
-                        builder.AllowAnyOrigin().AllowCredentials().AllowAnyMethod().AllowAnyHeader();
-                    });
+                options.AddPolicy("CorsPolicy",
+                    builder => builder.AllowAnyOrigin()
+                .AllowAnyMethod()
+                .AllowAnyHeader());
             });
 
-            services.AddMvc();
+            services.AddMvc(options => options.EnableEndpointRouting = false);
 
             // In production, the React files will be served from this directory
             services.AddSpaStaticFiles(configuration =>
@@ -47,12 +47,12 @@ namespace Chat
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        public void Configure(IApplicationBuilder app, IHostEnvironment env)
         {
             app.UseStaticFiles();
             app.UseSpaStaticFiles();
 
-            app.UseCors(AllowAnyOrigin);
+            app.UseCors("CorsPolicy");
             app.UseMvc();
 
             app.UseSpa(spa =>

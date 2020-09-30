@@ -78,6 +78,8 @@ export default (props: ConfigurationScreenProps): JSX.Element => {
             videoDeviceInfo={props.videoDeviceInfo}
             audioDeviceInfo={props.audioDeviceInfo}
             localVideoStream={props.localVideoStream}
+            videoDeviceList={props.videoDeviceList}
+            audioDeviceList={props.audioDeviceList}
           />
           <Stack className={localSettingsContainerStyle}>
             <DisplayNameField setName={setName} name={name} setEmptyWarning={setEmptyWarning} isEmpty={emptyWarning} />

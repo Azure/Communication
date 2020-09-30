@@ -5,7 +5,7 @@ using Azure.Communication;
 using Azure.Communication.Chat;
 using Azure.Communication.Identity;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Options;
+using Microsoft.Extensions.Configuration;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
@@ -19,16 +19,17 @@ namespace Chat
 	{
 		IUserTokenManager _userTokenManager;
 		IChatAdminThreadStore _store;
-		ContosoSettings _settings;
+		string _chatGatewayUrl;
+		string _resourceConnectionString;
 
-		const int NO_CONTENT = 204;
 		const string GUID_FOR_INITIAL_TOPIC_NAME = "c774da81-94d5-4652-85c7-6ed0e8dc67e6";
 
-		public ContosoHandshakeController(IChatAdminThreadStore store, IOptions<ContosoSettings> contosoSettings, IUserTokenManager userTokenManager)
+		public ContosoHandshakeController(IChatAdminThreadStore store, IUserTokenManager userTokenManager, IConfiguration chatConfiguration)
 		{
 			_store = store;
-			_settings = contosoSettings.Value;
 			_userTokenManager = userTokenManager;
+			_chatGatewayUrl = Utils.ExtractApiChatGatewayUrl(chatConfiguration["ResourceConnectionString"]);
+			_resourceConnectionString = chatConfiguration["ResourceConnectionString"];
 		}
 
 		/// <summary>
@@ -40,6 +41,17 @@ namespace Chat
 		public async Task<ContosoChatTokenModel> GenerateAdhocUser()
 		{
 			return await InternalGenerateAdhocUser();
+		}
+
+		/// <summary>
+		/// Get the environment url
+		/// </summary>
+		/// <returns></returns>
+		[Route("getEnvironmentUrl")]
+		[HttpGet]
+		public string GetEnvironmentUrl()
+		{
+			return _chatGatewayUrl;
 		}
 
 		/// <summary>
@@ -82,7 +94,7 @@ namespace Chat
             {
 				var moderator = _store.Store[threadId];
 				var userCredential = new CommunicationUserCredential(moderator.token);
-				ChatClient chatClient = new ChatClient(new Uri(_settings.ChatGatewayUrl), userCredential);
+				ChatClient chatClient = new ChatClient(new Uri(_chatGatewayUrl), userCredential);
 				ChatThread chatThread = chatClient.GetChatThread(threadId);
 				ChatThreadClient chatThreadClient = chatClient.GetChatThreadClient(threadId);
 
@@ -113,7 +125,7 @@ namespace Chat
 
 		private async Task<ContosoChatTokenModel> InternalGenerateAdhocUser()
 		{
-			var (userMri, token, expiresIn) = await _userTokenManager.GenerateTokenAsync(_settings.ResourceConnectionString);
+			var (userMri, token, expiresIn) = await _userTokenManager.GenerateTokenAsync(_resourceConnectionString);
 			ContosoChatTokenModel model = new ContosoChatTokenModel
 			{
 				identity = userMri,
@@ -127,7 +139,7 @@ namespace Chat
 		{
 			var moderator = await InternalGenerateAdhocUser();
 			var userCredential = new CommunicationUserCredential(moderator.token);
-			ChatClient chatClient = new ChatClient(new Uri(_settings.ChatGatewayUrl), userCredential);
+			ChatClient chatClient = new ChatClient(new Uri(_chatGatewayUrl), userCredential);
 			List<ChatThreadMember> chatThreadMembers = new List<ChatThreadMember>
 			{
 				new ChatThreadMember(new CommunicationUser(moderator.identity))

@@ -21,6 +21,7 @@ import {
   rightInputContainerStyle,
   smallAvatarContainerStyle,
   smallAvatarStyle,
+  startChatButtonTextStyle
 } from './styles/ConfigurationScreen.styles';
 import {
   CAT,
@@ -192,7 +193,7 @@ export default (props: ConfigurationScreenProps): JSX.Element => {
             <div>
               <PrimaryButton className={buttonStyle} onClick={validateName}>
                 <ChatIcon className={chatIconStyle} size="medium" />
-                Join chat
+                <div className={startChatButtonTextStyle}>Join chat</div>
               </PrimaryButton>
             </div>
           </Stack>

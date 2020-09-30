@@ -6,7 +6,7 @@ const memberItemContainerStyle = mergeStyles({
   marginTop: '0.125rem',
   marginBottom: '0.125rem',
   display: 'flex',
-  position: 'relative',
+  position: 'relative'
 });
 
 const memberItemNameStyle = mergeStyles({
@@ -15,6 +15,7 @@ const memberItemNameStyle = mergeStyles({
   marginTop: '0.3125rem',
   marginRight: '0.25rem',
   paddingLeft: '0.25rem',
+  overflowY: 'hidden'
 });
 
 const memberItemIsYouStyle = mergeStyles({
@@ -22,17 +23,12 @@ const memberItemIsYouStyle = mergeStyles({
   fontWeight: 400,
   color: '#A19F9D',
   marginTop: '0.3125rem',
-  marginLeft: '0.3125rem',
+  marginLeft: '0.3125rem'
 });
 
 const moreInforStyle = mergeStyles({
   position: 'absolute',
-  right: '1rem',
+  right: '1rem'
 });
 
-export {
-  memberItemContainerStyle,
-  memberItemNameStyle,
-  memberItemIsYouStyle,
-  moreInforStyle,
-};
+export { memberItemContainerStyle, memberItemNameStyle, memberItemIsYouStyle, moreInforStyle };

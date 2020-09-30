@@ -3,7 +3,7 @@ import { mergeStyles } from '@fluentui/react';
 const TypingIndicatorContainerStyle = mergeStyles({
   height: '2.125rem',
   display: 'flex',
-  alignItems: 'center',
+  alignItems: 'center'
 });
 
 const TypingIndicatorListStyle = mergeStyles({
@@ -11,7 +11,7 @@ const TypingIndicatorListStyle = mergeStyles({
   whiteSpace: 'nowrap',
   overflow: 'hidden',
   textOverflow: 'ellipsis',
-  paddingRight: '0.1875rem',
+  paddingRight: '0.1875rem'
 });
 
 const TypingIndicatorVerbStyle = mergeStyles({
@@ -19,11 +19,7 @@ const TypingIndicatorVerbStyle = mergeStyles({
   whiteSpace: 'nowrap',
   overflow: 'hidden',
   textOverflow: 'ellipsis',
-  paddingRight: '0.1875rem',
+  paddingRight: '0.1875rem'
 });
 
-export {
-  TypingIndicatorContainerStyle,
-  TypingIndicatorListStyle,
-  TypingIndicatorVerbStyle,
-};
+export { TypingIndicatorContainerStyle, TypingIndicatorListStyle, TypingIndicatorVerbStyle };
