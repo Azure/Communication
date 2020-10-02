@@ -21,7 +21,7 @@ namespace Chat
             Configuration = configuration;
         }
 
-        public IServiceProvider ConfigureServices(IServiceCollection services)
+        public void ConfigureServices(IServiceCollection services)
         {
             services.AddSingleton<IUserTokenManager, UserTokenManager>();
             services.AddSingleton<IChatAdminThreadStore, InMemoryChatAdminThreadStore>();
@@ -29,31 +29,40 @@ namespace Chat
             // Allow CORS as our client may be hosted on a different domain.
             services.AddCors(options =>
             {
-                options.AddPolicy("CorsPolicy",
-                    builder => builder.AllowAnyOrigin()
-                .AllowAnyMethod()
-                .AllowAnyHeader());
+                options.AddPolicy(AllowAnyOrigin, builder =>
+                {
+                    builder.SetIsOriginAllowed(origin => true);
+                    builder.AllowAnyMethod();
+                    builder.AllowAnyHeader();
+                    builder.AllowCredentials();
+                });
             });
 
-            services.AddMvc(options => options.EnableEndpointRouting = false);
+            services.AddControllers();
 
             // In production, the React files will be served from this directory
             services.AddSpaStaticFiles(configuration =>
             {
                 configuration.RootPath = "ClientApp/build";
             });
-
-            return services.BuildServiceProvider();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             app.UseStaticFiles();
             app.UseSpaStaticFiles();
 
             app.UseCors("CorsPolicy");
-            app.UseMvc();
+
+            app.UseRouting();
+
+            app.UseCors(AllowAnyOrigin);
+
+            app.UseEndpoints(endpoints =>
+            {
+                endpoints.MapControllers();
+            });
 
             app.UseSpa(spa =>
             {

@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Chat
 {
+	[ApiController]
 	public class ContosoApplicationController
 	{
 		IChatAdminThreadStore _store;
@@ -21,7 +22,7 @@ namespace Chat
 		/// <returns>200 if successful and </returns>
 		[Route("userConfig/{userId}")]
 		[HttpPost]
-		public string SetUserConfiguration(string userId, [FromBody] ContosoUserConfigModel userConfig)
+		public string SetUserConfiguration(string userId, ContosoUserConfigModel userConfig)
 		{
 			_store.UseConfigStore[userId] = userConfig;
 			return userId;
