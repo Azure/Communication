@@ -3,7 +3,6 @@ This repo collates client libraries (SDKs), release notes, and samples for devel
 
 - **SDKs** - Download client libraries
 - **Release Notes** - Find [collated release notes](https://github.com/Azure/Communication/tree/master/releasenotes) for the service and SDKs
-- **Samples** - Download samples
 - **Help** - Ask questions, file issues, or request features
 
 ## Latest Release Notes 
@@ -36,8 +35,8 @@ Several samples are available in this repo.
 **Application Samples**
 These are designed JavaScript-based web applications implemented using [Microsoft's Fluent design language and components. They function in both mobile and desktop browser settings.
 
-- [Chat Hero Sample](..samples/../samples/Group%20Chat%20Hero%20Sample/Web/Chat) - Demonstrates rich text chat
-- [Calling Hero Sample](..samples/../samples/Group%20Calling%20Hero%20Sample/Web/Calling) - Demonstrates voice and video calling
+- [Chat Hero Sample](https://github.com/Azure-Samples/communication-services-web-chat-hero) - Demonstrates rich text chat
+- [Calling Hero Sample](https://github.com/Azure-Samples/communication-services-web-calling-hero) - Demonstrates voice and video calling
 
 ## Help
 
