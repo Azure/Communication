@@ -38,6 +38,15 @@ These are designed JavaScript-based web applications implemented using [Microsof
 - [Chat Hero Sample](https://github.com/Azure-Samples/communication-services-web-chat-hero) - Demonstrates rich text chat
 - [Calling Hero Sample](https://github.com/Azure-Samples/communication-services-web-calling-hero) - Demonstrates voice and video calling
 
+**Quickstart Samples**
+Access code samples for quickstarts found [Azure Docs](https://docs.microsoft.com/en-us/azure/communication-services/) for Azure Communication Services
+ 
+ - [JavaScript](https://github.com/Azure-Samples/communication-services-javascript-quickstarts/)
+ - [.Net](https://github.com/Azure-Samples/communication-services-dotnet-quickstarts/)
+ - [iOS](https://github.com/Azure-Samples/communication-services-ios-quickstarts/)
+ - [Android](https://github.com/Azure-Samples/communication-services-android-quickstarts/)
+ - [Python](https://github.com/Azure-Samples/communication-services-python-quickstarts/)
+
 ## Help
 
 We encourage developers to submit questions, suggest features, and report problems as issues in this repo. Other forums include:
