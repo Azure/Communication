@@ -40,4 +40,18 @@ Added phone number administration to purchase and configure phone numbers. For m
 Add chat to your Android application. This initial release of the SDK allows creation of chat to send & receive messages, edit/delete messages, add/remove members from a chat and more. Real-time channel functionality will be available in future releases. For details, see [README](https://github.com/Azure/azure-sdk-for-android/blob/master/sdk/communication/azure-communication-chat/README.md).    
 
 ## iOS Chat SDK
-Add chat to your iOS application. This initial release of the SDK allows creation of chat to send & receive messages, edit/delete messages, add/remove members from a chat and more. Real-time channel functionality will be available in future releases. For details, see [README](https://github.com/Azure/azure-sdk-for-ios/blob/master/sdk/communication/AzureCommunicationChat/README.md).   
+Add chat to your iOS application. This initial release of the SDK allows creation of chat to send & receive messages, edit/delete messages, add/remove members from a chat and more. Real-time channel functionality will be available in future releases. For details, see [README](https://github.com/Azure/azure-sdk-for-ios/blob/master/sdk/communication/AzureCommunicationChat/README.md).
+
+## Android Calling SDK - Version 1.0.0-beta.2
+
+* **[Fix]** Fix handing of invalid Push Notification tokens
+* **[Fix]** IsMutedUpdated\IsSpeakingUpdated events are now available
+* **[Fix]** Fix but where getCallerIdentity method on CallAgent did not return caller's identifier
+
+## iOS Calling SDK - Version [1.0.0-beta.4](https://github.com/Azure/Communication/releases/tag/v1.0.0-beta.4)
+
+* **[Fix]** IsMutedUpdated\IsSpeakingUpdated events are now available
+* **[Fix]** Fix bug where group call cannot be started in mute state
+* **[Fix]** Removed dependency on quicklookthumbnailing and iosurface frameworks
+* **[Fix]** Fix but where getCallerIdentity method on CallAgent did not return caller's identifier
+
