@@ -50,7 +50,7 @@ Access code samples for quickstarts found [Azure Docs](https://docs.microsoft.co
  **Tutorials**
  Advanced code samples for Azrue Communication Services
  
- -[Web Calling Tutorial](https://github.com/Azure-Samples/communication-services-web-calling-tutorial)
+ - [Web Calling Tutorial](https://github.com/Azure-Samples/communication-services-web-calling-tutorial)
 
 ## Help
 
