@@ -46,12 +46,12 @@ Add chat to your iOS application. This initial release of the SDK allows creatio
 
 * **[Fix]** Fix handing of invalid Push Notification tokens
 * **[Fix]** IsMutedUpdated\IsSpeakingUpdated events are now available
-* **[Fix]** Fix but where getCallerIdentity method on CallAgent did not return caller's identifier
+* **[Fix]** Fix bug where getCallerIdentity method on CallAgent did not return caller's identifier
 
 ## iOS Calling SDK - Version [1.0.0-beta.4](https://github.com/Azure/Communication/releases/tag/v1.0.0-beta.4)
 
 * **[Fix]** IsMutedUpdated\IsSpeakingUpdated events are now available
 * **[Fix]** Fix bug where group call cannot be started in mute state
 * **[Fix]** Removed dependency on quicklookthumbnailing and iosurface frameworks
-* **[Fix]** Fix but where getCallerIdentity method on CallAgent did not return caller's identifier
+* **[Fix]** Fix bug where getCallerIdentity method on CallAgent did not return caller's identifier
 
