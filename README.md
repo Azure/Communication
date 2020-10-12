@@ -5,11 +5,6 @@ This repo collates client libraries (SDKs), release notes, and samples for devel
 - **Release Notes** - Find [collated release notes](https://github.com/Azure/Communication/tree/master/releasenotes) for the service and SDKs
 - **Help** - Ask questions, file issues, or request features
 
-## Major Incident – Started October 12, 2020 - 4:00PM Pacific Standard Time
-Azure Communication Service applications may see errors in Calling, Chat, and SMS scenarios due to an underlying service issue. We are working on a mitigation by routing traffic to alternate infrastructure. Updates will be posted here.
-
-When the service becomes generally available updates will be posted to https://status.azure.com/ as is standard for Azure services.
-
 ## Latest Release Notes 
 - [10/06/2020](./releasenotes/2020-October-06.md)
 - [09/22/2020](./releasenotes/2020-September-22.md)
