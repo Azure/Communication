@@ -3,7 +3,7 @@ import ConfigurationScreen, { ConfigurationScreenProps } from '../components/Con
 import { setGroup } from '../core/actions/calls';
 import { setUserId } from '../core/actions/sdk';
 import { setVideoDeviceInfo, setAudioDeviceInfo } from '../core/actions/devices';
-import { initCallClient, updateDevices } from '../core/sideEffects';
+import { joinGroup, initCallClient, updateDevices } from '../core/sideEffects';
 import { setMic } from '../core/actions/controls';
 import { State } from '../core/reducers';
 import { AudioDeviceInfo, VideoDeviceInfo, LocalVideoStream } from '@azure/communication-calling';
@@ -22,7 +22,19 @@ const mapStateToProps = (state: State, props: ConfigurationScreenProps) => ({
   videoDeviceList: state.devices.videoDeviceList,
   audioDeviceList: state.devices.audioDeviceList,
   cameraPermission: state.devices.cameraPermission,
-  microphonePermission: state.devices.microphonePermission
+  microphonePermission: state.devices.microphonePermission,
+  joinGroup: () => {
+    state.calls.callAgent &&
+      joinGroup(
+        state.calls.callAgent,
+        {
+          groupId: state.calls.group
+        },
+        {
+          audioOptions: { muted: !state.controls.mic }
+        }
+      );
+  }
 });
 
 const mapDispatchToProps = (dispatch: any) => ({

@@ -5,7 +5,7 @@ import { createStore, applyMiddleware } from 'redux';
 import { Provider } from 'react-redux';
 import { reducer } from './core/reducers';
 import thunk from 'redux-thunk';
-import EndCall from './components/EndCall';
+import EndCall from './containers/EndCall';
 import HomeScreen from './components/HomeScreen';
 import ConfigurationScreen from './containers/Configuration';
 import { v1 as createGUID } from 'uuid';
