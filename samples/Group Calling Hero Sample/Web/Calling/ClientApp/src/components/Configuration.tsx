@@ -31,6 +31,7 @@ export interface ConfigurationScreenProps {
   setUserId(userId: string): void;
   initCallClient(userId: string, unsupportedStateHandler: () => void, endCallhandler: () => void): void;
   setGroup(groupId: string): void;
+  joinGroup(): void;
   startCallHandler(): void;
   unsupportedStateHandler: () => void;
   endCallHandler: () => void;
@@ -104,6 +105,8 @@ export default (props: ConfigurationScreenProps): JSX.Element => {
                     props.setUserId(name);
                     props.callAgent.updateDisplayName(name);
                     props.startCallHandler();
+                    props.joinGroup();
+                    document.title = `${groupId} group call sample`;
                   }
                 }}
               >

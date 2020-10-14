@@ -1,6 +1,6 @@
 import { connect } from 'react-redux';
 import GroupCall, { GroupCallProps } from '../components/GroupCall';
-import { joinGroup, setMicrophone } from '../core/sideEffects';
+import { setMicrophone } from '../core/sideEffects';
 import { setLocalVideoStream } from '../core/actions/streams';
 import { setVideoDeviceInfo, setAudioDeviceInfo } from '../core/actions/devices';
 import { AudioDeviceInfo, VideoDeviceInfo, LocalVideoStream } from '@azure/communication-calling';
@@ -16,18 +16,6 @@ const mapStateToProps = (state: State, props: GroupCallProps) => ({
   mic: state.controls.mic,
   groupCallEndReason: state.calls.groupCallEndReason,
   isGroup: () => state.calls.call && !state.calls.call.isIncoming && !!state.calls.group,
-  joinGroup: () => {
-    state.calls.callAgent &&
-      joinGroup(
-        state.calls.callAgent,
-        {
-          groupId: state.calls.group
-        },
-        {
-          audioOptions: { muted: !state.controls.mic }
-        }
-      );
-  },
   remoteParticipants: state.calls.remoteParticipants,
   streams: state.streams.streams,
   callState: state.calls.callState,

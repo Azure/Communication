@@ -1,5 +1,5 @@
 // © Microsoft Corporation. All rights reserved.
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { Label, Overlay, Stack } from '@fluentui/react';
 import Header from '../containers/Header';
 import MediaGallery from '../containers/MediaGallery';
@@ -55,15 +55,6 @@ export interface GroupCallProps {
 export default (props: GroupCallProps): JSX.Element => {
   const [selectedPane, setSelectedPane] = useState(CommandPanelTypes.None);
   const activeScreenShare = props.screenShareStreams && props.screenShareStreams.length === 1;
-
-  const { callAgent, call, groupId, joinGroup } = props;
-
-  useEffect(() => {
-    if (callAgent && !call) {
-      joinGroup();
-      document.title = `${groupId} group call sample`;
-    }
-  }, [callAgent, call, groupId, joinGroup]);
 
   return (
     <Stack horizontalAlign="center" verticalAlign="center" styles={containerStyles}>

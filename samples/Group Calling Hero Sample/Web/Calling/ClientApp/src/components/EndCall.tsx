@@ -14,6 +14,7 @@ import {
 } from './styles/EndCall.styles';
 
 export interface EndCallProps {
+  joinGroup(): void;
   rejoinHandler(): void;
   homeHandler(): void;
 }
@@ -28,7 +29,7 @@ export default (props: EndCallProps): JSX.Element => {
       <Stack tokens={upperStackTokens}>
         <div className={endCallTitleStyle}>{leftCall}</div>
         <Stack horizontal tokens={buttonsStackTokens}>
-          <PrimaryButton className={buttonStyle} onClick={props.rejoinHandler}>
+          <PrimaryButton className={buttonStyle} onClick={() => { props.joinGroup(); props.rejoinHandler()}}>
             <VideoCameraEmphasisIcon className={videoCameraIconStyle} size="medium" />
             {rejoinCall}
           </PrimaryButton>
