@@ -29,7 +29,7 @@ This is the initial release of Azure Communication Services for public preview. 
 
 
 ### Onboarding
-The SDK is packaged as FAT SDK artifact with all ABIs (arm64-v8a, x86_64) supported on the Android platform.
+The SDK is packaged as FAT SDK artifact with ABIs (arm64-v8a, x86_64) supported on the Android platform.
 <br/>Please refer to the [Microsoft docs](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/getting-started-with-calling?pivots=platform-android) of how to bootstrap a Calling sample application on android.
 
 ### Limitations
