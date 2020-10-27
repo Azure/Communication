@@ -1,13 +1,16 @@
 # Azure Communication Services
-This repo collates client libraries (SDKs), release notes, and samples for developers using [Azure Communication Services](https://azure.microsoft.com/en-us/services/communication-services/). For quickstarts and other technical documentation please see [docs.microsoft.com](https://docs.microsoft.com/azure/communication-services/overview).
+This repo collates client libraries (SDKs), roadmap information, release notes, and samples for developers using [Azure Communication Services](https://azure.microsoft.com/en-us/services/communication-services/). For quickstarts and other technical documentation please see [docs.microsoft.com](https://docs.microsoft.com/azure/communication-services/overview).
 
 - **SDKs** - Download client libraries
 - **Release Notes** - Find [collated release notes](https://github.com/Azure/Communication/tree/master/releasenotes) for the service and SDKs
 - **Help** - Ask questions, file issues, or request features
 
+## Roadmap
+[Our roadmap](roadmap.md) communicates priorities for evolving and extending the scope of Azure Communication Services. It will continue to evolve based on market changes and customer feedback, so please note that the plans outlined here are not exhaustive or guaranteed. We welcome your feedback on the roadmap: please feel free to contribute to existing issues or file a new issue.
+
 ## Latest Release Notes 
-- [10/06/2020](./releasenotes/2020-October-06.md)
-- [09/22/2020](./releasenotes/2020-September-22.md)
+- [10/06/2020](./releasenotes/2020-October-06.md). Adds SMS and PSTN functionality. Initial release of iOS and Android Chat SDKs.
+- [09/22/2020](./releasenotes/2020-September-22.md). Initial release of Azure Communication Services, includes SDKs for Resource Management (ARM), Calling and Chat.
 
 ## SDKs
 
@@ -15,7 +18,6 @@ Azure Communication Services capabilities are conceptually organized into six ar
 - **REST-based SDKs:** ARM, Common, Administration, Chat, and SMS, are entirely or partially open-source and published through centralized Azure repos and channels linked below. 
 - **REST APIs** are documented in the [Azure REST API repo](https://github.com/Azure/azure-rest-api-specs) and can be used directly over the Internet. 
 - **Calling SDKs** linked below and published through a variety of channels.
-
 
 ### Package Links
 
