@@ -2,11 +2,12 @@
 This repo collates client libraries (SDKs), roadmap information, release notes, and samples for developers using [Azure Communication Services](https://azure.microsoft.com/en-us/services/communication-services/). For quickstarts and other technical documentation please see [docs.microsoft.com](https://docs.microsoft.com/azure/communication-services/overview).
 
 - **SDKs** - Download client libraries
+- **Roadmap** - Review priorities for current and future service development
 - **Release Notes** - Find [collated release notes](https://github.com/Azure/Communication/tree/master/releasenotes) for the service and SDKs
 - **Help** - Ask questions, file issues, or request features
 
 ## Roadmap
-[Our roadmap](roadmap.md) communicates priorities for evolving and extending the scope of Azure Communication Services. It will continue to evolve based on market changes and customer feedback, so please note that the plans outlined here are not exhaustive or guaranteed. We welcome your feedback on the roadmap: please feel free to contribute to existing issues or file a new issue.
+[Our roadmap](roadmap.md) communicates features currently in development (private preview) and on-going priorities for extending the scope of Azure Communication Services. It will continue to evolve based on market changes and customer feedback, so please note that the plans outlined here are not exhaustive or guaranteed. We welcome your feedback on the roadmap: please feel free to contribute to existing issues or file a new issue.
 
 ## Latest Release Notes 
 - [10/06/2020](./releasenotes/2020-October-06.md). Adds SMS and PSTN functionality. Initial release of iOS and Android Chat SDKs.
