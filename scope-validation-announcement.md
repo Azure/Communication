@@ -6,6 +6,6 @@ Currently developers are **allowed but not required** to request the scopes for 
 
 Starting 9:00AM November 3, 2020, Seattle time, we will start deploying a service update to enforce the presence of 'voip' scope for voip and pstn calls. That means if you have a token with chat only scope you will not be able to make a call.
 
-We will monitor telemetry to find affected customers and are reaching out to customers who might experience issues. However, we highly encourage everyone to pro-actively review your token management flows and ensure you are correctly requesting necessary scopes.
+We will be reaching out to customers who might experience call failures due to start of 'voip' scope enforcement. However, we highly encourage everyone to pro-actively review your token management flows and ensure you are correctly requesting necessary scopes.
 
 Please any urgent escalation send to [acsfeedback@microsoft.com](mailto:acsfeedback@microsoft.com) or file an issue in this repo.
