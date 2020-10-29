@@ -1,8 +1,8 @@
 # Breaking Change - November 3, 2020
 
-### We are keep improving our service! But we cahnges affect you , please read this.
+### We are keep improving our service! But we changes affect you , please read this.
 
-Currently developers are **allowed but not required** to request the scopes for the tokens. Please refer here for the [Access Token scopes](https://docs.microsoft.com/azure/communication-services/quickstarts/access-tokens?pivots=programming-language-javascript). However we have not enforced the VoIP and PSTN scopes. Meaning you could make a call with  a chat only scope in your token.
+Currently developers are **allowed but not required** to request the scopes for the tokens. Please refer here for the [Access Token scopes](https://docs.microsoft.com/azure/communication-services/quickstarts/access-tokens?pivots=programming-language-javascript). However we have not enforced the VoIP and PSTN scopes. Meaning you could make a VoIP call with  a chat only scope in your token.
 
 Starting 9:00AM November 3, 2020, Seattle time, we will start deploying a service update to enforce scopes. That means if you have a token with chat only scope you will not be able to make a call.
 
