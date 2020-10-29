@@ -8,4 +8,4 @@ Starting 9:00AM November 3, 2020, Seattle time, we will start deploying a servic
 
 We will be reaching out to customers who might experience call failures due to start of 'voip' scope enforcement. However, we highly encourage everyone to pro-actively review your token management flows and ensure you are correctly requesting necessary scopes.
 
-Please any urgent escalation send to [acsfeedback@microsoft.com](mailto:acsfeedback@microsoft.com) or file an issue in this repo.
+Please direct any urgent escalation to [acsfeedback@microsoft.com](mailto:acsfeedback@microsoft.com) or file an issue in this repo.
