@@ -52,7 +52,7 @@ Access code samples for quickstarts found [Azure Docs](https://docs.microsoft.co
  - [Python](https://github.com/Azure-Samples/communication-services-python-quickstarts/)
  
  **Tutorials**
- Advanced code samples for Azrue Communication Services
+ Advanced code samples for Azure Communication Services
  
  - [Web Calling Tutorial](https://github.com/Azure-Samples/communication-services-web-calling-tutorial)
 
