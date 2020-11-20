@@ -25,6 +25,7 @@ Among of the problem that we fixed:
 
 ## Android Calling SDK - Version 1.0.0-beta.3
 
+### Bug Fixes
 * **[Fix]** Call.hangup() method will return only after all necessary events are delivered to the app
 * **[Fix]** Call.hangup() now terminates call if the call is in Connecting or Ringing state
 * **[Fix]** Calling SDK was raising RemoteVideoStream removed event when app stopped rendering it. SDK now raises a follow-up RemoteVideoStream added event once the stream is ready to be rendered again.
