@@ -14,7 +14,7 @@ January - March 2021
 | Calling | Public Preview | [2093854](https://skype.visualstudio.com/SPOOL/_workitems/edit/2093854) |.NET client library for Calling              |
 | Calling | Public Preview | |.NET Service client library for Calling              |
 | Calling | Public Preview |[2199893](https://skype.visualstudio.com/SPOOL/_backlogs/backlog/SPOOL%20Team/Features/?workitem=2199893) |[Anonymous interoperability with Microsoft Teams](https://docs.microsoft.com/azure/communication-services/concepts/voice-video-calling/teams-interop)   |
-| PSTN    | Public Preview | |SIP Interface: connect your own telephony provider or interconnect with the third-party telco equipment |
+| PSTN    | Private Preview | |SIP Interface: connect your own telephony provider or interconnect with the third-party telco equipment |
 | PSTN    | Public Preview |[2215713](https://skype.visualstudio.com/SPOOL/_backlogs/backlog/SPOOL%20Team/Features/?workitem=2215713)  |Access Telephony services in Canada |
 | SMS     | Public Preview |  [2216024](https://skype.visualstudio.com/SPOOL/_workitems/edit/2216024)    |Acquire Short Codes in the United States           |
 | TURN    | Public Preview | |Access IETF standard TURN servers         |
