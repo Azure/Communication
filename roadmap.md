@@ -18,6 +18,12 @@ January - March 2021
 | PSTN    | Public Preview |[2215713](https://skype.visualstudio.com/SPOOL/_backlogs/backlog/SPOOL%20Team/Features/?workitem=2215713)  |Access Telephony services in Canada |
 | SMS     | Public Preview |  [2216024](https://skype.visualstudio.com/SPOOL/_workitems/edit/2216024)    |Acquire Short Codes in the United States           |
 | TURN    | Public Preview | |Access IETF standard TURN servers         |
+| Calling | Private Preview | [2195238](https://skype.visualstudio.com/SPOOL/_workitems/edit/2195238) | iOS (Native) Calling Hero Sample |
+| Calling | Private Preview | [2195239](https://skype.visualstudio.com/SPOOL/_workitems/edit/2195239) | Android (Native) Calling Hero Sample |
+| UI Framework | Private Preview | [2302228](https://skype.visualstudio.com/SPOOL/_workitems/edit/2302228) | Web (React) Group Calling Composite |
+| UI Framework | Private Preview | [2302232](https://skype.visualstudio.com/SPOOL/_workitems/edit/2302232) | Web (React) Group Chat Composite |
+| UI Framework | Private Preview | [2303459](https://skype.visualstudio.com/SPOOL/_workitems/edit/2303459) | Web (React) Calling Base Components |
+| UI Framework | Private Preview | [2303472](https://skype.visualstudio.com/SPOOL/_workitems/edit/2303472) | Web (React) Chat Base Components |
 
 
 ### General Availability
