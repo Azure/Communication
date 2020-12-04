@@ -41,8 +41,10 @@ Several samples are available in this repo.
 **Application Samples**
 These are designed JavaScript-based web applications implemented using [Microsoft's Fluent design language and components. They function in both mobile and desktop browser settings.
 
-- [Chat Hero Sample](https://github.com/Azure-Samples/communication-services-web-chat-hero) - Demonstrates rich text chat
-- [Calling Hero Sample](https://github.com/Azure-Samples/communication-services-web-calling-hero) - Demonstrates voice and video calling
+- [Chat Hero Sample](https://github.com/Azure-Samples/communication-services-web-chat-hero) - Web sample demonstrating rich text chat thread for 1:n users
+- [Calling Hero Sample](https://github.com/Azure-Samples/communication-services-web-calling-hero) - Web sample Demonstrating voice and video calling for 1:n users
+- [Contoso Medical App](https://github.com/Azure-Samples/communication-services-contoso-med-app) - Sample app demonstrating a patient-doctor flow
+- [WPF Calling Sample](https://github.com/Azure-Samples/communication-services-web-calling-wpf-sample) - Sample app for Windows demonstrating calling functionality
 
 **Quickstart Samples**
 Access code samples for quickstarts found [Azure Docs](https://docs.microsoft.com/en-us/azure/communication-services/) for Azure Communication Services
