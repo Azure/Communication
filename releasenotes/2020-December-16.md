@@ -9,7 +9,7 @@ This release contains following changes for ACS Web (JavaScript) SDK.
 2.  Fixes to allow consumption of library with as a ES5 bundle ( enables support for EmberJs framework )
 
 ## Breaking API changes
-1.  Display name of an ACS user is now passed in CallClient.createCallAgent() API as an optional argument and it is immutable.
+Display name of an ACS user is now passed in CallClient.createCallAgent() API as an optional argument and it is immutable.
 `callAgent.updateDisplayName` API is deprecated.
 ### New interface
 ```ts
@@ -30,7 +30,7 @@ export interface CallAgentOptions {
     const tokenCredential = new AzureCommunicationUserCredential("<USER ACCESS TOKEN>");
     callAgent = await callClient.createCallAgent(tokenCredential, {displayName: 'optional ACS user name'});
 ```
-2.  Changed join group call API to now take a GroupLocator:
+Changed join group call API to now take a GroupLocator:
 
 ### New interface
 ```ts
@@ -51,7 +51,7 @@ export interface GroupCallLocator {
     const groupLocator = { groupId: '<GROUP_ID>'};
     callAgent.join(groupLocaltor, {});
 ```
-3.  Changed join Teams meeting api to now take a MeetingLocaltor:
+Changed join Teams meeting api to now take a MeetingLocaltor:
 ### New interface
 ```ts
 /**
@@ -98,8 +98,9 @@ export class CallAgent {
   const teamsMeetingLinkLocator = { meetingLink: '<TEAMS_MEETING_URL>'};
   callAgent.join(teamsMeetingLinkLocator, {});
 ```
-4.  Teams/ACS meeting interop - ACS Calling SDK will not expose any Teams bots ( e.g. Recording ) through 'remoteParticipants' collection.
+## Other changes
+1.  Teams/ACS meeting interop - ACS Calling SDK will not expose any Teams bots ( e.g. Recording ) through 'remoteParticipants' collection.
     Application can inspect & subscribe to isRecordingActive property to discover if current call is recorded
-5.  Call.startVideo(localVideoStream: LocalVideoStream) API must now take a LocalVideoStream object as an argument
-6.  LocalVideoStream constructor must now take VideoDeviceInfo as an argument
+2.  Call.startVideo(localVideoStream: LocalVideoStream) API must now take a LocalVideoStream object as an argument
+3.  LocalVideoStream constructor must now take VideoDeviceInfo as an argument
 
