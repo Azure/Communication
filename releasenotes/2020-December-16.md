@@ -10,6 +10,7 @@ This release contains following changes for ACS Web (JavaScript) SDK.
 
 ## Breaking API changes
 1.  Display name of an ACS user is now passed in CallClient.createCallAgent() API as an optional argument and it is immutable.
+`callAgent.updateDisplayName` API is deprecated.
 ### New interface
 ```ts
 export class CallClient {
