@@ -5,8 +5,9 @@ This release contains following changes for ACS Web (JavaScript) SDK.
 ## Version 1.0.0-beta.3
 
 ## Bug fixes
-1.  Call.unhold() API can now be called right after Call.hold() API without having to wait for Call.hold() API to resolve.
-2.  Fixes to allow consumption of library with as a ES5 bundle ( enables support for EmberJs framework )
+1. Safari/iOS 14+ - fixed an issue with video being stopped if user starts or joins a call with enabled video preview.
+2. Call.unhold() API can now be called right after Call.hold() API without having to wait for Call.hold() API to resolve.
+3. Fixes to allow consumption of library with as a ES5 bundle ( enables support for EmberJs framework )
 
 ## Breaking API changes
 Display name of an ACS user is now passed in CallClient.createCallAgent() API as an optional argument and it is immutable.
