@@ -1,6 +1,6 @@
-# Release Notes for December 16, 2020
+# Release Notes for December 17, 2020
 
-This release contains following changes for ACS Android(Java) SDK. 
+This release contains following changes for ACS Android(Java) SDK.
 
 ## Version 1.0.0-beta.5
 
