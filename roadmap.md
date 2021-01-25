@@ -19,7 +19,6 @@ January - March 2021
 | Chat | Public Preview |[2045650](https://skype.visualstudio.com/SPOOL/_workitems/edit/2045650)|[Anonymous interoperability with Microsoft Teams for chat in a Teams meeting](https://docs.microsoft.com/azure/communication-services/quickstarts/chat/meeting-interop)   
 | Fraud   | Public Preview |  [2166847](https://skype.visualstudio.com/SPOOL/_workitems/edit/2166847)    |SPAM detection for SMS   |
 | PSTN    | Private Preview | |SIP Interface: connect your own telephony provider or interconnect with the third-party telco equipment |
-| SMS     | Public Preview |  [2216024](https://skype.visualstudio.com/SPOOL/_workitems/edit/2216024)    |Acquire Short Codes in the United States           |
 | TURN    | Public Preview | |Access IETF standard TURN servers         |
 | UI Framework | Private Preview | [2302228](https://skype.visualstudio.com/SPOOL/_workitems/edit/2302228) | Web (React) Group Calling Composite |
 | UI Framework | Private Preview | [2302232](https://skype.visualstudio.com/SPOOL/_workitems/edit/2302232) | Web (React) Group Chat Composite |
