@@ -24,6 +24,7 @@ January - March 2021
 | UI Framework | Private Preview | [2302232](https://skype.visualstudio.com/SPOOL/_workitems/edit/2302232) | Web (React) Group Chat Composite |
 | UI Framework | Private Preview | [2303459](https://skype.visualstudio.com/SPOOL/_workitems/edit/2303459) | Web (React) Calling Base Components |
 | UI Framework | Private Preview | [2303472](https://skype.visualstudio.com/SPOOL/_workitems/edit/2303472) | Web (React) Chat Base Components |
+| Chat | Public Preview |[2045650](https://skype.visualstudio.com/SPOOL/_workitems/edit/2045650)|[Anonymous interoperability with Microsoft Teams for chat in a Teams meeting](https://docs.microsoft.com/azure/communication-services/quickstarts/chat/meeting-interop)   
 
 
 ### General Availability
