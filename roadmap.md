@@ -15,8 +15,8 @@ January - March 2021
 | Calling | Public Preview | |.NET Service client library for Calling              |
 | Calling | Public Preview |[2199893](https://skype.visualstudio.com/SPOOL/_backlogs/backlog/SPOOL%20Team/Features/?workitem=2199893) |[Anonymous interoperability with Microsoft Teams](https://docs.microsoft.com/azure/communication-services/concepts/voice-video-calling/teams-interop)   |
 | PSTN    | Private Preview | |SIP Interface: connect your own telephony provider or interconnect with the third-party telco equipment |
-| PSTN    | Public Preview |[2215713](https://skype.visualstudio.com/SPOOL/_backlogs/backlog/SPOOL%20Team/Features/?workitem=2215713)  |Access Telephony services in Canada |
 | SMS     | Public Preview |  [2216024](https://skype.visualstudio.com/SPOOL/_workitems/edit/2216024)    |Acquire Short Codes in the United States           |
+| Fraud   | Public Preview |  [2166847](https://skype.visualstudio.com/SPOOL/_workitems/edit/2166847)    |SPAM protection for SMS           |
 | TURN    | Public Preview | |Access IETF standard TURN servers         |
 | Calling | Private Preview | [2195238](https://skype.visualstudio.com/SPOOL/_workitems/edit/2195238) | iOS (Native) Calling Hero Sample |
 | Calling | Private Preview | [2195239](https://skype.visualstudio.com/SPOOL/_workitems/edit/2195239) | Android (Native) Calling Hero Sample |
@@ -26,10 +26,19 @@ January - March 2021
 | UI Framework | Private Preview | [2303472](https://skype.visualstudio.com/SPOOL/_workitems/edit/2303472) | Web (React) Chat Base Components |
 | Chat | Public Preview |[2045650](https://skype.visualstudio.com/SPOOL/_workitems/edit/2045650)|[Anonymous interoperability with Microsoft Teams for chat in a Teams meeting](https://docs.microsoft.com/azure/communication-services/quickstarts/chat/meeting-interop)   
 
+### 2Q CY2021
+April - June 2021
+| Area    | State          | ADO |Feature                                                |
+| ------- | -------------- | ----| ------------------------------------------------------ |
+| Numbers    | Public Preview |[2346915](https://skype.visualstudio.com/SPOOL/_workitems/edit/2346915)  |Port US numbers into ACS|
+| Numbers    | Public Preview |[2243298](https://skype.visualstudio.com/SPOOL/_workitems/edit/2243298)  |Bulk order numbers (20+) in the US|
+| Numbers    | Public Preview |[2329691](https://skype.visualstudio.com/SPOOL/_workitems/edit/2329691)  |Buy US offers from Canada and PR|
+| PSTN    | Public Preview |[2359791](https://skype.visualstudio.com/SPOOL/_workitems/edit/2359791)  |Access Telephony services in Canada and PR  (on Toll-Free and Geo Numbers)|
+| SMS    | Public Preview |[2359791](https://skype.visualstudio.com/SPOOL/_workitems/edit/2359791)  |Access SMS services in Canada and PR (on Toll-FreeNumbers)|
 
 ### General Availability
 In early 2021, the core service should exit preview and be generally available. This corresponds to several product updates:
 
 - APIs and client libraries will be marked stable
 - SLA guarantees and documentation
-- Availability in additional Azure geographies such as Europe
+- Availability in additional Azure geographies such as Europe (note: PSTN and SMS offerings will be US only)
