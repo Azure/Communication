@@ -40,4 +40,4 @@ In early 2021, the core service should exit preview and be generally available. 
 
 - APIs and client libraries will be marked stable
 - SLA guarantees and documentation
-- Availability in additional Azure geographies such as Europe (note: PSTN and SMS offerings will be US only)
+- Availability in additional Azure geographies - Europe, UK, Asia Pacific and Australia (note: PSTN and SMS offerings will be US only)
