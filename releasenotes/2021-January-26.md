@@ -1,5 +1,13 @@
 # Release Notes for January 26, 2021
 
+Released 1.0.0-beta.4 of JS @azure/communication-common and @azure/communication-administration
+
+We've published new npm packages for common and administration, please update your dependencies to the latest. 
+
+<br/>`npm install @azure/communication-common@latest`
+
+Highlights include the addition of the new MicrosoftTeamsUserIdentifier and paging bug fixes.
+
 ## communication-common 1.0.0-beta.4 (2021-01-25) 
 
 ### Added
