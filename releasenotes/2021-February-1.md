@@ -7,6 +7,9 @@ This release contains following changes for ACS Calling Android (Java) SDK.
 ## New Features:
 1. Teams meetings interop Added.<br />
 New types `GroupCallLocator`, `TeamsMeetingCoordinatesLocator`, `TeamsMeetingLinkLocator` introduced to support the interop scenarios.
+2. Ability to know whether a Call is currently being recorded<br />
+Call.getIsRecordingActive() returns boolean indicates wherther the call is being recorded or not.<br />
+Event `OnIsRecordingActiveChanged` is used to indicates when a recording has been started or stopped.
 
 ### Usage example with `GroupCallLocator`
 ```java
