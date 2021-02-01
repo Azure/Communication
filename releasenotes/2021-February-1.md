@@ -59,13 +59,10 @@ This release contains following changes for ACS Calling Android (Java) SDK.
 4. [Android] Unecessary to hold strong references on Objects with events (Call, CallAgent, DeviceManager, RemoteParticipant, RemoteVideoStream)
 
 ## Breaking API changes
-`CallAgent.join` API has been changed to support Teams interoperability
-
-`join(android.content.Context context, GroupCallContext groupCallContext, JoinCallOptions joinCallOptions)`
-
-is now:
-
-`join(android.content.Context context, AbstractJoinMeetingLocator meetingLocator, JoinCallOptions joinCallOptions)`
+`CallAgent.join` API has been changed to support Teams interoperability<br/>
+`join(android.content.Context context, GroupCallContext groupCallContext, JoinCallOptions joinCallOptions)`<br/>
+is now:<br/>
+`join(android.content.Context context, AbstractJoinMeetingLocator meetingLocator, JoinCallOptions joinCallOptions)`<br/>
 
 With new types `GroupCallLocator`, `TeamsMeetingCoordinatesLocator`, `TeamsMeetingLinkLocator` being subclasses of `AbstractJoinMeetingLocator` that can be used for the various scenarios.
 
