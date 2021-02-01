@@ -59,10 +59,18 @@ This release contains following changes for ACS Calling Android (Java) SDK.
 4. [Android] Unecessary to hold strong references on Objects with events (Call, CallAgent, DeviceManager, RemoteParticipant, RemoteVideoStream)
 
 ## Breaking API changes
-`CallAgent.join` API has been changed to support Teams interoperability<br/>
-`join(android.content.Context context, GroupCallContext groupCallContext, JoinCallOptions joinCallOptions)`<br/>
-is now:<br/>
-`join(android.content.Context context, AbstractJoinMeetingLocator meetingLocator, JoinCallOptions joinCallOptions)`<br/>
+Renamed `CommunicationUserCredential` to `CommunicationTokenCredential`
+`RemoteParticipant` identifiers renamed:
+- `PhoneNumber` to `PhoneNumberIdentifier`
+- `CommunicationUser` to `CommunicationUserIdentifier`
+- `CallingApplication` to `CallingApplicationIdentifier`
+
+New `MicrosoftTeamsUserIdentifier` Added to support Teams interop scenarios
+
+`CallAgent.join` API has been changed to support Teams interoperability
+`join(android.content.Context context, GroupCallContext groupCallContext, JoinCallOptions joinCallOptions)`
+is now:
+`join(android.content.Context context, AbstractJoinMeetingLocator meetingLocator, JoinCallOptions joinCallOptions)`
 
 With new types `GroupCallLocator`, `TeamsMeetingCoordinatesLocator`, `TeamsMeetingLinkLocator` being subclasses of `AbstractJoinMeetingLocator` that can be used for the various scenarios.
 
@@ -79,10 +87,3 @@ With new types `GroupCallLocator`, `TeamsMeetingCoordinatesLocator`, `TeamsMeeti
     Call call = callClient.join(appContext, groupCallLocaltor, joinCallOptions);
 ```
 
-- Renamed `CommunicationUserCredential` to `CommunicationTokenCredential`
-- `RemoteParticipant` identifiers renamed:
-- `PhoneNumber` to `PhoneNumberIdentifier`
-- `CommunicationUser` to `CommunicationUserIdentifier`
-- `CallingApplication` to `CallingApplicationIdentifier`
-
-- New `MicrosoftTeamsUserIdentifier` Added
