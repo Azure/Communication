@@ -21,6 +21,7 @@ Event `OnIsRecordingActiveChanged` is used to indicates when a recording has bee
     android.content.context appContext = this.getApplicationContext(); // From within an activity or fragment
     java.util.UUID groupCallId = java.util.UUID.fromString(<GROUP CALL ID>);
     GroupCallLocator groupCallLocaltor = new GroupCallLocator(groupCallId);
+
     Call call = callClient.join(appContext, groupCallLocaltor, joinCallOptions);
 ```
 
@@ -34,6 +35,7 @@ Event `OnIsRecordingActiveChanged` is used to indicates when a recording has bee
     android.content.context appContext = this.getApplicationContext(); // From within an activity or fragment
     string meetingLink = <TEAMS MEETINK LINK>;
     TeamsMeetingLinkLocator teamsMeetingLinkLocator = new TeamsMeetingLinkLocator(meetingLink);
+
     Call call = callClient.join(appContext, teamsMeetingLinkLocator, joinCallOptions);
 ```
 
@@ -49,9 +51,8 @@ Event `OnIsRecordingActiveChanged` is used to indicates when a recording has bee
     java.util.UUID organizerId = java.util.UUID.fromString(<TEAMS ORGANIZER ID>);
     java.util.UUID tenantId = java.util.UUID.fromString(<TEAMS TENANT ID>);
     string messageId = <TEAMS MESSAGFE ID>;
-    public TeamsMeetingCoordinatesLocator(String threadId, java.util.UUID organizerId, java.util.UUID tenantId, String messageId)
-
     TeamsMeetingCoordinatesLocator teamsMeetingCoordinatesLinkLocator = new TeamsMeetingCoordinatesLocator(meetingLink);
+
     Call call = callClient.join(appContext, teamsMeetingCoordinatesLinkLocator, joinCallOptions);
 ```
 
@@ -89,6 +90,7 @@ With new types `GroupCallLocator`, `TeamsMeetingCoordinatesLocator`, `TeamsMeeti
     android.content.context appContext = this.getApplicationContext(); // From within an activity or fragment
     java.util.UUID groupCallId = java.util.UUID.fromString(<GROUP CALL ID>);
     GroupCallLocator groupCallLocaltor = new GroupCallLocator(groupCallId);
+
     Call call = callClient.join(appContext, groupCallLocaltor, joinCallOptions);
 ```
 
