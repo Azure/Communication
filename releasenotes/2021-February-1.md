@@ -5,7 +5,7 @@ This release contains following changes for ACS Calling Android (Java) SDK.
 ## Version 1.0.0-beta.6
 
 ## New Features:
-1. Teams meetings interop Added.
+1. Teams meetings interop Added.<br />
 New types `GroupCallLocator`, `TeamsMeetingCoordinatesLocator`, `TeamsMeetingLinkLocator` introduced to support the interop scenarios.
 
 ### Usage example with `GroupCallLocator`
