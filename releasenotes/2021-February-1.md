@@ -50,7 +50,7 @@ This release contains following changes for ACS Calling Android (Java) SDK.
     Call call = callClient.join(appContext, teamsMeetingCoordinatesLinkLocator, joinCallOptions);
 ```
 
-2. [Android] Cleanup logs from console, logs are stored in a the file instead
+2. Cleanup logs from console, logs are stored in a the file instead
 
 ## Bug fixes
 1. Device orientation video bug
@@ -60,8 +60,11 @@ This release contains following changes for ACS Calling Android (Java) SDK.
 
 ## Breaking API changes
 `CallAgent.join` API has been changed to support Teams interoperability
+
 `join(android.content.Context context, GroupCallContext groupCallContext, JoinCallOptions joinCallOptions)`
+
 is now:
+
 `join(android.content.Context context, AbstractJoinMeetingLocator meetingLocator, JoinCallOptions joinCallOptions)`
 
 With new types `GroupCallLocator`, `TeamsMeetingCoordinatesLocator`, `TeamsMeetingLinkLocator` being subclasses of `AbstractJoinMeetingLocator` that can be used for the various scenarios.
