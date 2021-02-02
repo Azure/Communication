@@ -2,7 +2,7 @@
 
 This release contains following changes for ACS Calling Android (Java) SDK.
 
-## Version 1.0.0-beta.6
+## Version 1.0.0-beta.7
 
 ## New Features:
 1. Teams meetings interop Added.<br />
@@ -79,18 +79,3 @@ is now:<br />
 `join(android.content.Context context, AbstractJoinMeetingLocator meetingLocator, JoinCallOptions joinCallOptions)`<br />
 
 With new types `GroupCallLocator`, `TeamsMeetingCoordinatesLocator`, `TeamsMeetingLinkLocator` being subclasses of `AbstractJoinMeetingLocator` that can be used for the various scenarios.
-
-### Usage example with `GroupCallLocator`
-```java
-    CallAgentOptions callAgentOptions = new CallAgentOptions();
-    callAgentOptions.setDisplayName("My Custom Display name");
-    CommunicationTokenCredential tokenCredential = new CommunicationTokenCredential("<USER ACCESS TOKEN>");
-    CallAgent callAgent = callClient.createCallAgent(tokenCredential, callAgentOptions);
-
-    android.content.context appContext = this.getApplicationContext(); // From within an activity or fragment
-    java.util.UUID groupCallId = java.util.UUID.fromString(<GROUP CALL ID>);
-    GroupCallLocator groupCallLocaltor = new GroupCallLocator(groupCallId);
-
-    Call call = callClient.join(appContext, groupCallLocaltor, joinCallOptions);
-```
-
