@@ -59,10 +59,14 @@ Event `OnIsRecordingActiveChanged` is used to indicates when a recording has bee
 2. Cleanup logs from console, logs are stored in a the file instead
 
 ## Bug fixes
-1. Device orientation video bug
-2. Allow LocalVideoStream to be reused in multiple calls
-3. Fix pointer corruption issue happening when we create VideoOptions will null LocalVideoStream
-4. [Android] Unecessary to hold strong references on Objects with events (Call, CallAgent, DeviceManager, RemoteParticipant, RemoteVideoStream)
+1. Rotating device stops sending frames for LocalVideoStream.
+2. LocalVideoStream doesn't start properly if re-used between different calls.
+3. Releasing LocalVideoStream occasionally crashing on some devices (Samsung).
+4. Allow LocalVideoStream to be reused in multiple calls.
+5. Renderer.createView() fails to CreateBinding sometimes.
+6. Fix pointer corruption issue happening when we create VideoOptions will null LocalVideoStream
+4. Holding strong references on Objects with events (Call, CallAgent, DeviceManager, RemoteParticipant, RemoteVideoStream) not necessary for events to fire anymore
+
 
 ## Breaking API changes
 Renamed `CommunicationUserCredential` to `CommunicationTokenCredential`
