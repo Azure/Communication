@@ -5,7 +5,8 @@ This release notes contain new changes for ACS Calling Web (JavaScript) SDK v1.0
 2. Fix CallAgent.join() api accepting undefined CallContext. Api must now take a GroupLocator or MeetingLocator 
 
 # Breaking API Changes
-1. New flow for collection subscriptions:
+1. New flow for properties/collection subscriptions.
+Application has to inspect current values and subscribe to update events for future values
 ```js
     // Subscribe to participants currently in a Call
     call.remoteParticipants.forEach(p => {
@@ -47,13 +48,14 @@ export declare interface CallerInfo {
     export declare type CallDirection = 'Incoming' | 'Outgoing';
 ```
 
-3. Type name changes from @azure/communication-common
+3. Type name changes from @azure/communication-common version beta4
 ```js
     CommunicationUserCredential -> CommunicationTokenCredential
     CommunicationUser -> CommunicationUserIdentifier
     PhoneNumber -> PhoneNumberIdentifier
     CallingApplication -> CallingApplicationIdentifier
 ```
+Note: @azure/communication-calling beta4 depends on @azure/communication-common beta4
 
 # New features
 
@@ -93,9 +95,10 @@ Call transfer involves three parties *transferor*, *transferee*, and *transfer t
 
 1. There is already a connected call between *transferor* and *transferee*
 2. *transferor* decide to transfer the call (*transferee* -> *transfer target*)
-3. *transferor* call `transfer` API
-4. *transferee* decide to whether `accept` or `reject` the transfer request to *transfer target* via `transferRequested` event.
-5. *transfer target* will receive an incoming call only if *transferee* did `accept` the transfer request
+3. *transferor* should put the call on hold first before invoking `transfer` API
+4. *transferor* calls `transfer` API
+5. *transferee* decide to whether `accept` or `reject` the transfer request to *transfer target* via `transferRequested` event.
+6. *transfer target* will receive an incoming call only if *transferee* did `accept` the transfer request
 
 ### Transfer terminology
 
@@ -187,6 +190,6 @@ export declare interface IncomingCall {
     * package.json (Updated)
     * README.md (Updated)
 2. Added new package dependencies:
-    * @azure/logger
-    * @azure/communication-common
+    * @azure/logger version 1.0.0
+    * @azure/communication-common version beta4 (calling beta4 depends on common beta4)
 
