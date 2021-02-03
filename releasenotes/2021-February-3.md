@@ -42,6 +42,11 @@ export declare interface CallerInfo {
 }
 ```
 
+4. Changed Call.isIncoming: boolean to Call.direction: CallDirection
+```js
+    export declare type CallDirection = 'Incoming' | 'Outgoing';
+```
+
 3. Type name changes from @azure/communication-common
 ```js
     CommunicationUserCredential -> CommunicationTokenCredential
