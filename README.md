@@ -15,7 +15,7 @@ A flattened view of the roadmap is [also available here](roadmap.md). Major upda
 - [10/06/2020](./releasenotes/2020-October-06.md). Adds SMS and PSTN functionality. Initial release of iOS and Android Chat SDKs.
 - [09/22/2020](./releasenotes/2020-September-22.md). Initial release of Azure Communication Services, includes SDKs for Resource Management (ARM), Calling and Chat.
 - [01/26/2021](./releasenotes/2021-January-26.md). Update of Azure Communication Services (Released 1.0.0-beta.4 of JS @azure/communication-common and @azure/communication-administration).
-- [02/02/2021](./releasenotes/2021-February-12.md). Major release changes for Azure Communication Identity 1.0.0-beta.4 (2021-02-09), Azure Communication Common 1.0.0-beta.4 (2021-02-09) & Azure Communication Chat 1.0.0-beta.4 (2021-02-09).
+- [02/02/2021](./releasenotes/2021-Feb-12.md). Major release changes for Azure Communication Identity 1.0.0-beta.4 (2021-02-09), Azure Communication Common 1.0.0-beta.4 (2021-02-09) & Azure Communication Chat 1.0.0-beta.4 (2021-02-09).
 
 ## SDKs
 
