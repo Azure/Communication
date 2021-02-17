@@ -1,9 +1,15 @@
 This release notes contain new changes for ACS Calling Web (JavaScript) SDK v1.0.0-beta.5
 # Bug fixes
 1. Fixed https://github.com/Azure/Communication/issues/46
+    - Device names do not appear on Android Chrome after calling DeviceManager.AskDevicePermission(), then enumerating the Microphone List
 2. Fixed https://github.com/Azure/Communication/issues/47
+    - After permissions are granted by the user (call deviceManager.askDevicePermission), the desktop version of Chrome fires the audioDevicesUpdated and videoDevicesUpdated events. These events are not called when accessed from Mobile Chrome
 3. Fixed https://github.com/Azure/Communication/issues/144
+    - For Android Chrome: The getSpeakerList return empty list. But getMicrophoneList and getCameraList return correct devices 
 4. Fixed https://github.com/Azure/Communication/issues/174
+    - Occur unhandled runtime error for below conditions:
+        1. Could not find Callee
+        2. Callee rejected an incoming call
 
 # Breaking API Changes
 1. Call interface changes:
