@@ -23,8 +23,9 @@ This release notes contain new changes for ACS Calling Web (JavaScript) SDK v1.0
     6. getMicrophone() has been changed to readonly **property** selectedMicrophone
     7. getSpeaker() has been changed to readonly **property** selectedSpeaker
     8. 'permissionStateChanged' event has been removed
-    8. New event 'selectedMicrophoneChanged' which will be raised when selectedMicrophone is changed
-    9. New event 'selectedSpeakerChanged' which will be raised when selectedSpeaker is changed
+    9. New event 'selectedMicrophoneChanged' which will be raised when selectedMicrophone is changed
+    10. New event 'selectedSpeakerChanged' which will be raised when selectedSpeaker is changed
+    11. New property 'isSpeakerSelectionAvailable' which indicates whether the host device supports speaker enumeration and selection
 5. HangupCallOptions has been renamed to HangUpOptions
 6. PermissionState and PermissionType both types are removed
 7. RemoteParticipant interface changes:
@@ -42,5 +43,6 @@ This release notes contain new changes for ACS Calling Web (JavaScript) SDK v1.0
 
 ## Other changes
 1. Call.remoteParticipants type change: RemoteParticipant[] -> ReadonlyArray<RemoteParticipant>
-2. CallAgent.calls type change:  Call[] -> ReadonlyArray<Call>
-3. RemoteParticipant.videoStreams type change:  RemoteVideoStream[] -> ReadonlyArray<RemoteVideoStream>
+2. Call.localVideoStreams type change: LocalVideoStream[] -> ReadonlyArray<LocalVideoStream>
+3. CallAgent.calls type change:  Call[] -> ReadonlyArray<Call>
+4. RemoteParticipant.videoStreams type change:  RemoteVideoStream[] -> ReadonlyArray<RemoteVideoStream>
