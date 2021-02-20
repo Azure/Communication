@@ -10,9 +10,11 @@ This release contains following changes for ACS Calling Android (Java) SDK.
 
 ## Breaking API changes
 1. The package namespace has been changed from `com.azure.communication.calling` to `com.azure.android.communication.calling`.
+
 2. Asynchronous operations are handled using `CompletableFuture` instead of `Future`.
 As the ACS Calling SDK targets Android SDK level 21, we leverage the android-retrofuture backport to make CompletableFuture available in the SDK.
 Make sure to use the "import java9.util.concurrent.CompletableFuture;" in your app.
+
 3. Multiple classes/enums properties/methods renamed:
 - Call class:
 Method `getCallId()` on Call is now `getId()`
