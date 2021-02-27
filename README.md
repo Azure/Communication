@@ -11,6 +11,18 @@ This repo collates client libraries (SDKs), roadmap information, release notes, 
 
 A flattened view of the roadmap is [also available here](roadmap.md). Major updates to Azure Communication Services and other Azure services are available at [https://azure.microsoft.com/updates/](https://azure.microsoft.com/updates/).
 
+## Create a Special Order for Telephone Numbers
+
+Customers who are interested in a special order (ex. acquiring large quantities of numbers) can do so by following the process below. 
+
+*PLEASE NOTE:* You need to have an eligible Azure Subscription and Resource in the US (see link here for eligibility criteria) to be able to purchase numbers. 
+
+You will need to work through the following steps: 
+- Download this form: [Manual / Bulk Number Acquisition Form]()
+- Fill it out and send it to us at gcstnmsd@microsoft.com; *Please ensure that your email subject line begins with "ACS Number Request:"* 
+
+Our service desk will get in touch with you on details
+
 ## Latest Release Notes 
 - [10/06/2020](./releasenotes/2020-October-06.md). Adds SMS and PSTN functionality. Initial release of iOS and Android Chat SDKs.
 - [09/22/2020](./releasenotes/2020-September-22.md). Initial release of Azure Communication Services, includes SDKs for Resource Management (ARM), Calling and Chat.
