@@ -1,3 +1,3 @@
 # Create a Special Order for Telephone Numbers
 
-Details on how to order bulk telephone numbers to be posted shortly.
+Details on how to place special orders for telephone numbers will be available soon.
