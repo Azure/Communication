@@ -11,10 +11,6 @@ This repo collates client libraries (SDKs), roadmap information, release notes, 
 
 A flattened view of the roadmap is [also available here](roadmap.md). Major updates to Azure Communication Services and other Azure services are available at [https://azure.microsoft.com/updates/](https://azure.microsoft.com/updates/).
 
-## Create a Special Order for Telephone Numbers
-
-Details on how to order bulk telephone numbers to be posted shortly.
-
 ## Latest Release Notes 
 - [10/06/2020](./releasenotes/2020-October-06.md). Adds SMS and PSTN functionality. Initial release of iOS and Android Chat SDKs.
 - [09/22/2020](./releasenotes/2020-September-22.md). Initial release of Azure Communication Services, includes SDKs for Resource Management (ARM), Calling and Chat.
