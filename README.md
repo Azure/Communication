@@ -12,9 +12,9 @@ This repo collates client libraries (SDKs), roadmap information, release notes, 
 A flattened view of the roadmap is [also available here](roadmap.md). Major updates to Azure Communication Services and other Azure services are available at [https://azure.microsoft.com/updates/](https://azure.microsoft.com/updates/).
 
 ## Latest Release Notes 
+Find all release notes in [this repo's release note directory](https://github.com/Azure/Communication/tree/master/releasenotes).
+
 - [10/06/2020](./releasenotes/2020-October-06.md). Adds SMS and PSTN functionality. Initial release of iOS and Android Chat SDKs.
-- [09/22/2020](./releasenotes/2020-September-22.md). Initial release of Azure Communication Services, includes SDKs for Resource Management (ARM), Calling and Chat.
-- [01/26/2021](./releasenotes/2021-January-26.md). Update of Azure Communication Services (Released 1.0.0-beta.4 of JS @azure/communication-common and @azure/communication-administration).
 - [02/02/2021](https://azure.github.io/azure-sdk/releases/2021-02/). Azure Communication Administration will be deprecated Identity client is moved to new package Azure Communication Identity. Phone number administration will be moved into a new package Azure Communication Phone Numbers.
   - [.Net Release Notes](https://github.com/Azure/azure-sdk/blob/master/releases/2021-02/dotnet.md#azure-communication-administration-will-be-deprecated) 
   - [Java Release Notes](https://github.com/Azure/azure-sdk/blob/master/releases/2021-02/java.md#azure-communication-administration-will-be-deprecated) 
@@ -22,7 +22,6 @@ A flattened view of the roadmap is [also available here](roadmap.md). Major upda
   - [Python Release Notes](https://github.com/Azure/azure-sdk/blob/master/releases/2021-02/python.md#azure-communication-administration-will-be-deprecated) 
   - [Android Release Notes](https://github.com/Azure/azure-sdk/blob/master/releases/2021-02/android.md#azure-communication-services-common) 
   - [iOS Release Notes](https://github.com/Azure/azure-sdk/blob/master/releases/2021-02/ios.md#azure-communication-services-common) 
-  
   
 ## SDKs
 
