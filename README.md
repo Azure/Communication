@@ -23,7 +23,7 @@ A flattened view of the roadmap is [also available here](roadmap.md). Major upda
   - [Python Release Notes](https://github.com/Azure/azure-sdk/blob/master/releases/2021-02/python.md#azure-communication-administration-will-be-deprecated) 
   - [Android Release Notes](https://github.com/Azure/azure-sdk/blob/master/releases/2021-02/android.md#azure-communication-services-common) 
   - [iOS Release Notes](https://github.com/Azure/azure-sdk/blob/master/releases/2021-02/ios.md#azure-communication-services-common) 
- - 03/11/2021. Signficant updates to ACS Calling with breaking changes:
+ - 03/11/2021. Significant updates to ACS Calling with breaking changes:
     - [iOS - 1.0.0-beta.9](https://github.com/Azure/Communication/releases/tag/v1.0.0-beta.9)
     - [Android - 1.0.0.-beta.9](https://www.npmjs.com/package/@azure/communication-calling/v/1.0.0-beta.9) 
 
