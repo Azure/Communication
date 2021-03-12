@@ -8,4 +8,4 @@ You will need to work through the following steps:
 - Download this form: [Manual / Bulk Number Acquisition Form]()
 - Fill it out and send it to us at gcstnmsd@microsoft.com; *Please ensure that your email subject line begins with "ACS Number Request:"* 
 
-Our service desk will get in touch with you on details
+Our service desk will get in touch with you on details.
