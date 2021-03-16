@@ -1,4 +1,4 @@
-# Release Notes for March 12, 2021
+# Release Notes for March 16, 2021
 
 This release contains following changes for ACS Calling Android (Java) SDK.
 
@@ -42,5 +42,7 @@ Method `getMicrophones()` and `getSpeakers()` were removed
 Method `setMicrophone(AudioDeviceInfo)` and `setSpeaker(AudioDeviceInfo)` were removed
 Method `addOnMicrophonesUpdated(AudioDevicesUpdatedListener)` and `addOnSpeakersUpdated(AudioDevicesUpdatedListener)` were removed
 Method `removeOnMicrophonesUpdated(AudioDevicesUpdatedListener)` and `removeOnSpeakersUpdated(AudioDevicesUpdatedListener)` were removed
+- `Renderer` class was renamed `VideoStreamRenderer`
+- `RendererView` class was renamed `VideoStreamRendererView`
 - VideoDeviceType Enum:
 SurfaceResonstructionAugmented was removed
