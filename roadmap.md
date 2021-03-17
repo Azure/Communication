@@ -20,10 +20,6 @@ January - March 2021
 | Fraud   | Public Preview |  [2166847](https://skype.visualstudio.com/SPOOL/_workitems/edit/2166847)    |SPAM detection for SMS   |
 | PSTN    | Private Preview | |SIP Interface: connect your own telephony provider or interconnect with the third-party telco equipment |
 | TURN    | Public Preview | |Access IETF standard TURN servers         |
-| UI Framework | Private Preview | [2302228](https://skype.visualstudio.com/SPOOL/_workitems/edit/2302228) | Web (React) Group Calling Composite |
-| UI Framework | Private Preview | [2302232](https://skype.visualstudio.com/SPOOL/_workitems/edit/2302232) | Web (React) Group Chat Composite |
-| UI Framework | Private Preview | [2303459](https://skype.visualstudio.com/SPOOL/_workitems/edit/2303459) | Web (React) Calling Base Components |
-| UI Framework | Private Preview | [2303472](https://skype.visualstudio.com/SPOOL/_workitems/edit/2303472) | Web (React) Chat Base Components |
 
 ### 2Q CY2021
 April - June 2021
@@ -34,6 +30,10 @@ April - June 2021
 | Numbers    | Public Preview |[2329691](https://skype.visualstudio.com/SPOOL/_workitems/edit/2329691)  |Buy US offers from Canada and Puerto Rico|
 | PSTN    | Public Preview |[2359791](https://skype.visualstudio.com/SPOOL/_workitems/edit/2359791)  |Access Telephony services in Canada and Puerto Rico  (on Toll-Free and Geo Numbers)|
 | SMS    | Public Preview |[2359791](https://skype.visualstudio.com/SPOOL/_workitems/edit/2359791)  |Access SMS services in Canada and Puerto Rico (on Toll-Free Numbers)|
+| UI Framework | Private Preview | [2302228](https://skype.visualstudio.com/SPOOL/_workitems/edit/2302228) | Web (React) Group Calling Composite |
+| UI Framework | Private Preview | [2302232](https://skype.visualstudio.com/SPOOL/_workitems/edit/2302232) | Web (React) Group Chat Composite |
+| UI Framework | Private Preview | [2303459](https://skype.visualstudio.com/SPOOL/_workitems/edit/2303459) | Web (React) Calling Base Components |
+| UI Framework | Private Preview | [2303472](https://skype.visualstudio.com/SPOOL/_workitems/edit/2303472) | Web (React) Chat Base Components |
 
 ### General Availability
 In early 2021, the core service should exit preview and be generally available. This corresponds to several product updates:
