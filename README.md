@@ -7,7 +7,7 @@ This repo collates client libraries (SDKs), roadmap information, release notes, 
 - **Help** - Ask questions, file issues, or request features
 
 ### ❤️ Feedback
-We appreciate your feedback and energy helping us improve our services. [Please let us know if you are satisfied with ACS through this survey](https://microsoft.qualtrics.com/jfe/form/SV_4HMWolQyyLyeX77>Github2</a>). 
+We appreciate your feedback and energy helping us improve our services. [Please let us know if you are satisfied with ACS through this survey](https://microsoft.qualtrics.com/jfe/form/SV_4HMWolQyyLyeX77>Github2). 
 
 ## Feature Roadmap
 [Our roadmap](https://github.com/Azure/Communication/projects/1) communicates features currently in development (private preview) and on-going priorities for extending the scope of Azure Communication Services. It will continue to evolve based on market changes and customer feedback, so please note that the plans outlined here are not exhaustive or guaranteed. We welcome your feedback on the roadmap: please feel free to contribute to existing issues or file a new issue.
