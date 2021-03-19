@@ -6,26 +6,13 @@ This repo collates client libraries (SDKs), roadmap information, release notes, 
 - **Release Notes** - Find [collated release notes](https://github.com/Azure/Communication/tree/master/releasenotes) for the service and SDKs
 - **Help** - Ask questions, file issues, or request features
 
-### ❤️ Feedback
+## ❤️ Feedback
 We appreciate your feedback and energy helping us improve our services. [Please let us know if you are satisfied with ACS through this survey](https://microsoft.qualtrics.com/jfe/form/SV_4HMWolQyyLyeX77). 
 
 ## Feature Roadmap
 [Our roadmap](https://github.com/Azure/Communication/projects/1) communicates features currently in development (private preview) and on-going priorities for extending the scope of Azure Communication Services. It will continue to evolve based on market changes and customer feedback, so please note that the plans outlined here are not exhaustive or guaranteed. We welcome your feedback on the roadmap: please feel free to contribute to existing issues or file a new issue.
 
 A flattened view of the roadmap is [also available here](roadmap.md). Major updates to Azure Communication Services and other Azure services are available at [https://azure.microsoft.com/updates/](https://azure.microsoft.com/updates/).
-
-## Latest Release Notes 
-- [01/26/2021](./releasenotes/2021-January-26.md). Update of Azure Communication Services (Released 1.0.0-beta.4 of JS @azure/communication-common and @azure/communication-administration).
-- [02/02/2021](https://azure.github.io/azure-sdk/releases/2021-02/). Azure Communication Administration will be deprecated Identity client is moved to new package Azure Communication Identity. Phone number administration will be moved into a new package Azure Communication Phone Numbers.
-  - [.Net Release Notes](https://github.com/Azure/azure-sdk/blob/master/releases/2021-02/dotnet.md#azure-communication-administration-will-be-deprecated) 
-  - [Java Release Notes](https://github.com/Azure/azure-sdk/blob/master/releases/2021-02/java.md#azure-communication-administration-will-be-deprecated) 
-  - [JS Release Notes](https://github.com/Azure/azure-sdk/blob/master/releases/2021-02/js.md#azure-communication) 
-  - [Python Release Notes](https://github.com/Azure/azure-sdk/blob/master/releases/2021-02/python.md#azure-communication-administration-will-be-deprecated) 
-  - [Android Release Notes](https://github.com/Azure/azure-sdk/blob/master/releases/2021-02/android.md#azure-communication-services-common) 
-  - [iOS Release Notes](https://github.com/Azure/azure-sdk/blob/master/releases/2021-02/ios.md#azure-communication-services-common) 
- - 03/11/2021. Significant updates to ACS Calling with breaking changes:
-    - [iOS - 1.0.0-beta.9](https://github.com/Azure/Communication/releases/tag/v1.0.0-beta.9)
-    - [Android - 1.0.0.-beta.9](https://www.npmjs.com/package/@azure/communication-calling/v/1.0.0-beta.9) 
 
 ## SDKs
 
@@ -48,30 +35,25 @@ Azure Communication Services capabilities are conceptually organized into six ar
 
 ## Samples
 
-Several samples are available in this repo.
-
-**Application Samples**
-These are designed JavaScript-based web applications implemented using [Microsoft's Fluent design language and components. They function in both mobile and desktop browser settings.
-
-- [Chat Hero Sample](https://github.com/Azure-Samples/communication-services-web-chat-hero) - Web sample demonstrating rich text chat thread for 1:n users
-- [Calling Hero Sample](https://github.com/Azure-Samples/communication-services-web-calling-hero) - Web sample Demonstrating voice and video calling for 1:n users
-- [Contoso Medical App](https://github.com/Azure-Samples/communication-services-contoso-med-app) - Sample app demonstrating a patient-doctor flow
-- [Contoso Retail App](https://github.com/Azure-Samples/communication-services-contoso-retail-app) - Sample app demonstrating a retail support flow
-- [WPF Calling Sample](https://github.com/Azure-Samples/communication-services-web-calling-wpf-sample) - Sample app for Windows demonstrating calling functionality
-
-**Quickstart Samples**
-Access code samples for quickstarts found [Azure Docs](https://docs.microsoft.com/en-us/azure/communication-services/) for Azure Communication Services
+ACS has several samples available for information on these take a look at our [dedicated samples page](https://docs.microsoft.com/azure/communication-services/samples/overview).
  
- - [JavaScript](https://github.com/Azure-Samples/communication-services-javascript-quickstarts/)
- - [.Net](https://github.com/Azure-Samples/communication-services-dotnet-quickstarts/)
- - [iOS](https://github.com/Azure-Samples/communication-services-ios-quickstarts/)
- - [Android](https://github.com/Azure-Samples/communication-services-android-quickstarts/)
- - [Python](https://github.com/Azure-Samples/communication-services-python-quickstarts/)
- 
- **Tutorials**
+ ## Tutorials
  Advanced code samples for Azure Communication Services
  
  - [Web Calling Tutorial](https://github.com/Azure-Samples/communication-services-web-calling-tutorial)
+
+## Latest Release Notes 
+- [01/26/2021](./releasenotes/2021-January-26.md). Update of Azure Communication Services (Released 1.0.0-beta.4 of JS @azure/communication-common and @azure/communication-administration).
+- [02/02/2021](https://azure.github.io/azure-sdk/releases/2021-02/). Azure Communication Administration will be deprecated Identity client is moved to new package Azure Communication Identity. Phone number administration will be moved into a new package Azure Communication Phone Numbers.
+  - [.Net Release Notes](https://github.com/Azure/azure-sdk/blob/master/releases/2021-02/dotnet.md#azure-communication-administration-will-be-deprecated) 
+  - [Java Release Notes](https://github.com/Azure/azure-sdk/blob/master/releases/2021-02/java.md#azure-communication-administration-will-be-deprecated) 
+  - [JS Release Notes](https://github.com/Azure/azure-sdk/blob/master/releases/2021-02/js.md#azure-communication) 
+  - [Python Release Notes](https://github.com/Azure/azure-sdk/blob/master/releases/2021-02/python.md#azure-communication-administration-will-be-deprecated) 
+  - [Android Release Notes](https://github.com/Azure/azure-sdk/blob/master/releases/2021-02/android.md#azure-communication-services-common) 
+  - [iOS Release Notes](https://github.com/Azure/azure-sdk/blob/master/releases/2021-02/ios.md#azure-communication-services-common) 
+ - 03/11/2021. Significant updates to ACS Calling with breaking changes:
+    - [iOS - 1.0.0-beta.9](https://github.com/Azure/Communication/releases/tag/v1.0.0-beta.9)
+    - [Android - 1.0.0.-beta.9](https://www.npmjs.com/package/@azure/communication-calling/v/1.0.0-beta.9) 
 
 ## Help
 
