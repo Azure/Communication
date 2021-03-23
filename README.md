@@ -36,11 +36,6 @@ Azure Communication Services capabilities are conceptually organized into six ar
 ## Samples
 
 ACS has several samples available for information on these take a look at our [dedicated samples page](https://docs.microsoft.com/azure/communication-services/samples/overview).
- 
- ## Tutorials
- Advanced code samples for Azure Communication Services
- 
- - [Web Calling Tutorial](https://github.com/Azure-Samples/communication-services-web-calling-tutorial)
 
 ## Latest Release Notes 
 - [01/26/2021](./releasenotes/2021-January-26.md). Update of Azure Communication Services (Released 1.0.0-beta.4 of JS @azure/communication-common and @azure/communication-administration).
