@@ -44,7 +44,7 @@ Release notes are avaiable directly in the publishing location (e.g. nuget) for 
     - [iOS - 1.0.0-beta.9](https://github.com/Azure/Communication/releases/tag/v1.0.0-beta.9)
     - [Android - 1.0.0.-beta.9](https://www.npmjs.com/package/@azure/communication-calling/v/1.0.0-beta.9) 
 
-In some cases we maintain a perpetual changelog which is linked below.
+In some cases we maintain a perpetual changelog at a library level which is linked  below.
 
 | **Area**| **JavaScript** | **.NET** | **Python**  | **Java SE** | **iOS** | **Android**| **Other** |
 |--|--|---|---|---|-|--|-|
@@ -60,7 +60,7 @@ In some cases we maintain a perpetual changelog which is linked below.
 
 We encourage developers to submit questions, suggest features, and report problems as issues in this repo. Other forums include:
 
-- [Microsoft Q&A](https://docs.microsoft.com/en-us/answers/index.html)
+- [Microsoft Q&A](https://docs.microsoft.com/answers/topics/azure-communication-services.html)
 - [StackOverflow](https://stackoverflow.com/questions/tagged/azure+communication)
 
 Depending on your [Azure subscription support plan](https://azure.microsoft.com/support/plans/) you can access support directly in the [Azure portal](https://azure.microsoft.com/en-us/support/create-ticket/).
