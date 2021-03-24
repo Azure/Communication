@@ -1,4 +1,4 @@
-# Azure Communication Services
+# Azure Communication Services (ACS)
 This repo collates SDKs, roadmap information, release notes, and samples for developers using [Azure Communication Services](https://azure.microsoft.com/en-us/services/communication-services/). This repo is not open to contributions at this time, though many of the linked SDKs are open-source and allow contributions.
 
 **Find here:**
