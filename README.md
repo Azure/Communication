@@ -5,10 +5,11 @@ This repo collates SDKs, roadmap information, release notes, and samples for dev
 - **SDKs** - Download client libraries
 - **Roadmap** - Review priorities for current and future service development
 - **Release Notes** - Find [collated release notes](https://github.com/Azure/Communication/tree/master/releasenotes) for the service and SDKs
-- **Help** - Ask questions, file issues, or request features
 
-#### Conceptual Documentation and Samples
+#### Conceptual Documentation, Samples, and Help
 Find conceptual docs and quickstarts at [docs.microsoft.com](https://docs.microsoft.com/azure/communication-services/overview). ACS has several samples available for information on these take a look at our [dedicated samples page](https://docs.microsoft.com/azure/communication-services/samples/overview).
+
+To ask questions or get help, [please check out these resources](https://docs.microsoft.com/azure/communication-services/support).
 
 ## ❤️ Feedback
 We appreciate your feedback and energy helping us improve our services. [Please let us know if you are satisfied with ACS through this survey](https://microsoft.qualtrics.com/jfe/form/SV_4HMWolQyyLyeX77). 
