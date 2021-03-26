@@ -6,6 +6,6 @@ Customers who are interested in porting phone numbers from external accounts to 
 
 Follow the steps below to port numbers to your Azure Communication Services account:
 - Download this form: [ACS - Port In Form - Toll Free]()
-- Fill it out and send it to us at acsporting@microsoft.com *Please ensure that your email subject line begins with "ACS Number Request:"* 
+- Fill it out and send it to us at acsporting@microsoft.com  *Please ensure that your email subject line begins with "ACS Number Request:"* 
 
 Our service desk will get in touch with you on details. 
