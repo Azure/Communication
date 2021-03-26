@@ -9,7 +9,7 @@ Follow the steps below to port numbers to your Azure Communication Services acco
 - Get the Azure Resource ID for the resource you want to port the numbers to
 - Send the for and the resource ID to us at acsporting@microsoft.com  
 
-*Please ensure that your email subject line begins with "ACS Number Request:"* 
+**Please ensure that your email subject line begins with "ACS Number Request:"**
 
 
 Our service desk will get in touch with you on details. 
