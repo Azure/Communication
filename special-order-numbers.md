@@ -2,7 +2,7 @@
 
 Customers who are interested in a special order (ex. acquiring large quantities of numbers) can do so by following the process below. 
 
-*PLEASE NOTE:* You need to have an eligible Azure Subscription and Resource in the US (see link here for eligibility criteria) to be able to purchase numbers. 
+*PLEASE NOTE:* You need to have an [eligible Azure Subscription and Resource in the US](https://docs.microsoft.com/en-us/azure/communication-services/concepts/telephony-sms/plan-solution#azure-subscriptions-eligibility) to be able to purchase numbers. 
 
 You will need to work through the following steps: 
 - Download this form: [Manual / Bulk Number Acquisition Form]()
