@@ -38,10 +38,3 @@ April - June 2021
 | UI Framework | Public Preview | [2302232](https://skype.visualstudio.com/SPOOL/_workitems/edit/2302232) | Web (React) Group Chat Composite |
 | UI Framework | Public Preview | [2303459](https://skype.visualstudio.com/SPOOL/_workitems/edit/2303459) | Web (React) Calling Base Components |
 | UI Framework | Public Preview | [2303472](https://skype.visualstudio.com/SPOOL/_workitems/edit/2303472) | Web (React) Chat Base Components |
-
-### General Availability
-In early 2021, the core service should exit preview and be generally available. This corresponds to several product updates:
-
-- APIs and client libraries will be marked stable
-- SLA guarantees and documentation
-- Availability in additional Azure geographies - Europe, UK, Asia Pacific and Australia (note: PSTN and SMS offerings will be US only)
