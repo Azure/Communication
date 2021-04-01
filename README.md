@@ -39,13 +39,14 @@ Package links are aggregated below.
 
 
 ## Release Notes 
-Release notes are avaiable directly in the publishing location (e.g. nuget) for SDKs. However we aggregate release notes including services changes (e.g. new Azure Portal pages) in [this repo](https://github.com/Azure/Communication/tree/master/releasenotes).
+Release notes are avaiable directly in the publishing location (e.g. nuget) for SDKs. However every two weeks we aggregate release notes including services changes (e.g. new Azure Portal pages) in [this repo](https://github.com/Azure/Communication/tree/master/releasenotes).
 
  - 03/11/2021. Significant updates to ACS Calling with breaking changes:
     - [iOS - 1.0.0-beta.9](https://github.com/Azure/Communication/releases/tag/v1.0.0-beta.9)
     - [Android - 1.0.0.-beta.9](https://www.npmjs.com/package/@azure/communication-calling/v/1.0.0-beta.9) 
+ - [3/22/2021 - 4/4/2021 (Sprint 33)](/releasenotes/2021-March-30.md) -  General availability of the service. Most SDKs have updated 1.0.0 versions with breaking changes.
 
-In some cases we maintain a perpetual changelog at a library level which is linked  below.
+In many cases we maintain a perpetual changelog at a library level which is linked below.
 
 | **Area**| **JavaScript** | **.NET** | **Python**  | **Java SE** | **iOS** | **Android**| **Other** |
 |--|--|---|---|---|-|--|-|
