@@ -549,15 +549,15 @@ This release will only contain changes for ACS Web (JavaScript) SDK.
 <br/>`CallAgent.join(context: MeetingLinkContext, options?: JoinCallOptions): Call;`
 <br/>`CallAgent.join(context: MeetingCoordinatesContext, options?: JoinCallOptions): Call;`
 
-## Release Notes for September 22, 2020
+## v1.0.0-beta.1
 
-This is the initial release of Azure Communication Services for public preview for JavaScript (Web) SDK. SDKs for some features have been published today but functionality remains limited to private preview audiences until mid-October. This includes:
+This is the initial release of Azure Communication Services for public preview for JavaScript (Web) SDK. The following features are not available yet:
 
 1. Acquiring phone numbers
 2. Using phone numbers to send and receive SMS messages
 3. Using the Calling SDK to drive voice calls with the traditional phone network (PSTN)
 
-## JS (Web) Calling SDK
+## Release notes for September 22, 2020 JS (Web) Calling SDK
 
 ### Features available
 *   Place and receive 1-1 audio/video call
