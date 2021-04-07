@@ -1,7 +1,6 @@
 # ACS Calling Android (Java) SDK - Release History
 
-## v1.0.0-beta.9
-This release notes for March 16, 2021 contains following changes for ACS Calling Android (Java) SDK.
+## v1.0.0-beta.9 (2021-03-16)
 
 ## Bug fixes
 - `Call.getRemoteParticipants().size() == 0` when call state reaches `CONNECTED` https://github.com/Azure/Communication/issues/217
@@ -46,9 +45,7 @@ Method `removeOnMicrophonesUpdated(AudioDevicesUpdatedListener)` and `removeOnSp
 - VideoDeviceType Enum:
 SurfaceResonstructionAugmented was removed
 
-## v1.0.0-beta.8
-
-This release notes for February 19, 2021 contains following changes for ACS Calling Android (Java) SDK.
+## v1.0.0-beta.8 (2021-02-19)
 
 ## Bug fixes
 1. Holding strong references on Objects with events (Call, CallAgent, DeviceManager, RemoteParticipant, RemoteVideoStream) not necessary for events to be triggered anymore
@@ -112,9 +109,7 @@ callAgent.addOnIncomingCallListener(new IncomingCallListener() {
 });
 ```
 
-## v1.0.0-beta.7
-
-This release notes for February 1, 2021 contains following changes for ACS Calling Android (Java) SDK.
+## v1.0.0-beta.7 (2021-02-01)
 
 ## New Features:
 1. Teams meetings interop Added.<br />
@@ -196,8 +191,7 @@ is now:<br />
 
 With new types `GroupCallLocator`, `TeamsMeetingCoordinatesLocator`, `TeamsMeetingLinkLocator` being subclasses of `AbstractJoinMeetingLocator` that can be used for the various scenarios.
 
-## v1.0.0-beta.5
-This release notes for December 17, 2020 contains following changes for ACS Android(Java) SDK.
+## v1.0.0-beta.5 (2020-12-17)
 
 ## New Features
 1. Support for armeabi-v7a and x86 ABI
@@ -216,16 +210,14 @@ CallAgent callAgent = callClient.createCallAgent(appContext, communicationUserCr
 ## Bug fixes
 1. Handle push notification payload on CallAgent throwing an exception
 
-## v1.0.0-beta.3
-This release notes for November 18, 2020  contains following changes for ACS Android(Java) SDK.
+## v1.0.0-beta.3 (2020-11-18)
 
 ### Bug Fixes
 * **[Fix]** Call.hangup() method will return only after all necessary events are delivered to the app
 * **[Fix]** Call.hangup() now terminates call if the call is in Connecting or Ringing state
 * **[Fix]** Calling SDK was raising RemoteVideoStream removed event when app stopped rendering it. SDK now raises a follow-up RemoteVideoStream added event once the stream is ready to be rendered again.
 
-## v1.0.0-beta.2
-This release notes for October 06, 2020 contains following changes for ACS Android(Java) SDK version 1.0.0-beta.2.
+## v1.0.0-beta.2 (2020-10-06)
 
 ## Bug fixes
 
@@ -233,8 +225,7 @@ This release notes for October 06, 2020 contains following changes for ACS Andro
 * **[Fix]** IsMutedUpdated\IsSpeakingUpdated events are now available
 * **[Fix]** Fix bug where getCallerIdentity method on CallAgent did not return caller's identifier
 
-## v1.0.0-beta.1
-## Release Notes for September 22, 2020 Android Calling SDK
+## v1.0.0-beta.1 (2020-09-22)
 
 This is the initial release of Azure Communication Services for public preview. The following features are not available yet:
 1. Acquiring phone numbers
