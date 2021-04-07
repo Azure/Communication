@@ -534,9 +534,9 @@ export class CallAgent {
 3.  LocalVideoStream constructor must now take VideoDeviceInfo as an argument
 
 
-## Release notes for November 10, 2020
+## 1.0.0-beta.2
 
-This release will only contain changes for ACS Web (JavaScript) SDK. 
+This release notes for November 10, 2020 will only contain changes for ACS Web (JavaScript) SDK. 
 
 ## Bug fixes
 * Call.callEndReason is undefined when Call terminates issue was fixed and now will be populated with a code and sub-code which determine the reason why the call terminated.
