@@ -1,4 +1,4 @@
-# ACS Calling JavaScript library release notes
+# ACS Calling Web (JavaScript) SDK release notes
 
 ## v1.0.0-beta.10
 This release notes contain new changes for ACS Calling Web (JavaScript) SDK v1.0.0-beta.10
