@@ -224,3 +224,40 @@ This release notes for October 06, 2020 contains following changes for ACS Andro
 * **[Fix]** Fix handing of invalid Push Notification tokens
 * **[Fix]** IsMutedUpdated\IsSpeakingUpdated events are now available
 * **[Fix]** Fix bug where getCallerIdentity method on CallAgent did not return caller's identifier
+
+## Release Notes for September 22, 2020
+
+This is the initial release of Azure Communication Services for public preview. The following features are not available:
+1. Acquiring phone numbers
+2. Using phone numbers to send and receive SMS messages
+3. Using the Calling SDK to drive voice calls with the traditional phone network (PSTN)
+
+## Android Calling SDK
+
+### Features available
+* Place and receive 1-1 audio/video call
+* Place and receive 1-N (group) audio/video call
+* Join (1-N) group audio/video call
+* Escalate a 1-1 call to a group call - by adding voip participant
+* Dial-out to another voip participant to join an ongoing group audio/video call
+* Preview local video camera
+* Share local video camera stream
+* Render video from participants
+* Render screenshare from participants
+* List audio/video devices
+* Mid-call operations (Mute/Unmute)
+* Mid-call operations (Turn Video on/Turn Video off)
+* Mid-call operations (Switch between Video devices)
+* Mid-call operations (Add/Remove participant to/from the ongoing audio/video call)
+* Push notification support for incoming audio/video call
+* Place a call to PSTN participant
+* Test your mic, speaker, and camera via audio testing service (available by calling 8:echo123) 
+
+### Onboarding
+The SDK is packaged as FAT SDK artifact with ABIs (arm64-v8a, x86_64) supported on the Android platform.
+<br/>Please refer to the [Microsoft docs](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/getting-started-with-calling?pivots=platform-android) of how to bootstrap a Calling sample application on android.
+
+### Limitations
+* While the ability to make PSTN calls is available in the SDK, you need a PSTN number in ACS to make the call. PSTN functionality is available under private preview; follow this [document](https://docs.microsoft.com/azure/communication-services/quickstarts/telephony-sms/get-phone-number) for availability updates
+* The PSTN and VOIP access token scopes are currently not enforced. All-access tokens implicitly authorize users to access VOIP and PSTN calling functionality until further notice.  
+*  We don't support x86 simulators, arm7 support is coming soon
