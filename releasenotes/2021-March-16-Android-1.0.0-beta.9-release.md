@@ -1,8 +1,7 @@
-# Release Notes for March 16, 2021
+# ACS Calling Android (Java) SDK release notes
 
-This release contains following changes for ACS Calling Android (Java) SDK.
-
-## Version 1.0.0-beta.9
+## v1.0.0-beta.9
+This release notes for March 16, 2021 contains following changes for ACS Calling Android (Java) SDK.
 
 ## Bug fixes
 - `Call.getRemoteParticipants().size() == 0` when call state reaches `CONNECTED` https://github.com/Azure/Communication/issues/217
@@ -46,3 +45,182 @@ Method `removeOnMicrophonesUpdated(AudioDevicesUpdatedListener)` and `removeOnSp
 - `RendererView` class was renamed `VideoStreamRendererView`
 - VideoDeviceType Enum:
 SurfaceResonstructionAugmented was removed
+
+## v1.0.0-beta.8
+
+This release notes for February 19, 2021 contains following changes for ACS Calling Android (Java) SDK.
+
+## Bug fixes
+1. Holding strong references on Objects with events (Call, CallAgent, DeviceManager, RemoteParticipant, RemoteVideoStream) not necessary for events to be triggered anymore
+
+
+## Breaking API changes
+1. The package namespace has been changed from `com.azure.communication.calling` to `com.azure.android.communication.calling`.
+
+2. Asynchronous operations are handled using `CompletableFuture` instead of `Future`.
+As the ACS Calling SDK targets Android SDK level 21, we leverage the android-retrofuture backport to make CompletableFuture available in the SDK.
+Make sure to use the "import java9.util.concurrent.CompletableFuture;" in your app.
+
+3. Multiple classes/enums properties/methods renamed:
+- Call class:
+Method `getCallId()` on Call is now `getId()`
+- RemoteParticipant class:
+RemoteParticipant.OnParticipantStateChanged event changed to `RemoteParticipant.OnStateChanged`
+- RemoteVideoStream class:
+Method `getType()` is now `getMediasStreamType()`
+- CallState Enum:
+Hold state was splitted into `LocalHold` and `RemoteHold`
+- ParticipantState Enum:
+OnHold is now `Hold`
+New State `Ringing` was added
+
+- DeviceManager class:
+Method `GetCameraList()` is not `GetCameras()`
+Event `OnVideoDevicesUpdated` is not `OnCamerasUpdated`
+
+Method `GetMicrophoneList()` is not `GetMicrophones()`
+Event `OnVideoDevicesUpdated` is not `OnMicrophonesUpdated`
+
+Method `GetSpeakerList()` is not `GetSpeakers()`
+Event `OnVideoDevicesUpdated` is not `OnSpeakersUpdated`
+
+4. Boolean getters prefix changed from get[Property] to is[Property]
+For instance:
+- `RemoteParticipant.getIsMuted()` is not `RemoteParticipant.isMuted()`
+- `RemoteParticipant.getIsSpeaking()` is not `RemoteParticipant.isSpeaking()`
+
+5. Incoming Call restructured:
+- A new class called `IncomingCall` was introduced to handle an incoming call flow.
+Methods `accept()` and `reject()` were moved to IncomingCall to reflect the change.
+A new event was added to `CallAgent` and is raised when there is an incoming call.
+
+Belos is a usage example:
+
+
+```java
+// Assuming "callAgent" is an instance property obtained by calling the 'createCallAgent' method on CallClient instance 
+callAgent.addOnIncomingCallListener(new IncomingCallListener() {
+    void onIncomingCall(IncomingCall inboundCall) {
+        // Look for incoming call
+        incomingCall = inboundCall;
+
+        AcceptCallOptions acceptCallOptions = new AcceptCallOptions();
+        VideoDeviceInfo desiredCamera = callClient.getDeviceManager().get().getCameraList().get(0);
+        acceptCallOptions.setVideoOptions(new VideoOptions(new LocalVideoStream(desiredCamera, appContext)));
+        Call call = incomingCall.accept(context, acceptCallOptions).get();
+    }
+});
+```
+
+## v1.0.0-beta.7
+
+This release notes for February 1, 2021 contains following changes for ACS Calling Android (Java) SDK.
+
+## New Features:
+1. Teams meetings interop Added.<br />
+New types `GroupCallLocator`, `TeamsMeetingCoordinatesLocator`, `TeamsMeetingLinkLocator` introduced to support the interop scenarios.
+2. Ability to know whether a Call is currently being recorded<br />
+Call.getIsRecordingActive() returns boolean indicates wherther the call is being recorded or not.<br />
+Event `OnIsRecordingActiveChanged` is used to indicates when a recording has been started or stopped.
+
+### Usage example with `GroupCallLocator`
+```java
+    CallAgentOptions callAgentOptions = new CallAgentOptions();
+    callAgentOptions.setDisplayName("My Custom Display name");
+    CommunicationTokenCredential tokenCredential = new CommunicationTokenCredential("<USER ACCESS TOKEN>");
+    CallAgent callAgent = callClient.createCallAgent(tokenCredential, callAgentOptions);
+
+    android.content.context appContext = this.getApplicationContext(); // From within an activity or fragment
+    java.util.UUID groupCallId = java.util.UUID.fromString(<GROUP CALL ID>);
+    GroupCallLocator groupCallLocaltor = new GroupCallLocator(groupCallId);
+
+    Call call = callClient.join(appContext, groupCallLocaltor, joinCallOptions);
+```
+
+### Usage example with `TeamsMeetingLinkLocator`
+```java
+    CallAgentOptions callAgentOptions = new CallAgentOptions();
+    callAgentOptions.setDisplayName("My Custom Display name");
+    CommunicationTokenCredential tokenCredential = new CommunicationTokenCredential("<USER ACCESS TOKEN>");
+    CallAgent callAgent = callClient.createCallAgent(tokenCredential, callAgentOptions);
+
+    android.content.context appContext = this.getApplicationContext(); // From within an activity or fragment
+    string meetingLink = <TEAMS MEETINK LINK>;
+    TeamsMeetingLinkLocator teamsMeetingLinkLocator = new TeamsMeetingLinkLocator(meetingLink);
+
+    Call call = callClient.join(appContext, teamsMeetingLinkLocator, joinCallOptions);
+```
+
+### Usage example with `TeamsMeetingCoordinatesLocator`
+```java
+    CallAgentOptions callAgentOptions = new CallAgentOptions();
+    callAgentOptions.setDisplayName("My Custom Display name");
+    CommunicationTokenCredential tokenCredential = new CommunicationTokenCredential("<USER ACCESS TOKEN>");
+    CallAgent callAgent = callClient.createCallAgent(tokenCredential, callAgentOptions);
+
+    android.content.context appContext = this.getApplicationContext(); // From within an activity or fragment
+    string threadId = <TEAMS THREAD ID>;
+    java.util.UUID organizerId = java.util.UUID.fromString(<TEAMS ORGANIZER ID>);
+    java.util.UUID tenantId = java.util.UUID.fromString(<TEAMS TENANT ID>);
+    string messageId = <TEAMS MESSAGFE ID>;
+    TeamsMeetingCoordinatesLocator teamsMeetingCoordinatesLinkLocator = new TeamsMeetingCoordinatesLocator(meetingLink);
+
+    Call call = callClient.join(appContext, teamsMeetingCoordinatesLinkLocator, joinCallOptions);
+```
+
+2. Cleanup logs from console, logs are stored in a the file instead
+
+## Bug fixes
+1. Rotating device stops sending frames for LocalVideoStream.
+2. LocalVideoStream doesn't start properly if re-used between different calls.
+3. Releasing LocalVideoStream occasionally crashing on some devices (Samsung).
+4. Allow LocalVideoStream to be reused in multiple calls.
+5. Renderer.createView() fails to CreateBinding sometimes.
+6. Fix pointer corruption issue happening when we create VideoOptions will null LocalVideoStream
+4. Holding strong references on Objects with events (Call, CallAgent, DeviceManager, RemoteParticipant, RemoteVideoStream) not necessary for events to fire anymore
+
+
+## Breaking API changes
+Renamed `CommunicationUserCredential` to `CommunicationTokenCredential`
+`RemoteParticipant` identifiers renamed:
+- `PhoneNumber` to `PhoneNumberIdentifier`
+- `CommunicationUser` to `CommunicationUserIdentifier`
+- `CallingApplication` to `CallingApplicationIdentifier`
+
+New `MicrosoftTeamsUserIdentifier` Added to support Teams interop scenarios
+
+`CallAgent.join` API has been changed to support Teams interoperability<br />
+`join(android.content.Context context, GroupCallContext groupCallContext, JoinCallOptions joinCallOptions)`<br />
+is now:<br />
+`join(android.content.Context context, AbstractJoinMeetingLocator meetingLocator, JoinCallOptions joinCallOptions)`<br />
+
+With new types `GroupCallLocator`, `TeamsMeetingCoordinatesLocator`, `TeamsMeetingLinkLocator` being subclasses of `AbstractJoinMeetingLocator` that can be used for the various scenarios.
+
+## v1.0.0-beta.5
+This release notes for December 17, 2020 contains following changes for ACS Android(Java) SDK.
+
+## New Features
+1. Support for armeabi-v7a and x86 ABI
+2. Ability to set Caller display name when initializing the SDK
+
+### Usage example
+```java
+CommunicationUserCredential communicationUserCredential = new CommunicationUserCredential(<USER ACCESS TOKEN>);
+CallClient callClient = new CallClient(); 
+CallAgentOptions callAgentOptions = new CallAgentOptions();
+callAgentOptions.setDisplayName("Alice display name");
+Context appContext = this.getApplicationContext(); // From within an Activity class
+CallAgent callAgent = callClient.createCallAgent(appContext, communicationUserCredential, callAgentOptions)
+```
+
+## Bug fixes
+1. Handle push notification payload on CallAgent throwing an exception
+
+## v1.0.0-beta.2
+This release notes for October 06, 2020 contains following changes for ACS Android(Java) SDK version 1.0.0-beta.2.
+
+## Bug fixes
+
+* **[Fix]** Fix handing of invalid Push Notification tokens
+* **[Fix]** IsMutedUpdated\IsSpeakingUpdated events are now available
+* **[Fix]** Fix bug where getCallerIdentity method on CallAgent did not return caller's identifier
