@@ -22,7 +22,6 @@
 - `Hold` and `Resume` of an active call is fixed. 
 
 ## v1.0.0-beta.8 (2021-02-08)
-This release notes for February 8, 2021 will only contain changes for ACS Calling iOS SDK. 
 **Latest XCode 12.3 does not support frameworks where lipo was used to combine simulator and arm builds, we will address this issue in the next release.**
 
 ## New features
@@ -45,7 +44,6 @@ This release notes for February 8, 2021 will only contain changes for ACS Callin
 - `RendererView` Issues when joining a call with a reused `groupId` https://github.com/Azure/Communication/issues/111
 
 ## v1.0.0-beta.7 (2020-12-17)
-This release notes for December 17, 2020 will only contain changes for ACS Calling iOS SDK. 
 
 **Latest XCode 12.3 does not support frameworks where lipo was used to combine simulator and arm builds, we will address this issue in the next release.**
 
@@ -65,7 +63,6 @@ This release notes for December 17, 2020 will only contain changes for ACS Calli
 
 
 ## v1.0.0-beta.6 (2020-11-23)
-This release notes for November 23, 2020 will only contain changes for ACS Calling iOS SDK. 
 
 ## Onboarding 
 - The AzureCommunicationCalling SDK is released for the following platforms: arm64 (device) and x86_64 (simulator).
@@ -89,7 +86,6 @@ This release notes for November 23, 2020 will only contain changes for ACS Calli
 
 
 ## v1.0.0-beta.5 (2020-11-18)
-This release notes for November 18, 2020 will only contain changes for ACS Calling iOS SDK. 
 
 ### New Features
 - Cocoapods is available for ACS
@@ -111,7 +107,6 @@ Among of the problem that we fixed:
 
 
 ## v1.0.0-beta.4 (2020-10-06)
-This release notes for October 06, 2020 will only contain changes for ACS Calling iOS SDK.
 
 * **[Fix]** IsMutedUpdated\IsSpeakingUpdated events are now available
 * **[Fix]** Fix bug where group call cannot be started in mute state
