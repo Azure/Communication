@@ -430,8 +430,6 @@ export declare interface IncomingCall {
 
 This release for December 16, 2020 contains following changes for ACS Web (JavaScript) SDK. 
 
-## Version 1.0.0-beta.3
-
 ## Bug fixes
 1. Safari/iOS 14+ - fixed an issue with video being stopped if user starts or joins a call with enabled video preview.
 2. Call.unhold() API can now be called right after Call.hold() API without having to wait for Call.hold() API to resolve.
@@ -534,7 +532,7 @@ export class CallAgent {
 3.  LocalVideoStream constructor must now take VideoDeviceInfo as an argument
 
 
-## 1.0.0-beta.2
+## v1.0.0-beta.2
 
 This release notes for November 10, 2020 will only contain changes for ACS Web (JavaScript) SDK. 
 
