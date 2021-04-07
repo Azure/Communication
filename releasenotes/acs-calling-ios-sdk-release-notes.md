@@ -30,6 +30,8 @@ This release notes for October 06, 2020 will only contain changes for ACS Callin
 * **[Fix]** Removed dependency on quicklookthumbnailing and iosurface frameworks
 * **[Fix]** Fix bug where getCallerIdentity method on CallAgent did not return caller's identifier
 
+## v1.0.0-beta.1
+
 ## Release Notes for September 22, 2020 iOS Calling SDK
 This is the initial release of Azure Communication Services for public preview. The following features are not available yet:
 
