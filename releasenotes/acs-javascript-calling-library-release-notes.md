@@ -1,6 +1,6 @@
 # ACS Calling JavaScript library release notes
 
-## Release notes for March 21, 2021
+## v1.0.0-beta.10
 This release notes contain new changes for ACS Calling Web (JavaScript) SDK v1.0.0-beta.10
 
 ## Breaking API Changes
@@ -140,12 +140,12 @@ To unsubscribe your event handler call
 callRecordingApi.off('isTranscriptionActiveChanged', isTranscriptionActiveChangedHandler);
 ```
 
-## Release notes for March 1, 2021
-## ACS Calling Web (JavaScript) SDK v1.0.0-beta.7 was deprecated due to critical bug that could affect main scenarios.
+## v1.0.0-beta.7
+## ACS Calling Web (JavaScript) SDK v1.0.0-beta.7 was deprecated due to critical bug that could affect main scenarios on March 1, 2021.
 
-## Release notes for February 18, 2021
+## v1.0.0-beta.6 
 
-This release notes contain new changes for ACS Calling Web (JavaScript) SDK v1.0.0-beta.6
+This release notes for February 18, 2021 contain new changes for ACS Calling Web (JavaScript) SDK v1.0.0-beta.6
 
 ## Breaking API Changes
 1. CallerInfo interface changes:
@@ -171,9 +171,9 @@ This release notes contain new changes for ACS Calling Web (JavaScript) SDK v1.0
 7. IncomingCall interface changes:
     1. new readonly property `callerInfo` of type CallerInfo has been added
 
-## Release notes for February 17, 2021
+## v1.0.0-beta.5 
 
-This release notes contain new changes for ACS Calling Web (JavaScript) SDK v1.0.0-beta.5
+This release notes for February 17, 2021 contain new changes for ACS Calling Web (JavaScript) SDK v1.0.0-beta.5
 ## Bug fixes
 1. Fixed https://github.com/Azure/Communication/issues/46
     - Device names do not appear on Android Chrome after calling DeviceManager.AskDevicePermission(), then enumerating the Microphone List
@@ -229,9 +229,9 @@ This release notes contain new changes for ACS Calling Web (JavaScript) SDK v1.0
 4. RemoteParticipant.videoStreams type change:  RemoteVideoStream[] -> ReadonlyArray<RemoteVideoStream>
 
 
-## Release notes for February 3, 2021
+## v1.0.0-beta.4
 
-This release notes contain new changes for ACS Calling Web (JavaScript) SDK v1.0.0-beta.4
+This release notes for February 3, 2021 contain new changes for ACS Calling Web (JavaScript) SDK v1.0.0-beta.4
 
 ## Bug fixes
 1. Fix CallEndReason.subCode lower case 'c' typo 
@@ -426,9 +426,9 @@ export declare interface IncomingCall {
     * @azure/logger version 1.0.0
     * @azure/communication-common version beta4 (calling beta4 depends on common beta4)
 
-## Release notes for December 16, 2020
+## v1.0.0-beta.3
 
-This release contains following changes for ACS Web (JavaScript) SDK. 
+This release for December 16, 2020 contains following changes for ACS Web (JavaScript) SDK. 
 
 ## Version 1.0.0-beta.3
 
