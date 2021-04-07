@@ -1,6 +1,6 @@
 # ACS Calling iOS (Swift) SDK release notes
 
-## v[1.0.0-beta.5](https://github.com/Azure/Communication/releases/tag/v1.0.0-beta.5)
+## [v1.0.0-beta.5](https://github.com/Azure/Communication/releases/tag/v1.0.0-beta.5)
 This release notes for November 18, 2020 will only contain changes for ACS Calling iOS SDK. 
 
 ### New Features
@@ -22,7 +22,7 @@ Among of the problem that we fixed:
 - Calling SDK was raising RemoteVideoStream removed event when app stopped rendering it. SDK now raises a follow-up RemoteVideoStream added event once the stream is ready to be rendered again. ([GitHub Issue 95](https://github.com/Azure/Communication/issues/95))
 
 
-## v[1.0.0-beta.4](https://github.com/Azure/Communication/releases/tag/v1.0.0-beta.4)
+## [v1.0.0-beta.4](https://github.com/Azure/Communication/releases/tag/v1.0.0-beta.4)
 This release notes for October 06, 2020 will only contain changes for ACS Calling iOS SDK.
 
 * **[Fix]** IsMutedUpdated\IsSpeakingUpdated events are now available
