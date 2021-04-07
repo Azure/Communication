@@ -1,4 +1,4 @@
-# ACS Calling iOS (Swift) SDK release notes
+# ACS Calling iOS (Swift) SDK - Release History
 
 ## [v1.0.0-beta.5](https://github.com/Azure/Communication/releases/tag/v1.0.0-beta.5)
 This release notes for November 18, 2020 will only contain changes for ACS Calling iOS SDK. 
