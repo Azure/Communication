@@ -1,7 +1,6 @@
 # ACS Calling Web (JavaScript) SDK - Release History
 
-## v1.0.0-beta.10
-This release notes contain new changes for ACS Calling Web (JavaScript) SDK v1.0.0-beta.10
+## v1.0.0-beta.10 (2021-03-24)
 
 ## Breaking API Changes
 1. v1.0.0-beta.10 takes dependency on @azure/communication-common@1.0.0-beta.6 and @azure/logger@^1.0.2
@@ -62,8 +61,7 @@ To prevent race condition where `VideoStreamRendererView` is used to render a `R
 `VideoStreamRendererView` will be automatically disposed
 * when stream `isAvailable` changes to `false` while `createView()` promise is still pending, `createView()` promise will be rejected
 
-## v1.0.0-beta.8 and v1.0.0-beta.9
-This release notes for March 8, 2021 contain new changes for ACS Calling Web (JavaScript) SDK v1.0.0-beta.8 and v1.0.0-beta.9
+## v1.0.0-beta.8 and v1.0.0-beta.9 (2021-03-08)
 
 ## Bug fixes
 ### v1.0.0-beta.8
@@ -140,8 +138,8 @@ To unsubscribe your event handler call
 callRecordingApi.off('isTranscriptionActiveChanged', isTranscriptionActiveChangedHandler);
 ```
 
-## v1.0.0-beta.7
-## ACS Calling Web (JavaScript) SDK v1.0.0-beta.7 was deprecated due to critical bug that could affect main scenarios on March 1, 2021.
+## v1.0.0-beta.7 (2021-03-01)
+## ACS Calling Web (JavaScript) SDK v1.0.0-beta.7 was deprecated due to critical bug that could affect main scenarios.
 
 ## v1.0.0-beta.6 
 
@@ -171,9 +169,8 @@ This release notes for February 18, 2021 contain new changes for ACS Calling Web
 7. IncomingCall interface changes:
     1. new readonly property `callerInfo` of type CallerInfo has been added
 
-## v1.0.0-beta.5 
+## v1.0.0-beta.5 (2021-02-17)
 
-This release notes for February 17, 2021 contain new changes for ACS Calling Web (JavaScript) SDK v1.0.0-beta.5
 ## Bug fixes
 1. Fixed https://github.com/Azure/Communication/issues/46
     - Device names do not appear on Android Chrome after calling DeviceManager.AskDevicePermission(), then enumerating the Microphone List
@@ -229,9 +226,7 @@ This release notes for February 17, 2021 contain new changes for ACS Calling Web
 4. RemoteParticipant.videoStreams type change:  RemoteVideoStream[] -> ReadonlyArray<RemoteVideoStream>
 
 
-## v1.0.0-beta.4
-
-This release notes for February 3, 2021 contain new changes for ACS Calling Web (JavaScript) SDK v1.0.0-beta.4
+## v1.0.0-beta.4 (2021-02-03)
 
 ## Bug fixes
 1. Fix CallEndReason.subCode lower case 'c' typo 
@@ -426,9 +421,7 @@ export declare interface IncomingCall {
     * @azure/logger version 1.0.0
     * @azure/communication-common version beta4 (calling beta4 depends on common beta4)
 
-## v1.0.0-beta.3
-
-This release for December 16, 2020 contains following changes for ACS Web (JavaScript) SDK. 
+## v1.0.0-beta.3 (2020-12-16)
 
 ## Bug fixes
 1. Safari/iOS 14+ - fixed an issue with video being stopped if user starts or joins a call with enabled video preview.
@@ -532,9 +525,7 @@ export class CallAgent {
 3.  LocalVideoStream constructor must now take VideoDeviceInfo as an argument
 
 
-## v1.0.0-beta.2
-
-This release notes for November 10, 2020 will only contain changes for ACS Web (JavaScript) SDK. 
+## v1.0.0-beta.2 (2020-11-10)
 
 ## Bug fixes
 * Call.callEndReason is undefined when Call terminates issue was fixed and now will be populated with a code and sub-code which determine the reason why the call terminated.
@@ -547,15 +538,13 @@ This release notes for November 10, 2020 will only contain changes for ACS Web (
 <br/>`CallAgent.join(context: MeetingLinkContext, options?: JoinCallOptions): Call;`
 <br/>`CallAgent.join(context: MeetingCoordinatesContext, options?: JoinCallOptions): Call;`
 
-## v1.0.0-beta.1
+## v1.0.0-beta.1 (2020-09-22)
 
 This is the initial release of Azure Communication Services for public preview for JavaScript (Web) SDK. The following features are not available yet:
 
 1. Acquiring phone numbers
 2. Using phone numbers to send and receive SMS messages
 3. Using the Calling SDK to drive voice calls with the traditional phone network (PSTN)
-
-## Release notes for September 22, 2020 JS (Web) Calling SDK
 
 ### Features available
 *   Place and receive 1-1 audio/video call
