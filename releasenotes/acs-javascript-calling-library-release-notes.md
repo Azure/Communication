@@ -62,8 +62,8 @@ To prevent race condition where `VideoStreamRendererView` is used to render a `R
 `VideoStreamRendererView` will be automatically disposed
 * when stream `isAvailable` changes to `false` while `createView()` promise is still pending, `createView()` promise will be rejected
 
-## Release notes for March 8, 2021
-This release notes contain new changes for ACS Calling Web (JavaScript) SDK v1.0.0-beta.8 and v1.0.0-beta.9
+## v1.0.0-beta.8 and v1.0.0-beta.9
+This release notes for March 8, 2021 contain new changes for ACS Calling Web (JavaScript) SDK v1.0.0-beta.8 and v1.0.0-beta.9
 
 ## Bug fixes
 ### v1.0.0-beta.8
