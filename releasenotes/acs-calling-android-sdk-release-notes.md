@@ -1,4 +1,4 @@
-# ACS Calling Android (Java) SDK release notes
+# ACS Calling Android (Java) SDK - Release History
 
 ## v1.0.0-beta.9
 This release notes for March 16, 2021 contains following changes for ACS Calling Android (Java) SDK.
