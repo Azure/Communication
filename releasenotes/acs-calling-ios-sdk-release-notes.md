@@ -1,7 +1,6 @@
 # ACS Calling iOS (Swift) SDK - Release History
 
-## v1.0.0-beta.9
-This release notes for March 10, 2021 will only contain changes for ACS Calling iOS SDK. 
+## v1.0.0-beta.9 (2021-03-10)
 **There is no support for FAT frameworks starting from this release. But if you still need it please create an issue for us [here](https://github.com/Azure/Communication/issues).**
 
 ## New features
@@ -22,7 +21,7 @@ This release notes for March 10, 2021 will only contain changes for ACS Calling 
 - `OnCallsUpdated` event is raised when the call collection on `CallAgent` is updated for outgoing calls.
 - `Hold` and `Resume` of an active call is fixed. 
 
-## v1.0.0-beta.8
+## v1.0.0-beta.8 (2021-02-08)
 This release notes for February 8, 2021 will only contain changes for ACS Calling iOS SDK. 
 **Latest XCode 12.3 does not support frameworks where lipo was used to combine simulator and arm builds, we will address this issue in the next release.**
 
@@ -45,7 +44,7 @@ This release notes for February 8, 2021 will only contain changes for ACS Callin
 -  `RendererView` is blank when not added to the window right away https://github.com/Azure/Communication/issues/132
 - `RendererView` Issues when joining a call with a reused `groupId` https://github.com/Azure/Communication/issues/111
 
-## v1.0.0-beta.7
+## v1.0.0-beta.7 (2020-12-17)
 This release notes for December 17, 2020 will only contain changes for ACS Calling iOS SDK. 
 
 **Latest XCode 12.3 does not support frameworks where lipo was used to combine simulator and arm builds, we will address this issue in the next release.**
@@ -65,7 +64,7 @@ This release notes for December 17, 2020 will only contain changes for ACS Calli
 - Remote participant is still available after hangup/disconnect. (https://github.com/Azure/Communication/issues/134)
 
 
-## v1.0.0-beta.6
+## v1.0.0-beta.6 (2020-11-23)
 This release notes for November 23, 2020 will only contain changes for ACS Calling iOS SDK. 
 
 ## Onboarding 
@@ -89,7 +88,7 @@ This release notes for November 23, 2020 will only contain changes for ACS Calli
 - `Info.plist` has version following semantic version schema for `CFBundleVersion` and `CFBundleShortVersionString` entries (https://github.com/Azure/Communication/issues/113).
 
 
-## v1.0.0-beta.5
+## v1.0.0-beta.5 (2020-11-18)
 This release notes for November 18, 2020 will only contain changes for ACS Calling iOS SDK. 
 
 ### New Features
@@ -111,7 +110,7 @@ Among of the problem that we fixed:
 - Calling SDK was raising RemoteVideoStream removed event when app stopped rendering it. SDK now raises a follow-up RemoteVideoStream added event once the stream is ready to be rendered again. ([GitHub Issue 95](https://github.com/Azure/Communication/issues/95))
 
 
-## v1.0.0-beta.4
+## v1.0.0-beta.4 (2020-10-06)
 This release notes for October 06, 2020 will only contain changes for ACS Calling iOS SDK.
 
 * **[Fix]** IsMutedUpdated\IsSpeakingUpdated events are now available
@@ -119,9 +118,8 @@ This release notes for October 06, 2020 will only contain changes for ACS Callin
 * **[Fix]** Removed dependency on quicklookthumbnailing and iosurface frameworks
 * **[Fix]** Fix bug where getCallerIdentity method on CallAgent did not return caller's identifier
 
-## v1.0.0-beta.1
+## v1.0.0-beta.1 (2020-09-22)
 
-## Release Notes for September 22, 2020 iOS Calling SDK
 This is the initial release of Azure Communication Services for public preview. The following features are not available yet:
 
 1. Acquiring phone numbers
