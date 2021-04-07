@@ -233,14 +233,13 @@ This release notes for October 06, 2020 contains following changes for ACS Andro
 * **[Fix]** IsMutedUpdated\IsSpeakingUpdated events are now available
 * **[Fix]** Fix bug where getCallerIdentity method on CallAgent did not return caller's identifier
 
-## Release Notes for September 22, 2020
+## v1.0.0-beta.1
+## Release Notes for September 22, 2020 Android Calling SDK
 
-This is the initial release of Azure Communication Services for public preview. The following features are not available:
+This is the initial release of Azure Communication Services for public preview. The following features are not available yet:
 1. Acquiring phone numbers
 2. Using phone numbers to send and receive SMS messages
 3. Using the Calling SDK to drive voice calls with the traditional phone network (PSTN)
-
-## Android Calling SDK
 
 ### Features available
 * Place and receive 1-1 audio/video call
