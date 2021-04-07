@@ -1,6 +1,95 @@
 # ACS Calling iOS (Swift) SDK - Release History
 
-## [v1.0.0-beta.5](https://github.com/Azure/Communication/releases/tag/v1.0.0-beta.5)
+## v1.0.0-beta.9
+This release notes for March 10, 2021 will only contain changes for ACS Calling iOS SDK. 
+**There is no support for FAT frameworks starting from this release. But if you still need it please create an issue for us [here](https://github.com/Azure/Communication/issues).**
+
+## New features
+- SDK is now shipped as a XCFramework instead of a FAT framework created using `lipo`.
+- Improved caching of objects. 
+- Added new call state `Hold` when a remote participant puts the call on hold.
+
+## Breaking changes
+- `Renderer` renamed to `VideoStreamRenderer`.
+- `AudioDeviceInfo` removed from `DeviceManager`, please use iOS system API's in your application to switch between audio devices.
+- `CallAgent` raises a new event `onIncomingCall` when a new incoming call is received. 
+- `IncomingCall` raises a new event `onCallEnded` event is raised when the incoming call wasn't answered.
+- `Accept` and `Reject` can now be done on `IncomingCall` object and removed from `Call` object.
+- For parsing of push notification payload `IncomingCallPushNotification` has been renamed to `PushNotificationInfo`.
+- `CallerInfo` class created which provides information about the caller in an incoming call. Can be retrieved from `IncomingCall` and `Call` objects. 
+
+## Bug fixes
+- `OnCallsUpdated` event is raised when the call collection on `CallAgent` is updated for outgoing calls.
+- `Hold` and `Resume` of an active call is fixed. 
+
+## v1.0.0-beta.8
+This release notes for February 8, 2021 will only contain changes for ACS Calling iOS SDK. 
+**Latest XCode 12.3 does not support frameworks where lipo was used to combine simulator and arm builds, we will address this issue in the next release.**
+
+## New features
+- Ability to join a Teams meeting.
+- New event on `Call` `OnIsRecordingActiveChanged` to indicate when the recording has been started and stopped and new property `IsRecordingActive` to indicate if currently the recording is active or not.
+
+## Onboarding 
+- The AzureCommunicationCalling SDK is released for the following platforms: arm64 (device) and x86_64 (simulator).
+- **Minimum supported iOS SDK version is 12.0**
+- Follow this [quickstart tutorial](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/getting-started-with-calling?pivots=platform-ios) to get started.
+- `AzureCommunicationCalling.framework`, `AzureCore.framework` and `AzureCommunication.framework` can be installed by writing a `Podfile` for CocoaPods. More information can be found in [quickstart tutorial](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/getting-started-with-calling?pivots=platform-ios).
+
+## Bug Fixes
+- Fix wrong `callId` on the incoming `Call` object https://github.com/Azure/Communication/issues/164
+- When placing outgoing call or joining call list on `CallAgent` is updated.
+- Throw IllegalArgumentException if null camera is passed to constructor of `LocalVideoStream`.
+- Video freezing in landscape mode https://github.com/Azure/Communication/issues/128
+- `RendererView` layout is off after a device rotation https://github.com/Azure/Communication/issues/127
+-  `RendererView` is blank when not added to the window right away https://github.com/Azure/Communication/issues/132
+- `RendererView` Issues when joining a call with a reused `groupId` https://github.com/Azure/Communication/issues/111
+
+## v1.0.0-beta.7
+This release notes for December 17, 2020 will only contain changes for ACS Calling iOS SDK. 
+
+**Latest XCode 12.3 does not support frameworks where lipo was used to combine simulator and arm builds, we will address this issue in the next release.**
+
+## New features
+- Ability to set Caller display name when initializing the SDK
+
+## Onboarding 
+- The AzureCommunicationCalling SDK is released for the following platforms: arm64 (device) and x86_64 (simulator).
+- **Minimum supported iOS SDK version is 12.0**
+- Follow this [quickstart tutorial](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/getting-started-with-calling?pivots=platform-ios) to get started.
+- `AzureCommunicationCalling.framework`, `AzureCore.framework` and `AzureCommunication.framework` can be installed by writing a `Podfile` for CocoaPods. More information can be found in [quickstart tutorial](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/getting-started-with-calling?pivots=platform-ios).
+
+## Bug Fixes
+- `handlePushNotification` does not return false if the same payload has been processed already.
+- Improved logging to identify the `hangup` related issues reported in GitHub.
+- Remote participant is still available after hangup/disconnect. (https://github.com/Azure/Communication/issues/134)
+
+
+## v1.0.0-beta.6
+This release notes for November 23, 2020 will only contain changes for ACS Calling iOS SDK. 
+
+## Onboarding 
+- The AzureCommunicationCalling SDK is released for the following platforms: arm64 (device) and x86_64 (simulator).
+- **Minimum supported iOS SDK version is 12.0**
+- Follow this [quickstart tutorial](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/getting-started-with-calling?pivots=platform-ios) to get started.
+- `AzureCommunicationCalling.framework`, `AzureCore.framework` and `AzureCommunication.framework` can be installed by writing a `Podfile` for CocoaPods. More information can be found in [quickstart tutorial](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/getting-started-with-calling?pivots=platform-ios).
+
+## Breaking Changes
+- Swift applications will not see `ACS` prefix for classes and enums. For e.g. `ACSCallAgent` is now `CallAgent` when AzureCommunicationCalling  SDK is imported in a Swift application.
+- Parameter labels are mandatory for all API calls from Swift Applications.
+- Except the first argument all other arguments in delegates will need parameter labels in Swift Applications.
+- Exception is thrown if an application tries to render video/camera twice.
+
+## Bug Fixes
+- Crash on calling `Call.hangup()` (https://github.com/Azure/Communication/issues/106).
+- Deadlock when deleting `ACSCallAgent` object (https://github.com/Azure/Communication/issues/106).
+- `Call.hangup()` method will return only after all necessary events are delivered to the app (https://github.com/Azure/Communication/issues/85).
+- `Call.hangup()` now terminates call if the call is in `Connecting` or `Ringing` state (https://github.com/Azure/Communication/issues/96).
+- Calling SDK was raising `RemoteVideoStream` removed event when app stopped rendering it. SDK now raises a follow-up `RemoteVideoStream` added event once the stream is ready to be rendered again. (https://github.com/Azure/Communication/issues/95).
+- `Info.plist` has version following semantic version schema for `CFBundleVersion` and `CFBundleShortVersionString` entries (https://github.com/Azure/Communication/issues/113).
+
+
+## v1.0.0-beta.5
 This release notes for November 18, 2020 will only contain changes for ACS Calling iOS SDK. 
 
 ### New Features
@@ -22,7 +111,7 @@ Among of the problem that we fixed:
 - Calling SDK was raising RemoteVideoStream removed event when app stopped rendering it. SDK now raises a follow-up RemoteVideoStream added event once the stream is ready to be rendered again. ([GitHub Issue 95](https://github.com/Azure/Communication/issues/95))
 
 
-## [v1.0.0-beta.4](https://github.com/Azure/Communication/releases/tag/v1.0.0-beta.4)
+## v1.0.0-beta.4
 This release notes for October 06, 2020 will only contain changes for ACS Calling iOS SDK.
 
 * **[Fix]** IsMutedUpdated\IsSpeakingUpdated events are now available
