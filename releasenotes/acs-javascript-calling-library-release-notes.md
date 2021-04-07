@@ -141,9 +141,7 @@ callRecordingApi.off('isTranscriptionActiveChanged', isTranscriptionActiveChange
 ## v1.0.0-beta.7 (2021-03-01)
 ## ACS Calling Web (JavaScript) SDK v1.0.0-beta.7 was deprecated due to critical bug that could affect main scenarios.
 
-## v1.0.0-beta.6 
-
-This release notes for February 18, 2021 contain new changes for ACS Calling Web (JavaScript) SDK v1.0.0-beta.6
+## v1.0.0-beta.6 (2021-02-18)
 
 ## Breaking API Changes
 1. CallerInfo interface changes:
