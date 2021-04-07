@@ -216,6 +216,14 @@ CallAgent callAgent = callClient.createCallAgent(appContext, communicationUserCr
 ## Bug fixes
 1. Handle push notification payload on CallAgent throwing an exception
 
+## v1.0.0-beta.3
+This release notes for November 18, 2020  contains following changes for ACS Android(Java) SDK.
+
+### Bug Fixes
+* **[Fix]** Call.hangup() method will return only after all necessary events are delivered to the app
+* **[Fix]** Call.hangup() now terminates call if the call is in Connecting or Ringing state
+* **[Fix]** Calling SDK was raising RemoteVideoStream removed event when app stopped rendering it. SDK now raises a follow-up RemoteVideoStream added event once the stream is ready to be rendered again.
+
 ## v1.0.0-beta.2
 This release notes for October 06, 2020 contains following changes for ACS Android(Java) SDK version 1.0.0-beta.2.
 
