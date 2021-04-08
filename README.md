@@ -44,7 +44,7 @@ Release notes are avaiable directly in the publishing location (e.g. nuget) for 
  - 03/11/2021. Significant updates to ACS Calling with breaking changes:
     - [iOS - 1.0.0-beta.9](https://github.com/Azure/Communication/releases/tag/v1.0.0-beta.9)
     - [Android - 1.0.0.-beta.9](https://www.npmjs.com/package/@azure/communication-calling/v/1.0.0-beta.9) 
- - [3/22/2021 - 4/4/2021 (Sprint 33)](/releasenotes/2021-March-30.md) -  General availability of the service. Most SDKs have updated 1.0.0 versions with breaking changes.
+ - [3/22/2021 - 4/4/2021](/releasenotes/2021-March-30.md) -  General availability of the service. Most SDKs have updated 1.0.0 versions with breaking changes.
 
 In many cases we maintain a perpetual changelog at a library level which is linked below.
 
