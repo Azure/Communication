@@ -110,6 +110,12 @@ callAgent.addOnIncomingCallListener(new IncomingCallListener() {
 ```
 
 ## v1.0.0-beta.7 (2021-02-01)
+The v1.0.0-beta.7 release is basically the same as v1.0.0-beta.6 with the below fix to Teams meeting join scenario.
+
+## Bug fixes
+1. Fix crash with ACS and Teams meeting join scenario.
+
+## v1.0.0-beta.6 (2021-02-01)
 
 ## New Features:
 1. Teams meetings interop Added.<br />
@@ -191,6 +197,7 @@ is now:<br />
 
 With new types `GroupCallLocator`, `TeamsMeetingCoordinatesLocator`, `TeamsMeetingLinkLocator` being subclasses of `AbstractJoinMeetingLocator` that can be used for the various scenarios.
 
+
 ## v1.0.0-beta.5 (2020-12-17)
 
 ## New Features
@@ -209,6 +216,11 @@ CallAgent callAgent = callClient.createCallAgent(appContext, communicationUserCr
 
 ## Bug fixes
 1. Handle push notification payload on CallAgent throwing an exception
+
+## v1.0.0-beta.4 (2020-11-23)
+
+### Bug Fixes
+* **[Fix]** Calling SDK was raising RemoteVideoStream removed event when app stopped rendering it. SDK now raises a follow-up RemoteVideoStream added event once the stream is ready to be rendered again. (#95).
 
 ## v1.0.0-beta.3 (2020-11-18)
 
