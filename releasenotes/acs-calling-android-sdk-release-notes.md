@@ -19,8 +19,6 @@ CallAgent ca = cc.createCallAgent(...);
 - Call.AddParticipant(...) failure with NullPointerException
 - Permission checks of SDK APIs have been fixed to respect only required permission
 
-- Bug 2305081: [Android] Raise RendererFailedToStart event if binding fails for local video stream
-
 ## Breaking API changes
 1. Task 2406220: [CommonLayer] Block CallAgent creation with same user
 2. OnIsMuted event is added to the Call class. Event will be triggered when the call is locally or remotely muted
