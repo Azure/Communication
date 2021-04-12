@@ -5,8 +5,8 @@
 1. DeviceManager obtention is decoupled from CallAgent creation allowing one to now do:
 ```
 CallClient cc = new CallClient();
-DeviceManager dm = cc.getDeviceManager().get();
-CallAgent ca = cc.createCallAgent(...);
+DeviceManager dm = cc.getDeviceManager(Context).get();
+CallAgent ca = cc.createCallAgent(Context, CommunicationTokenCredential, CallAgentOptions);
 ```
 2. OnIsMuted event is added to the Call class. Event will be triggered when the call is locally or remotely muted
 Below is a usage example:
