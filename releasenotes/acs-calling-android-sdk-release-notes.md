@@ -1,4 +1,40 @@
 # ACS Calling Android (Java) SDK - Release History
+## v1.0.0-beta.10 (2021-04-12)
+
+## New Features:
+1. DeviceManager obtention is decoupled from CallAgent creation allowing one to now do:
+```
+CallClient cc = new CallClient();
+DeviceManager dm = cc.getDeviceManager().get();
+CallAgent ca = cc.createCallAgent(...);
+```
+
+## Bug fixes
+- SDK Crash when another guest user joins a Teams meeting with Video on. https://github.com/Azure/Communication/issues/218
+- OnRemoteParticipantsUpdated event updates the participant state to `Idle` when the participant is InLobby· https://github.com/Azure/Communication/issues/221
+- Speaking Change Listeners were triggered unexpectedly. https://github.com/Azure/Communication/issues/234
+- The video stream of remote participants from web client is not centred/cropped on Android. https://github.com/Azure/Communication/issues/233
+
+- Bug 2305081: [Android] Raise RendererFailedToStart event if binding fails for local video stream
+- Bug 2399773: Turning the local video off/on quickly shows a blank local video
+- Bug 2406929: [Android] Mic and Camera UI access prompts are not shown on apps requiring speaker only access
+- Call.AddParticipant(...) failure with NullPointerException
+- Answering an incoming with Video not rendering for local participant
+
+## Breaking API changes
+1. Task 2406220: [CommonLayer] Block CallAgent creation with same user
+2. OnIsMuted event is added to the Call class. Event will be triggered when the call is locally or remotely muted
+3. Multiple classes properties/methods renamed:
+- Call class:
+Method `getCallDirection()` was renamed `getDirection()`
+Method `isMicrophoneMuted()` was renamed `isMuted()`
+
+- VideoOptions:
+`LocalVideoStream` property is now `LocalVideoStreams` making it an array.
+The constructor now takes an array of LocalVideoStream as parameter: `VideoOptions(LocalVideoStream[] localVideoStreams)
+Method `getLocalVideoStream()` is now `getLocalVideoStreams()` and returns an array of LocalVideoStream
+
+- RenderingOptions has been renamed CreateViewOptions.
 
 ## v1.0.0-beta.9 (2021-03-16)
 
