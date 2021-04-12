@@ -8,6 +8,18 @@ CallClient cc = new CallClient();
 DeviceManager dm = cc.getDeviceManager().get();
 CallAgent ca = cc.createCallAgent(...);
 ```
+2. OnIsMuted event is added to the Call class. Event will be triggered when the call is locally or remotely muted
+Below is a usage example:
+
+```java
+// Assuming you have a "call" instance 
+call.addOnIsMutedChangedListener(new PropertyChangedListener() {
+    void onPropertyChanged(PropertyChangedEvent args) {
+        Log.i(TAG, "Call ID[" + call.getId() + "] has " + (call.isMuted() ? "" : "NOT ") + "been MUTED");
+    }
+});
+```
+
 
 ## Bug fixes
 - SDK Crash when another guest user joins a Teams meeting with Video on. [#218](https://github.com/Azure/Communication/issues/218)
@@ -21,7 +33,6 @@ CallAgent ca = cc.createCallAgent(...);
 
 ## Breaking API changes
 1. Task 2406220: [CommonLayer] Block CallAgent creation with same user
-2. OnIsMuted event is added to the Call class. Event will be triggered when the call is locally or remotely muted
 3. Multiple classes properties/methods renamed:
 - Call class:
 Method `getCallDirection()` was renamed `getDirection()`
@@ -129,7 +140,7 @@ For instance:
 Methods `accept()` and `reject()` were moved to IncomingCall to reflect the change.
 A new event was added to `CallAgent` and is raised when there is an incoming call.
 
-Belos is a usage example:
+Below is a usage example:
 
 
 ```java
