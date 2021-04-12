@@ -10,16 +10,16 @@ CallAgent ca = cc.createCallAgent(...);
 ```
 
 ## Bug fixes
-- SDK Crash when another guest user joins a Teams meeting with Video on. https://github.com/Azure/Communication/issues/218
-- OnRemoteParticipantsUpdated event updates the participant state to `Idle` when the participant is InLobby· https://github.com/Azure/Communication/issues/221
-- Speaking Change Listeners were triggered unexpectedly. https://github.com/Azure/Communication/issues/234
-- The video stream of remote participants from web client is not centred/cropped on Android. https://github.com/Azure/Communication/issues/233
+- SDK Crash when another guest user joins a Teams meeting with Video on. [#218](https://github.com/Azure/Communication/issues/218)
+- OnRemoteParticipantsUpdated event updates the participant state to `Idle` when the participant is InLobby· [#221](https://github.com/Azure/Communication/issues/221)
+- Speaking Change Listeners were triggered unexpectedly. [#234](https://github.com/Azure/Communication/issues/234)
+- The video stream of remote participants from web client is not centred/cropped on Android. [#181](https://github.com/Azure/Communication/issues/181) and [#233](https://github.com/Azure/Communication/issues/233)
+- Turning the local video off/on quickly shows a blank local video. [#225](https://github.com/Azure/Communication/issues/225)
+- Answering an incoming with Video not rendering for local participant.
+- Call.AddParticipant(...) failure with NullPointerException
+- Permission checks of SDK APIs have been fixed to respect only required permission
 
 - Bug 2305081: [Android] Raise RendererFailedToStart event if binding fails for local video stream
-- Bug 2399773: Turning the local video off/on quickly shows a blank local video
-- Bug 2406929: [Android] Mic and Camera UI access prompts are not shown on apps requiring speaker only access
-- Call.AddParticipant(...) failure with NullPointerException
-- Answering an incoming with Video not rendering for local participant
 
 ## Breaking API changes
 1. Task 2406220: [CommonLayer] Block CallAgent creation with same user
@@ -28,6 +28,10 @@ CallAgent ca = cc.createCallAgent(...);
 - Call class:
 Method `getCallDirection()` was renamed `getDirection()`
 Method `isMicrophoneMuted()` was renamed `isMuted()`
+Method `startVideo(LocalVideoStream)` now takes an additional context object for permission check and is now `startVideo(Context, LocalVideoStream)`
+Method `stopVideo(LocalVideoStream)` now takes an additional context object for permission check and is now `stopVideo(Context, LocalVideoStream)`
+Method `mute()` now takes an additional context object for permission check and is now `mute(Context)`
+Method `unmute()` now takes an additional context object for permission check and is now `unmute(Context)`
 
 - VideoOptions:
 `LocalVideoStream` property is now `LocalVideoStreams` making it an array.
