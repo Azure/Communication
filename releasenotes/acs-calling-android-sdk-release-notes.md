@@ -1,4 +1,53 @@
 # ACS Calling Android (Java) SDK - Release History
+## v1.0.0-beta.10 (2021-04-12)
+
+## New Features:
+1. DeviceManager obtention is decoupled from CallAgent creation allowing one to now do:
+```
+CallClient cc = new CallClient();
+DeviceManager dm = cc.getDeviceManager(Context).get();
+CallAgent ca = cc.createCallAgent(Context, CommunicationTokenCredential, CallAgentOptions);
+```
+2. OnIsMuted event is added to the Call class. Event will be triggered when the call is locally or remotely muted
+Below is a usage example:
+
+```java
+// Assuming you have a "call" instance 
+call.addOnIsMutedChangedListener(new PropertyChangedListener() {
+    void onPropertyChanged(PropertyChangedEvent args) {
+        Log.i(TAG, "Call ID[" + call.getId() + "] has " + (call.isMuted() ? "" : "NOT ") + "been MUTED");
+    }
+});
+```
+
+
+## Bug fixes
+- SDK Crash when another guest user joins a Teams meeting with Video on. [#218](https://github.com/Azure/Communication/issues/218)
+- OnRemoteParticipantsUpdated event updates the participant state to `Idle` when the participant is InLobby· [#221](https://github.com/Azure/Communication/issues/221)
+- Speaking Change Listeners were triggered unexpectedly. [#234](https://github.com/Azure/Communication/issues/234)
+- The video stream of remote participants from web client is not centred/cropped on Android. [#181](https://github.com/Azure/Communication/issues/181) and [#233](https://github.com/Azure/Communication/issues/233)
+- Turning the local video off/on quickly shows a blank local video. [#225](https://github.com/Azure/Communication/issues/225)
+- Answering an incoming with Video not rendering for local participant.
+- Call.AddParticipant(...) failure with NullPointerException
+- Permission checks of SDK APIs have been fixed to respect only required permission
+
+## Breaking API changes
+1. Task 2406220: [CommonLayer] Block CallAgent creation with same user
+3. Multiple classes properties/methods renamed:
+- Call class:
+Method `getCallDirection()` was renamed `getDirection()`
+Method `isMicrophoneMuted()` was renamed `isMuted()`
+Method `startVideo(LocalVideoStream)` now takes an additional context object for permission check and is now `startVideo(Context, LocalVideoStream)`
+Method `stopVideo(LocalVideoStream)` now takes an additional context object for permission check and is now `stopVideo(Context, LocalVideoStream)`
+Method `mute()` now takes an additional context object for permission check and is now `mute(Context)`
+Method `unmute()` now takes an additional context object for permission check and is now `unmute(Context)`
+
+- VideoOptions:
+`LocalVideoStream` property is now `LocalVideoStreams` making it an array.
+The constructor now takes an array of LocalVideoStream as parameter: `VideoOptions(LocalVideoStream[] localVideoStreams)
+Method `getLocalVideoStream()` is now `getLocalVideoStreams()` and returns an array of LocalVideoStream
+
+- RenderingOptions has been renamed CreateViewOptions.
 
 ## v1.0.0-beta.9 (2021-03-16)
 
@@ -91,7 +140,7 @@ For instance:
 Methods `accept()` and `reject()` were moved to IncomingCall to reflect the change.
 A new event was added to `CallAgent` and is raised when there is an incoming call.
 
-Belos is a usage example:
+Below is a usage example:
 
 
 ```java
