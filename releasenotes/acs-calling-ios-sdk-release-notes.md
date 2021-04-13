@@ -1,6 +1,6 @@
 # ACS Calling iOS (Objective-C) SDK - Release History
 
-## v1.0.0-beta.12 (2021-4-13)
+## v1.0.0-beta.12 (2021-04-13)
 
 ### New features
 - `DeviceManager` instance can be obtained irrespective of `CallAgent` creation.
