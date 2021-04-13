@@ -1,6 +1,6 @@
 # ACS Calling iOS (Objective-C) SDK - Release History
 
-## Azure Communication Calling iOS SDK version `1.0.0-beta.12`.
+## v1.0.0-beta.12 (2021-4-13)
 
 ### New features
 - `DeviceManager` instance can be obtained irrespective of `CallAgent` creation.
