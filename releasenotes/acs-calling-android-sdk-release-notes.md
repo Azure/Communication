@@ -36,10 +36,15 @@ call.addOnIsMutedChangedListener(new PropertyChangedListener() {
 3. Multiple classes properties/methods renamed:
 - Call class:
 Method `getCallDirection()` was renamed `getDirection()`
+
 Method `isMicrophoneMuted()` was renamed `isMuted()`
+
 Method `startVideo(LocalVideoStream)` now takes an additional context object for permission check and is now `startVideo(Context, LocalVideoStream)`
+
 Method `stopVideo(LocalVideoStream)` now takes an additional context object for permission check and is now `stopVideo(Context, LocalVideoStream)`
+
 Method `mute()` now takes an additional context object for permission check and is now `mute(Context)`
+
 Method `unmute()` now takes an additional context object for permission check and is now `unmute(Context)`
 
 - VideoOptions:
@@ -85,9 +90,13 @@ Method `getIdentifier()` on Call has been removed and a new `getCallerInfo()` me
 - CallAgent class:
 Method `UnRegisterPushNotifications()` was renamed `UnregisterPushNotification()`
 - DeviceManager class (All audio related properties/events were removed):
+
 Method `getMicrophones()` and `getSpeakers()` were removed
+
 Method `setMicrophone(AudioDeviceInfo)` and `setSpeaker(AudioDeviceInfo)` were removed
+
 Method `addOnMicrophonesUpdated(AudioDevicesUpdatedListener)` and `addOnSpeakersUpdated(AudioDevicesUpdatedListener)` were removed
+
 Method `removeOnMicrophonesUpdated(AudioDevicesUpdatedListener)` and `removeOnSpeakersUpdated(AudioDevicesUpdatedListener)` were removed
 - `Renderer` class was renamed `VideoStreamRenderer`
 - `RendererView` class was renamed `VideoStreamRendererView`
