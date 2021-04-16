@@ -8,7 +8,6 @@
     ```js
         export interface CallInfo {
             getConversationUrl(): Promise<string>; // needed for ACS Server calling API
-            // (undocumented)
             readonly groupId: string | undefined; // used in join group scenario
         }
     ```
