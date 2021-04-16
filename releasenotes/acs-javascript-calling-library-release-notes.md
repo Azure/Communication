@@ -1,5 +1,40 @@
 # ACS Calling Web (JavaScript) SDK - Release History
 
+## v1.0.1-beta.2 (2021-04-15)
+
+### Other changes
+1. New interface `CallInfo` is added to `Call` and `IncimoingCall`:
+
+    ```js
+        export interface CallInfo {
+            getConversationUrl(): Promise<string>; // needed for ACS Server calling API
+            // (undocumented)
+            readonly groupId: string | undefined; // used in join group scenario
+        }
+    ```
+
+### Bug fixes
+1. Fixed Participant's Call End Reason Doesn't Match Call's Call End Reason
+
+## v1.0.1-beta.1
+
+This release notes contain new changes for ACS Calling Web (JavaScript) SDK v1.0.1-beta.1
+
+Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.0.1-beta.1](https://www.npmjs.com/package/@azure/communication-calling/v/1.0.1-beta.1)
+
+**Beta release**
+ 
+Please note about the [feature set](https://docs.microsoft.com/en-us/azure/communication-services/concepts/voice-video-calling/calling-sdk-features) and [known issues](https://docs.microsoft.com/en-us/azure/communication-services/concepts/known-issues)
+
+Moving forward, we will be having two versions of the SDKs:
+
+* v x.x.x-Beta.x - the SDK versions provide access to new functionality, which is not at the General Availability milestone. E.g., **Teams Interoperability is supported in the Beta versions.**
+* v x.x.x - the version of the SDK that at General Availability. Azure Communication Services provide full SLA for these SDKs
+
+
+### Bugfixes
+1. Fixed [Web 1.0.0-beta.10 - remoteParticipantsUpdated event is not triggered when Teams user is leaving a meeting](https://github.com/Azure/Communication/issues/238)
+
 ## v1.0.0-beta.10 (2021-03-24)
 
 ## Breaking API Changes
