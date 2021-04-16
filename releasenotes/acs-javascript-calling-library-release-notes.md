@@ -2,6 +2,8 @@
 
 ## v1.0.1-beta.2 (2021-04-15)
 
+Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.0.1-beta.2](https://www.npmjs.com/package/@azure/communication-calling/v/1.0.1-beta.2)
+
 ### Other changes
 1. New interface `CallInfo` is added to `Call` and `IncomingCall`:
 
