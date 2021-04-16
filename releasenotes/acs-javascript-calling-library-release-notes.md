@@ -15,7 +15,7 @@
 ### Bug fixes
 1. Fixed Participant's Call End Reason Doesn't Match Call's Call End Reason
 
-## v1.0.1-beta.1
+## v1.0.1-beta.1 (2021-03-30)
 
 This release notes contain new changes for ACS Calling Web (JavaScript) SDK v1.0.1-beta.1
 
