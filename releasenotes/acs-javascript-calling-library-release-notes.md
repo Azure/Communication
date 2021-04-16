@@ -3,7 +3,7 @@
 ## v1.0.1-beta.2 (2021-04-15)
 
 ### Other changes
-1. New interface `CallInfo` is added to `Call` and `IncimoingCall`:
+1. New interface `CallInfo` is added to `Call` and `IncomingCall`:
 
     ```js
         export interface CallInfo {
