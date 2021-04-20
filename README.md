@@ -45,7 +45,7 @@ Release notes are avaiable directly in the publishing location (e.g. nuget) for 
     - [iOS - 1.0.0-beta.9](https://github.com/Azure/Communication/releases/tag/v1.0.0-beta.9)
     - [Android - 1.0.0.-beta.9](https://www.npmjs.com/package/@azure/communication-calling/v/1.0.0-beta.9) 
  - [3/22/2021 - 4/4/2021](/releasenotes/2021-March-30.md) -  General availability of the service. Most SDKs have updated 1.0.0 versions with breaking changes.
- - [4/4/2021 - 4/18/2021](/releasenotes/2021-April-18.md) -  Calling release mobile and JS SDK versions, solving bugs and introduce breaking changes.
+ - [4/4/2021 - 4/18/2021](/releasenotes/2021-April-18.md) - Calling iOS and Android SDKs updated with bug fixes and a small number of breaking changes. Calling JavaScript updated with bug fixes. Chat Python SDK GA version released. 
 
 In many cases we maintain a perpetual changelog at a library level which is linked below.
 
