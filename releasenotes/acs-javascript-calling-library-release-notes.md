@@ -36,6 +36,12 @@ Moving forward, we will be having two versions of the SDKs:
 ### Bugfixes
 1. Fixed [Web 1.0.0-beta.10 - remoteParticipantsUpdated event is not triggered when Teams user is leaving a meeting](https://github.com/Azure/Communication/issues/238)
 
+## v1.0.0 (2021-04-04)
+
+- Our first GA SDK was released, v1.0.0
+- APIs for preview features, such as Teams Interop, are only available in the new libraries marked with the *-beta* suffix. This week we released 1.0.1-beta.1.
+- Both of these are available through [NPM](https://www.npmjs.com/package/@azure/communication-calling)
+
 ## v1.0.0-beta.10 (2021-03-24)
 
 ## Breaking API Changes
