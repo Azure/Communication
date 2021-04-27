@@ -1,5 +1,5 @@
 # ACS Calling Android (Java) SDK - Release History
-## v1.0.0 (2021-04-26)
+## v1.0.0 (2021-04-27)
 
 We are releasing our first GA SDK, v1.0.0
 APIs for preview features, such as Teams Interop, are only available in the new libraries marked with the -beta suffix.
