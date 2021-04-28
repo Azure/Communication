@@ -1,4 +1,22 @@
 # ACS Calling Android (Java) SDK - Release History
+## v1.0.0 (2021-04-27)
+
+We have releases our first General Availability (GA) SDK, v1.0.0
+APIs for preview features, such as Teams Interop, will only be available in the new libraries marked with the -beta suffix.
+GA and Preview SDK(s) will both be available through maven central as per usual.
+
+## New Features:
+1. Teams meeting interop features have been removed and will NOT be available from the official drop as this capability is currently in `Preview` mode.
+2. Gson is a transitive dependency and is not needed to be pulled in separately.
+4. VideoStreamRenderer.createView() will use ScalingMode.CROP by default.
+
+## Bug fixes
+- Teams interop and all other preview APIs are no longer available in the mainstream SDK drop. Please use libraries marked with the -beta suffix for these features.
+- CallEndReason is correctly populated upon Call termination.
+
+## Breaking API changes
+1. Teams interop and all other preview APIs are no longer available in the mainstream SDK drop. Please use libraries marked with the -beta suffix for these features.
+
 ## v1.0.0-beta.10 (2021-04-12)
 
 ## New Features:
