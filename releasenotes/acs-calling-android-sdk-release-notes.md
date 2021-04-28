@@ -8,7 +8,7 @@ GA and Preview SDK(s) will both be available through maven central as per usual.
 ## New Features:
 1. Teams meeting interop features have been removed and will NOT be available from the official drop as this capability is currently in `Preview` mode.
 2. Gson is a transitive dependency and is not needed to be pulled in separately.
-4. VideoStreamRenderer.createView() will use ScalingMode.CROP bu default.
+4. VideoStreamRenderer.createView() will use ScalingMode.CROP by default.
 
 ## Bug fixes
 - Teams interop and all other preview APIs are no longer available in the mainstream SDK drop. Please use libraries marked with the -beta suffix for these features.
