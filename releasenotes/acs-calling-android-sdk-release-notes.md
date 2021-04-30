@@ -1,4 +1,12 @@
 # ACS Calling Android (Java) SDK - Release History
+## v1.0.1-beta.1 (2021-04-29)
+
+## New Features:
+1. Teams meeting interop features post GA release are included in this release and is currently in `Preview` mode.
+
+## Breaking API changes
+1. Teams interop and all other preview APIs are no longer available in the mainstream SDK drop. Please use libraries marked with the -beta suffix for these features.
+
 ## v1.0.0 (2021-04-27)
 
 We have releases our first General Availability (GA) SDK, v1.0.0
