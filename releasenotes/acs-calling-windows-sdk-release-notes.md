@@ -1,6 +1,6 @@
 ## v1.0.0-beta.1 (2021-05-12)
 
-This is the initial release of Azure Communication Services Winsows Calling SDK is for public preview.
+This is the initial release of Azure Communication Services Windows Calling SDK is for public preview.
 
 
 ### Features available
