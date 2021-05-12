@@ -49,7 +49,7 @@ Release notes are available directly in the publishing location (e.g. nuget) for
  - [3/22/2021 - 4/4/2021](/releasenotes/2021-March-30.md) -  General availability of the service. Most SDKs have updated 1.0.0 versions with breaking changes.
  - [4/4/2021 - 4/18/2021](/releasenotes/2021-April-18.md) - Calling iOS and Android SDKs updated with bug fixes and a small number of breaking changes. Calling JavaScript updated with bug fixes. Chat Python SDK GA version released. 
  - [4/18/2021 - 5/2/2021](/releasenotes/2021-May-2.md) - Calling iOS and Android SDKs are general availability of the service. Phone Numbers is also general availability of the service for .NET, JS, Java, and Python.
- - [5/2/2021 - 5/16/2021](/releasenotes/2021-May-16.md) - Release notes May 2nd sprint
+ - [5/2/2021 - 5/16/2021](/releasenotes/2021-May-16.md) - Chat (.NET) and SMS (Java) version 1.0.1 has been published
  
 In many cases we maintain a perpetual changelog at a library level which is linked below.
 
