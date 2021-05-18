@@ -10,7 +10,7 @@ These features and dates are the current plans at this time and are subject to c
 April - June 2021
 | Area    | State          | ADO |Feature                                                |
 | ------- | -------------- | ----| ------------------------------------------------------ |
-| Calling | Public Preview | [2093854](https://skype.visualstudio.com/SPOOL/_workitems/edit/2093854) |.NET client library for Calling              |
+| Calling | Public Preview | [2211519](https://skype.visualstudio.com/SPOOL/_workitems/edit/2211519) |Windows client library for Calling              |
 | Calling | Public Preview | |.NET Service client library for Calling              |
 | Chat | Public Preview |[2045650](https://skype.visualstudio.com/SPOOL/_workitems/edit/2045650)|[Anonymous interoperability with Microsoft Teams for chat in a Teams meeting](https://docs.microsoft.com/azure/communication-services/quickstarts/chat/meeting-interop)   
 | Fraud   | Public Preview |  [2166847](https://skype.visualstudio.com/SPOOL/_workitems/edit/2166847)    |SPAM detection for SMS   |
