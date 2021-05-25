@@ -12,6 +12,7 @@ April - June 2021
 | ------- | -------------- | ----| ------------------------------------------------------ |
 | Calling | Public Preview | [2211519](https://skype.visualstudio.com/SPOOL/_workitems/edit/2211519) |Windows client library for Calling              |
 | Calling | Public Preview | |.NET Service client library for Calling              |
+| Call Recording | Private Preview | [2397601](https://skype.visualstudio.com/SPOOL/_workitems/edit/2397601) |Call recording server APIs |
 | Chat | Public Preview |[2045650](https://skype.visualstudio.com/SPOOL/_workitems/edit/2045650)|[Anonymous interoperability with Microsoft Teams for chat in a Teams meeting](https://docs.microsoft.com/azure/communication-services/quickstarts/chat/meeting-interop)   
 | Fraud   | Public Preview |  [2166847](https://skype.visualstudio.com/SPOOL/_workitems/edit/2166847)    |SPAM detection for SMS   |
 | PSTN    | Private Preview | |SIP Interface: connect your own telephony provider or interconnect with the third-party telco equipment |
