@@ -1,5 +1,43 @@
 # ACS Calling Web (JavaScript) SDK - Release History
 
+## v1.1.0-beta.1 (2021-05-25)
+Available in NPM - https://www.npmjs.com/package/@azure/communication-calling/v/1.1.0-beta.1
+
+### New features
+1. Dominant speakers for a call is an extended feature of the core `Call` API and allows you obtain a list of the active speakers in the call.
+
+   This is a ranked list, where the first element in the list represents the last active speaker on the call and so on.
+   In order to obtain the dominant speakers in a call, you first need to obtain the call dominant speakers feature API object:
+   ```js
+   const callDominantSpeakersApi = call.api(Features.CallDominantSpeakers);
+   ```
+   
+   Then, obtain the list of the dominant speakers by calling `dominantSpeakers`. This has a type of `DominantSpeakersInfo`, which has the following members:
+     - `speakersList` contains the list of the ranked dominant speakers in the call. These are represented by their participant id.
+     - `timestamp` is the latest update time for the dominant speakers in the call.
+
+
+         ```js
+          let dominantSpeakers: DominantSpeakersInfo = callDominantSpeakersApi.dominantSpeakers;
+          ```
+   Also, you can subscribe to the `dominantSpeakersChanged` event to know when the dominant speakers list has changed
+   ```js
+   const dominantSpeakersChangedHandler = () => {
+      // Get the most up to date list of dominant speakers
+      let dominantSpeakers = callDominantSpeakersApi.dominantSpeakers;
+   };
+   callDominantSpeakersApi.api(SDK.Features.CallDominantSpeakers).on('dominantSpeakersChanged', dominantSpeakersChangedHandler);
+   ```
+### Breaking API Changes
+1. Call.CallInfo.getConversationUrl() renamed with Call.CallInfo.getServerCallId() - returns server call id
+
+#### Bugfixes
+1. Prevent creating multiple Call Agents with same ACS user Id
+2. Fixed VideoStreamRenderer disposal logic
+3. SelectedSpeaker retuns correct value immediately after selectSpeaker is called and resolved
+4. Latest media quality improvements
+5. VideoRenderer.createView will reject with code 408/Timeout after 10s if video wasn't rendered
+
 ## v1.0.1-beta.2 (2021-04-15)
 
 Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.0.1-beta.2](https://www.npmjs.com/package/@azure/communication-calling/v/1.0.1-beta.2)
