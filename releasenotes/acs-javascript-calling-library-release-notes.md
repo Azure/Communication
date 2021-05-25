@@ -36,7 +36,7 @@ Available in NPM - https://www.npmjs.com/package/@azure/communication-calling/v/
 2. Fixed VideoStreamRenderer disposal logic
 3. SelectedSpeaker retuns correct value immediately after selectSpeaker is called and resolved
 4. Latest media quality improvements
-5. VideoRenderer.createView will reject with code 408/Timeout after 10s if video wasn't rendered
+5. VideoRenderer.createView will reject with code 408/Timeout if video wasn't rendered before timeout
 
 ## v1.0.1-beta.2 (2021-04-15)
 
