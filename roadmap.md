@@ -22,13 +22,15 @@ April - June 2021
 | Numbers    | Public Preview |[2329691](https://skype.visualstudio.com/SPOOL/_workitems/edit/2329691)  |Buy US offers from Canada and Puerto Rico|
 | PSTN    | Public Preview |[2359791](https://skype.visualstudio.com/SPOOL/_workitems/edit/2359791)  |Access Telephony services in Canada and Puerto Rico  (on Toll-Free and Geo Numbers)|
 | SMS    | Public Preview |[2359791](https://skype.visualstudio.com/SPOOL/_workitems/edit/2359791)  |Access SMS services in Canada and Puerto Rico (on Toll-Free Numbers)|
-| UI Framework | Public Preview | [2302228](https://skype.visualstudio.com/SPOOL/_workitems/edit/2302228) | Web (React) Group Calling Composite |
-| UI Framework | Public Preview | [2302232](https://skype.visualstudio.com/SPOOL/_workitems/edit/2302232) | Web (React) Group Chat Composite |
-| UI Framework | Public Preview | [2303459](https://skype.visualstudio.com/SPOOL/_workitems/edit/2303459) | Web (React) Calling Base Components |
-| UI Framework | Public Preview | [2303472](https://skype.visualstudio.com/SPOOL/_workitems/edit/2303472) | Web (React) Chat Base Components |
+| UI Library | Public Preview | [2302228](https://skype.visualstudio.com/SPOOL/_workitems/edit/2302228) | Web (React) Group Calling Composite |
+| UI Library | Public Preview | [2302232](https://skype.visualstudio.com/SPOOL/_workitems/edit/2302232) | Web (React) Group Chat Composite |
+| UI Library | Public Preview | [2303459](https://skype.visualstudio.com/SPOOL/_workitems/edit/2303459) | Web (React) Calling Base Components |
+| UI Library | Public Preview | [2303472](https://skype.visualstudio.com/SPOOL/_workitems/edit/2303472) | Web (React) Chat Base Components |
 
 
 ### 3Q CY2021
 July - September 2021
 | Area    | State          | ADO |Feature                                                |
-| ------- | -------------- | ----| ------------------------------------------------------ |
+| ------- | -------------- | ----| ------------------------------------------------------|
+| UI Library | Private Preview | [2332224](https://skype.visualstudio.com/SPOOL/_workitems/edit/2332224) | iOS and Android Calling Composite |
+
