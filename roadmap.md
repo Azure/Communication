@@ -26,3 +26,9 @@ April - June 2021
 | UI Framework | Public Preview | [2302232](https://skype.visualstudio.com/SPOOL/_workitems/edit/2302232) | Web (React) Group Chat Composite |
 | UI Framework | Public Preview | [2303459](https://skype.visualstudio.com/SPOOL/_workitems/edit/2303459) | Web (React) Calling Base Components |
 | UI Framework | Public Preview | [2303472](https://skype.visualstudio.com/SPOOL/_workitems/edit/2303472) | Web (React) Chat Base Components |
+
+
+### 3Q CY2021
+July - September 2021
+| Area    | State          | ADO |Feature                                                |
+| ------- | -------------- | ----| ------------------------------------------------------ |
