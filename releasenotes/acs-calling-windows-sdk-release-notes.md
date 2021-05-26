@@ -1,3 +1,12 @@
+# ACS Calling Windows SDK - Release history 
+
+## v1.0.0-beta.28 (2021-05-26)
+[NuGet Gallery | Azure.Communication.Calling 1.0.0-beta.28](https://www.nuget.org/packages/Azure.Communication.Calling). 
+
+Resolves HangUp bug.
+
+
+
 ## v1.0.0-beta.1 (2021-05-12)
 
 This is the initial release of Azure Communication Services Windows Calling SDK is for public preview.
