@@ -50,7 +50,7 @@ Release notes are available directly in the publishing location (e.g. nuget) for
  - [4/4/2021 - 4/18/2021](/releasenotes/2021-April-18.md) - Calling iOS and Android SDKs updated with bug fixes and a small number of breaking changes. Calling JavaScript updated with bug fixes. Chat Python SDK GA version released.
  - [4/18/2021 - 5/2/2021](/releasenotes/2021-May-2.md) - Calling iOS and Android SDKs are generally available and stable. Phone Numbers is also generally availability with stable SDKs for .NET, JS, Java, and Python.
  - [5/2/2021 - 5/16/2021](/releasenotes/2021-May-16.md) - Initial release of **Azure Communication Services Windows Calling SDK** in public preview (v1.0.0-beta.1). Chat (.NET) and SMS (Java) version 1.0.1 has been published with minor bug fixes. 
- - [5/16/2021 - 5/31/2021](/releasenotes/2021-May-30.md) - Release notes content
+ - [5/16/2021 - 5/31/2021](/releasenotes/2021-May-30.md) - Calling JS & Windows SDK libraries updated with minor bug fixes and Common Library Java package small fixes.
  
 In many cases we maintain a perpetual changelog at a library level which is linked below.
 
