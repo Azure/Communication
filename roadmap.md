@@ -34,4 +34,7 @@ July - September 2021
 | Area    | State          | ADO |Feature                                                |
 | ------- | -------------- | ----| ------------------------------------------------------|
 | UI Library | Private Preview | [2332224](https://skype.visualstudio.com/SPOOL/_workitems/edit/2332224) | iOS and Android Calling Composite |
+| Geo Availability | General Availaibilty | [2383195](https://skype.visualstudio.com/SPOOL/_workitems/edit/2383195) | ACS is available in additional Azure Geo's - Brazil, Canada, India, Japan, Korea, France, Germany, Norway, Switzerland, United Arab Emirates, Africa
+| Geo Availability | Private Preview |[2247684](https://skype.visualstudio.com/SPOOL/_workitems/edit/2247684) | ACS is available to Azure Government customers |
+
 
