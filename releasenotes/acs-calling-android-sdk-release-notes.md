@@ -2,7 +2,7 @@
 ## v1.1.0-beta.1 (2021-06-03)
 
 ## New Features:
-1. Ability to dispose of CallAgent and CallAgent using the new `dispose()` method to reduce memory footprint of the app
+1. Ability to dispose of CallAgent and CallAgent using the new `dispose()` method to reduce the memory footprint of the app
 Example:
 ```java
 CallClient cc = new CallClient();
