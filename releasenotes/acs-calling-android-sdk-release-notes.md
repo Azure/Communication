@@ -32,8 +32,8 @@ StartCallRecording(serverCallId);
 ```
 
 ## Bug fixes
-- 
-- 
+- Attempt to create multiple CallAgent using the same identity will throw a `CallingCommunicationException` with `CallingCommunicationErrors.NO_MULTIPLE_CONNECTIONS_WITH_SAME_IDENTITY` error code
+- Turning the local video off/on quickly shows a blank local video [GH#225](https://github.com/Azure/Communication/issues/225)
 
 ## v1.0.1-beta.1 (2021-04-29)
 
