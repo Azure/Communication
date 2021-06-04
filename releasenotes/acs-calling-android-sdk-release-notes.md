@@ -1,4 +1,41 @@
 # ACS Calling Android (Java) SDK - Release History
+## v1.1.0-beta.1 (2021-06-03)
+
+## New Features:
+1. Ability to dispose of CallAgent and CallAgent using the new `dispose()` method to reduce memory footprint of the app
+Example:
+```java
+CallClient cc = new CallClient();
+DeviceManager dm = cc.getDeviceManager(Context).get();
+CallAgent ca = cc.createCallAgent(Context, CommunicationTokenCredential, CallAgentOptions).get();
+// Start/Join/Accept calls
+
+// Dispose of the CallAgent and CallClient
+ca.dispose();
+cc.dispose();
+```
+
+2. `CallInfo` class has a new method called `getServerCallId()` to retrieve the immutable Id of a call that can be used for call recording
+Example:
+```java
+String serverCallId = call.getInfo().getServerCallId();
+call.addOnIsRecordingActiveChangedListener(new PropertyChangedListener() {
+    public void onPropertyChanged(PropertyChangedEvent args) {
+        if (call.isRecordingActive()) {
+           // Add logic to update UI with visual cue regarding active recording of the call
+        }
+    }
+});
+
+// Upcoming Recording feature
+StartCallRecording(serverCallId);
+```
+
+## Bug fixes
+- Attempt to create multiple CallAgent using the same identity will throw a `CallingCommunicationException` with `CallingCommunicationErrors.NO_MULTIPLE_CONNECTIONS_WITH_SAME_IDENTITY` error code
+- Turning the local video off/on quickly shows a blank local video [GH#225](https://github.com/Azure/Communication/issues/225)
+- Support for API level 30 (Android 11.0)
+
 ## v1.0.1-beta.1 (2021-04-29)
 
 ## New Features:
