@@ -10,7 +10,6 @@ These features and dates are the current plans at this time and are subject to c
 April - June 2021
 | Area    | State          | ADO |Feature                                                |
 | ------- | -------------- | ----| ------------------------------------------------------ |
-| Calling | Public Preview | [2211519](https://skype.visualstudio.com/SPOOL/_workitems/edit/2211519) |Windows client library for Calling              |
 | Calling | Public Preview | |.NET Service client library for Calling              |
 | Call Recording | Private Preview | [2397601](https://skype.visualstudio.com/SPOOL/_workitems/edit/2397601) |Call recording server APIs |
 | Call Automation | Private Preview | [2259251](https://skype.visualstudio.com/SPOOL/_backlogs/backlog/Platform%20Media%20Agent/Epics/?workitem=2259251) | [Call Automation APIs](https://docs.microsoft.com/en-us/azure/communication-services/concepts/voice-video-calling/call-automation-apis) |
@@ -23,10 +22,7 @@ April - June 2021
 | Numbers    | Public Preview |[2329691](https://skype.visualstudio.com/SPOOL/_workitems/edit/2329691)  |Buy US offers from Canada and Puerto Rico|
 | PSTN    | Public Preview |[2359791](https://skype.visualstudio.com/SPOOL/_workitems/edit/2359791)  |Access Telephony services in Canada and Puerto Rico  (on Toll-Free and Geo Numbers)|
 | SMS    | Public Preview |[2359791](https://skype.visualstudio.com/SPOOL/_workitems/edit/2359791)  |Access SMS services in Canada and Puerto Rico (on Toll-Free Numbers)|
-| UI Library | Public Preview | [2302228](https://skype.visualstudio.com/SPOOL/_workitems/edit/2302228) | Web (React) Group Calling Composite |
-| UI Library | Public Preview | [2302232](https://skype.visualstudio.com/SPOOL/_workitems/edit/2302232) | Web (React) Group Chat Composite |
-| UI Library | Public Preview | [2303459](https://skype.visualstudio.com/SPOOL/_workitems/edit/2303459) | Web (React) Calling Base Components |
-| UI Library | Public Preview | [2303472](https://skype.visualstudio.com/SPOOL/_workitems/edit/2303472) | Web (React) Chat Base Components |
+
 
 
 ### 3Q CY2021
