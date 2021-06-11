@@ -1,5 +1,20 @@
 # ACS Calling Web (JavaScript) SDK - Release History
 
+## v1.1.0-beta.2 (2021-06-10)
+Available in NPM - https://www.npmjs.com/package/@azure/communication-calling/v/1.1.0-beta.2
+
+### New features
+**Support for WebRTC Unified Plan SDP format.**
+
+Azure Communication Services Calling JavaScript SDK for browsers relies on WebRTC APIs that are being deprecated, specifically the Plan B Session Description Protocol (SDP) API. Google, Microsoft, Apple, and other browser vendors will be removing this functionality starting in August 2021.
+
+**To avoid compatibility risk and potential impact to end-users, we recommend developers leveraging browser calling to upgrade to the latest version of the Azure Communication Services Calling JavaScript SDK as soon as possible. Download the latest Calling JavaScript SDK at NPM or using the commands below.**
+
+Any version higher than - v1.1.0-beta.2 - supports new WebRTC standards and will be compatible throughout the Plan B deprecation. 
+Prior versions of Azure Communication Services Calling JavaScript SDK will continue to be supported by the service; however they will be marked deprecated in NPM and other repositories given the limited browser compatibility of those libraires going forward.  
+
+
+
 ## v1.1.0-beta.1 (2021-05-25)
 Available in NPM - https://www.npmjs.com/package/@azure/communication-calling/v/1.1.0-beta.1
 
