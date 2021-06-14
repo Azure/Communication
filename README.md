@@ -46,6 +46,7 @@ Release notes are available directly in the publishing location (e.g. nuget) for
  - [4/18/2021 - 5/2/2021](/releasenotes/2021-May-2.md) - Calling iOS and Android SDKs are generally available and stable. Phone Numbers is also generally availability with stable SDKs for .NET, JS, Java, and Python.
  - [5/2/2021 - 5/16/2021](/releasenotes/2021-May-16.md) - Initial release of **Azure Communication Services Windows Calling SDK** in public preview (v1.0.0-beta.1). Chat (.NET) and SMS (Java) version 1.0.1 has been published with minor bug fixes. 
  - [5/16/2021 - 5/31/2021](/releasenotes/2021-May-30.md) - Calling JS & Windows SDK libraries updated with minor bug fixes and Common Library Java package small fixes.
+ - [6/1/2021 - 6/14/2021](/releasenotes/2021-June-14.md) - Release Calling JS library *Azure Communication Services Calling JavaScript SDK for browsers relies on WebRTC APIs that are being **deprecated**, specifically the Plan B Session Description Protocol (SDP) API. Google, Microsoft, Apple, and other browser vendors will be removing this functionality starting in August 2021.* Calling for Android & iOS libraries release the version V1.1.0 beta-1 version wit new features like CallKit support (iOS) and minor bug fixes.
  
 In many cases we maintain a perpetual changelog at a library level which is linked below.
 
