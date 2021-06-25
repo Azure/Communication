@@ -1,5 +1,18 @@
 # ACS Calling Web (JavaScript) SDK - Release History
 
+
+## v1.2.0-beta.1 (2021-06-24)
+Available in NPM - https://www.npmjs.com/package/@azure/communication-calling/v/1.2.0-beta.1
+
+### New features
+
+1. Call diagnostics feature will allow the developers to diagnose an active call. It is an extended feature of the core `Call` API. ACS Calling Web SDK will raise appropriate Media and Network call diagnostic depending on the active call and device status. For example- `speakingWhileMicrophoneIsMuted` call diagnostic will be raised when user speaks, and the microphone is muted. Developer can show the notification message to alert the end user when this call diagnostic raised.
+2. ACS Web Calling SDK extended the `file` protocol support for local developement. Remote access still supports `https` protocol only. ( https://github.com/Azure/Communication/issues/297 )
+
+#### Bugfixes
+1. Build failure when using @azure/communication-calling in Vite/Vue app (https://github.com/Azure/azure-sdk-for-js/issues/15479)
+
+
 ## v1.1.0 (2021-06-17)
 Available in NPM - https://www.npmjs.com/package/@azure/communication-calling/v/1.1.0
 
