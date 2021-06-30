@@ -1,4 +1,26 @@
 # ACS Calling Android (Java) SDK - Release History
+## v1.1.0 (2021-06-29)
+
+## New Features:
+1. Ability to dispose of CallAgent and CallAgent using the new `dispose()` method to reduce the memory footprint of the app
+Example:
+```java
+CallClient cc = new CallClient();
+DeviceManager dm = cc.getDeviceManager(Context).get();
+CallAgent ca = cc.createCallAgent(Context, CommunicationTokenCredential, CallAgentOptions).get();
+// Start/Join/Accept calls
+
+// Dispose of the CallAgent and CallClient
+ca.dispose();
+cc.dispose();
+```
+
+## Bug fixes
+- Attempt to create multiple CallAgent using the same identity will throw a `CallingCommunicationException` with `CallingCommunicationErrors.NO_MULTIPLE_CONNECTIONS_WITH_SAME_IDENTITY` error code
+- Turning the local video off/on quickly shows a blank local video [GH#225](https://github.com/Azure/Communication/issues/225)
+- Memory leak Renderer View for LocalVideoStream [GH#224](https://github.com/Azure/Communication/issues/224)
+- Support for API level 30 (Android 11.0)
+
 ## v1.1.0-beta.1 (2021-06-03)
 
 ## New Features:
