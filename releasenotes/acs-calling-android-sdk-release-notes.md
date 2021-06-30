@@ -16,10 +16,11 @@ cc.dispose();
 ```
 
 ## Bug fixes
-- Attempt to create multiple CallAgent using the same identity will throw a `CallingCommunicationException` with `CallingCommunicationErrors.NO_MULTIPLE_CONNECTIONS_WITH_SAME_IDENTITY` error code
-- Turning the local video off/on quickly shows a blank local video [GH#225](https://github.com/Azure/Communication/issues/225)
-- Memory leak Renderer View for LocalVideoStream [GH#224](https://github.com/Azure/Communication/issues/224)
-- Support for API level 30 (Android 11.0)
+- LocalVideoStream.switchSource(VideoDeviceInfo) will throw a `CallingCommunicationException` with `CallingCommunicationErrors.LOCAL_VIDEO_STREAM_SWITCH_SOURCE_FAILURE` error code.
+- Attempt to create multiple CallAgent using the same identity will throw a `CallingCommunicationException` with `CallingCommunicationErrors.NO_MULTIPLE_CONNECTIONS_WITH_SAME_IDENTITY` error code.
+- Turning the local video off/on quickly shows a blank local video [GH#225](https://github.com/Azure/Communication/issues/225).
+- Memory leak Renderer View for LocalVideoStream [GH#224](https://github.com/Azure/Communication/issues/224).
+- Support for API level 30 (Android 11.0).
 
 ## v1.1.0-beta.1 (2021-06-03)
 
