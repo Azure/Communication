@@ -48,7 +48,8 @@ Release notes are available directly in the publishing location (e.g. nuget) for
  - [5/16/2021 - 5/31/2021](/releasenotes/2021-May-30.md) - Calling JS & Windows SDK libraries updated with minor bug fixes and Common Library Java package small fixes.
  - [6/1/2021 - 6/14/2021](/releasenotes/2021-June-14.md) - Release Calling JS library *Azure Communication Services Calling JavaScript SDK for browsers relies on WebRTC APIs that are being **deprecated**, specifically the Plan B Session Description Protocol (SDP) API. Google, Microsoft, Apple, and other browser vendors will be removing this functionality starting in August 2021.* Calling for Android & iOS libraries release the version V1.1.0 beta-1 version wit new features like CallKit support (iOS) and minor bug fixes.
  - [6/15/2021 - 6/28/2021](/releasenotes/2021-June-28.md) - Azure Portal release the ability to move resources to different subscriptions and resource groups. Release Android Chat & Common library, and release Calling JS library stable version and beta. 
-
+ - [6/28/2021 - 7/18/2021](/releasenotes/2021-July-18.md) - Calling Android v1.1.0 SDK release with the ability to dispose of `CallAgent` and `CallAgent` optimizing the memory.
+ 
 In many cases we maintain a perpetual changelog at a library level which is linked below.
 
 | **Area**| **JavaScript** | **.NET** | **Python**  | **Java SE** | **iOS** | **Android**| **Other** |
