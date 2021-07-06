@@ -26,4 +26,4 @@ July - September 2021
 | Numbers    | Public Preview |[2329691](https://skype.visualstudio.com/SPOOL/_workitems/edit/2329691)  |Buy US toll-free and geogrpahic numbers from UK and Ireland; Buy PR geographic numbers|
 | PSTN    | Public Preview |[2359791](https://skype.visualstudio.com/SPOOL/_workitems/edit/2359791)  |Access Telephony services in Puerto Rico (on Toll-Free and Geo Numbers)|
 | SMS    | Public Preview |[2359791](https://skype.visualstudio.com/SPOOL/_workitems/edit/2359791)  |Access SMS services in Puerto Rico (on Toll-Free Numbers)|
-
+| Chat    | Public Preview |[2270091](https://skype.visualstudio.com/SPOOL/_workitems/edit/2270091) |Add custom metadata for Chat message|
