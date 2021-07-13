@@ -26,4 +26,10 @@ July - September 2021
 | Numbers    | Public Preview |[2329691](https://skype.visualstudio.com/SPOOL/_workitems/edit/2329691)  |Buy US toll-free and geogrpahic numbers from UK and Ireland; Buy PR geographic numbers|
 | PSTN    | Public Preview |[2359791](https://skype.visualstudio.com/SPOOL/_workitems/edit/2359791)  |Access Telephony services in Puerto Rico (on Toll-Free and Geo Numbers)|
 | SMS    | Public Preview |[2359791](https://skype.visualstudio.com/SPOOL/_workitems/edit/2359791)  |Access SMS services in Puerto Rico (on Toll-Free Numbers)|
+| Calling | Public Preview  |[2422536](https://skype.visualstudio.com/SPOOL/_workitems/edit/2422536)  | Network Connectivity Test Tool |
+| Calling | Public Preview  |[2447431](https://skype.visualstudio.com/SPOOL/_workitems/edit/2447431)  | 2x2 (4) incoming videos simultaneously (web JS) |
+| Calling | Public Preview  |[2397592](https://skype.visualstudio.com/SPOOL/_workitems/edit/2397592)  | Call Diagnostics - User Facing Diagnostic (UFD) |
+| Calling | Public Preview  |[2397583](https://skype.visualstudio.com/SPOOL/_workitems/edit/2397583)  | SDK - Provide information about dominant speakers in a call |
+| Calling | Public Preview  |[2438790](https://skype.visualstudio.com/SPOOL/_workitems/edit/2438790)  | Network Quality Statistics |
+
 
