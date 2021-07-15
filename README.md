@@ -1,19 +1,19 @@
 # Azure Communication Services (ACS)
-Azure Communication Services are cloud-based services with REST APIs and client library SDKs available to help you integrate communication into your applications. You can add communication features to your applications without being an expert in communication technologies such as media encoding and real-time networking. Azure Communication Services supports various communication formats:
+[Azure Communication Services](https://docs.microsoft.com/azure/communication-services/overview) are cloud-based services with REST APIs and client library SDKs to help you integrate communication into your applications. You can add communication features to your applications without being an expert in communication technologies such as media encoding and real-time networking. Azure Communication Services supports various communication formats:
 
 1. Voice and Video Calling
 2. Rich Text Chat
 3. SMS
 
 This repo collates SDKs, roadmap information, and release notes, for developers using [Azure Communication Services](https://docs.microsoft.com/azure/communication-services/overview). Find here:
-- **SDKs** - Download client libraries
-- **Release Notes** - Find [collated release notes](https://github.com/Azure/Communication/tree/master/releasenotes) for the service and SDKs
-- **Roadmap** - Review priorities for current and future service development
+- **SDKs** - Links to client libraries
+- **Release Notes** - [Collated release notes](https://github.com/Azure/Communication/tree/master/releasenotes) for the service and SDKs
+- **Roadmap** - Priorities for current and future service development
 
-This repo is not open to contributions at this time, though many of the linked SDKs are open-source and allow contributions.
+This repo is not open to contributions, though many of the linked SDKs are open-source and allow contributions.
 
 ### Conceptual Documentation, Samples, and Help
-Conceptual docs and quickstarts are at [docs.microsoft.com](https://docs.microsoft.com/azure/communication-services/overview). ACS has several samples available for information on these take a look at our [dedicated samples page](https://docs.microsoft.com/azure/communication-services/samples/overview).
+Conceptual docs and quickstarts are at [docs.microsoft.com](https://docs.microsoft.com/azure/communication-services/overview). Samples are listed on a [dedicated samples page](https://docs.microsoft.com/azure/communication-services/samples/overview).
 
 To ask questions or get help, [please check out these resources](https://docs.microsoft.com/azure/communication-services/support).
 
