@@ -1,24 +1,35 @@
 # Azure Communication Services (ACS)
-This repo collates SDKs, roadmap information, release notes, and samples for developers using [Azure Communication Services](https://azure.microsoft.com/en-us/services/communication-services/). This repo is not open to contributions at this time, though many of the linked SDKs are open-source and allow contributions.
+Azure Communication Services are cloud-based services with REST APIs and client library SDKs available to help you integrate communication into your applications. You can add communication features to your applications without being an expert in communication technologies such as media encoding and real-time networking. Azure Communication Services supports various communication formats:
+
+1. Voice and Video Calling
+2. Rich Text Chat
+3. SMS
+
+This repo collates SDKs, roadmap information, and release notes, for developers using [Azure Communication Services](https://docs.microsoft.com/azure/communication-services/overview). 
 
 **Find here:**
 - **SDKs** - Download client libraries
 - **Release Notes** - Find [collated release notes](https://github.com/Azure/Communication/tree/master/releasenotes) for the service and SDKs
 - **Roadmap** - Review priorities for current and future service development
 
+This repo is not open to contributions at this time, though many of the linked SDKs are open-source and allow contributions.
+
 #### Conceptual Documentation, Samples, and Help
-Find conceptual docs and quickstarts at [docs.microsoft.com](https://docs.microsoft.com/azure/communication-services/overview). ACS has several samples available for information on these take a look at our [dedicated samples page](https://docs.microsoft.com/azure/communication-services/samples/overview).
+Conceptual docs and quickstarts are at [docs.microsoft.com](https://docs.microsoft.com/azure/communication-services/overview). ACS has several samples available for information on these take a look at our [dedicated samples page](https://docs.microsoft.com/azure/communication-services/samples/overview).
 
 To ask questions or get help, [please check out these resources](https://docs.microsoft.com/azure/communication-services/support).
 
 ## ❤️ Feedback
-We appreciate your feedback and energy helping us improve our services. [Please let us know if you are satisfied with ACS through this survey](https://microsoft.qualtrics.com/jfe/form/SV_4HMWolQyyLyeX77). 
+We appreciate your feedback and energy helping us improve our services. [If you've tried the service, please give us feedback through this survey](https://microsoft.qualtrics.com/jfe/form/SV_4HMWolQyyLyeX77). 
 
 If you'd like to submit feature requests please submit them to our [board on Azure UserVoice](https://feedback.azure.com/forums/934536-azure-communication-services).
 
 ## SDKs
+Azure Communication Services capabilities are conceptually organized into six areas. Most areas have fully open-sourced SDKs programmed against published REST APIs that you can use directly over the Internet. The Calling SDK uses proprietary network interfaces and is currently closed-source. 
 
-Azure Communication Services capabilities are conceptually organized into six areas. Most areas have fully open-sourced client libraries programmed against published REST APIs that you can use directly over the Internet. The Calling client library uses proprietary network interfaces and is currently closed-source. More information on REST APIs and SDKs is in [docs.microsoft.com](https://docs.microsoft.com/azure/communication-services/concepts/sdk-options).
+Development of Web-based Calling and Chat applications can be accelerated by [Azure Communication Services UI libraries](https://azure.github.io/communication-ui-library). The UI library provides production-ready UI components that you can drop into your applications.
+
+More information on REST APIs and SDKs is in [docs.microsoft.com](https://docs.microsoft.com/azure/communication-services/concepts/sdk-options).
 
 Package links are aggregated below.
 
