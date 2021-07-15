@@ -5,16 +5,14 @@ Azure Communication Services are cloud-based services with REST APIs and client 
 2. Rich Text Chat
 3. SMS
 
-This repo collates SDKs, roadmap information, and release notes, for developers using [Azure Communication Services](https://docs.microsoft.com/azure/communication-services/overview). 
-
-**Find here:**
+This repo collates SDKs, roadmap information, and release notes, for developers using [Azure Communication Services](https://docs.microsoft.com/azure/communication-services/overview). Find here:
 - **SDKs** - Download client libraries
 - **Release Notes** - Find [collated release notes](https://github.com/Azure/Communication/tree/master/releasenotes) for the service and SDKs
 - **Roadmap** - Review priorities for current and future service development
 
 This repo is not open to contributions at this time, though many of the linked SDKs are open-source and allow contributions.
 
-#### Conceptual Documentation, Samples, and Help
+### Conceptual Documentation, Samples, and Help
 Conceptual docs and quickstarts are at [docs.microsoft.com](https://docs.microsoft.com/azure/communication-services/overview). ACS has several samples available for information on these take a look at our [dedicated samples page](https://docs.microsoft.com/azure/communication-services/samples/overview).
 
 To ask questions or get help, [please check out these resources](https://docs.microsoft.com/azure/communication-services/support).
@@ -77,12 +75,3 @@ In many cases we maintain a perpetual changelog at a library level which is link
 [Our roadmap](roadmap.md) communicates features currently in development (private preview) and on-going priorities for extending the scope of Azure Communication Services. It will continue to evolve based on market changes and customer feedback, so please note that the plans outlined here are not exhaustive or guaranteed. We welcome your feedback on the roadmap.
 
 A project view of the roadmap is [also available here](https://github.com/Azure/Communication/projects/1). Major updates to Azure Communication Services and other Azure services are available at [https://azure.microsoft.com/updates/](https://azure.microsoft.com/updates/).
-
-## Help
-
-We encourage developers to submit questions, suggest features, and report problems as issues in this repo. Other forums include:
-
-- [Microsoft Q&A](https://docs.microsoft.com/answers/topics/azure-communication-services.html)
-- [StackOverflow](https://stackoverflow.com/questions/tagged/azure+communication)
-
-Depending on your [Azure subscription support plan](https://azure.microsoft.com/support/plans/) you can access support directly in the [Azure portal](https://azure.microsoft.com/en-us/support/create-ticket/).
