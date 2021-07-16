@@ -1,5 +1,5 @@
 # Azure Communication Services (ACS)
-[Azure Communication Services](https://docs.microsoft.com/azure/communication-services/overview) are cloud-based services with REST APIs and client library SDKs to help you integrate communication into your applications. You can add communication features to your applications without being an expert in communication technologies such as media encoding and real-time networking. Azure Communication Services supports multiple types of communication: voice and video calling, rich text chat, and SMS messaging. 
+[Azure Communication Services](https://docs.microsoft.com/azure/communication-services/overview) are cloud-based services with REST APIs and client library SDKs to help you integrate communication into your applications. You can add communication features to your applications without being an expert in communication technologies such as media encoding and real-time networking. 
 
 **Find here:**
 - *SDKs* - Links to client libraries
@@ -8,29 +8,27 @@
 
 This repo is not open to contributions, though many of the linked SDKs are open-source and allow contributions.
 
-### Conceptual Documentation, Quickstarts, Samples, and Help
+**Conceptual Documentation, Quickstarts, Samples, and Help**
+
 Conceptual docs and quickstarts are at [docs.microsoft.com](https://docs.microsoft.com/azure/communication-services/overview). Samples are listed on a [dedicated samples page](https://docs.microsoft.com/azure/communication-services/samples/overview). To ask questions or get help, [please check out these resources](https://docs.microsoft.com/azure/communication-services/support).
 
 ## SDKs
 Azure Communication Services capabilities are conceptually organized into eight areas. Most areas have fully open-sourced SDKs programmed against published REST APIs that you can use directly over the Internet. Development of Web-based Calling and Chat applications can be accelerated by [Azure Communication Services UI libraries](https://azure.github.io/communication-ui-library). The UI library provides production-ready UI components that you can drop into your applications.
 
-In the tables below we summarize these areas and availability of REST APIs and SDK libraries. We also note if APIs and SDKs are intended for end-user clients or trusted service environments. APIs and SDKs such as SMS should not be directly accessed by end-user devices in low trust environments.
-
 Communication Services APIs are documented alongside other Azure REST APIs in [docs.microsoft.com](https://docs.microsoft.com/rest/api/communication/). This documentation will tell you how to structure your HTTP messages and offers guidance for using Postman. REST interface documentation is also offered in Swagger format on [GitHub](https://github.com/Azure/azure-rest-api-specs).
 
-## SDKs
-| Assembly | Protocols| Environment | Capabilities|
-|--------|----------|---------|----------------------------------|
-| Azure Resource Manager | [REST](/rest/api/communication/communicationservice)| Service| Provision and manage Communication Services resources|
-| Common | N/A | Client & Service | Provides base types for other SDKs |
-| Identity | [REST](/rest/api/communication/communicationidentity) | Service| Manage users, access tokens|
-| Phone numbers| [REST](/rest/api/communication/phonenumbers)| Service| Acquire and manage phone numbers |
-| SMS| [REST](/rest/api/communication/sms) | Service| Send and receive SMS messages|
-| Chat | [REST](/rest/api/communication/) with proprietary signaling | Client & Service | Add real-time text based chat to your applications |
-| Calling| Proprietary transport | Client | Voice, video, screen-sharing, and other real-time communication |
-| Calling Server | REST| Service| Make and manage calls, play audio, and configure recording |
-| Network Traversal| REST| Service| Access TURN servers for low-level data transport |
-| UI Library | N/A | Client | Production-ready UI components for chat and calling apps |
+| Assembly               | Capabilities                                                    |
+|------------------------|-----------------------------------------------------------------|
+| Azure Resource Manager | Provision and manage Communication Services resources           |
+| Common                 | Provides base types for other SDKs                              |
+| Identity               | Manage users, access tokens                                     |
+| Phone numbers          | Acquire and manage phone numbers                                |
+| SMS                    | Send and receive SMS messages                                   |
+| Chat                   | Add real-time text based chat to your applications              |
+| Calling                | Voice, video, screen-sharing, and other real-time communication |
+| Calling Server         | Make and manage calls, play audio, and configure recording      |
+| Network Traversal      | Access TURN servers for low-level data transport                |
+| UI Library             | Production-ready UI components for chat and calling apps        |
 
 ### Languages and publishing locations
 
