@@ -1,9 +1,5 @@
 # Azure Communication Services (ACS)
-[Azure Communication Services](https://docs.microsoft.com/azure/communication-services/overview) are cloud-based services with REST APIs and client library SDKs to help you integrate communication into your applications. You can add communication features to your applications without being an expert in communication technologies such as media encoding and real-time networking. Azure Communication Services supports various communication formats:
-
-1. Voice and Video Calling
-2. Rich Text Chat
-3. SMS
+[Azure Communication Services](https://docs.microsoft.com/azure/communication-services/overview) are cloud-based services with REST APIs and client library SDKs to help you integrate communication into your applications. You can add communication features to your applications without being an expert in communication technologies such as media encoding and real-time networking. Azure Communication Services supports multiple types of communication: voice and video calling, rich text chat, and SMS messaging. 
 
 **Find here:**
 - *SDKs* - Links to client libraries
@@ -12,17 +8,14 @@
 
 This repo is not open to contributions, though many of the linked SDKs are open-source and allow contributions.
 
-### Conceptual Documentation, Samples, and Help
+### Conceptual Documentation, Quickstarts, Samples, and Help
 Conceptual docs and quickstarts are at [docs.microsoft.com](https://docs.microsoft.com/azure/communication-services/overview). Samples are listed on a [dedicated samples page](https://docs.microsoft.com/azure/communication-services/samples/overview). To ask questions or get help, [please check out these resources](https://docs.microsoft.com/azure/communication-services/support).
 
 ## SDKs
-Azure Communication Services capabilities are conceptually organized into eight areas. Most areas have fully open-sourced SDKs programmed against published REST APIs that you can use directly over the Internet. The Calling SDK uses proprietary network interfaces and is closed-source. 
-
-Development of Web-based Calling and Chat applications can be accelerated by [Azure Communication Services UI libraries](https://azure.github.io/communication-ui-library). The UI library provides production-ready UI components that you can drop into your applications.
+Azure Communication Services capabilities are conceptually organized into eight areas. Most areas have fully open-sourced SDKs programmed against published REST APIs that you can use directly over the Internet. Development of Web-based Calling and Chat applications can be accelerated by [Azure Communication Services UI libraries](https://azure.github.io/communication-ui-library). The UI library provides production-ready UI components that you can drop into your applications.
 
 In the tables below we summarize these areas and availability of REST APIs and SDK libraries. We also note if APIs and SDKs are intended for end-user clients or trusted service environments. APIs and SDKs such as SMS should not be directly accessed by end-user devices in low trust environments.
 
-## REST APIs
 Communication Services APIs are documented alongside other Azure REST APIs in [docs.microsoft.com](https://docs.microsoft.com/rest/api/communication/). This documentation will tell you how to structure your HTTP messages and offers guidance for using Postman. REST interface documentation is also offered in Swagger format on [GitHub](https://github.com/Azure/azure-rest-api-specs).
 
 ## SDKs
@@ -62,9 +55,6 @@ Publishing locations for individual SDK packages are detailed below.
 ## Release Notes 
 Release notes are available directly in the publishing location (e.g. nuget) for SDKs. However every two weeks we aggregate release notes including services changes (e.g. new Azure Portal pages) in [this repo](https://github.com/Azure/Communication/tree/master/releasenotes).
 
- - 03/11/2021. Significant updates to ACS Calling with breaking changes:
-    - [iOS - 1.0.0-beta.9](https://github.com/Azure/Communication/releases/tag/v1.0.0-beta.9)
-    - [Android - 1.0.0.-beta.9](https://www.npmjs.com/package/@azure/communication-calling/v/1.0.0-beta.9) 
  - [3/22/2021 - 4/4/2021](/releasenotes/2021-March-30.md) -  General availability of the service. Most SDKs have updated 1.0.0 versions with breaking changes.
  - [4/4/2021 - 4/18/2021](/releasenotes/2021-April-18.md) - Calling iOS and Android SDKs updated with bug fixes and a small number of breaking changes. Calling JavaScript updated with bug fixes. Chat Python SDK GA version released.
  - [4/18/2021 - 5/2/2021](/releasenotes/2021-May-2.md) - Calling iOS and Android SDKs are generally available and stable. Phone Numbers is also generally availability with stable SDKs for .NET, JS, Java, and Python.
