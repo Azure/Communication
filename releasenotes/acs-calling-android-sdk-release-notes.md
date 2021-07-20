@@ -33,7 +33,7 @@ callTranscriptionFeature.addOnIsTranscriptionActiveChangedListener(handleCallOnI
 - Silence suppression for Group Calls and Teams meeting interop scenarios is enabled.
 - LocalVideoStream.switchSource(VideoDeviceInfo) will throw a `CallingCommunicationException` with `CallingCommunicationErrors.LOCAL_VIDEO_STREAM_SWITCH_SOURCE_FAILURE` error code.
 - Memory leak Renderer View for LocalVideoStream [GH#224](https://github.com/Azure/Communication/issues/224).
-- Joining a Teams call with AudioOptions produces crash [GH#340](https://github.com/Azure/Communication/issues/340).
+- Joining a Teams call with an empty AudioOptions produces a crash. i.e using `setAudioOptions(new AudioOptions());` in `JoinCallOptions` [GH#340](https://github.com/Azure/Communication/issues/340).
 - Fix for hangUp() while joining a Teams call and waiting in the lobby [GH#333](https://github.com/Azure/Communication/issues/333).
 - Fix for receiving push notifications on multiple devices.
 
