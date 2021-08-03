@@ -1,4 +1,9 @@
 # ACS Calling Android (Java) SDK - Release History
+## v1.2.0-beta.2 (2021-08-03)
+
+## Bug fixes
+- Better memory management [GH#346](https://github.com/Azure/Communication/issues/346).
+
 ## V1.2.0-beta.1 (2021-07-20)
 
 ## New Features:
