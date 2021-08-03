@@ -1,4 +1,10 @@
 # ACS Calling Android (Java) SDK - Release History
+## v1.2.0-beta.2 (2021-08-03)
+
+## Bug fixes
+- Fixed `java.lang.StackOverflowError` crash on [GH#346](https://github.com/Azure/Communication/issues/346).
+- Improved memory footprint.
+
 ## V1.2.0-beta.1 (2021-07-20)
 
 ## New Features:
