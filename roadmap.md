@@ -6,16 +6,6 @@ It identifies some of the significant features we are currently working on and a
 
 These features and dates are the current plans at this time and are subject to change. The **Area** column reflects the area of the product the feature aligns with most, and **State**  indicates if the feature will be in public preview or generally available.  Links are provided to Azure DevOps (ADO) tracking that is used internally by Microsoft.
 
-### 2Q CY2021
-April - June 2021
-| Area    | State          | ADO |Feature                                                |
-| ------- | -------------- | ----| ------------------------------------------------------ |
-| Call Recording | Private Preview | [2397601](https://skype.visualstudio.com/SPOOL/_workitems/edit/2397601) |Call recording server APIs |
-| Call Automation | Private Preview | [2259251](https://skype.visualstudio.com/SPOOL/_backlogs/backlog/Platform%20Media%20Agent/Epics/?workitem=2259251) | [Call Automation APIs](https://docs.microsoft.com/en-us/azure/communication-services/concepts/voice-video-calling/call-automation-apis) |
-| Chat | Public Preview |[2045650](https://skype.visualstudio.com/SPOOL/_workitems/edit/2045650)|[Anonymous interoperability with Microsoft Teams for chat in a Teams meeting](https://docs.microsoft.com/azure/communication-services/quickstarts/chat/meeting-interop)   
-| PSTN    | Private Preview | |SIP Interface: connect your own telephony provider or interconnect with the third-party telco equipment |
-| TURN    | Public Preview | |Access IETF standard TURN servers         |
-
 ### 3Q CY2021
 July - September 2021
 | Area    | State          | ADO |Feature                                                |
@@ -25,7 +15,7 @@ July - September 2021
 | Geo Availability | Private Preview |[2247684](https://skype.visualstudio.com/SPOOL/_workitems/edit/2247684) | ACS (excl. PSTN/SMS) is available to Azure Government customers |
 | Numbers    | Public Preview |[2329691](https://skype.visualstudio.com/SPOOL/_workitems/edit/2329691)  |Buy US toll-free and geogrpahic numbers from UK and Ireland; Buy PR geographic numbers|
 | PSTN    | Public Preview |[2359791](https://skype.visualstudio.com/SPOOL/_workitems/edit/2359791)  |Access Telephony services in Puerto Rico (on Toll-Free and Geo Numbers)|
-| SMS    | Public Preview |[2359791](https://skype.visualstudio.com/SPOOL/_workitems/edit/2359791)  |Access SMS services in Puerto Rico (on Toll-Free Numbers)|
+| SMS    | Public Preview |[2399832](https://skype.visualstudio.com/SPOOL/_workitems/edit/2399832)  |Buy SMS Short Codes in US |
 | Calling | Public Preview  |[2422536](https://skype.visualstudio.com/SPOOL/_workitems/edit/2422536)  | Network Connectivity Test Tool |
 | Calling | Public Preview  |[2447431](https://skype.visualstudio.com/SPOOL/_workitems/edit/2447431)  | 2x2 (4) incoming videos simultaneously (web JS) |
 | Calling | Public Preview  |[2397592](https://skype.visualstudio.com/SPOOL/_workitems/edit/2397592)  | Call Diagnostics - User Facing Diagnostic (UFD) |

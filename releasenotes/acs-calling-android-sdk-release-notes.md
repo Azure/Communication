@@ -1,4 +1,49 @@
 # ACS Calling Android (Java) SDK - Release History
+## v1.2.0-beta.2 (2021-08-03)
+
+## Bug fixes
+- Fixed `java.lang.StackOverflowError` crash on [GH#346](https://github.com/Azure/Communication/issues/346).
+- Fixed issue related to Call State being `NONE` instead of `DICONNECTED` when rejected from Teams meeting. [GH#318](https://github.com/Azure/Communication/issues/318)
+- Improved memory footprint.
+
+## V1.2.0-beta.1 (2021-07-20)
+
+## New Features:
+
+1. Extended features for Call, known as Call Features. Recording and Transcription features added to allow call recording and transcription. Refer to [Quickstart - Use the Azure Communication Services Calling SDK - An Azure Communication Services quickstart | Microsoft Docs](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/calling-client-samples?pivots=platform-android) in the Record calls and Call transcription sections.
+```java
+RecordingFeature callRecordingFeature = call.api(RecordingFeature.class);
+boolean isRecordingActive = callRecordingFeature.isRecordingActive();
+```
+```java
+private void handleCallOnIsRecordingChanged(PropertyChangedEvent args) {
+	boolean isRecordingActive = callRecordingFeature.isRecordingActive();
+}
+
+callRecordingFeature.addOnIsRecordingActiveChangedListener(handleCallOnIsRecordingChanged);
+```
+```java
+TranscriptionFeature callTranscriptionFeature = call.api(TranscriptionFeature.class);
+boolean isTranscriptionActive = callTranscriptionFeature.isTranscriptionActive();
+```
+```java
+private void handleCallOnIsTranscriptionChanged(PropertyChangedEvent args) {
+	boolean isTranscriptionActive = callTranscriptionFeature.isTranscriptionActive();
+}
+
+callTranscriptionFeature.addOnIsTranscriptionActiveChangedListener(handleCallOnIsTranscriptionChanged);
+```
+2. The properties `isRecordingActive`, `isTranscriptionActive` and the events `addOnIsRecordingActiveChangedListener`, `addOnIsTranscriptionActiveChangedListener` from the Call class are marked as **DEPRECATED** and will be removed from future releases.
+
+## Bug Fixes:
+
+- Silence suppression for Group Calls and Teams meeting interop scenarios is enabled.
+- LocalVideoStream.switchSource(VideoDeviceInfo) will throw a `CallingCommunicationException` with `CallingCommunicationErrors.LOCAL_VIDEO_STREAM_SWITCH_SOURCE_FAILURE` error code.
+- Memory leak Renderer View for LocalVideoStream [GH#224](https://github.com/Azure/Communication/issues/224).
+- Joining a Teams call with an empty AudioOptions produces a crash. i.e using `setAudioOptions(new AudioOptions());` in `JoinCallOptions` [GH#340](https://github.com/Azure/Communication/issues/340).
+- Fix for hangUp() while joining a Teams call and waiting in the lobby [GH#333](https://github.com/Azure/Communication/issues/333).
+- Fix for receiving push notifications on multiple devices.
+
 ## v1.1.0 (2021-06-29)
 
 ## New Features:

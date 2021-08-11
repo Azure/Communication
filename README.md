@@ -36,7 +36,7 @@ Publishing locations for individual SDK packages are detailed below.
 
 | Area | JavaScript | .NET | Python | Java SE | iOS | Android | Other|
 | -------------- | ---------- | ---- | ------ | ---- | -------------- | -------------- | ------------------------------ |
-| Azure Resource Manager | - | [NuGet](https://www.nuget.org/packages/Azure.ResourceManager.Communication)| [PyPi](https://pypi.org/project/azure-mgmt-communication/)|-| -| -| [Go via GitHub](https://github.com/Azure/azure-sdk-for-go/releases/tag/v46.3.0) |
+| Azure Resource Manager | [npm](https://www.npmjs.com/package/@azure/arm-communication) | [NuGet](https://www.nuget.org/packages/Azure.ResourceManager.Communication) | [PyPi](https://pypi.org/project/azure-mgmt-communication/) | [Maven](https://search.maven.org/search?q=azure-resourcemanager-communication)  | - | - | [Go via GitHub](https://github.com/Azure/azure-sdk-for-go/releases/tag/v52.5.0) |
 | Common | [npm](https://www.npmjs.com/package/@azure/communication-common) | [NuGet](https://www.nuget.org/packages/Azure.Communication.Common/)| N/A| [Maven](https://search.maven.org/search?q=a:azure-communication-common) | [GitHub](https://github.com/Azure/azure-sdk-for-ios/releases)| [Maven](https://search.maven.org/artifact/com.azure.android/azure-communication-common) | -|
 | Identity | [npm](https://www.npmjs.com/package/@azure/communication-identity) | [NuGet](https://www.nuget.org/packages/Azure.Communication.Identity)| [PyPi](https://pypi.org/project/azure-communication-identity/)| [Maven](https://search.maven.org/search?q=a:azure-communication-identity) | -| -| -|
 | Phone Numbers | [npm](https://www.npmjs.com/package/@azure/communication-phone-numbers) | [NuGet](https://www.nuget.org/packages/Azure.Communication.PhoneNumbers)| [PyPi](https://pypi.org/project/azure-communication-phonenumbers/)| [Maven](https://search.maven.org/search?q=a:azure-communication-phonenumbers) | -| -| -|
@@ -58,10 +58,12 @@ Release notes are available directly in the publishing location (e.g. nuget) for
  - [4/18/2021 - 5/2/2021](/releasenotes/2021-May-2.md) - Calling iOS and Android SDKs are generally available and stable. Phone Numbers is also generally availability with stable SDKs for .NET, JS, Java, and Python.
  - [5/2/2021 - 5/16/2021](/releasenotes/2021-May-16.md) - Initial release of **Azure Communication Services Windows Calling SDK** in public preview (v1.0.0-beta.1). Chat (.NET) and SMS (Java) version 1.0.1 has been published with minor bug fixes. 
  - [5/16/2021 - 5/31/2021](/releasenotes/2021-May-30.md) - Calling JS & Windows SDK libraries updated with minor bug fixes and Common Library Java package small fixes.
- - [6/1/2021 - 6/14/2021](/releasenotes/2021-June-14.md) - Release Calling JS library *Azure Communication Services Calling JavaScript SDK for browsers relies on WebRTC APIs that are being **deprecated**, specifically the Plan B Session Description Protocol (SDP) API. Google, Microsoft, Apple, and other browser vendors will be removing this functionality starting in August 2021.* Calling for Android & iOS libraries release the version V1.1.0 beta-1 version wit new features like CallKit support (iOS) and minor bug fixes.
- - [6/15/2021 - 6/28/2021](/releasenotes/2021-June-28.md) - Azure Portal release the ability to move resources to different subscriptions and resource groups. Release Android Chat & Common library, and release Calling JS library stable version and beta. 
- - [6/28/2021 - 7/18/2021](/releasenotes/2021-July-12.md) - Calling Android v1.1.0 SDK release with the ability to dispose of `CallAgent` and `CallAgent` optimizing the memory.
- 
+ - [6/1/2021 - 6/14/2021](/releasenotes/2021-June-14.md) - Calling Android & iOS libraries updated with version V1.1.0 beta-1 version with CallKit support (iOS) and minor bug fixes.
+ - [6/15/2021 - 6/28/2021](/releasenotes/2021-June-28.md) - Azure Portal supports the ability to move resources to different subscriptions and resource groups. Updated Android Chat & Common libraries, and Calling JS library.
+ - [6/28/2021 - 7/12/2021](/releasenotes/2021-July-12.md) - Calling Android v1.1.0 SDK release with the ability to dispose of `CallAgent` and `CallAgent` optimizing the memory.
+ - [7/12/2021 - 7/26/2021](/releasenotes/2021-July-26.md) - The Chat SDK for iOS is now Generally Available. Recording and Transcription features were added to allow call recording and transcription. Azure Portal adds UI updates into the Direct Routing (preview) blade and configuration, also incorporate the ability to quickly create identities and tokens to use in samples and troubleshooting scenarios.
+ - [7/27/2021 - 8/9/2021](/releasenotes/2021-08-09.md) - The Chat SDK release improvements into the Android, Java, JS & Python packages. Azure Portal UI enhancements into the Direct Routing blade. Calling Android SDK optimize memory consumption.
+
 In many cases we maintain a perpetual changelog at a library level which is linked below.
 
 | **Area**| **JavaScript** | **.NET** | **Python**  | **Java SE** | **iOS** | **Android**| **Other** |
