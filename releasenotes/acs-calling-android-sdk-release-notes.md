@@ -1,9 +1,20 @@
 # ACS Calling Android (Java) SDK - Release History
+## v1.2.0 (2021-08-11)
+## New Features:
+1. The properties `isRecordingActive`, `isTranscriptionActive` and the events `addOnIsRecordingActiveChangedListener`, `addOnIsTranscriptionActiveChangedListener` from the Call class are marked as **DEPRECATED** and will be removed from future releases.
+
+
+## Bug fixes
+- Joining a Teams call with an empty AudioOptions produces a crash. i.e using setAudioOptions(new AudioOptions()); in JoinCallOptions GH#340.
+- Fix for hangUp() while joining a Teams call and waiting in the lobby GH#333.
+- Fix for receiving push notifications on multiple devices.
+- Fixed `java.lang.StackOverflowError` crash on [GH#346](https://github.com/Azure/Communication/issues/346).
+- Improved memory footprint.
+
 ## v1.2.0-beta.2 (2021-08-03)
 
 ## Bug fixes
 - Fixed `java.lang.StackOverflowError` crash on [GH#346](https://github.com/Azure/Communication/issues/346).
-- Fixed issue related to Call State being `NONE` instead of `DICONNECTED` when rejected from Teams meeting. [GH#318](https://github.com/Azure/Communication/issues/318)
 - Improved memory footprint.
 
 ## V1.2.0-beta.1 (2021-07-20)
