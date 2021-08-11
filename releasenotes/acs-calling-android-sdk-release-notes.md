@@ -3,6 +3,7 @@
 
 ## Bug fixes
 - Fixed `java.lang.StackOverflowError` crash on [GH#346](https://github.com/Azure/Communication/issues/346).
+- Fixed issue related to Call State being `NONE` instead of `DICONNECTED` when rejected from Teams meeting. [GH#318](https://github.com/Azure/Communication/issues/318)
 - Improved memory footprint.
 
 ## V1.2.0-beta.1 (2021-07-20)
