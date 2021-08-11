@@ -3,7 +3,6 @@
 ## New Features:
 1. The properties `isRecordingActive`, `isTranscriptionActive` and the events `addOnIsRecordingActiveChangedListener`, `addOnIsTranscriptionActiveChangedListener` from the Call class are marked as **DEPRECATED** and will be removed from future releases.
 
-
 ## Bug fixes
 - Joining a Teams call with an empty AudioOptions produces a crash. i.e using setAudioOptions(new AudioOptions()); in JoinCallOptions GH#340.
 - Fix for hangUp() while joining a Teams call and waiting in the lobby GH#333.
