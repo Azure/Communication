@@ -1,5 +1,19 @@
 # ACS Calling Web (JavaScript) SDK - Release History
 
+## v1.2.1-beta.1 (2021-08-19)
+Available in NPM - https://www.npmjs.com/package/@azure/communication-calling/v/1.2.1-beta.1
+
+#### Bugfixes
+1. Fixes for incoming video from certain mobile devices not rendering.
+2. Fixes for quick video turn on/off switching.
+3. Fixes for UFDs on iOS Safari, MacOS Safari, and MacOS Chrome.
+4. Fixes for microphone and camera device names not showing correctly after permissions are granted.
+5. Fixes for calling sdk not refreshing the token correctly.
+
+#### Other changes
+1. Documentation updates
+2. Internal telemetry and bug fixes.
+
 
 ## v1.2.0-beta.1 (2021-06-24)
 Available in NPM - https://www.npmjs.com/package/@azure/communication-calling/v/1.2.0-beta.1
