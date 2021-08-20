@@ -8,15 +8,15 @@ Available in NPM - https://www.npmjs.com/package/@azure/communication-calling/v/
 #### Bugfixes
 1. Fixes for incoming video from certain iOS and Android devices devices not rendering.
     - Affected devices include Samsung M3,1 Samsung S21, Oppo A5, A7, R17 Pro, Xiaomi Redmi, iPhone SE, Motorolas, etc, where outgoing video streams from these devices were not being sent out correctly to the remote participants in the call. 
-3. Fixes for quick video turn on/off switching.
+2. Fixes for quick video turn on/off switching.
     - Now when you turn your local video on and off quickly, Call.localVideoStream[0] object is updated (added/removed) correctly and remote participants will see your video correctly based off this state.
-5. Fixes for UFDs on iOS Safari, MacOS Safari, and MacOS Chrome.
+3. Fixes for UFDs on iOS Safari, MacOS Safari, and MacOS Chrome.
     - isSpeakingWhileDeviceIsMuted UFD was not working properly on Safari nor MacOS Chrome. GH Issue: https://github.com/Azure/Communication/issues/335
-6. Fixed issue where incoming video from Pixel devices, shows distorted.
+4. Fixed issue where incoming video from Pixel devices, shows distorted.
     - Now if the incoming video is rendered in a small screen such as in a portrait mode mobile browser, then the incoming video will not show distorted. But if the incoming video is rendered on a big screen like desktop where the video renderer can be big, then video artifacts may still show.
-8. Fixes for camera and microphone names not showing correctly after permissions are granted on Android.
+5. Fixes for camera and microphone names not showing correctly after permissions are granted on Android.
     - GH Issue: https://github.com/Azure/Communication/issues/46
-9. Fixes for calling sdk not refreshing the token correctly.
+6. Fixes for calling sdk not refreshing the token correctly.
 
 #### Other changes
 1. Documentation updates
