@@ -17,6 +17,7 @@ Available in NPM - https://www.npmjs.com/package/@azure/communication-calling/v/
 5. Fixes for camera and microphone names not showing correctly after permissions are granted on Android.
     - GH Issue: https://github.com/Azure/Communication/issues/46
 6. Fixes for calling sdk not refreshing the token correctly.
+7. Fixes issue where incoming video from Pixel devices, shows distorted. Now if the incoming video is rendered in a small screen such as in a portrait mode mobile browser, then the incoming video will not show distorted. But if the incoming video is rendered on a big screen like desktop where the video renderer can be big, then video artifacts may still show.
 
 #### Other changes
 1. Documentation updates
