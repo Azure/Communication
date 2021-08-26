@@ -2,12 +2,12 @@
 - [Sample Applications](https://docs.microsoft.com/azure/communication-services/samples/overview)
 - [API usage documentation](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/calling-client-samples?pivots=platform-web)
 - [API reference documentation](https://docs.microsoft.com/en-us/javascript/api/azure-communication-services/@azure/communication-calling/?view=azure-communication-services-js)
-## v1.2.1-beta.1 (2021-08-25)
+## v1.2.1-beta.1 (2021-08-26)
 Available in NPM - https://www.npmjs.com/package/@azure/communication-calling/v/1.2.1-beta.1 
 
 #### Bugfixes
 1. Fixes for incoming video from certain iOS and Android devices devices not rendering.
-    - Affected devices include Samsung M3,1 Samsung S21, Oppo A5, A7, R17 Pro, Xiaomi Redmi, iPhone SE, Motorolas, etc, where outgoing video streams from these devices were not being sent out correctly to the remote participants in the call. 
+    - Affected devices include Samsung M3, Samsung S21, Oppo A5, A7, R17 Pro, Xiaomi Redmi, iPhone SE, Motorolas, etc, where outgoing video streams from these devices were not being sent out correctly to the remote participants in the call. 
 2. Fixes for quick video turn on/off switching.
     - Now when you turn your local video on and off quickly, Call.localVideoStream[0] object is updated (added/removed) correctly and remote participants will see your video correctly based off this state.
 3. Fixes for UFDs on iOS Safari, MacOS Safari, and MacOS Chrome.
