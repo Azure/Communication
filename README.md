@@ -63,7 +63,8 @@ Release notes are available directly in the publishing location (e.g. nuget) for
  - [6/28/2021 - 7/12/2021](/releasenotes/2021-July-12.md) - Calling Android v1.1.0 SDK release with the ability to dispose of `CallAgent` and `CallAgent` optimizing the memory.
  - [7/12/2021 - 7/26/2021](/releasenotes/2021-July-26.md) - The Chat SDK for iOS is now Generally Available. Recording and Transcription features were added to allow call recording and transcription. Azure Portal adds UI updates into the Direct Routing (preview) blade and configuration, also incorporate the ability to quickly create identities and tokens to use in samples and troubleshooting scenarios.
  - [7/27/2021 - 8/9/2021](/releasenotes/2021-08-09.md) - The Chat SDK release improvements into the Android, Java, JS & Python packages. Azure Portal UI enhancements into the Direct Routing blade. Calling Android SDK optimize memory consumption.
- - [8/10/2021 - 8/23/2021](/releasenotes/2021-08-23.md) - The JS Calling SDK releases improvements: TURN releases beta version for Python and Java libraries. Azure Portal incorporates enhancements over Direct Routing blade and minor UI changes.
+ - [8/10/2021 - 8/23/2021](/releasenotes/2021-08-23.md) - The JS Calling SDK releases improvements. TURN releases beta version for Python and Java libraries. Azure Portal incorporates enhancements over Direct Routing blade and minor UI changes.
+ - [8/24/2021 - 9/6/2021](/releasenotes/2021-09-06.md) -## JS Calling SDK releases beta package with several improvements. TURN releases the first beta version package for Java .
 
 In many cases we maintain a perpetual changelog at a library level which is linked below.
 
