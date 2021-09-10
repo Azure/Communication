@@ -22,4 +22,11 @@ July - September 2021
 | Calling | Public Preview  |[2397583](https://skype.visualstudio.com/SPOOL/_workitems/edit/2397583)  | SDK - Provide information about dominant speakers in a call |
 | Calling | Public Preview  |[2438790](https://skype.visualstudio.com/SPOOL/_workitems/edit/2438790)  | Network Quality Statistics |
 
+### 4Q CY2021
+October - December 2021
+| Area    | State          | ADO |Feature                                                |
+| ------- | -------------- | ----| ------------------------------------------------------|
+| UI Library | Public Preview | [2332224](https://skype.visualstudio.com/SPOOL/_workitems/edit/2332224) | iOS and Android Calling Composite |
+| UI Library | General Availaibilty | [2296203](https://skype.visualstudio.com/SPOOL/_workitems/edit/2296203) | Web Calling and Chat Composites |
+| UI Library | General Availaibilty | [2296201](https://skype.visualstudio.com/SPOOL/_workitems/edit/2296201) | Web Components and Stateful Client |
 
