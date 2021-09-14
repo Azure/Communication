@@ -1,4 +1,9 @@
 # ACS Calling Android (Java) SDK - Release History
+## v1.2.1-beta.1 (2021-09-14)
+
+## Bug fixes
+- Fixed answering an incoming call that has already been answered or declined on another device by throwing an exception.
+
 ## v1.2.0 (2021-08-11)
 ## New Features:
 1. The properties `isRecordingActive`, `isTranscriptionActive` and the events `addOnIsRecordingActiveChangedListener`, `addOnIsTranscriptionActiveChangedListener` from the Call class are marked as **DEPRECATED** and will be removed from future releases.
