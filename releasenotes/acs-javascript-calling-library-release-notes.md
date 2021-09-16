@@ -6,8 +6,16 @@
 Available in NPM - https://www.npmjs.com/package/@azure/communication-calling/v/1.2.2-beta.1
 
 #### Bugfixes
-1. Fixes on iOS Safari when application goes to background.
-2. Fixes on iOS Safari when call interrupted with another PSTN call to recover audio and video.
+1. Fixes on iOS Safari when application goes to background during an active call.
+    - Affected were all iOS users on Safari.
+    - Incoming and outgoing audio will work uninterrupted.
+3. Fixes on iOS Safari when call interrupted with another PSTN call.
+    - Affected were all iOS users on Safari.
+    - Audio and video will reconnect when the PSTN call is declined on hanged up. User will have to "unmute" to reconnect the previous call and "start video" to re-start the video.
+
+#### Other changes
+1. Documentation updates
+2. Internal telemetry and bug fixes.
 
 ## v1.2.1-beta.1 (2021-08-26)
 Available in NPM - https://www.npmjs.com/package/@azure/communication-calling/v/1.2.1-beta.1 
