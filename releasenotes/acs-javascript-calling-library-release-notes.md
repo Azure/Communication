@@ -2,6 +2,13 @@
 - [Sample Applications](https://docs.microsoft.com/azure/communication-services/samples/overview)
 - [API usage documentation](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/calling-client-samples?pivots=platform-web)
 - [API reference documentation](https://docs.microsoft.com/en-us/javascript/api/azure-communication-services/@azure/communication-calling/?view=azure-communication-services-js)
+## v1.2.2-beta.1 (2021-09-15)
+Available in NPM - https://www.npmjs.com/package/@azure/communication-calling/v/1.2.2-beta.1
+
+#### Bugfixes
+1. Fixes on iOS Safari when application goes to background.
+2. Fixes on iOS Safari when call interrupted with another PSTN call to recover audio and video.
+
 ## v1.2.1-beta.1 (2021-08-26)
 Available in NPM - https://www.npmjs.com/package/@azure/communication-calling/v/1.2.1-beta.1 
 
