@@ -66,7 +66,7 @@ Release notes are available directly in the publishing location (e.g. nuget) for
  - [8/24/2021 - 9/6/2021](/releasenotes/2021-09-06.md) - The JS Calling SDK releases beta package with several improvements. TURN releases the first beta version package for Java.
  - [9/7/2021 - 9/20/2021](/releasenotes/2021-09-20.md) - You can purchase now phone numbers in **Puerto Rico** using the Azure Portal. Android Calling library fix minor issues and JS Calling add small fixes on Safari browser.
  - [9/21/2021 - 10/4/2021](/releasenotes/2021-10-04.md) - **Java** packages update dependencies `azure-communication-common` to 1.0.4 and `azure-core` to 1.20.0. *Network Traversal* release new version packages. Great news  to keep you updated: *Azure Advisor* will alert you when there is a new version of the chat SDK available.
-- [10/5/2021 - 10/18/2021](/releasenotes/2021-10-18.md) - Calling Server release beta packages for .NET & Java languages, adding mixed audio-only MP3/WAV output format for Call Recording!
+- [10/5/2021 - 10/18/2021](/releasenotes/2021-10-18.md) - Calling Server release beta packages for .NET & Java languages, adding mixed audio-only MP3/WAV output format for Call Recording!. Also, Azure Communication Services now supports **Azure Advisor** alerting customers when there is a new SDK available!!.
 
 In many cases we maintain a perpetual changelog at a library level which is linked below.
 
