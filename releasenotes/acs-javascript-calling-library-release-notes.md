@@ -13,7 +13,7 @@ Bugfixes
     * When user received multiple interruptions, would break audio/video permanently.
 
 2. Fixes on other OS platforms that received DeviceCaptureNotFunctioning during a call would break audio/video permanently.
-3. Fixes on Android to stop outgoing video when screen locks or browser moves to the background, instead of sending the last frame.
+3. Fixes on iOS/Android to stop outgoing video when screen locks or browser moves to the background, instead of sending the last frame. User will have to start video again when back to the application
 
 Other changes
 
@@ -25,7 +25,7 @@ Other changes
     * capturerStoppedUnexpectedly: Triggered when screen-share will stop working unexpectedly or recovery.
     * cameraStoppedUnexpectedly: Triggered when camera will stop working unexpectedly or recovery.
     * networkSendQuality: Triggered when network send quality is bad or recovery.
-
+    
 4. Documentation updates.
 5. Internal telemetry updates.
 
