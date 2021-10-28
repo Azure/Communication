@@ -2,6 +2,48 @@
 - [Sample Applications](https://docs.microsoft.com/azure/communication-services/samples/overview)
 - [API usage documentation](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/calling-client-samples?pivots=platform-web)
 - [API reference documentation](https://docs.microsoft.com/en-us/javascript/api/azure-communication-services/@azure/communication-calling/?view=azure-communication-services-js)
+## v1.2.3-beta.1 (2021-10-20)
+Available in NPM - https://www.npmjs.com/package/@azure/communication-calling/v/1.2.3-beta.1
+
+Bugfixes
+1. Fixes on iOS Safari when call gets interrupted from PSTN call, Siri, or a native application taking over the device (Microphone or Camera) access.
+
+    * When user is muted would break audio/video permanently.
+    * When user is in lobby would break audio/video permanently.
+    * When user received multiple interruptions, would break audio/video permanently.
+
+2. Fixes on other OS platforms that received DeviceCaptureNotFunctioning during a call would break audio/video permanently.
+3. Fixes on iOS/Android to stop outgoing video when screen locks or browser moves to the background, instead of sending the last frame. User will have to start video again when back to the application
+
+Other changes
+
+1. Feature “Diagnostics” got renamed to “User Facing Diagnostics” for clarity and better understanding.
+2. User facing diagnostics won’t expose mediaType anymore, rather a flattened list of possible options.
+3. New User facing diagnostics added and are explained bellow:
+
+    * capturerStartFailed: Triggered when failing to start screen-share or recovery.
+    * capturerStoppedUnexpectedly: Triggered when screen-share will stop working unexpectedly or recovery.
+    * cameraStoppedUnexpectedly: Triggered when camera will stop working unexpectedly or recovery.
+    * networkSendQuality: Triggered when network send quality is bad or recovery.
+    
+4. Documentation updates.
+5. Internal telemetry updates.
+
+## v1.2.2-beta.1 (2021-09-15)
+Available in NPM - https://www.npmjs.com/package/@azure/communication-calling/v/1.2.2-beta.1
+
+#### Bugfixes
+1. Fixes on iOS Safari when application goes to background during an active call.
+    - Affected were all iOS users on Safari.
+    - Incoming and outgoing audio will work uninterrupted.
+3. Fixes on iOS Safari when call interrupted with another PSTN call.
+    - Affected were all iOS users on Safari.
+    - Audio and video will reconnect when the PSTN call is declined on hanged up. User will have to "unmute" to reconnect the previous call and "start video" to re-start the video.
+
+#### Other changes
+1. Documentation updates
+2. Internal telemetry and bug fixes.
+
 ## v1.2.1-beta.1 (2021-08-26)
 Available in NPM - https://www.npmjs.com/package/@azure/communication-calling/v/1.2.1-beta.1 
 

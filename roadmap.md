@@ -13,10 +13,8 @@ July - September 2021
 | UI Library | Private Preview | [2332224](https://skype.visualstudio.com/SPOOL/_workitems/edit/2332224) | iOS and Android Calling Composite |
 | Geo Availability | General Availaibilty | [2383195](https://skype.visualstudio.com/SPOOL/_workitems/edit/2383195) | ACS (excl. PSTN/SMS offers) is available in additional Azure Geo's - Brazil, Canada, India, Japan, Korea, France, Germany, Norway, Switzerland, United Arab Emirates, Africa
 | Geo Availability | Private Preview |[2247684](https://skype.visualstudio.com/SPOOL/_workitems/edit/2247684) | ACS (excl. PSTN/SMS) is available to Azure Government customers |
-| Numbers    | Public Preview |[2329691](https://skype.visualstudio.com/SPOOL/_workitems/edit/2329691)  |Buy US toll-free and geogrpahic numbers from UK and Ireland; Buy PR geographic numbers|
+| Numbers    | Public Preview |[2329691](https://skype.visualstudio.com/SPOOL/_workitems/edit/2329691)  | Buy PR geographic numbers|
 | PSTN    | Public Preview |[2359791](https://skype.visualstudio.com/SPOOL/_workitems/edit/2359791)  |Access Telephony services in Puerto Rico (on Toll-Free and Geo Numbers)|
-| SMS    | Public Preview |[2399832](https://skype.visualstudio.com/SPOOL/_workitems/edit/2399832)  |Buy SMS Short Codes in US |
-| Calling | Public Preview  |[2422536](https://skype.visualstudio.com/SPOOL/_workitems/edit/2422536)  | Network Connectivity Test Tool |
 | Calling | Public Preview  |[2447431](https://skype.visualstudio.com/SPOOL/_workitems/edit/2447431)  | 2x2 (4) incoming videos simultaneously (web JS) |
 | Calling | Public Preview  |[2397592](https://skype.visualstudio.com/SPOOL/_workitems/edit/2397592)  | Call Diagnostics - User Facing Diagnostic (UFD) |
 | Calling | Public Preview  |[2397583](https://skype.visualstudio.com/SPOOL/_workitems/edit/2397583)  | SDK - Provide information about dominant speakers in a call |
@@ -29,4 +27,7 @@ October - December 2021
 | UI Library | Public Preview | [2332224](https://skype.visualstudio.com/SPOOL/_workitems/edit/2332224) | iOS and Android Calling Composite |
 | UI Library | General Availaibilty | [2296203](https://skype.visualstudio.com/SPOOL/_workitems/edit/2296203) | Web Calling and Chat Composites |
 | UI Library | General Availaibilty | [2296201](https://skype.visualstudio.com/SPOOL/_workitems/edit/2296201) | Web Components and Stateful Client |
+| Numbers    | Public Preview |[2329691](https://skype.visualstudio.com/SPOOL/_workitems/edit/2329691)  |Buy US toll-free and geogrpahic numbers from UK and Ireland |
+| SMS    | Public Preview |[2399832](https://skype.visualstudio.com/SPOOL/_workitems/edit/2399832)  |Buy SMS Short Codes in US |
+| Calling | Public Preview  |[2422536](https://skype.visualstudio.com/SPOOL/_workitems/edit/2422536)  | Network Connectivity Test Tool |
 
