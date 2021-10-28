@@ -1,4 +1,16 @@
 # ACS Calling Android (Java) SDK - Release History
+## v1.3.0-beta.1 (2021-10-29)
+## New Features:
+1. The call extended features now are accessed but the `feature()` method call instead of the `api()` like previous versions. Also, you can leverage the class `com.azure.android.communication.calling.Features` to obtain the list of available features like `Features.RECORDING` and `Features.TRANSCRIPTION`. Classes `RecordingFeature` and `TranscriptionFeature` have been renamed to `RecordingCallFeature` and `TranscriptionCallFeature`. More information on [Record Calls](https://docs.microsoft.com/en-us/azure/communication-services/how-tos/calling-sdk/record-calls?pivots=platform-android#record-calls) and [Show Transcription state](https://docs.microsoft.com/en-us/azure/communication-services/how-tos/calling-sdk/call-transcription?pivots=platform-android)
+
+## Bug fixes
+- Fix a memory leak when disposing VideoStreamRendererView. [GH#224](https://github.com/Azure/Communication/issues/224).
+- Fix recording and transcription call extended features working together. [GH#383](https://github.com/Azure/Communication/issues/383).
+- Fix for a crash while adding a participant to an unconnected call. Now it throws an IllegalStateException
+- Fix for ANR on hangup(). [GH#390](https://github.com/Azure/Communication/issues/390).
+- Fix for crash while calling call.AddParticipant().
+- Fix for event OnParticipantsUpdated event not firing in some ocassions during call.AddParticipant().
+
 ## v1.2.1-beta.1 (2021-09-14)
 
 ## Bug fixes
