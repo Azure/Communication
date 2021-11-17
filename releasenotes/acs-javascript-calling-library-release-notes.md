@@ -2,6 +2,34 @@
 - [Sample Applications](https://docs.microsoft.com/azure/communication-services/samples/overview)
 - [API usage documentation](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/calling-client-samples?pivots=platform-web)
 - [API reference documentation](https://docs.microsoft.com/en-us/javascript/api/azure-communication-services/@azure/communication-calling/?view=azure-communication-services-js)
+## v1.3.1-beta.1 (2021-11-17)
+Available in NPM - https://www.npmjs.com/package/@azure/communication-calling/v/1.3.1-beta.1
+
+Features
+
+1. Media statistics.
+  	* Application will be able to collect aggregated media statistics on specified intervals.
+2. Consultative transfer.
+  	* Application will be able to consultative transfer a call with the transferee to a call with the transfer target.
+3. Meeting join via meeting identifier.
+  	* Application will be able to join Microsoft Teams meetings using a unique meeting identifier. This functionality will extend the existing meeting join options with meeting link and meeting coordinates.
+4. Client options diagnostic information.
+  	* Application will be able to pass custom 'appName', 'appVersion', and additionally set of 'tags' to the SDK that will be sent with telemetry pipeline.
+
+Other changes
+
+1. Call "apis" got renamed to call "features".
+2. Documentation updates.
+3. Internal telemetry updates.
+4. Bug fixes.
+
+Known issues
+
+OS 15.1 users joining group calls or Microsoft Teams meetings with video on.
+   * Will result into broken orientation on the receiver's end. Mitigation: Switch device orientation to horizontal.
+   * Going to background will refresh your call. Mitigation: Stop video before going to background.
+
+
 ## v1.2.3-beta.1 (2021-10-20)
 Available in NPM - https://www.npmjs.com/package/@azure/communication-calling/v/1.2.3-beta.1
 
