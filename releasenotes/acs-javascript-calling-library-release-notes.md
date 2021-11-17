@@ -25,7 +25,7 @@ Other changes
 
 Known issues
 
-OS 15.1 users joining group calls or Microsoft Teams meetings with video on.
+iOS 15.1 users joining group calls or Microsoft Teams meetings with video on.
    * Will result into broken orientation on the receiver's end. Mitigation: Switch device orientation to horizontal.
    * Going to background will refresh your call. Mitigation: Stop video before going to background.
 
