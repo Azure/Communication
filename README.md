@@ -68,6 +68,7 @@ Release notes are available directly in the publishing location (e.g. nuget) for
  - [9/21/2021 - 10/4/2021](/releasenotes/2021-10-04.md) - **Java** packages update dependencies `azure-communication-common` to 1.0.4 and `azure-core` to 1.20.0. *Network Traversal* release new version packages. Great news  to keep you updated: *Azure Advisor* will alert you when there is a new version of the chat SDK available.
 - [10/5/2021 - 10/18/2021](/releasenotes/2021-10-18.md) - Calling Server release beta packages for .NET & Java languages, adding mixed audio-only MP3/WAV output format for Call Recording!. Also, Azure Communication Services now supports **Azure Advisor** alerting customers when there is a new SDK available!!.
 - [10/19/2021 - 11/1/2021](/releasenotes/2021-11-1.md) -  .NET, Java & JS added support to build custom Teams endpoint using M365 Teams identities!.
+- [11/2/2021 - 11/15/2021](/releasenotes/2021-11-15.md) - **Short codes** release the initial version of the Python SDK. Chat (Java) and Identity (Python) releases minor fixes.
 
 In many cases we maintain a perpetual changelog at a library level which is linked below.
 
