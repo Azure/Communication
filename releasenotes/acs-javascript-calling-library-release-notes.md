@@ -30,7 +30,7 @@ iOS 15.1 users joining group calls or Microsoft Teams meetings with video on.
    * Will result into broken orientation on the receiver's end. Mitigation: Switch device orientation to horizontal.
    * Going to background will refresh your call. Mitigation: Stop video before going to background.
 
-**This is a known regression introduced by Apple on iOS 15.1 release. Detailed info [here](https://github.com/Azure/Communication/issues/413) and [here](https://docs.microsoft.com/en-us/azure/communication-services/concepts/known-issues#ios-with-safari-crashes-and-refreshes-the-page-if-a-user-tries-to-send-video-in-a-call).**
+**This is a known regression introduced by Apple on iOS 15.1 release. More information can be found [here](https://github.com/Azure/Communication/issues/413) and [here](https://docs.microsoft.com/en-us/azure/communication-services/concepts/known-issues#ios-with-safari-crashes-and-refreshes-the-page-if-a-user-tries-to-send-video-in-a-call).**
 
 
 ## v1.2.3-beta.1 (2021-10-20)
