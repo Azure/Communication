@@ -6,6 +6,9 @@ contact_links:
   - name: Microsoft Q&A for Questions
     url: https://docs.microsoft.com/en-us/answers/topics/azure-communication-services.html
     about: Please ask questions here.
+  - name: Azure SDK Repositories for SDK Bugs
+    url: ../../bugs.md
+    about: Please see here for listings of locations.
   - name: Support & Help Options
     url: https://docs.microsoft.com/en-gb/azure/communication-services/support
     about: For more information on our support & help options.
