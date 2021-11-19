@@ -79,7 +79,9 @@ In many cases we maintain a perpetual changelog at a library level which is link
 A project view of the roadmap is [also available here](https://github.com/Azure/Communication/projects/1). Major updates to Azure Communication Services and other Azure services are available at [https://azure.microsoft.com/updates/](https://azure.microsoft.com/updates/).
 
 ## ❤️ Feedback
+## ❤️ Feedback
 
 We appreciate your feedback and energy helping us improve our services. [If you've tried the service, please give us feedback through this survey](https://microsoft.qualtrics.com/jfe/form/SV_4HMWolQyyLyeX77). 
 
-If you'd like to submit feature requests please submit them to our [board on Azure UserVoice](https://feedback.azure.com/forums/934536-azure-communication-services).
+If you'd like to submit feature requests please submit them to our [board on Azure Feedback](https://feedback.azure.com/d365community/forum/81ff6d2b-0c25-ec11-b6e6-000d3a4f0858).
+
