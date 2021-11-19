@@ -9,15 +9,18 @@
 - [*Roadmap*](roadmap.md) - Priorities for current and future service development
 - [*Awesome List*](https://github.com/Azure/Communication/blob/master/Awesome.md) - Highlighted projects for Azure Communication Services
 
-This repo is not open to contributions, though many of the linked SDKs are open-source and allow contributions.
+This repo is not open to contributions, though many of the linked SDKs are open-source and allow contributions. Documentation and other resources for developers are indexed below.
 
-## Conceptual Documentation, Quickstarts, Samples, and Help
-
-Conceptual docs and quickstarts are at [docs.microsoft.com](https://docs.microsoft.com/azure/communication-services/overview). Samples are listed on a [dedicated samples page](https://docs.microsoft.com/azure/communication-services/samples/overview). To ask questions or get help, [please check out these resources](https://docs.microsoft.com/azure/communication-services/support).
+| Topic            | Channel                             |
+|------------------|------------------------------|
+|Concepts & Quickstarts | [Docs](https://docs.microsoft.com/azure/communication-services/overview) 
+|Samples | [Azure Sample Index](https://docs.microsoft.com/en-us/samples/browse/?expanded=azure&products=azure-communication-services) or [GitHub](https://github.com/orgs/Azure-Samples/repositories?language=&q=communication&sort=&type=) 
+| Feature Requests | [Ideas](https://feedback.azure.com/d365community/forum/81ff6d2b-0c25-ec11-b6e6-000d3a4f0858)                     |
+| Questions & Bugs | [Q&A](https://docs.microsoft.com/answers/topics/azure-communication-services.html) or [Azure Support](https://docs.microsoft.com/azure/azure-portal/supportability/how-to-create-azure-support-request) |
 
 ## SDKs
 
-Azure Communication Services capabilities are conceptually organized into eight areas. Most areas have fully open-sourced SDKs programmed against published REST APIs that you can use directly over the Internet. Development of Web-based Calling and Chat applications can be accelerated by [Azure Communication Services UI libraries](https://azure.github.io/communication-ui-library). The UI library provides production-ready UI components that you can drop into your applications.
+Azure Communication Services is conceptually organized nines eight areas. Most areas have fully open-sourced SDKs programmed against published REST APIs that you can use directly over the Internet. Development of Web Calling and Chat client applications can be accelerated by [Azure Communication Services UI libraries](https://azure.github.io/communication-ui-library). The UI library provides production-ready UI components that you can drop into your applications.
 
 Communication Services APIs are documented alongside other Azure REST APIs in [docs.microsoft.com](https://docs.microsoft.com/rest/api/communication/). This documentation will tell you how to structure your HTTP messages and offers guidance for using Postman. REST interface documentation is also offered in Swagger format on [GitHub](https://github.com/Azure/azure-rest-api-specs).
 
