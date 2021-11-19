@@ -6,8 +6,8 @@
 
 - *SDKs* - Links to client libraries
 - *Release Notes* - [Collated release notes](https://github.com/Azure/Communication/tree/master/releasenotes) for the service and SDKs
-- *Roadmap* - Priorities for current and future service development
-- *Awesome List* - Highlighted projects for Azure Communication Services
+- [*Roadmap*](roadmap.md) - Priorities for current and future service development
+- [*Awesome List*](https://github.com/Azure/Communication/blob/master/Awesome.md) - Highlighted projects for Azure Communication Services
 
 This repo is not open to contributions, though many of the linked SDKs are open-source and allow contributions.
 
