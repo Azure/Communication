@@ -1,11 +1,14 @@
 blank_issues_enabled: false
 contact_links:
-  - name: Azure User Voice for Feature Requests
-    url: https://feedback.azure.com/forums/934536-azure-communication-services
+  - name: Azure Ideas for Feature Requests
+    url: https://feedback.azure.com/d365community/forum/81ff6d2b-0c25-ec11-b6e6-000d3a4f0858
     about: Please submit feature requests here.
   - name: Microsoft Q&A for Questions
     url: https://docs.microsoft.com/en-us/answers/topics/azure-communication-services.html
     about: Please ask questions here.
+  - name: Azure SDK Repositories for SDK Bugs
+    url: https://github.com/Azure/Communication/blob/master/bugs.md
+    about: Please see here for listings of locations.
   - name: Support & Help Options
     url: https://docs.microsoft.com/en-gb/azure/communication-services/support
     about: For more information on our support & help options.
