@@ -1,4 +1,9 @@
 # ACS Calling Android (Java) SDK - Release History
+## v2.0.0-beta.1 (2021-12-06)
+## New Features:
+- The properties `isRecordingActive`, `isTranscriptionActive` and the events `addOnIsRecordingActiveChangedListener`, `addOnIsTranscriptionActiveChangedListener` are removed from the Call class. Please use the call extended features. More information on [Record Calls](https://docs.microsoft.com/en-us/azure/communication-services/how-tos/calling-sdk/record-calls?pivots=platform-android#record-calls) and [Show Transcription state](https://docs.microsoft.com/en-us/azure/communication-services/how-tos/calling-sdk/call-transcription?pivots=platform-android).
+- Added support for specifying emergency country code when creating `CallAgent` by setting the property `emergencyCountryCode` in `CallAgentOptions`.
+
 ## v1.3.0-beta.1 (2021-11-15)
 ## New Features:
 1. The call extended features now are accessed but the `feature()` method call instead of the `api()` like previous versions. Also, you can leverage the class `com.azure.android.communication.calling.Features` to obtain the list of available features like `Features.RECORDING` and `Features.TRANSCRIPTION`. Classes `RecordingFeature` and `TranscriptionFeature` have been renamed to `RecordingCallFeature` and `TranscriptionCallFeature`. More information on [Record Calls](https://docs.microsoft.com/en-us/azure/communication-services/how-tos/calling-sdk/record-calls?pivots=platform-android#record-calls) and [Show Transcription state](https://docs.microsoft.com/en-us/azure/communication-services/how-tos/calling-sdk/call-transcription?pivots=platform-android).
