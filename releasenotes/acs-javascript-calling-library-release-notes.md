@@ -42,8 +42,8 @@ Known issues
 
 iOS 15.1 users joining group calls or Microsoft Teams meetings.
 
-	* Low volume. Known regression introduced by Apple on iOS 15.1.
-	* Sometimes when incoming PSTN is received the tab with the call or meeting will hang.
+* Low volume. Known regression introduced by Apple on iOS 15.1. Related webkit bug [here](https://bugs.webkit.org/show_bug.cgi?id=230902).
+* Sometimes when incoming PSTN is received the tab with the call or meeting will hang. Related webkit bugs [here](https://bugs.webkit.org/show_bug.cgi?id=233707) and [here](https://bugs.webkit.org/show_bug.cgi?id=233708#c0).
 
 
 ## v1.3.1-beta.1 (2021-11-17)
