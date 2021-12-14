@@ -1,4 +1,48 @@
 # ACS Calling Android (Java) SDK - Release History
+## v2.0.0 (2021-12-13)
+### New Features
+- Extended features for Call, known as Call Features. Recording and Transcription features added to allow call recording and transcription. More information on [Record Calls](https://docs.microsoft.com/en-us/azure/communication-services/how-tos/calling-sdk/record-calls?pivots=platform-android#record-calls) and [Show Transcription state](https://docs.microsoft.com/en-us/azure/communication-services/how-tos/calling-sdk/call-transcription?pivots=platform-android).
+```java
+RecordingFeature callRecordingFeature = call.api(RecordingFeature.class);
+boolean isRecordingActive = callRecordingFeature.isRecordingActive();
+```
+```java
+private void handleCallOnIsRecordingChanged(PropertyChangedEvent args) {
+	boolean isRecordingActive = callRecordingFeature.isRecordingActive();
+}
+
+callRecordingFeature.addOnIsRecordingActiveChangedListener(handleCallOnIsRecordingChanged);
+```
+```java
+TranscriptionFeature callTranscriptionFeature = call.api(TranscriptionFeature.class);
+boolean isTranscriptionActive = callTranscriptionFeature.isTranscriptionActive();
+```
+```java
+private void handleCallOnIsTranscriptionChanged(PropertyChangedEvent args) {
+	boolean isTranscriptionActive = callTranscriptionFeature.isTranscriptionActive();
+}
+
+callTranscriptionFeature.addOnIsTranscriptionActiveChangedListener(handleCallOnIsTranscriptionChanged);
+```
+- Join Teams calls either using a Teams meeting link or using Teams meeting coordinates.
+- Added support for specifying emergency country code when creating `CallAgent` by setting the property `emergencyCountryCode` in `CallAgentOptions`.
+
+### Bug Fixes
+
+- Fixed answering an incoming call that has already been answered or declined on another device by throwing an exception.
+- Fix a memory leak when disposing VideoStreamRendererView. [GH#224](https://github.com/Azure/Communication/issues/224).
+- Fix for crash when user inputs an invalid teams meeting link. [GH#198](https://github.com/Azure/Communication/issues/198).
+- Fix for CallAgent and CallClient dispose methods takes too long to execute. [GH#358](https://github.com/Azure/Communication/issues/358) and [GH#339](https://github.com/Azure/Communication/issues/339)
+- Fix recording and transcription call extended features working together. [GH#383](https://github.com/Azure/Communication/issues/383).
+- Fix for a crash while adding a participant to an unconnected call. Now it throws an IllegalStateException
+- Fix for ANR on hangup(). [GH#390](https://github.com/Azure/Communication/issues/390).
+- Fix for crash while calling call.AddParticipant().
+- Fix for event OnParticipantsUpdated event not firing in some ocassions during call.AddParticipant().
+
+### Breaking Changes
+
+- The properties `isRecordingActive`, `isTranscriptionActive` and the events `addOnIsRecordingActiveChangedListener`, `addOnIsTranscriptionActiveChangedListener` are removed from the Call class. Please use the call extended features. More information on [Record Calls](https://docs.microsoft.com/en-us/azure/communication-services/how-tos/calling-sdk/record-calls?pivots=platform-android#record-calls) and [Show Transcription state](https://docs.microsoft.com/en-us/azure/communication-services/how-tos/calling-sdk/call-transcription?pivots=platform-android).
+
 ## v2.0.0-beta.1 (2021-12-06)
 ## New Features:
 - The properties `isRecordingActive`, `isTranscriptionActive` and the events `addOnIsRecordingActiveChangedListener`, `addOnIsTranscriptionActiveChangedListener` are removed from the Call class. Please use the call extended features. More information on [Record Calls](https://docs.microsoft.com/en-us/azure/communication-services/how-tos/calling-sdk/record-calls?pivots=platform-android#record-calls) and [Show Transcription state](https://docs.microsoft.com/en-us/azure/communication-services/how-tos/calling-sdk/call-transcription?pivots=platform-android).
