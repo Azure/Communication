@@ -2,6 +2,50 @@
 - [Sample Applications](https://docs.microsoft.com/azure/communication-services/samples/overview)
 - [API usage documentation](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/calling-client-samples?pivots=platform-web)
 - [API reference documentation](https://docs.microsoft.com/en-us/javascript/api/azure-communication-services/@azure/communication-calling/?view=azure-communication-services-js)
+
+## v1.3.2-beta.1 (2021-12-9)
+## v1.3.2 (2021-12-9)
+
+Available in NPM
+
+Beta: https://www.npmjs.com/package/@azure/communication-calling/v/1.3.2-beta.1
+<br />
+Stable: https://www.npmjs.com/package/@azure/communication-calling/v/1.3.2
+
+Features
+
+1. Public preview of Microsoft Teams identities in Calling SDK. [Documentation](https://docs.microsoft.com/en-us/azure/communication-services/concepts/interop/teams-user-calling).
+
+2. General availability of Microsoft Teams meeting join. [Documentation](https://docs.microsoft.com/en-us/azure/communication-services/concepts/join-teams-meeting).
+
+3. General availability of User-facing diagnostics. [Documentation](https://docs.microsoft.com/en-us/azure/communication-services/concepts/voice-video-calling/user-facing-diagnostics).
+
+4. General availability of Dominant speaker feature. [Documentation](https://docs.microsoft.com/en-us/azure/communication-services/how-tos/calling-sdk/dominant-speaker).
+
+5. General availability of Client options diagnostic information. [Documentation](https://docs.microsoft.com/en-us/javascript/api/azure-communication-services/@azure/communication-calling/diagnosticoptions?view=azure-communication-services-js).
+
+6. General availability of Calling SDK Emergency calling.
+
+Bugfixes
+
+1. Fixed, Android 12 video artifacts on Chromium browsers. Known regression on Chromium on Android 12 more information [here](https://github.com/Azure/Communication/issues/412)
+2. Fixed, iOS 15.1 crashes and wrong orientation when video is on, in calls and Microsoft Teams meetings. Known regression introduced by Apple on iOS 15.1 more information [here](https://github.com/Azure/Communication/issues/413)
+
+
+Other changes
+
+1. Documentation updates.
+2. Internal telemetry updates.
+3. Quality and reliability fixes.
+
+Known issues
+
+iOS 15.1 users joining group calls or Microsoft Teams meetings.
+
+* Low volume. Known regression introduced by Apple on iOS 15.1. Related webkit bug [here](https://bugs.webkit.org/show_bug.cgi?id=230902).
+* Sometimes when incoming PSTN is received the tab with the call or meeting will hang. Related webkit bugs [here](https://bugs.webkit.org/show_bug.cgi?id=233707) and [here](https://bugs.webkit.org/show_bug.cgi?id=233708#c0).
+
+
 ## v1.3.1-beta.1 (2021-11-17)
 Available in NPM - https://www.npmjs.com/package/@azure/communication-calling/v/1.3.1-beta.1
 
@@ -27,8 +71,8 @@ Known issues
 
 iOS 15.1 users joining group calls or Microsoft Teams meetings with video on.
 
-   * Will result into broken orientation on the receiver's end. Mitigation: Switch device orientation to horizontal.
-   * Going to background will refresh your call. Mitigation: Stop video before going to background.
+	* Will result into broken orientation on the receiver's end. Mitigation: Switch device orientation to horizontal.
+	* Going to background will refresh your call. Mitigation: Stop video before going to background.
 
 **This is a known regression introduced by Apple on iOS 15.1 release. More information can be found [here](https://github.com/Azure/Communication/issues/413) and [here](https://docs.microsoft.com/en-us/azure/communication-services/concepts/known-issues#ios-with-safari-crashes-and-refreshes-the-page-if-a-user-tries-to-send-video-in-a-call).**
 
