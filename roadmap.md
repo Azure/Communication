@@ -15,5 +15,4 @@ October - December 2021
 | UI Library | General Availaibilty | [2296201](https://skype.visualstudio.com/SPOOL/_workitems/edit/2296201) | Web Components and Stateful Client |
 | Numbers    | Public Preview |[2329691](https://skype.visualstudio.com/SPOOL/_workitems/edit/2329691)  |Buy US toll-free and geogrpahic numbers from UK and Ireland |
 | SMS    | Public Preview |[2399832](https://skype.visualstudio.com/SPOOL/_workitems/edit/2399832)  |Buy SMS Short Codes in US |
-| Calling | Public Preview  |[2422536](https://skype.visualstudio.com/SPOOL/_workitems/edit/2422536)  | Network Connectivity Test Tool |
 | Calling | Public Preview |[2666671](https://skype.visualstudio.com/SPOOL/_workitems/edit/2666671)| Support For Teams identities in calling SDK for JavaScript|
