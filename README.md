@@ -59,7 +59,7 @@ Publishing locations for individual SDK packages are detailed below.
 
 Release notes are available directly in the publishing location (e.g. nuget) for SDKs. However every two weeks we aggregate release notes including services changes (e.g. new Azure Portal pages) in [this repo](https://github.com/Azure/Communication/tree/master/releasenotes/release_note_summary.md).
 
-- [01/10/2022 - 01/23/2022](notes/2022-01-23.md) - **Summarize the release notes**
+- [01/10/2022 - 01/23/2022](releasenotes/2022-01-23.md) - **Summarize the release notes**
 
 In many cases we maintain a perpetual changelog at a library level which is linked below.
 
