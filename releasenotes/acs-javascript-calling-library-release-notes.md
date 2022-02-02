@@ -8,7 +8,7 @@ Available in NPM - https://www.npmjs.com/package/@azure/communication-calling/v
 
 Features
 
-1. Remote stream - introduced 'streamSize' property, which reflects what is the received resolution of a give stream, application can subscribe to updates via 'streamSizeChanged' event.
+1. Remote stream - introduced 'streamSize' property, which reflects what is the received resolution of a give stream, application can subscribe to updates via 'sizeChanged' event.
 
 Other Changes
 
