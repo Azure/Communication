@@ -3,6 +3,29 @@
 - [API usage documentation](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/calling-client-samples?pivots=platform-web)
 - [API reference documentation](https://docs.microsoft.com/en-us/javascript/api/azure-communication-services/@azure/communication-calling/?view=azure-communication-services-js)
 
+# v1.4.1-beta.1 (2022-2-1)
+Available in NPM - https://www.npmjs.com/package/@azure/communication-calling/v/1.4.1-beta.1
+
+Features
+
+1. Remote stream size and subscriptions on that available to the application.
+
+Other Changes
+
+1. Video rendering will use pixel ratio to decide the quality of stream.
+2. Audio volume improvements on iOS 15.3+.
+3. Improvements on askDevicePermission API to increase reliability across browsers.
+4. Improvements on call recovery after an interruption (Siri, PSTN call etc.) on iOS 15.2+.
+
+	* Incoming video streams won't stop rendering.
+	* One to one calls won't go to remote hold state.
+	* Recovery on unmute will be more reliable.
+
+5. Improvements on camera recovery when device is taken from another process.
+6. Other bug fixes and improvements.
+7. Documentation updates.
+8. Internal telemetry updates.
+
 ## v1.3.2-beta.1 (2021-12-9)
 ## v1.3.2 (2021-12-9)
 
