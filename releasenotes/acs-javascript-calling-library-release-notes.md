@@ -8,23 +8,28 @@ Available in NPM - https://www.npmjs.com/package/@azure/communication-calling/v
 
 Features
 
-1. Remote stream size and subscriptions on that available to the application.
+1. Remote stream - introduced 'streamSize' property, which reflects what is the received resolution of a give stream, application can subscribe to updates via 'streamSizeChanged' event.
 
 Other Changes
 
-1. Video rendering will use pixel ratio to decide the quality of stream.
-2. Audio volume improvements on iOS 15.3+.
+1. On mobile platforms, will take into account 'devicePixelRatio' to control resolution of the video stream that is requested from the sender, this will improve video stream resolution for all participants in a calls where at least one of the participants is on mobile platform.
+2. Audio volume improvements on iOS 15.3+. Related WebKit [bug](https://bugs.webkit.org/show_bug.cgi?id=230902).
 3. Improvements on askDevicePermission API to increase reliability across browsers.
-4. Improvements on call recovery after an interruption (Siri, PSTN call etc.) on iOS 15.2+.
+	
+	* Ability to split permission request to two for audio/video independently of the browser.
+	* Better error handling if one request fail to still trigger the other one.
+	* Accurate permissions state after the api call independently of previous calls and states.
+	* Detailed permissions break down when a failure happens.
+
+5. Improvements on call recovery after an interruption (Siri, PSTN call etc.) on iOS 15.2+.
 
 	* Incoming video streams won't stop rendering.
 	* One to one calls won't go to remote hold state.
-	* Recovery on unmute will be more reliable.
+	* Recovery on unmute will just unmute the audio stream instead of re-creating it.
 
 5. Improvements on camera recovery when device is taken from another process.
 6. Other bug fixes and improvements.
 7. Documentation updates.
-8. Internal telemetry updates.
 
 ## v1.3.2-beta.1 (2021-12-9)
 ## v1.3.2 (2021-12-9)
