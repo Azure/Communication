@@ -60,7 +60,7 @@ Publishing locations for individual SDK packages are detailed below.
 Release notes are available directly in the publishing location (e.g. nuget) for SDKs. However every two weeks we aggregate release notes including services changes (e.g. new Azure Portal pages) in [this repo](https://github.com/Azure/Communication/tree/master/releasenotes/release_note_summary.md).
 
 - [01/10/2022 - 01/23/2022](releasenotes/2022-01-23.md) - **Phone Numbers** release a new version of the SDK; the users can now purchase **United Kingdom (GB)** and **Denmark (DK)** toll-free and geographic phone numbers for PSTN Calling. Java packages updated the `azure-communication-common` version `1.0.7`. **Resource Management** releases a new SDK version with major usage updates for .NET, JS, and Java languages.
-- [01/24/2022 - 02/07/2022](releasenotes/ 2022-02-07.md) - **Release notes**
+- [01/24/2022 - 02/07/2022](releasenotes/2022-02-07.md) - **Calling** releases a beta version of the JS package, introduce several enhancements related to mobile optimization and remote streaming features. **Network Traversal** launches the JS stable package.
 
 In many cases we maintain a perpetual changelog at a library level which is linked below.
 
