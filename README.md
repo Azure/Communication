@@ -5,7 +5,7 @@
 ## What can you find here?
 
 - *SDKs* - Links to client libraries
-- *Release Notes* - [Collated release notes](https://github.com/Azure/Communication/tree/master/releasenotes) for the service and SDKs
+- [*Collated release notes*](https://github.com/Azure/Communication/tree/master/releasenotes) for the service and SDKs
 - [*Roadmap*](https://github.com/Azure/Communication/projects/1) - Priorities for current and future service development
 - [*Awesome List*](https://github.com/Azure/Communication/blob/master/Awesome.md) - External GitHub projects interesting to Azure Communication Services developers
 
