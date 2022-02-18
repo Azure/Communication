@@ -3,6 +3,24 @@
 - [API usage documentation](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/calling-client-samples?pivots=platform-web)
 - [API reference documentation](https://docs.microsoft.com/en-us/javascript/api/azure-communication-services/@azure/communication-calling/?view=azure-communication-services-js)
 
+# v1.4.2-beta.1 (2022-2-17)
+Available in NPM - https://www.npmjs.com/package/@azure/communication-calling/v/1.4.2-beta.1
+
+Bugfixes
+- Fixed issue which caused an invisible video tag to be added to the DOM on browsers other than Safari 15.1 on iOS - it was orignally introduced as a workaround for iOS 15.1 regression (which we addressed with our 1.3.2). On Safari versions < 14 it could cause a call drop when joining to a group call, due to usage of browser APIs that are not supported by old Safari versions.
+- Fixed call drop on Safari versions 14/15 which occured sometimes (<5%) due to race condition inside the library when user rejoined multiple times.
+- Workaround for an [issue](https://docs.microsoft.com/en-us/azure/communication-services/concepts/known-issues#some-android-devices-failing-to-join-calls-and-meetings) with starting/joining/accepting calls or meetings on Samsung A devices - calls would not connect on these devices.
+- Fixed wrong device permission state on Safari browsers, when application asks for permissions (deviceManager.askDevicePermission) for the second time with opposite permission for audio/video - wrong result was reported back despite user having granted originally permission -
+
+```js
+adpResult1 = deviceManager.askDevicePermission({audio:true, video:false});
+// 1st call returns Promise<{audio:true,video:false}>
+adpResult2 = deviceManager.askDevicePermission({audio:false, video:true});
+// 2nd call returned wrongly Promise<{audio:false,video:true}>
+
+// expected is Promise<{audio:true,video:true}> which is now fixed in 1.4.2-beta.1
+```
+
 # v1.4.1-beta.1 (2022-2-1)
 Available in NPM - https://www.npmjs.com/package/@azure/communication-calling/v/1.4.1-beta.1
 
