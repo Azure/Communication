@@ -3,6 +3,15 @@
 - [API usage documentation](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/calling-client-samples?pivots=platform-web)
 - [API reference documentation](https://docs.microsoft.com/en-us/javascript/api/azure-communication-services/@azure/communication-calling/?view=azure-communication-services-js)
 
+# v1.4.2-beta.1 (2022-2-17)
+Available in NPM - https://www.npmjs.com/package/@azure/communication-calling/v/1.4.2-beta.1
+
+Bugfixes
+
+1. Fixes on device permission results, specifically on iOS Safari when application is requesting seperate permissions for microphone and camera. 
+2. Fixed an crash on iOS 13 devices when trying to join group calls / meetings. That fix addressed an extra canvas HTML element that was attach to each video element on the DOM.
+3. Fixed a crash on iOS 14 and 15 when trying to rejoin a group call / meeting multiple times could fail to connect user to the call. 
+
 # v1.4.1-beta.1 (2022-2-1)
 Available in NPM - https://www.npmjs.com/package/@azure/communication-calling/v/1.4.1-beta.1
 
