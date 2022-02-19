@@ -3,6 +3,13 @@
 - [API usage documentation](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/calling-client-samples?pivots=platform-web)
 - [API reference documentation](https://docs.microsoft.com/en-us/javascript/api/azure-communication-services/@azure/communication-calling/?view=azure-communication-services-js)
 
+# v1.4.3-beta.1 (2022-2-18)
+Available in NPM - https://www.npmjs.com/package/@azure/communication-calling/v/1.4.3-beta.1
+
+Bugfixes
+- Fixed a race condition that in specific cases(<0.5%) causes a failure to join to a meeting or group call.
+- Fixed a race condition that in specific cases would return zero devices on enumeration if that happens right after 'askDevicePermission' api call.
+
 # v1.4.2-beta.1 (2022-2-17)
 Available in NPM - https://www.npmjs.com/package/@azure/communication-calling/v/1.4.2-beta.1
 
