@@ -1,11 +1,11 @@
 # Azure Communication Services (ACS)
 
-[Azure Communication Services](https://docs.microsoft.com/azure/communication-services/overview) are cloud-based services with REST APIs and client library SDKs to help you integrate communication into your applications. You can add communication features to your applications without being an expert in communication technologies such as media encoding and real-time networking. 
+[Azure Communication Services](https://docs.microsoft.com/azure/communication-services/overview) are cloud-based services with REST APIs and client library SDKs to help you integrate communication into your applications. You can add communication features to your applications without being an expert in communication technologies such as media encoding and real-time networking.
 
 ## What can you find here?
 
 - *SDKs* - Links to client libraries
-- *Release Notes* - [Collated release notes](https://github.com/Azure/Communication/tree/master/releasenotes) for the service and SDKs
+- [*Collated release notes*](https://github.com/Azure/Communication/tree/master/releasenotes) for the service and SDKs
 - [*Roadmap*](https://github.com/Azure/Communication/projects/1) - Priorities for current and future service development
 - [*Awesome List*](https://github.com/Azure/Communication/blob/master/Awesome.md) - External GitHub projects interesting to Azure Communication Services developers
 
@@ -13,8 +13,8 @@ This repo is not open to contributions, though many of the linked SDKs are open-
 
 | Topic            | Channel                             |
 |------------------|------------------------------|
-|Concepts & Quickstarts | [Docs](https://docs.microsoft.com/azure/communication-services/overview) 
-|Samples | [Azure Sample Index](https://docs.microsoft.com/en-us/samples/browse/?expanded=azure&products=azure-communication-services) or [GitHub](https://github.com/orgs/Azure-Samples/repositories?language=&q=communication&sort=&type=) 
+|Concepts & Quickstarts | [Docs](https://docs.microsoft.com/azure/communication-services/overview)
+|Samples | [Azure Sample Index](https://docs.microsoft.com/en-us/samples/browse/?expanded=azure&products=azure-communication-services) or [GitHub](https://github.com/orgs/Azure-Samples/repositories?language=&q=communication&sort=&type=)
 | Feature Requests | [Ideas](https://feedback.azure.com/d365community/forum/81ff6d2b-0c25-ec11-b6e6-000d3a4f0858)                     |
 | Questions & Bugs | [Q&A](https://docs.microsoft.com/answers/topics/azure-communication-services.html) or [Azure Support](https://docs.microsoft.com/azure/azure-portal/supportability/how-to-create-azure-support-request) |
 
@@ -51,7 +51,7 @@ Publishing locations for individual SDK packages are detailed below.
 | SMS| [npm](https://www.npmjs.com/package/@azure/communication-sms) | [NuGet](https://www.nuget.org/packages/Azure.Communication.Sms)| [PyPi](https://pypi.org/project/azure-communication-sms/) | [Maven](https://search.maven.org/artifact/com.azure/azure-communication-sms) | -| -| -|
 | Calling| [npm](https://www.npmjs.com/package/@azure/communication-calling) | [NuGet](https://www.nuget.org/packages/Azure.Communication.Calling) | -| - | [GitHub](https://github.com/Azure/Communication/releases) | [Maven](https://search.maven.org/artifact/com.azure.android/azure-communication-calling/)| -|
 |Call Automation||[nuget](https://www.nuget.org/packages/Azure.Communication.CallingServer/)||[Maven](https://search.maven.org/artifact/com.azure/azure-communication-callingserver)
-|Network Traversal| [npm](https://www.npmjs.com/package/@azure/communication-network-traversal)|[nuget](https://www.nuget.org/packages/Azure.Communication.NetworkTraversal/) |  [PyPi](https://pypi.org/project/azure-communication-networktraversal/)| [Maven](https://search.maven.org/search?q=a:azure-communication-networktraversal) | - | - | 
+|Network Traversal| [npm](https://www.npmjs.com/package/@azure/communication-network-traversal)|[nuget](https://www.nuget.org/packages/Azure.Communication.NetworkTraversal/) |  [PyPi](https://pypi.org/project/azure-communication-networktraversal/)| [Maven](https://search.maven.org/search?q=a:azure-communication-networktraversal) | - | - |
 | UI Library| [npm](https://www.npmjs.com/package/@azure/communication-react) | - | - | - | [GitHub](https://github.com/Azure/communication-ui-library-ios) | [GitHub](https://github.com/Azure/communication-ui-library-android) | [GitHub](https://github.com/Azure/communication-ui-library), [Storybook](https://azure.github.io/communication-ui-library/?path=/story/overview--page) |
 | Reference Documentation | [docs](https://azure.github.io/azure-sdk-for-js/communication.html) | [docs](https://azure.github.io/azure-sdk-for-net/communication.html)| -| [docs](http://azure.github.io/azure-sdk-for-java/communication.html) | [docs](/objectivec/communication-services/calling/)| [docs](/java/api/com.azure.android.communication.calling)| -|
 
@@ -77,8 +77,6 @@ In many cases we maintain a perpetual changelog at a library level which is link
 | TURN (Network Traversal) | [[link](https://github.com/Azure/azure-sdk-for-js/blob/main/sdk/communication/communication-network-traversal/CHANGELOG.md)] |[[link](https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/communication/Azure.Communication.NetworkTraversal/CHANGELOG.md)] |[[link](https://github.com/Azure/azure-sdk-for-python/blob/main/sdk/communication/azure-communication-networktraversal/CHANGELOG.md)] |[[link](https://github.com/Azure/azure-sdk-for-java/blob/main/sdk/communication/azure-communication-networktraversal/CHANGELOG.md)]  | | |
 |UI Library|--|---|---|---|[[link](https://github.com/Azure/communication-ui-library-ios/blob/main/CHANGELOG.md)] | [[link](https://github.com/Azure/communication-ui-library-android/blob/main/CHANGELOG.md)]|-|
 
-
-
 ## Feature Roadmap
 
 [Our roadmap](roadmap.md) communicates features currently in development (private preview) and on-going priorities for extending the scope of Azure Communication Services. It will continue to evolve based on market changes and customer feedback, so please note that the plans outlined here are not exhaustive or guaranteed. We welcome your feedback on the roadmap.
@@ -87,7 +85,22 @@ A project view of the roadmap is [also available here](https://github.com/Azure/
 
 ## ❤️ Feedback
 
-We appreciate your feedback and energy helping us improve our services. [If you've tried the service, please give us feedback through this survey](https://microsoft.qualtrics.com/jfe/form/SV_4HMWolQyyLyeX77). 
+We appreciate your feedback and energy helping us improve our services. [If you've tried the service, please give us feedback through this survey](https://microsoft.qualtrics.com/jfe/form/SV_4HMWolQyyLyeX77).
 
 If you'd like to submit feature requests please submit them to our [board on Azure Feedback](https://feedback.azure.com/d365community/forum/81ff6d2b-0c25-ec11-b6e6-000d3a4f0858).
 
+To report bugs with our SDKs please follow the links below:
+
+* JavaScript
+    * For use the [azure-sdk-for-js GitHub](https://github.com/Azure/azure-sdk-for-js) and follow the process there to report a bug.
+    * For the [UI Library](https://github.com/Azure/communication-ui-library)
+* .NET
+    * For use the [azure-sdk-for-net GitHub](https://github.com/Azure/azure-sdk-for-net) and follow the process there to report a bug.
+* Python
+    * For use the [azure-sdk-for-python GitHub](https://github.com/Azure/azure-sdk-for-python) and follow the process there to report a bug.
+* Java
+    * For use the [azure-sdk-for-java GitHub](https://github.com/Azure/azure-sdk-for-java) and follow the process there to report a bug.
+* iOS
+    * For use the [azure-sdk-for-io GitHub](https://github.com/Azure/azure-sdk-for-ios) and follow the process there to report a bug.
+* Android
+    * For use the [azure-sdk-for-android GitHub](https://github.com/Azure/azure-sdk-for-android) and follow the process there to report a bug.
