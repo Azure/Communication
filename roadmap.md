@@ -13,6 +13,5 @@ January - March 2022
 | UI Library | Public Preview | [2332224](https://skype.visualstudio.com/SPOOL/_workitems/edit/2332224) | iOS and Android Calling Composite |
 | UI Library | General Availaibilty | [2296203](https://skype.visualstudio.com/SPOOL/_workitems/edit/2296203) | Web Calling and Chat Composites |
 | UI Library | General Availaibilty | [2296201](https://skype.visualstudio.com/SPOOL/_workitems/edit/2296201) | Web Components and Stateful Client |
-| Numbers    | Public Preview |[2329691](https://skype.visualstudio.com/SPOOL/_workitems/edit/2329691)  |Buy US toll-free and geogrpahic numbers from UK and Ireland |
 | SMS    | Public Preview |[2399832](https://skype.visualstudio.com/SPOOL/_workitems/edit/2399832)  |Buy SMS Short Codes in US |
 | Calling | Public Preview |[2666671](https://skype.visualstudio.com/SPOOL/_workitems/edit/2666671)| Support For Teams identities in calling SDK for JavaScript|
