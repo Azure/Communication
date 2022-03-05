@@ -2,7 +2,7 @@
 
 ## v2.1.0-beta.1 (2022-03-04)
 ## New Features:
-- Dominant Speaker Feature: Dominant speakers for a call is an extended feature that allows you to obtain a list of the active speakers in the call. The dominant speakers for a call change dinamically according to their participation in the call.
+- Dominant Speaker Feature: Dominant speakers is an extended feature that allows you to obtain a list of the active speakers in the call. The dominant speakers list can change dynamically according to the activity of the participants on the call.
 
 ### Bug Fixes
 - Fixing crash when a CallAgentOptions was created before the CallClient object
