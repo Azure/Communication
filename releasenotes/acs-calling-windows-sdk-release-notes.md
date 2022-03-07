@@ -1,5 +1,13 @@
 # ACS Calling Windows SDK - Release history 
 
+## v1.0.0-beta.31 (2022-03-01)
+*	URI for remote video streams is now retrieved by Start() instead of CreateBindingAsync()
+*	Removes ReleaseBinding method for RemoteVideoStream (still have to call Stop())
+*	URI for local video streams is now retrieved by MediaUriAsync() instead of CreateBindingAsync()
+* Dominant Speaker Feature
+* Recording and Transcription Features 
+* Various bug fixes
+
 ## v1.0.0-beta.28 (2021-05-26)
 [NuGet Gallery | Azure.Communication.Calling 1.0.0-beta.28](https://www.nuget.org/packages/Azure.Communication.Calling). 
 
