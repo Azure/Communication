@@ -1,4 +1,13 @@
 # ACS Calling Android (Java) SDK - Release History
+
+## v2.1.0-beta.1 (2022-03-04)
+## New Features:
+- Dominant Speaker Feature: Dominant speakers is an extended feature that allows you to obtain a list of the active speakers in the call. The dominant speakers list can change dynamically according to the activity of the participants on the call.
+
+### Bug Fixes
+- Fixing crash when a CallAgentOptions was created before the CallClient object
+- Fixing crash while dealing with ByteBuffers using Raw Media Access APIs
+
 ## v2.0.0 (2021-12-13)
 ### New Features
 - Extended features for Call, known as Call Features. Recording and Transcription features added to allow call recording and transcription. More information on [Record Calls](https://docs.microsoft.com/en-us/azure/communication-services/how-tos/calling-sdk/record-calls?pivots=platform-android#record-calls) and [Show Transcription state](https://docs.microsoft.com/en-us/azure/communication-services/how-tos/calling-sdk/call-transcription?pivots=platform-android).
