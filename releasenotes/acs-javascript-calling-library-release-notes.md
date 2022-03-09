@@ -5,13 +5,13 @@
 
 
 ## v1.4.3-beta.1 (2022-2-18)
-## v1.4.3 (2022-3-7)
+## v1.4.4 (2022-3-9)
 
 Available in NPM
 
 Beta: https://www.npmjs.com/package/@azure/communication-calling/v/1.4.3-beta.1
 <br />
-Stable: https://www.npmjs.com/package/@azure/communication-calling/v/1.4.3 
+Stable: https://www.npmjs.com/package/@azure/communication-calling/v/1.4.4
 
 Bugfixes
 - Fixed a race condition that in specific cases(<0.5%) causes a failure to join to a meeting or group call.
