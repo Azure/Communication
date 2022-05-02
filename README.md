@@ -64,7 +64,7 @@ Release notes are available directly in the publishing location (e.g. nuget) for
 - [03/22/2022 - 04/04/2022](releasenotes/2022-04-04.md) - **UI Library** released a new version of the SDK for mobile platforms ***(iOS & Android)***, zoom over shared content, UI/UX enhancements over device selection, localization and, solve performance issues. **Identity** migrated from using `@azure/core-http` to `@azure/core-rest-pipeline` for the handling of HTTP requests on the ***JS library***. **Network Traversal** released a new beta version of the SDK for Python. **Chat** update the references of the ***JS library***.
 - [04/04/2022 - 04/18/2022](releasenotes/2022-04-18.md) -  Release the **Virtual Visits** example; it's a web app you can host to provide your customers with a branded virtual consultation experience; for more details, visit the [Virtual Visits GitHub example repository.](https://github.com/Azure-Samples/communication-services-virtual-visits-js) **Chat team** launch released a GA version for ***iOS*** and released an update with GA support for push notifications in ***Android***.
 - [04/18/2022 - 01/05/2022](releasenotes/2022-05-02.md) - **Network Traversal** release a new beta version of the SDK libraries for ***JS***.
-- 
+
 In many cases we maintain a perpetual changelog at a library level which is linked below.
 
 | **Area**| **JavaScript** | **.NET** | **Python**  | **Java SE** | **iOS** | **Android**| **Other** |
