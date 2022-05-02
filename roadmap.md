@@ -1,4 +1,4 @@
-# Roadmap and current private preview features
+# Roadmap and current public preview features
 
 This feature list is a peek into our roadmap, and clones [our GitHub project](https://github.com/Azure/Communication/projects/1). 
 
