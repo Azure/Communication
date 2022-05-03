@@ -1,6 +1,6 @@
 # Roadmap and current public preview features
 
-This feature list is a peek into our roadmap. <!---, and clones [our GitHub project](https://github.com/Azure/Communication/projects/1) --->. 
+This feature list is a peek into our roadmap. <!--, and clones [our GitHub project](https://github.com/Azure/Communication/projects/1) -->. 
 
 It identifies some of the significant features we are currently working on and a rough timeframe for when you can expect to see them. It is not comprehensive but is intended to provide some visibility into key investments.
 
