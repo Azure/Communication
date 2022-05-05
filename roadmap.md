@@ -11,7 +11,7 @@ April - June 2022
 | Area    | State          | Feature |Description                                                |
 | ------- | -------------- | ----| ------------------------------------------------------|
 | Calling | Public Preview | Geo Expansion | Offering numbers in the following locations: UK, Denmark, Ireland, Italy, Sweden, and Canada  |
-| Calling    | GA |Calling events  |Publish calling event in Azure Event Grid (call started, call ended, participant added, participant removed) |
+<!--| Calling    | GA |Calling events  |Publish calling event in Azure Event Grid (call started, call ended, participant added, participant removed) | -->
 | Calling | Public Preview |Native Android screen share| Enable screen sharing on Andriod calling SDK using outgoing video raw media access|
 | Calling    | GA |AES 256 encryption  | ACS media traffic between two endpoints participating in ACS audio, video, and application sharing, utilizes SRTP to encrypt the media stream. Cryptographic keys are negotiated between the two endpoints over a signaling protocol which uses TLS 1.2 and AES-256 (in GCM mode) encrypted UDP/TCP channel. |
 | Calling | Public Preview |Android dominant speaker| Dominant speakers is an extended feature that allows you to obtain a list of the active speakers in the call. The dominant speakers list can change dynamically according to the activity of the participants on the call.|
