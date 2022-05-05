@@ -10,7 +10,7 @@ These features are the current plans for the stated quarter at this time and are
 April - June 2022
 | Area    | State          | Feature |Description                                                |
 | ------- | -------------- | ----| ------------------------------------------------------|
-| Calling | Public Preview | Geo Expansion | Offering numbers in the following locations: UK, Denmark, Ireland, Italy, Sweden, and Canada  |
+| Calling | Public Preview | Geo Expansion | Offering numbers in the following locations: UK, Denmark, Ireland, Italy, <!-- Sweden --> and Canada  |
 | Calling | Public Preview | Calling Events | Publish calling event in Azure Event Grid (call started, call ended, participant added, participant removed) | 
 | Calling | Public Preview |Native Android screen share| Enable screen sharing on Andriod calling SDK using outgoing video raw media access|
 | Calling    | GA |AES 256 encryption  | ACS media traffic between two endpoints participating in ACS audio, video, and application sharing, utilizes SRTP to encrypt the media stream. Cryptographic keys are negotiated between the two endpoints over a signaling protocol which uses TLS 1.2 and AES-256 (in GCM mode) encrypted UDP/TCP channel. |
