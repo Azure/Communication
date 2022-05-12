@@ -8,10 +8,10 @@ Customers are limited to purchasing one phone number per tenant for Azure Commun
 
 You will need to work through the following steps: 
 1) Download one of the forms below:
-    - [Manual / Bulk Number Acquisition Form for United States, Canada, United Kingdom and Denmark telephone numbers ](./blob/master/Forms/ACS%20-%20Manual%20Number%20Acquisition%20Form%20US-UK-CA-DK.docx)
-    - [Manual / Bulk Number Acquisition Form for Ireland telephone numbers](./blob/master/Forms/ACS%20-%20Manual%20Number%20Acquisition%20Form%20for%20Ireland.docx)
-    - [Manual / Bulk Number Acquisition Form for Italy telephone numbers](./blob/master/Forms/ACS%20-%20Manual%20Number%20Acquisition%20Form%20for%20Italy.docx)
-    - [Manual / Bulk Number Acquisition Form for Sweden telephone numbers](./blob/master/Forms/ACS%20-%20Manual%20Number%20Acquisition%20Form%20for%20Sweden.docx)
+    - [Manual / Bulk Number Acquisition Form for United States, Canada, United Kingdom and Denmark telephone numbers ](./Forms/ACS%20-%20Manual%20Number%20Acquisition%20Form%20US-UK-CA-DK.docx)
+    - [Manual / Bulk Number Acquisition Form for Ireland telephone numbers](./Forms/ACS%20-%20Manual%20Number%20Acquisition%20Form%20for%20Ireland.docx)
+    - [Manual / Bulk Number Acquisition Form for Italy telephone numbers](./Forms/ACS%20-%20Manual%20Number%20Acquisition%20Form%20for%20Italy.docx)
+    - [Manual / Bulk Number Acquisition Form for Sweden telephone numbers](./Forms/ACS%20-%20Manual%20Number%20Acquisition%20Form%20for%20Sweden.docx)
 
 2) Fill it out and send it to us at acstnrequest@microsoft.com; *Please ensure that your email subject line begins with "ACS Number Request:"* 
 
