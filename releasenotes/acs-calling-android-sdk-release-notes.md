@@ -6,7 +6,7 @@
 
 ### Bug Fixes
 - Event `addOnIdChangedListener` from `Call` is now triggered correctly when call `Id` changes.
-- When token refresher from `CommunicationTokenRefreshOptions` returns an invalid token, `callClient.createCallAgent` throws an exception.
+- When token refresher from `CommunicationTokenRefreshOptions` returns an invalid token, `callClient.createCallAgent` now throws an exception.
 
 ## v2.1.0-beta.1 (2022-03-04)
 ## New Features:
