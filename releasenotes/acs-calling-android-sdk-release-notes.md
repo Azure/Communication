@@ -2,7 +2,7 @@
 
 ## v2.2.0-beta.1 (2022-05-13)
 ## New Features:
-- Push Notifications support for stopping an incoming call because it was answered in another device, or cancelled by the caller, etc.
+- Push Notifications support for stopping an incoming call because it was answered by another device, or cancelled by the caller, etc.
 
 ### Bug Fixes
 - Event `addOnIdChangedListener` from `Call` is now triggered correctly when call `Id` changes.
