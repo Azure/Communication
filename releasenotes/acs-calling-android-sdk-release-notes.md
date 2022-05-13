@@ -5,7 +5,7 @@
 - Push Notifications support for stopping an incoming call because it was answered in another device, or cancelled by the caller, etc.
 
 ### Bug Fixes
-- Event `addOnIdChangedListener` from Call is triggered correctly when Call Id changes.
+- Event `addOnIdChangedListener` from `Call` is now triggered correctly when call `Id` changes.
 - When token refresher from `CommunicationTokenRefreshOptions` returns an invalid token, `callClient.createCallAgent` throws an exception.
 
 ## v2.1.0-beta.1 (2022-03-04)
