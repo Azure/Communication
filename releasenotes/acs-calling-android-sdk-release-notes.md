@@ -15,7 +15,7 @@
 ### Bug Fixes
 - Local video stream keeps streaming when calling `call.stopVideo(stream)` before CONNECTED state [GH#395](https://github.com/Azure/Communication/issues/395).
 - `Call.isMuted()` always returns false in `call.addOnIsMutedChangedListener()` when muted remotely by host [GH#995](https://github.com/Azure/azure-sdk-for-android/issues/995).
-- Fixing crash when a CallAgentOptions was created before the CallClient object [GH#984](https://github.com/Azure/azure-sdk-for-android/issues/984).
+- Fixing crash when a `CallAgentOptions` was created before the `CallClient` object [GH#984](https://github.com/Azure/azure-sdk-for-android/issues/984).
 - Fixing crash while dealing with ByteBuffers using Raw Media Access APIs
 
 ## v2.0.0 (2021-12-13)
