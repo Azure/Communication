@@ -1,11 +1,21 @@
 # ACS Calling Android (Java) SDK - Release History
 
+## v2.2.0-beta.1 (2022-05-13)
+## New Features:
+- Push Notifications support for stopping an incoming call because it was answered in another device, or caller cancelled, etc.
+
+### Bug Fixes
+- Local video stream keeps streaming when calling `call.stopVideo(stream)` before CONNECTED state [GH#395](https://github.com/Azure/Communication/issues/395).
+- `Call.isMuted()` always returns false in `call.addOnIsMutedChangedListener()` when muted remotely by host [GH#995](https://github.com/Azure/azure-sdk-for-android/issues/995).
+- Event `addOnIdChangedListener` from Call is triggered correctly when Call Id changes.
+- When token refresher from `CommunicationTokenRefreshOptions` returns an invalid token, `callClient.createCallAgent` throws an exception.
+
 ## v2.1.0-beta.1 (2022-03-04)
 ## New Features:
 - Dominant Speaker Feature: Dominant speakers is an extended feature that allows you to obtain a list of the active speakers in the call. The dominant speakers list can change dynamically according to the activity of the participants on the call.
 
 ### Bug Fixes
-- Fixing crash when a CallAgentOptions was created before the CallClient object
+- Fixing crash when a CallAgentOptions was created before the CallClient object [GH#984](https://github.com/Azure/azure-sdk-for-android/issues/984).
 - Fixing crash while dealing with ByteBuffers using Raw Media Access APIs
 
 ## v2.0.0 (2021-12-13)
