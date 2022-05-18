@@ -20,7 +20,8 @@ const debugInfo = callClient.feature(SDK.Features.DebugInfo).dumpDebugInfo();
 const environmentInfo = await callClient.getEnvironmentInfo();
 environmentInfo.isSupportedBrowser // browser is supported.
 ```
-- iOS and Android, when there is an active Azure Communication Services call and there is an interruption*, audio and video shall auto recover on most of the cases. On some edge cases, users will have to click the unmute button to recover the outgoing audio.
+- iOS and Android, when there is an active Azure Communication Services call and there is an interruption*, audio and video shall auto recover on most of the cases. On some edge cases, to unmute, an api to 'unmute' must be called by the application (can be as a result of user action) to recover the outgoing audio.
+
 Bugfixes
 -  Fixes on call recovery after an interruption* on iOS 15.4+.
     * Incoming video streams won't stop rendering.
