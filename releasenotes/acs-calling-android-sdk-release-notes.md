@@ -1,6 +1,6 @@
 # ACS Calling Android (Java) SDK - Release History
 
-## v2.2.0-beta.1 (2022-05-13)
+## v2.2.0-beta.1 (2022-05-19)
 ## New Features:
 - Push Notifications support for stopping an incoming call because it was answered by another device, or cancelled by the caller, etc.
 
