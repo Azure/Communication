@@ -4,7 +4,7 @@
 Azure Communication Services new Email APIs to enable Application-to-Person (A2P) communication. 
 [New SDKs available](https://docs.microsoft.com/azure/communication-services/concepts/email/sdk-features) for the following languages:
 - .NET
-- Javascript
+- JavaScript
 
 To learn more please read [Email overview](https://docs.microsoft.com/azure/communication-services/concepts/email/email-overview).
 
