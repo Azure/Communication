@@ -3,6 +3,20 @@
 - [API usage documentation](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/calling-client-samples?pivots=platform-web)
 - [API reference documentation](https://docs.microsoft.com/en-us/javascript/api/azure-communication-services/@azure/communication-calling/?view=azure-communication-services-js)
 
+## v1.5.4 (2022-06-02)
+Available in NPM - https://www.npmjs.com/package/@azure/communication-calling/v/1.5.4
+Features
+- iOS and Android, when there is an active Azure Communication Services call and there is an interruption*, audio and video shall auto recover on most of the cases. On some edge cases, to unmute, an api to 'unmute' must be called by the application (can be as a result of user action) to recover the outgoing audio.
+
+Bugfixes
+-  Fixes on call recovery after an interruption* on iOS 15.4+.
+    * Incoming video streams won't stop rendering.
+    * One to one calls won't go to remote hold state.
+-  CreateView on remote video stream will fail with correct error code if application tries to have more than the supported number of active remote video streams renderered at the same time.
+- Fixed a bug that caused localVideoStream to be removed when the call goes on hold.
+- Telemetry additions and improvements.
+\* Interruption could be anything that takes over physical devices like microphone and camera. Examples are enabling Siri, playing YouTube videos, accepting PSTN calls.
+
 ## v1.5.4-beta.1 (2022-5-17)
 Available in NPM - https://www.npmjs.com/package/@azure/communication-calling/v/1.5.4-beta.1
 Features
