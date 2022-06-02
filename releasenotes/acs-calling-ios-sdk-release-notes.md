@@ -1,5 +1,8 @@
 # ACS Calling iOS (Objective-C) SDK - Release History
 
+## v2.0.0 (2021-12-13)
+[Azure Communication Calling iOS SDK v2.0.0](https://github.com/Azure/Communication/releases/tag/v2.0.0)
+
 ## v1.0.0 (2021-04-27)
 Azure Communication Calling iOS SDK version `1.0.0`.
 
