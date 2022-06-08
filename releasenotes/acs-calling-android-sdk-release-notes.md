@@ -1,5 +1,13 @@
 # ACS Calling Android (Java) SDK - Release History
 
+## v2.3.0-beta.1 (2022-06-07)
+## New Features:
+- Revamp of Raw Media Functionality using Streams concept.
+- New ScreenSharing functionality via a new type of Raw Video Stream
+
+### Bug Fixes
+- Fixed crash when a invalid token is provided
+
 ## v2.1.0 (2022-06-01)
 ## New Features:
 - Voice and video calling support in Azure government.
