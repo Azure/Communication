@@ -8,6 +8,13 @@
 ### Bug Fixes
 - Fixed crash when a invalid token is provided
 
+## Breaking API changes
+- Some concepts of the Raw Media APIs have changed. `OutboundVirtualVideoDevice` class was removed and related interactions. This version uses the `Stream` concept, which can be passed on `StartCallOptions` when starting a call. The existing functionality of `OutboundVirtualVideoDevice` can be kept by creating a `VirtualRawOutgoingVideoStream` using `RawOutgoingVideoStreamOptions` (which is analogous to the existing `OutboundVirtualVideoDeviceOptions`);
+- Other classes related to Raw Video Functionality were renamed:
+  - `MediaFrameSender` to `VideoFrameSender`
+  - `SoftwareBasedVideoFrame` to `SoftwareBasedVideoFrameSender`
+  - `HardwareBasedVideoFrame` to `HardwareBasedVideoFrameSender`
+
 ## v2.1.0 (2022-06-01)
 ## New Features:
 - Voice and video calling support in Azure government.
