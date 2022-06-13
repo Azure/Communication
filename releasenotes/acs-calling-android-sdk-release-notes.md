@@ -1,5 +1,14 @@
 # ACS Calling Android (Java) SDK - Release History
 
+## v2.2.0 (2022-06-09)
+
+### New Features
+- ⁠Client options diagnostic information.
+	- Application will be able to pass custom 'appName', 'appVersion', and additionally set of 'tags' to the SDK that will be sent with telemetry pipeline.
+
+### Bug fixes
+- Fixed crash when a invalid token is provided
+
 ## v2.3.0-beta.1 (2022-06-07)
 ### New Features:
 - Revamp of Raw Media Functionality using Streams concept.
