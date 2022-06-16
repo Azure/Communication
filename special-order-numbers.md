@@ -14,7 +14,8 @@ You will need to work through the following steps:
     - [Port In Form for Denmark](./Forms/filename.pdf)
     
 2) Attach the filled in and signed form when creating a case with our Service Desk team via [Phone Number Service Center](https://pstnsd.powerappsportals.com/)
-3) Service Desk team will let you know of the next steps
+     - ***Note: When creating the case, make sure to choose ACS as the "Customer Profile"*** 
+4) Service Desk team will let you know of the next steps
 
 *PLEASE NOTE:* You need to have an [eligible Azure Subscription and Resource](https://docs.microsoft.com/azure/communication-services/concepts/telephony-sms/plan-solution#azure-subscriptions-eligibility) to be able to port numbers. 
 
