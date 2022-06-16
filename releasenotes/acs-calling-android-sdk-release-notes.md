@@ -1,5 +1,29 @@
 # ACS Calling Android (Java) SDK - Release History
 
+## v2.2.0 (2022-06-09)
+
+### New Features
+- ⁠Client options diagnostic information.
+	- Application will be able to pass custom 'appName', 'appVersion', and additionally set of 'tags' to the SDK that will be sent with telemetry pipeline.
+
+### Bug fixes
+- Fixed crash when a invalid token is provided
+
+## v2.3.0-beta.1 (2022-06-07)
+### New Features:
+- Revamp of Raw Media Functionality using Streams concept.
+- New ScreenSharing functionality via a new type of Raw Video Stream
+
+### Bug Fixes
+- Fixed crash when a invalid token is provided
+
+### Breaking API changes
+- Some concepts of the Raw Media APIs have changed. `OutboundVirtualVideoDevice` class was removed and related interactions. This version uses the `Stream` concept, which can be passed on `StartCallOptions` when starting a call, instead of having a Virtual Device available in the `DeviceManager`. The existing functionality of `OutboundVirtualVideoDevice` can be kept by creating a `VirtualRawOutgoingVideoStream` using `RawOutgoingVideoStreamOptions` (which is analogous to the existing `OutboundVirtualVideoDeviceOptions`);
+- Other classes related to Raw Video Functionality were renamed:
+  - `MediaFrameSender` to `VideoFrameSender`
+  - `SoftwareBasedVideoFrame` to `SoftwareBasedVideoFrameSender`
+  - `HardwareBasedVideoFrame` to `HardwareBasedVideoFrameSender`
+
 ## v2.1.0 (2022-06-01)
 ## New Features:
 - Voice and video calling support in Azure government.
