@@ -9,3 +9,4 @@ Provide details on the PR for what the linked repo is for.
 |Name           | Description    | Link            |
 |---------------|----------------|-----------------|
 | WebView 2 Sample | Calling sample that runs inside of a WebView2 container| [Repo](https://github.com/Azure-Samples/communication-services-web-calling-wpf-sample)
+| Live speech to Speech call translation | Calling sample that translates live spoken or heard language to a different one during a call | [Repo](https://github.com/Azure-Samples/communication-services-web-calling-tutorial/tree/azure_communication_services_cognitive_services_speech_to_speech_translation)
