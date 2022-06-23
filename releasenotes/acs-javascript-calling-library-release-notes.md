@@ -5,15 +5,6 @@
 
 ## v1.5.4 (2022-06-03)
 Available in NPM - https://www.npmjs.com/package/@azure/communication-calling/v/1.5.4
-### Azure Communication Services for Government
-
-Azure Communication Services (ACS) in [Azure Government](https://azure.microsoft.com/en-us/global-infrastructure/government/) provides compliance with US government requirements for cloud services. In addition to enjoying the features and capabilities of Messaging, Voice and Video calling, developers benefit from the following features that are unique to Azure Government:
-- Your personal data is logically segregated from customer content in the commercial Azure cloud.
-- Your resource’s customer content is stored within the United States.
-- Access to your organization's customer content is restricted to screened Microsoft personnel. 
-- Complies with certifications and accreditations that are required for US Public Sector customers, specifically those offered to Office 365 Government - GCC High offering.
-
-You can find more information about the Office 365 Government – GCC High offering for US Government customers at [Office 365 Government plans](https://products.office.com/government/compare-office-365-government-plans), including [eligibility requirements]().
 
 Features
 - iOS and Android, when there is an active Azure Communication Services call and there is an interruption*, audio and video shall auto recover on most of the cases. On some edge cases, to unmute, an api to 'unmute' must be called by the application (can be as a result of user action) to recover the outgoing audio.
@@ -26,6 +17,16 @@ Bugfixes
 - Fixed a bug that caused localVideoStream to be removed when the call goes on hold.
 - Telemetry additions and improvements.
 \* Interruption could be anything that takes over physical devices like microphone and camera. Examples are enabling Siri, playing YouTube videos, accepting PSTN calls.
+
+### Azure Communication Services for Government
+
+Azure Communication Services (ACS) in [Azure Government](https://azure.microsoft.com/en-us/global-infrastructure/government/) provides compliance with US government requirements for cloud services. In addition to enjoying the features and capabilities of Messaging, Voice and Video calling, developers benefit from the following features that are unique to Azure Government:
+- Your personal data is logically segregated from customer content in the commercial Azure cloud.
+- Your resource’s customer content is stored within the United States.
+- Access to your organization's customer content is restricted to screened Microsoft personnel. 
+- Complies with certifications and accreditations that are required for US Public Sector customers, specifically those offered to Office 365 Government - GCC High offering.
+
+You can find more information about the Office 365 Government – GCC High offering for US Government customers at [Office 365 Government plans](https://products.office.com/government/compare-office-365-government-plans), including [eligibility requirements]().
 
 ## v1.5.4-beta.1 (2022-5-17)
 Available in NPM - https://www.npmjs.com/package/@azure/communication-calling/v/1.5.4-beta.1
