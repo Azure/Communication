@@ -4,7 +4,7 @@
 Customers are limited to purchasing one phone number per tenant for Azure Communication Services through the Phone Numbers SDK or through the [Azure Portal](https://portal.azure.com). Customers who are interested in a special order (ex. acquiring large quantities of numbers or specific area codes) or if the number acquisition needs to be completed manually, can do so by following the process below. For general information on how to acquire a phone number, see the [quickstart here](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/telephony/get-phone-number?pivots=platform-azp).
 
 For special order, you will need to work through the following steps: 
-1) Open a new number request case via Service Desk's [Phone Number Service Center](https://pstnsd.powerappsportals.com/) portal.
+1) Open a new number request case via Service Desk's [Phone Number Service Center](https://pstnsd.powerappsportals.com/create-case/) portal.
     - ***Note: When creating the case, make sure to choose ACS as the "Customer Profile"***
 
 
@@ -22,7 +22,7 @@ You will need to work through the following steps:
     - [Port In Form for Sweden](./Forms/ACS-Port-In-Form-Geographic-and-Toll-Free-(Sweden).pdf)
     - [Port In Form for Denmark](./Forms/ACS-Port-In-Form-Geographic-and-Toll-Free-(Denmark).pdf)
     
-2) Attach the filled in and signed form when creating a case with our Service Desk team via [Phone Number Service Center](https://pstnsd.powerappsportals.com/)
+2) Attach the filled in and signed form when creating a case with our Service Desk team via [Phone Number Service Center](https://pstnsd.powerappsportals.com/create-case/)
      - ***Note: When creating the case, make sure to choose ACS as the "Customer Profile"*** 
 4) Service Desk team will let you know of the next steps
 
