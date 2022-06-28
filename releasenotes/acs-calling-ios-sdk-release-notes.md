@@ -1,5 +1,13 @@
 # ACS Calling iOS (Objective-C) SDK - Release History
 
+## v2.2.0 (2022-06-14)
+[Azure Communication Calling iOS SDK version 2.2.0](https://github.com/Azure/Communication/releases/tag/v2.2.0)
+### Features Added
+- Client options diagnostic information.
+- Application will be able to pass custom 'appName', 'appVersion', and additionally set of 'tags' to the SDK that will be sent with telemetry pipeline.
+### Bugs fixed
+- Fixed crash when an invalid token is provided.
+
 ## v2.1.0 (2022-06-03)
 [Azure Communication Calling iOS SDK version 2.1.0](https://github.com/Azure/Communication/releases/tag/v2.1.0)
 ### Features Added
