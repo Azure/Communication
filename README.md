@@ -27,13 +27,14 @@ Communication Services APIs are documented alongside other Azure REST APIs in [d
 | Assembly               | Capabilities                                                    |
 |------------------------|-----------------------------------------------------------------|
 | Azure Resource Manager | Provision and manage Communication Services resources           |
+| Calling                | Voice, video, screen-sharing, and other real-time communication |
+| Calling Server         | Make and manage calls, play audio, and configure recording      |
+| Chat                   | Add real-time text based chat to your applications              |
 | Common                 | Provides base types for other SDKs                              |
+| Email                  | Facilitates high volume transactional, and enable Application-to-Person (A2P) use cases               |
 | Identity               | Manage users, access tokens                                     |
 | Phone numbers          | Acquire and manage phone numbers                                |
 | SMS                    | Send and receive SMS messages                                   |
-| Chat                   | Add real-time text based chat to your applications              |
-| Calling                | Voice, video, screen-sharing, and other real-time communication |
-| Calling Server         | Make and manage calls, play audio, and configure recording      |
 | Network Traversal      | Access TURN servers for low-level data transport                |
 | UI Library             | Production-ready UI components for chat and calling apps        |
 
@@ -51,6 +52,7 @@ Publishing locations for individual SDK packages are detailed below.
 | SMS| [npm](https://www.npmjs.com/package/@azure/communication-sms) | [NuGet](https://www.nuget.org/packages/Azure.Communication.Sms)| [PyPi](https://pypi.org/project/azure-communication-sms/) | [Maven](https://search.maven.org/artifact/com.azure/azure-communication-sms) | -| -| -|
 | Calling| [npm](https://www.npmjs.com/package/@azure/communication-calling) | [NuGet](https://www.nuget.org/packages/Azure.Communication.Calling) | -| - | [GitHub](https://github.com/Azure/Communication/releases) | [Maven](https://search.maven.org/artifact/com.azure.android/azure-communication-calling/)| -|
 |Call Automation||[nuget](https://www.nuget.org/packages/Azure.Communication.CallingServer/)||[Maven](https://search.maven.org/artifact/com.azure/azure-communication-callingserver)
+|Email | [npm](https://www.npmjs.com/package/@azure/communication-email) | [NuGet](https://www.nuget.org/packages/Azure.Communication.Email) | - | - | - | - | - |
 |Network Traversal| [npm](https://www.npmjs.com/package/@azure/communication-network-traversal)|[nuget](https://www.nuget.org/packages/Azure.Communication.NetworkTraversal/) |  [PyPi](https://pypi.org/project/azure-communication-networktraversal/)| [Maven](https://search.maven.org/search?q=a:azure-communication-networktraversal) | - | - | 
 | UI Library| [npm](https://www.npmjs.com/package/@azure/communication-react) | - | - | - | [GitHub](https://github.com/Azure/communication-ui-library-ios) | [GitHub](https://github.com/Azure/communication-ui-library-android) | [GitHub](https://github.com/Azure/communication-ui-library), [Storybook](https://azure.github.io/communication-ui-library/?path=/story/overview--page) |
 | Reference Documentation | [docs](https://azure.github.io/azure-sdk-for-js/communication.html) | [docs](https://azure.github.io/azure-sdk-for-net/communication.html)| -| [docs](http://azure.github.io/azure-sdk-for-java/communication.html) | [docs](/objectivec/communication-services/calling/)| [docs](/java/api/com.azure.android.communication.calling)| -|
@@ -59,11 +61,11 @@ Publishing locations for individual SDK packages are detailed below.
 
 Release notes are available directly in the publishing location (e.g. nuget) for SDKs. However every two weeks we aggregate release notes including services changes (e.g. new Azure Portal pages) in [this repo](https://github.com/Azure/Communication/tree/master/releasenotes/release_note_summary.md).
 
-- [02/08/2022 - 02/21/2022](releasenotes/2022-02-21.md) - **Java** packages upgrade dependencies: `azure-communication-common` to 1.0.8,`azure-core` to 1.25.0 and, `azure-identity` to 1.4.4. **JavaScript Chat library**, release a new version with the improvement of cooldown period for the typing notification request within 8 seconds of the previous request. **JavaScript Calling library** fixes issues related to calling over mobile devices.
-- [02/22/2022 - 03/08/2022](releasenotes/2022-03-08.md) - **Calling** launched a new ***Windows SDK*** version adding additional features such as dominant speaker, recording, and transcription; Also, a new ***JS library*** version adding bug fixes. **Common library** launched a new version of the ***.NET***, ***Java***, and ***JS*** libraries introducing new capabilities such as the token proactive refreshing, that the developers can activate and automatic refreshing schedule.
-- [03/08/2022 - 03/21/2022](releasenotes/2022-03-21.md) - **Network Traversal** release a new beta version of the SDK libraries for ***.Net***, ***Java*** & ***JS***. **Calling library** release a new beta version available for ***JS***.
-- [03/22/2022 - 04/04/2022](releasenotes/2022-04-04.md) - **UI Library** released a new version of the SDK for mobile platforms ***(iOS & Android)***, zoom over shared content, UI/UX enhancements over device selection, localization and, solve performance issues. **Identity** migrated from using `@azure/core-http` to `@azure/core-rest-pipeline` for the handling of HTTP requests on the ***JS library***. **Network Traversal** released a new beta version of the SDK for Python. **Chat** update the references of the ***JS library***.
-- [04/04/2022 - 04/18/2022]( releasenotes/2022-04-18.md) -  Release the **Virtual Visits** example; it's a web app you can host to provide your customers with a branded virtual consultation experience; for more details, visit the [Virtual Visits GitHub example repository.](https://github.com/Azure-Samples/communication-services-virtual-visits-js) **Chat team** launch released a GA version for ***iOS*** and released an update with GA support for push notifications in ***Android***.
+- [06/14/2022 -  06/27/2022](releasenotes/2022-06-27.md) - **ACS Mobile UI Library GA** Azure Communication Services proudly announce the General Availability of the Mobile UI Library for iOS & Android. The UI Library introduces the calling composite, that can be used to build visual communication experiences out of the box. The composite is a turn-key experience for common communication scenarios that have been built using base components as building blocks and packaged to be easily integrated into native mobile applications.
+- [05/31/2022 - 06/13/2022](releasenotes/2022-06-13.md) - **The Calling team** releases a ***new Android Beta version*** using Raw media access. Also, ***JS, Android & iOS GA version***, now supports **Azure Communication Services for Government** and a hold feature when the user is on an ACS call, and there is an interruption, audio and video shall auto recover on most of the cases. In some edge cases, to unmute, an API to 'unmute' must be called by the application (can be as a result of user action) to recover the outgoing audio. **The UI Library** releases a final release candidate version of the ***Mobile libraries for iOS and Android***, with the Call On Hold feature that allows the users to put the current ACS call and answer incoming calls and tablet & iPad layouts.
+- [05/17/2022 - 05/31/2022](releasenotes/2022-05-31.md) - **Email** releases a public beta version of ***.NET*** & ***JS*** libraries, *Email* APIs to enable Application-to-Person (A2P) communication. To learn more please read [Email overview](https://docs.microsoft.com/azure/communication-services/concepts/email/email-overview). **UI Library** releases a new public beta version of the mobile libraries ***iOS*** & ***Android***, introducing the calling composite renaming package and extra functionalities.
+- [05/03/2022 - 05/16/2022](releasenotes/2022-05-16.md) - **Calling** releases a new ***Android Beta version***, adding ***Push Notifications support*** for stopping an incoming call because it was answered by another device, or canceled by the caller, etc. **Chat** releases an ***iOS stable version***, adding two new events `realTimeNotificationConnected` and `realTimeNotificationDisconnected` which allow the developer to know when the connection to the real time notification server is active.
+- [04/18/2022 - 05/02/2022](releasenotes/2022-05-02.md) - **Network Traversal** release a new beta version of the SDK libraries for ***JS***.
 
 In many cases we maintain a perpetual changelog at a library level which is linked below.
 
@@ -78,13 +80,15 @@ In many cases we maintain a perpetual changelog at a library level which is link
 | Calling | [[link](https://github.com/Azure/Communication/blob/master/releasenotes/acs-javascript-calling-library-release-notes.md)] | [[link](https://github.com/Azure/Communication/blob/master/releasenotes/acs-calling-windows-sdk-release-notes.md)]| | | [[link](https://github.com/Azure/Communication/blob/master/releasenotes/acs-calling-ios-sdk-release-notes.md)] | [[link](https://github.com/Azure/Communication/blob/master/releasenotes/acs-calling-android-sdk-release-notes.md)] | |
 | TURN (Network Traversal) | [[link](https://github.com/Azure/azure-sdk-for-js/blob/main/sdk/communication/communication-network-traversal/CHANGELOG.md)] |[[link](https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/communication/Azure.Communication.NetworkTraversal/CHANGELOG.md)] |[[link](https://github.com/Azure/azure-sdk-for-python/blob/main/sdk/communication/azure-communication-networktraversal/CHANGELOG.md)] |[[link](https://github.com/Azure/azure-sdk-for-java/blob/main/sdk/communication/azure-communication-networktraversal/CHANGELOG.md)]  | | |
 |UI Library|--|---|---|---|[[link](https://github.com/Azure/communication-ui-library-ios/blob/main/CHANGELOG.md)] | [[link](https://github.com/Azure/communication-ui-library-android/blob/main/CHANGELOG.md)]|-|
+| Email | [[link](https://github.com/Azure/azure-sdk-for-js/blob/main/sdk/communication/communication-email/CHANGELOG.md)] | [[link](https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/communication/Azure.Communication.Email/CHANGELOG.md)]| | |||  |
+
 
 
 ## Feature Roadmap
 
 [Our roadmap](roadmap.md) communicates features currently in development (private preview) and on-going priorities for extending the scope of Azure Communication Services. It will continue to evolve based on market changes and customer feedback, so please note that the plans outlined here are not exhaustive or guaranteed. We welcome your feedback on the roadmap.
 
-A project view of the roadmap is [also available here](https://github.com/Azure/Communication/projects/1). Major updates to Azure Communication Services and other Azure services are available at [https://azure.microsoft.com/updates/](https://azure.microsoft.com/updates/).
+Major updates to Azure Communication Services and other Azure services are available at [https://azure.microsoft.com/updates/](https://azure.microsoft.com/updates/). <!--A project view of the roadmap is [also available here](https://github.com/Azure/Communication/projects/1).--> 
 
 ## ❤️ Feedback
 

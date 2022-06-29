@@ -1,5 +1,9 @@
 # ACS Calling Windows SDK - Release history 
 
+## v1.0.0-beta.32 (2022-04-16)
+* Add ability to join Teams User 
+* Various bug fixes
+
 ## v1.0.0-beta.31 (2022-03-01)
 *	URI for remote video streams is now retrieved by Start() instead of CreateBindingAsync()
 *	Removes ReleaseBinding method for RemoteVideoStream (still have to call Stop())

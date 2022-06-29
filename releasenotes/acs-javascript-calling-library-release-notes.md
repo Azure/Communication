@@ -3,6 +3,58 @@
 - [API usage documentation](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/calling-client-samples?pivots=platform-web)
 - [API reference documentation](https://docs.microsoft.com/en-us/javascript/api/azure-communication-services/@azure/communication-calling/?view=azure-communication-services-js)
 
+## v1.5.4 (2022-06-03)
+Available in NPM - https://www.npmjs.com/package/@azure/communication-calling/v/1.5.4
+### Azure Communication Services for Government
+
+Azure Communication Services (ACS) in [Azure Government](https://azure.microsoft.com/en-us/global-infrastructure/government/) provides compliance with US government requirements for cloud services. In addition to enjoying the features and capabilities of Messaging, Voice and Video calling, developers benefit from the following features that are unique to Azure Government:
+- Your personal data is logically segregated from customer content in the commercial Azure cloud.
+- Your resource’s customer content is stored within the United States.
+- Access to your organization's customer content is restricted to screened Microsoft personnel. 
+- Complies with certifications and accreditations that are required for US Public Sector customers, specifically those offered to Office 365 Government - GCC High offering.
+
+You can find more information about the Office 365 Government – GCC High offering for US Government customers at [Office 365 Government plans](https://products.office.com/government/compare-office-365-government-plans), including [eligibility requirements]().
+
+Features
+- iOS and Android, when there is an active Azure Communication Services call and there is an interruption*, audio and video shall auto recover on most of the cases. On some edge cases, to unmute, an api to 'unmute' must be called by the application (can be as a result of user action) to recover the outgoing audio.
+
+Bugfixes
+-  Fixes on call recovery after an interruption* on iOS 15.4+.
+    * Incoming video streams won't stop rendering.
+    * One to one calls won't go to remote hold state.
+-  CreateView on remote video stream will fail with correct error code if application tries to have more than the supported number of active remote video streams renderered at the same time.
+- Fixed a bug that caused localVideoStream to be removed when the call goes on hold.
+- Telemetry additions and improvements.
+\* Interruption could be anything that takes over physical devices like microphone and camera. Examples are enabling Siri, playing YouTube videos, accepting PSTN calls.
+
+## v1.5.4-beta.1 (2022-5-17)
+Available in NPM - https://www.npmjs.com/package/@azure/communication-calling/v/1.5.4-beta.1
+Features
+- Remote stream - introduced 'IsReceiving' property, which reflects if the remote stream is being received. For example: 
+    * When the remote mobile participant is sending video and put the browser application in the background, OS will stop sending video stream data until the application is brought back to the foreground. Same behavior when mobile device locks/unlocks.
+    * When the remote participant is sending video and have bad network connectivity, video is cutting off / lagging.
+    * Application can subscribe to updates via 'isReceivingChanged' event, render a spinner over the video while the IsReceiving is false and remove the spinner while the isReceiving is true.
+    * Documentation: [IsReceiving property docs](https://docs.microsoft.com/en-us/azure/communication-services/how-tos/calling-sdk/manage-video?pivots=platform-web#remote-video-stream-properties) and [Remote Video rendering docs](https://docs.microsoft.com/en-us/azure/communication-services/how-tos/calling-sdk/manage-video?pivots=platform-web#render-remote-participant-video-streams)
+- Debug-Information feature, enables application to gather debuging information needed when a problem does reproduce. Those information will have the call and participant identifiers and the latest log lines.
+```js
+const debugInfo = callClient.feature(SDK.Features.DebugInfo).dumpDebugInfo();
+```
+- Get-Environment-Info exposed on the callClient provides environment details and enables the application running on an environment to know if it is supported by the Azure Communication Services or not. A supported environment is a combination of an operating system, a browser, and the minimum version required for that browser.
+```js
+const environmentInfo = await callClient.getEnvironmentInfo();
+environmentInfo.isSupportedBrowser // browser is supported.
+```
+- iOS and Android, when there is an active Azure Communication Services call and there is an interruption*, audio and video shall auto recover on most of the cases. On some edge cases, to unmute, an api to 'unmute' must be called by the application (can be as a result of user action) to recover the outgoing audio.
+
+Bugfixes
+-  Fixes on call recovery after an interruption* on iOS 15.4+.
+    * Incoming video streams won't stop rendering.
+    * One to one calls won't go to remote hold state.
+-  CreateView on remote video stream will fail with correct error code if application tries to have more than the supported number of active remote video streams renderered at the same time.
+- Fixed a bug that caused localVideoStream to be removed when the call goes on hold.
+- Telemetry additions and improvements.
+\* Interruption could be anything that takes over physical devices like microphone and camera. Examples are enabling Siri, playing YouTube videos, accepting PSTN calls.
+
 
 ## v1.4.3-beta.1 (2022-2-18)
 ## v1.4.4 (2022-3-9)
