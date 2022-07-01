@@ -3,6 +3,17 @@
 - [API usage documentation](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/calling-client-samples?pivots=platform-web)
 - [API reference documentation](https://docs.microsoft.com/en-us/javascript/api/azure-communication-services/@azure/communication-calling/?view=azure-communication-services-js)
 
+## v1.6.0-beta (2022-06-30)
+Available in NPM - https://www.npmjs.com/package/@azure/communication-calling/v/1.6.0-beta
+
+Features
+- Mute incoming audio feature will help to mute / unmute the incoming audio. So that, the speaker will not playback the incoming call audio directly. With raw media access and mute incoming audio features developers can add custom filter and play filtered audio in client side. `Call.isIncomingAudioMuted` property will be `true` when the incoming audio is muted otherwise `false`. Property change event `Call.on('isIncomingAudioMutedChanged', isIncomingAudioMutedChangedHandler /* listener to handle PropertyChangedEvent */)` will raise when `Call.isIncomingAudioMuted` value updated. `Call.muteIncomingAudio()` and `Call.unmuteIncomingAudio()` API will mute / unmute incoming audio respectly.
+
+Bugfixes
+
+Other Changes
+
+
 ## v1.5.4 (2022-06-03)
 Available in NPM - https://www.npmjs.com/package/@azure/communication-calling/v/1.5.4
 ### Azure Communication Services for Government
