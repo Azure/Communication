@@ -9,22 +9,21 @@ Available in NPM - https://www.npmjs.com/package/@azure/communication-calling/v
 Features
 
 - Audio media access enable application developers to access the incoming call audio stream and send custom outgoing audio stream during the call. 
-    * Incoming audio stream, can be accessed right on the call object.
+	* Incoming audio stream, can be accessed right on the call object.
 
-	```js
-	call.remoteAudioStreams;
-	```
+		```js
+		call.remoteAudioStreams;
+		```
+	* Outgoing audio stream, application can create custom [mediaStreamTrack](https://developer.mozilla.org/en-US/docs/Web/API/MediaStreamTrack) and set it as outgoing source stream when in a call.
 
-    * Outgoing audio stream, application can create custom [mediaStreamTrack](https://developer.mozilla.org/en-US/docs/Web/API/MediaStreamTrack) and set it as outgoing source stream when in a call.
+		```js
+		const createAudioTrackToSend = () => {
+			...
+		};
 
-	```js
-	const createAudioTrackToSend = () => {
-		...
-	};
-	
-	const localAudioStream = new LocalAudioStream(createAudioTrackToSend());
-	call.startAudio(localAudioStream);
-	```
+		const localAudioStream = new LocalAudioStream(createAudioTrackToSend());
+		call.startAudio(localAudioStream);
+		```
 	
 - Mute incoming audio feature will help to mute / unmute the incoming audio. So that, the speaker will not playback the incoming call audio directly. With raw media access and mute incoming audio features developers can add custom filter and play filtered audio in client side. 
 	* `Call.isIncomingAudioMuted` property will be `true` when the incoming audio is muted otherwise `false`.
@@ -36,13 +35,11 @@ Features
 		    // Incoming audio is unmuted. Participant will be able to listen the call audio.
 		 }
 	 	```
-	
 	* Property change event `isIncomingAudioMutedChanged` will raise when `Call.isIncomingAudioMuted` value updated.
 	 	```js
 		 // isIncomingAudioMutedChangedHandler is the listener to handle PropertyChangedEvent 
 		 Call.on('isIncomingAudioMutedChanged', isIncomingAudioMutedChangedHandler);
 	 	```
-	 
    	* `Call.muteIncomingAudio()` and `Call.unmuteIncomingAudio()` API will mute / unmute incoming audio respectly.
          
 		 ```js
