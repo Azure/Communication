@@ -3,6 +3,56 @@
 - [API usage documentation](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/calling-client-samples?pivots=platform-web)
 - [API reference documentation](https://docs.microsoft.com/en-us/javascript/api/azure-communication-services/@azure/communication-calling/?view=azure-communication-services-js)
 
+## v1.6.0-beta (2022-07-5)
+Available in NPM - https://www.npmjs.com/package/@azure/communication-calling/v/1.6.0-beta
+
+Features
+
+- Audio media access enable application developers to access the incoming call audio stream and send custom outgoing audio stream during the call. 
+	* Incoming audio stream, can be accessed right on the call object.
+
+		```js
+		call.remoteAudioStreams;
+		```
+	* Outgoing audio stream, application can create custom [mediaStreamTrack](https://developer.mozilla.org/en-US/docs/Web/API/MediaStreamTrack) and set it as outgoing source stream when in a call.
+
+		```js
+		const createAudioTrackToSend = () => {
+			...
+		};
+
+		const localAudioStream = new LocalAudioStream(createAudioTrackToSend());
+		call.startAudio(localAudioStream);
+		```
+	
+- Mute incoming audio feature will help to mute / unmute the incoming audio. So that, the speaker will not playback the incoming call audio directly. With raw media access and mute incoming audio features developers can add custom filter and play filtered audio in client side. 
+	* `Call.isIncomingAudioMuted` property will be `true` when the incoming audio is muted otherwise `false`.
+         	
+		```js
+		 if (Call.isIncomingAudioMuted) {
+		    // Incoming audio is muted. Participant will NOT listen the call audio. Time to play filtered audio!
+		 } else {
+		    // Incoming audio is unmuted. Participant will be able to listen the call audio.
+		 }
+	 	```
+	* Property change event `isIncomingAudioMutedChanged` will raise when `Call.isIncomingAudioMuted` value updated.
+	 	```js
+		 // isIncomingAudioMutedChangedHandler is the listener to handle PropertyChangedEvent 
+		 Call.on('isIncomingAudioMutedChanged', isIncomingAudioMutedChangedHandler);
+	 	```
+   	* `Call.muteIncomingAudio()` and `Call.unmuteIncomingAudio()` API will mute / unmute incoming audio respectly.
+         
+		 ```js
+		 // To mute incoming audio
+		 Call.muteIncomingAudio();
+		 // To unmute incoming audio
+		 Call.unmuteIncomingAudio();
+		 ```
+
+Other Changes
+
+- Telemetry additions and improvements.
+
 ## v1.5.4 (2022-06-03)
 Available in NPM - https://www.npmjs.com/package/@azure/communication-calling/v/1.5.4
 ### Azure Communication Services for Government
