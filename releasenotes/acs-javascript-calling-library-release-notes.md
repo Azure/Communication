@@ -4,7 +4,7 @@
 - [API reference documentation](https://docs.microsoft.com/en-us/javascript/api/azure-communication-services/@azure/communication-calling/?view=azure-communication-services-js)
 
 ## v1.6.0-beta (2022-07-5)
-Available in NPM - https://www.npmjs.com/package/@azure/communication-calling/v/1.6.0-beta
+Available in NPM - https://www.npmjs.com/package/@azure/communication-calling/v/1.6.0-beta.1
 
 Features
 
