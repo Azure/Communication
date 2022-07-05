@@ -8,7 +8,7 @@ Available in NPM - https://www.npmjs.com/package/@azure/communication-calling/v
 
 Features
 
-- Audio media access enable application developers to access the incoming call audio stream and send custom outgoing audio stream during the call. 
+- Audio media access enables application developers to access the incoming call audio stream and send custom outgoing audio stream during the call. 
 	* Incoming audio stream, can be accessed right on the call object.
 
 		```js
