@@ -1,13 +1,11 @@
 # Create a Special Order for Telephone Numbers
 
 ### New Number Request
-Customers are limited to purchasing one phone number per tenant for Azure Communication Services through the Phone Numbers SDK or through the [Azure Portal](https://portal.azure.com). Customers who are interested in a special order (ex. acquiring large quantities of numbers or specific area codes) or if the number acquisition needs to be completed manually, can do so by following the process below. For general information on how to acquire a phone number, see the [quickstart here](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/telephony/get-phone-number?pivots=platform-azp).
+Customers are limited to purchasing one phone number per tenant for Azure Communication Services through the Phone Numbers SDK or through the [Azure Portal](https://portal.azure.com). Customers who are interested in a special order (ex. acquiring large quantities of numbers or specific area codes) or if the number acquisition needs to be completed manually, can do so by following the process below. For general information on how to acquire a phone number, see the [quickstart here](https://docs.microsoft.com/azure/communication-services/quickstarts/telephony/get-phone-number?pivots=platform-azp).
 
 For special order, you will need to work through the following steps: 
 1) Open a new number request case via Service Desk's [Phone Number Service Center](https://pstnsd.powerappsportals.com/create-case/) portal.
     - ***Note: When creating the case, make sure to choose "Azure Communication Service" as the "Customer Profile"***
-
-
 
 ### New Port In Request
 To port your existing telephone numbers over to Azure Communication Services, you need to download the corresponding form below and submit it over to our Service Desk team. The team will then guide you through the process and keep you updated on the port-in order progress.
