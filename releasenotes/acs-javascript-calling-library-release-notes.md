@@ -9,14 +9,13 @@ Available in NPM - https://www.npmjs.com/package/@azure/communication-calling/v/
 
 Bugfixes
 
-Fixes for jitter calculation.
-
-- Fixes for browser semver version comparison.
-- Fixes for precall diagnostics error code.
+- Fixes for jitter calculation.
+- Fixes for browser semver version comparison when determining supported environments.
+- Fixes for precall diagnostics feature to show error code.
 
 Other changes
 
-- Instrumentation of feature usage
+- Instrumentation of feature usage 
 - Telemetry additions and improvements
 
 
