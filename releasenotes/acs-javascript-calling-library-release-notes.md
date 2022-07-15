@@ -11,7 +11,6 @@ Bugfixes
 
 - Fixes for jitter calculation.
 - Fixes for browser semver version comparison when determining supported environments.
-- Fixes for precall diagnostics feature to show error code.
 
 Other changes
 
