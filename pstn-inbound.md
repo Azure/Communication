@@ -8,4 +8,4 @@ Inbound PSTN calling is currently supported in GA for Dynamics Omnichannel with 
 
 - To setup inbound PSTN calling with ACS Calling SDK's - Coming soon
 
-- To setup inbound PSTN calling with the Azure Bot Service - this service is now deprecated. For existing customers, the instructions are documented [here](https://github.com/microsoft/botframework-telephony/blob/main/EnableTelephony.md)
+- Customers taking part of Azure Bot Framework Telephony Channel preview can find the instructions [here](https://github.com/microsoft/botframework-telephony/blob/main/EnableTelephony.md)
