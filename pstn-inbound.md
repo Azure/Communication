@@ -4,11 +4,17 @@ There are multiple different ways you can configure this based on your needs. On
 You can find the currently available or soon to be released options below.
 
 ### Setup inbound PSTN calling with Dynamics Omnichannel
+**Direct Offers**: To set up inbound PSTN calling using Dynamics Omnichannel please follow the instructions [here](https://docs.microsoft.com/en-us/dynamics365/customer-service/voice-channel-inbound-calling)
 
-To set up inbound PSTN calling using Dynamics Omnichannel please follow the instructions [here](https://docs.microsoft.com/en-us/dynamics365/customer-service/voice-channel-inbound-calling)
+**Direct Routing**: To set up inbound PSTN calling using Dynamics Omnichannel please follow the instructions [here](https://docs.microsoft.com/en-us/dynamics365/customer-service/voice-channel-inbound-calling)
+
 
 ### Setup inbound PSTN calling with Power Virtual Agents
-This is option is currently in private preview. As soon as this becomes publicly available, we will share the instructions here. 
+**Direct Offers**: This is option is currently in private preview. As soon as this becomes publicly available, we will share the instructions here. 
+
+**Direct Routing**: This is option is currently in private preview. As soon as this becomes publicly available, we will share the instructions here. 
 
 ### Setup inbound PSTN calling with ACS Interaction SDK
-This option is currently not launched. As soon as this becomes publicly available, we will share the instructions here. 
+**Direct Offers**: This option is currently not launched. As soon as this becomes publicly available, we will share the instructions here. 
+
+**Direct Routing**: This option is currently not launched. As soon as this becomes publicly available, we will share the instructions here. 
