@@ -1,20 +1,11 @@
 # Enable inbound PSTN calling for Azure Communication Services.
 
-There are multiple different ways you can configure this based on your needs. On this page you can find the the different options how to enable incoming calls for ACS. 
-You can find the currently available or soon to be released options below.
+Inbound PSTN calling is currently supported in GA for Dynamics Omnichannel with phone numbers provided by Microsoft (Direct Offers) and phone numbers supplied by Direct Routing.
 
-### Setup inbound PSTN calling with Dynamics Omnichannel
-**Direct Offers**: To set up inbound PSTN calling using Dynamics Omnichannel please follow the instructions [here](https://docs.microsoft.com/en-us/dynamics365/customer-service/voice-channel-inbound-calling)
+- Setup inbound PSTN calling with Dynamics Omnichannel - in General Availability, follow the instructions [here](https://docs.microsoft.com/en-us/dynamics365/customer-service/voice-channel-inbound-calling)
 
-**Direct Routing**: To set up inbound PSTN calling using Dynamics Omnichannel please follow the instructions [here](https://docs.microsoft.com/en-us/dynamics365/customer-service/voice-channel-inbound-calling)
+- To setup inbound PSTN calling with Power Virtual Agents - Coming soon
 
+- To setup inbound PSTN calling with ACS Calling SDK's - Coming soon
 
-### Setup inbound PSTN calling with Power Virtual Agents
-**Direct Offers**: This is option is currently in private preview. As soon as this becomes publicly available, we will share the instructions here. 
-
-**Direct Routing**: This is option is currently in private preview. As soon as this becomes publicly available, we will share the instructions here. 
-
-### Setup inbound PSTN calling with ACS Interaction SDK
-**Direct Offers**: This option is currently not launched. As soon as this becomes publicly available, we will share the instructions here. 
-
-**Direct Routing**: This option is currently not launched. As soon as this becomes publicly available, we will share the instructions here. 
+- To setup inbound PSTN calling with the Azure Bot Service - this service is now deprecated. For existing customers, the instructions are documented [here](https://github.com/microsoft/botframework-telephony/blob/main/EnableTelephony.md)
