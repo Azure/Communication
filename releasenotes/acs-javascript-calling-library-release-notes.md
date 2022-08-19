@@ -11,9 +11,35 @@ If you are working with **Teams users**, please follow the `Teams identities` do
 ## 1.7.1-beta.1 (2022-08-19)
 Available in NPM - https://www.npmjs.com/package/@azure/communication-calling/v/1.7.1-beta.1
 
+Features
+
+- **NEW** - Azure Communication Services introduces the concept of a `room` for developers who are building structured conversations such as virtual appointments or virtual events. Learn more about rooms [here](https://docs.microsoft.com/azure/communication-services/concepts/rooms/room-concept). Get started using rooms by following the [quick start guides](https://docs.microsoft.com/azure/communication-services/quickstarts/rooms/get-started-rooms).
+
+	Join a room
+	```js
+	const context = { roomId: '<ROOMID>' }
+	const call = callAgent.join(context);
+	```
+	Subscribe to changes for your role in the call
+	```js
+	const callRoleChangedHandler = () => {
+		console.log(call.role);
+	};
+
+	call.on('roleChanged', callRoleChangedHandler);
+	```
+	Subscribe to role changes for remote participants
+	```js
+	const subscribeToRemoteParticipant = (remoteParticipant) => {
+		remoteParticipant.on('roleChanged', () => {
+		    console.log(remoteParticipant.role);
+		});
+	}
+	```
+
 Bugfixes
 
-- Includes fixes for Rooms, logging, telemetry,  Teams interop calling, E911 enhancements, and other minor improvements. 
+- Includes fixes for logging, telemetry,  Teams interop calling, E911 enhancements, and other minor improvements. 
 
 ## 1.6.3 (2022-08-17)
 Available in NPM - https://www.npmjs.com/package/@azure/communication-calling/v/1.6.3
