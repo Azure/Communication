@@ -18,6 +18,6 @@ July - September 2022
 | Calling | Public Preview | Planned | Simulcast for Web WebRTC | Using Simulcast, participants clients can send multiple stream versions (different resolutions) of the same video stream. ACS infrastructure can decide which stream to send to which participant, depending on the network conditions.|
 | Calling | Public Preview | Planned | API: microphone/ speaker volume indicator  | API that exposes microphone/speaker volume indicator before and during call.
 | Calling | Public Preview | Planned | Pre-Call Diagnostic APIs | API to check pre-call diagnostics including connection types, devices, and more.
-| Calling | Public Preview | Planned | Publish screen sharing + one video local streams simultaneously  | Ability for users to publish both screen sharing and a local video stream simultaneously using the ACS JS web calling SDK.
+| Calling | Public Preview | In Progress | Publish screen sharing + one video local streams simultaneously  | Ability for users to publish both screen sharing and a local video stream simultaneously using the ACS JS web calling SDK.
 | PSTN | Public Preview | In Progress | Connect incoming PSTN call to ACS users | Enable developers to connect the incoming PSTN call from the ACS Phone numbers or Direct Routing to ACS SDKs.
 | PSTN | Public Preview | In Progress | PSTN/SMS cross-country offers  | US and PR customers will be able to purchase UK and CA phone numbers; IT customers will be able to purchase US, PR, CA, and UK phone lines.
