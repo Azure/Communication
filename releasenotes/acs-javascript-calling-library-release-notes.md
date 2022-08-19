@@ -13,7 +13,7 @@ Available in NPM - https://www.npmjs.com/package/@azure/communication-calling/v/
 
 Bugfixes
 
-- Includes fixes for rooms, logging, telemetry, and other minor improvements. 
+- Includes fixes for Rooms, logging, telemetry,  Teams interop calling, E911 enhancements, and other minor improvements. 
 
 ## 1.6.3 (2022-08-17)
 Available in NPM - https://www.npmjs.com/package/@azure/communication-calling/v/1.6.3
