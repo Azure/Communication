@@ -13,7 +13,7 @@ Available in NPM - https://www.npmjs.com/package/@azure/communication-calling/v/
 
 Bugfixes
 
-- Includes fixes for StartCall, emergency call. 
+- Includes fixes for StartCall, and emergency call.
 
 ## 1.7.1-beta.1 (2022-08-19)
 Available in NPM - https://www.npmjs.com/package/@azure/communication-calling/v/1.7.1-beta.1
