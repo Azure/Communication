@@ -5,7 +5,7 @@ Customers are limited to purchasing one phone number per tenant for Azure Commun
 
 For a new number order, you will need to work through the following steps: 
 1) Download one of the forms below:
-    - [Number Request Form for United States, Canada, United Kingdom, Denmarko](./Forms/ACS - Manual Number Acquisition Form US-UK-CA-DK.docx)
+    - [Number Request Form for United States, Canada, United Kingdom, Denmark](./Forms/ACS - Manual Number Acquisition Form US-UK-CA-DK.docx)
     - [Number Request Form for Ireland](./Forms/ACS - Manual Number Acquisition Form for Ireland.docx)
     - [Number Request Form for Italy](./Forms/ACS - Manual Number Acquisition Form for Italy.docx)
     - [Number Request Form for Sweden](./Forms/ACS - Manual Number Acquisition Form for Sweden.docx)
