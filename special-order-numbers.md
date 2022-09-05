@@ -10,9 +10,7 @@ For a new number order, you will need to work through the following steps:
     - [Number Request Form for Italy](./Forms/ACS-Manual-Number-Acquisition-Form-for-Italy.docx)
     - [Number Request Form for Sweden](./Forms/ACS-Manual-Number-Acquisition-Form-for-Sweden.docx)
 
-2) Fill in the form and send the filled out form to acstnrequest@microsoft.com
-
-    *PLEASE NOTE: Use "ACS Number Request - CountryName" as subject line*
+2) Fill in the form and send the filled out form to acstnrequest@microsoft.com. Use "ACS Number Request - CountryName" as part of your subject line
 
 
 ### New Port In Request
@@ -29,7 +27,7 @@ You will need to work through the following steps:
     - [Port In Form for Denmark](./Forms/ACS-Port-In-Form-Geographic-and-Toll-Free-(Denmark).pdf)
     
 2) Fill in and sign the form. 
-3) Send the filled out form to acstnrequest@microsoft.com
+3) Send the filled out form to acstnrequest@microsoft.com using "ACS Port Request" as part of your subject line
 4) Our Service Desk team will let you know of the next steps and advises you on the port process.
 
 *PLEASE NOTE:* You need to have an [eligible Azure Subscription and Resource](https://docs.microsoft.com/azure/communication-services/concepts/telephony-sms/plan-solution#azure-subscriptions-eligibility) to be able to port numbers.
@@ -41,6 +39,6 @@ You will need to work through the following steps:
 In some countries, releasing a telephone number needs to be done through our Service Desk team.
 To release the telephone number in these countries, follow the steps below:
 
-1) Send an email to acstnrequest@microsoft.com asking the numbers to be released. 
+1) Send an email witht he numbers you need to be released to acstnrequest@microsoft.com. Use "ACS Number Release Request" as part of your subject line
 
 2) Our Service Desk team will let you know once the request is completed.
