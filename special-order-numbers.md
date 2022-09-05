@@ -26,7 +26,7 @@ You will need to work through the following steps:
     - [Port In Form for Sweden](./Forms/ACS-Port-In-Form-Geographic-and-Toll-Free-(Sweden).pdf)
     - [Port In Form for Denmark](./Forms/ACS-Port-In-Form-Geographic-and-Toll-Free-(Denmark).pdf)
     
-2) Fill in and sign the form. 
+2) Fill in the form. 
 3) Send the filled out form to acstnrequest@microsoft.com using "ACS Port Request" as part of your subject line
 4) Our Service Desk team will let you know of the next steps and advises you on the port process.
 
