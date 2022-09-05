@@ -5,13 +5,14 @@ Customers are limited to purchasing one phone number per tenant for Azure Commun
 
 For a new number order, you will need to work through the following steps: 
 1) Download one of the forms below:
-    - [Number Request Form for United States, Canada, United Kingdom, Denmark](./Forms/ACS - Manual Number Acquisition Form US-UK-CA-DK.docx)
-    - [Number Request Form for Ireland](./Forms/ACS - Manual Number Acquisition Form for Ireland.docx)
-    - [Number Request Form for Italy](./Forms/ACS - Manual Number Acquisition Form for Italy.docx)
-    - [Number Request Form for Sweden](./Forms/ACS - Manual Number Acquisition Form for Sweden.docx)
+    - [Number Request Form for United States, Canada, United Kingdom, Denmark](./Forms/ACS-Manual-Number-Acquisition-Form-US-UK-CA-DK.docx)
+    - [Number Request Form for Ireland](./Forms/ACS-Manual-Number-Acquisition-Form-for-Ireland.docx)
+    - [Number Request Form for Italy](./Forms/ACS-Manual-Number-Acquisition-Form-for-Italy.docx)
+    - [Number Request Form for Sweden](./Forms/ACS-Manual-Number-Acquisition-Form-for-Sweden.docx)
 
 2) Fill in the form and send the filled out form to acstnrequest@microsoft.com
-    *PLEASE NOTE: Use "ACS Number Request - CountryName" as subcject line*
+
+    *PLEASE NOTE: Use "ACS Number Request - CountryName" as subject line*
 
 
 ### New Port In Request
@@ -28,10 +29,8 @@ You will need to work through the following steps:
     - [Port In Form for Denmark](./Forms/ACS-Port-In-Form-Geographic-and-Toll-Free-(Denmark).pdf)
     
 2) Fill in and sign the form. 
-3) Open a new port-in request via Service Desk's Phone Number Service Center portal.
-4) When creating the case, make sure to choose **"Azure Communication Service"** as the **"Customer Profile"**
-     - You can access Service Desk's Phone Number Service Center portal [here](https://pstnsd.powerappsportals.com/create-case/)
-4) Service Desk team will let you know of the next steps
+3) Send the filled out form to acstnrequest@microsoft.com
+4) Our Service Desk team will let you know of the next steps and advises you on the port process.
 
 *PLEASE NOTE:* You need to have an [eligible Azure Subscription and Resource](https://docs.microsoft.com/azure/communication-services/concepts/telephony-sms/plan-solution#azure-subscriptions-eligibility) to be able to port numbers.
  
@@ -42,8 +41,6 @@ You will need to work through the following steps:
 In some countries, releasing a telephone number needs to be done through our Service Desk team.
 To release the telephone number in these countries, follow the steps below:
 
-1) Open a new number release case via Service Desk's Phone Number Service Center portal. 
-2) When creating the case, make sure to choose **"Azure Communication Service"** as the **"Customer Profile"**
-    - You can access Service Desk's Phone Number Service Center portal [here](https://pstnsd.powerappsportals.com/create-case/)
+1) Send an email to acstnrequest@microsoft.com asking the numbers to be released. 
 
-3) Our Service Desk team will let you know once the request is completed.
+2) Our Service Desk team will let you know once the request is completed.
