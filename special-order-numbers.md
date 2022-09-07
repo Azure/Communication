@@ -39,6 +39,6 @@ You will need to work through the following steps:
 In some countries, releasing a telephone number needs to be done through our Service Desk team.
 To release the telephone number in these countries, follow the steps below:
 
-1) Send an email witht he numbers you need to be released to acstnrequest@microsoft.com. Use "ACS Number Release Request" as part of your subject line
+1) Send an email with the numbers you need to be released to acstnrequest@microsoft.com. Use "ACS Number Release Request" as part of your subject line
 
 2) Our Service Desk team will let you know once the request is completed.
