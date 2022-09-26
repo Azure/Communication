@@ -19,12 +19,7 @@ To port your existing telephone numbers over to Azure Communication Services, yo
 You will need to work through the following steps:
 1) Download one of the forms below:
     - [Port In Form for United States and Puerto Rico](./Forms/ACS-Port-In-Form-Geographic-and-Toll-Free-(United-States-and-Puerto-Rico).docx)
-    - [Port In Form for Canada](./Forms/ACS-Port-In-Form-Geographic-and-Toll-Free-(Canada).docx)
-    - [Port In Form for United Kingdom](./Forms/ACS-Port-In-Form-Geographic-and-Toll-Free-(United-Kingdom).pdf)
-    - [Port In Form for Ireland](./Forms/ACS-Port-In-Form-Geographic-and-Toll-Free-(Ireland).pdf)
-    - [Port In Form for Italy](./Forms/ACS-Port-In-Form-Geographic-and-Toll-Free-(Italy).pdf)
-    - [Port In Form for Sweden](./Forms/ACS-Port-In-Form-Geographic-and-Toll-Free-(Sweden).pdf)
-    - [Port In Form for Denmark](./Forms/ACS-Port-In-Form-Geographic-and-Toll-Free-(Denmark).pdf)
+
     
 2) Fill in the form. 
 3) Send the filled out form to acstnrequest@microsoft.com using "ACS Port Request" as part of your subject line
