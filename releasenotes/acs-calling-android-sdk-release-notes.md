@@ -1,5 +1,36 @@
 # ACS Calling Android (Java) SDK - Release History
 
+## v2.4.0-beta.1 (2022-09-28)
+
+### New Features
+- Azure Communication Services introduces the concept of a `room` for developers who are building structured conversations such as virtual appointments or virtual events. Learn more about rooms [here](https://learn.microsoft.com/azure/communication-services/concepts/rooms/room-concept). Get started using rooms by following the [quick start guides](https://learn.microsoft.com/azure/communication-services/quickstarts/rooms/get-started-rooms).
+
+	Join a room
+	```java
+	val roomCallLocator = RoomCallLocator(roomId)
+    call = callAgent.join(applicationContext, roomCallLocator, joinCallOptions)
+	```
+	Subscribe to changes for your role in the call
+	```java
+	private void isCallRoleChanged(PropertyChangedEvent propertyChangedEvent) {
+        // handle self-role change
+    }
+    
+    call.addOnRoleChangedListener(isCallRoleChanged);
+	```
+	Subscribe to role changes for remote participants
+	```java
+	private void isRoleChanged(PropertyChangedEvent propertyChangedEvent) {
+        // handle remote participant role change
+    }
+    
+    remoteParticipant.addOnRoleChangedListener(isRoleChanged);
+	```
+### Bug fixes
+- Bugfix on Remote Video Start on Android API 21-25.
+- Fix calling `call.hangup()` with `HangUpOptions` for everybody.
+- Fix bug that allowed create several CallAgents for same identity.
+
 ## v2.2.0 (2022-06-09)
 
 ### New Features
