@@ -1,5 +1,20 @@
 # ACS Calling Android (Java) SDK - Release History
 
+## v2.5.0-beta.1 (2022-11-02)
+
+### New Features
+ - Added support for audio start/stop.
+ - Added new API for `muteSpeaker` and property `isSpeakerMuted`.
+ - Add support for `RecordingsUpdated` event which will be triggered when a recording is started or stopped, `Recordings` property to list all current recordings and `RecordingState` indicates the state of a recording. 
+
+## v2.2.0 (2022-11-01)
+
+### Bug fixes
+
+- Bugfix on Remote Video Start on Android API 21-25
+- Fix calling `call.hangup()` with `HangUpOptions` for everybody.
+- Fix bug that allowed create several CallAgents for same identity
+
 ## v2.4.0-beta.1 (2022-09-28)
 
 ### New Features
