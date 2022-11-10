@@ -13,7 +13,7 @@ Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v
 
 Features
 
--Volume indicator API for local and remote audio streams
+- Volume indicator API for local and remote audio streams
 The Volume Feature provides capability to get volume of local and remote audio streams, which can be used to build volume indicator. The Volume Level is a number ranging from 0 to 100 It's sampled every 200ms to get near real-time value of the level on the corresponding audio stream.
 
 - Video media access API
