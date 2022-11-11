@@ -35,7 +35,7 @@ Changes:
 
 - Support sending video and screen share simultaneously on desktop
 - Internal instrumentation changes
-- EUDB compliance - starting from this version, all data is processed and stored according to new EU regulations - details  https://blogs.microsoft.com/eupolicy/2021/05/06/eu-data-boundary/![image](https://user-images.githubusercontent.com/104108338/201219713-0e582d6c-4471-495b-941e-288914a63ac0.png)
+- EUDB compliance - starting from this version, all data is processed and stored according to new EU regulations - details https://blogs.microsoft.com/eupolicy/2021/05/06/eu-data-boundary
 
 
 ## 1.8.1-beta.1 (2022-10-03)
