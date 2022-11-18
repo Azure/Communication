@@ -38,6 +38,22 @@ Changes:
 - EUDB compliance - starting from this version, all data is processed and stored according to new EU regulations - details https://blogs.microsoft.com/eupolicy/2021/05/06/eu-data-boundary
 
 
+Migration guide to check for browser support:
+
+- Old code
+```javascript
+const callClient = new CallClient(options);
+const environmentInfo = await callClient.getEnvironmentInfo();
+```
+
+- New code
+```javascript
+const callClient = new CallClient(options);
+const environmentInfo = await callClient.feature(Features.DebugInfo).getEnvironmentInfo();
+```
+
+
+
 ## 1.8.1-beta.1 (2022-10-03)
 Available in NPM - https://www.npmjs.com/package/@azure/communication-calling/v/1.8.1-beta.1
 
