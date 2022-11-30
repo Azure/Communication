@@ -26,12 +26,12 @@ Outgoing video stream, application can create custom mediaStream and set it as o
 The Pre-Call API enables developers to programmatically validate a client’s readiness to join an Azure Communication Services Call. The Pre-Call APIs can be accessed through the Calling SDK. They provide multiple diagnostics including device, connection, and call quality. 
 
 - Additional environment support with Firefox and Edge
-We now support Edge browser on Mac platform as well as Firefox on desktop but only in public preview
+We now support Edge browser on Mac platform(GA) as well as Firefox on desktop (in public preview)
 
 - Detection of multiple tabs with the SDK loaded
 Handling multiple calls on multiple tabs of a browser can cause undefined behavior due to resource allocation for microphone and camera on the device, and the isCallClientActiveInAnotherTab API can be used to detect when an application with the ACS SDK is loaded in multiple tabs
 
-- Simulcast. A technique by which an endpoint encodes the same video feed using different qualities , sends these video feeds of multiple qualities to a selective forwarding unit – SFU, that decides which of the receivers gets which quality. The lack of simulcast support leads to a degraded video conferencing experience, due to the video receiver with poor network conditions joining the conference instantly impacting the quality of video received from the sender without simulcast support for all other participants, as video sender will optimize its video feed against the lowest common denominator. Using simulcast, the impact of lowest common denominator will be minimized, as video sender will produce specialized low fidelity video encoding for a subset of receivers running on poor networks (or otherwise constrained). 
+- Simulcast. A technique by which an endpoint encodes the same video feed using different qualities, sends these video feeds of multiple qualities to a selective forwarding unit – SFU, that decides which of the receivers gets which quality. The lack of simulcast support leads to a degraded video conferencing experience, due to the video receiver with poor network conditions joining the conference instantly impacting the quality of video received from the sender without simulcast support for all other participants, as video sender will optimize its video feed against the lowest common denominator. Using simulcast, the impact of lowest common denominator will be minimized, as video sender will produce specialized low fidelity video encoding for a subset of receivers running on poor networks (or otherwise constrained). 
 
 Changes:
 
