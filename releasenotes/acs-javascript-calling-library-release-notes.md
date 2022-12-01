@@ -8,6 +8,54 @@ If you are working with **Teams users**, please follow the `Teams identities` do
 - [Teams Identities quick start](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/get-started-with-voice-video-calling-custom-teams-client)
 - [Teams Identities object model](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/get-started-with-voice-video-calling-custom-teams-client#azure-communication-services-calling-web-sdk-object-model)
 
+
+## 1.9.1-beta.1 (2022-11-10)
+Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.9.1-beta.1](https://www.npmjs.com/package/@azure/communication-calling/v/1.9.1-beta.1)
+
+Features
+
+- Volume indicator API for local and remote audio streams
+The Volume Feature provides capability to get volume of local and remote audio streams, which can be used to build volume indicator. The Volume Level is a number ranging from 0 to 100 It's sampled every 200ms to get near real-time value of the level on the corresponding audio stream.
+
+- Video media access API
+Video media access enables application developers to access the incoming call video stream and send custom outgoing video stream during the call.
+Incoming video stream, can be accessed right on the call object.
+Outgoing video stream, application can create custom mediaStream and set it as outgoing source stream when in a call.
+
+- The Pre-Call diagnostic API
+The Pre-Call API enables developers to programmatically validate a client’s readiness to join an Azure Communication Services Call. The Pre-Call APIs can be accessed through the Calling SDK. They provide multiple diagnostics including device, connection, and call quality. 
+
+- Additional environment support with Firefox and Edge
+We now support Edge browser on Mac platform(GA) as well as Firefox on desktop (in public preview)
+
+- Detection of multiple tabs with the SDK loaded
+Handling multiple calls on multiple tabs of a browser can cause undefined behavior due to resource allocation for microphone and camera on the device, and the isCallClientActiveInAnotherTab API can be used to detect when an application with the ACS SDK is loaded in multiple tabs
+
+- Simulcast. A technique by which an endpoint encodes the same video feed using different qualities, sends these video feeds of multiple qualities to a selective forwarding unit – SFU, that decides which of the receivers gets which quality. The lack of simulcast support leads to a degraded video conferencing experience, due to the video receiver with poor network conditions joining the conference instantly impacting the quality of video received from the sender without simulcast support for all other participants, as video sender will optimize its video feed against the lowest common denominator. Using simulcast, the impact of lowest common denominator will be minimized, as video sender will produce specialized low fidelity video encoding for a subset of receivers running on poor networks (or otherwise constrained). 
+
+Changes:
+
+- Support sending video and screen share simultaneously on desktop
+- Internal instrumentation changes
+- EUDB compliance - starting from this version, all data is processed and stored according to new EU regulations - details https://blogs.microsoft.com/eupolicy/2021/05/06/eu-data-boundary
+
+
+Migration guide to check for browser support:
+
+- Old code
+```javascript
+const callClient = new CallClient(options);
+const environmentInfo = await callClient.getEnvironmentInfo();
+```
+
+- New code
+```javascript
+const callClient = new CallClient(options);
+const environmentInfo = await callClient.feature(Features.DebugInfo).getEnvironmentInfo();
+```
+
+
+
 ## 1.8.1-beta.1 (2022-10-03)
 Available in NPM - https://www.npmjs.com/package/@azure/communication-calling/v/1.8.1-beta.1
 

@@ -1,5 +1,10 @@
 # ACS Calling Android (Java) SDK - Release History
 
+## v2.5.1-beta.1 (2022-11-21)
+
+### Bug fixes
+- Local camera preview orientation fix.
+
 ## v2.5.0-beta.1 (2022-11-02)
 
 ### New Features
