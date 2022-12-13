@@ -56,6 +56,21 @@ const environmentInfo = await callClient.feature(Features.DebugInfo).getEnvironm
 
 
 
+## 1.9.1 (2022-12-12)
+Available in NPM - https://www.npmjs.com/package/@azure/communication-calling/v/1.9.1
+
+Features
+
+- EUDB compliance for Teams Identities 
+
+Bug fixes:
+
+- Fixes for internal instrumentation.
+
+Changes:
+
+- Internal instrumentation changes
+
 ## 1.8.1-beta.1 (2022-10-03)
 Available in NPM - https://www.npmjs.com/package/@azure/communication-calling/v/1.8.1-beta.1
 
