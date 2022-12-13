@@ -9,6 +9,22 @@ If you are working with **Teams users**, please follow the `Teams identities` do
 - [Teams Identities object model](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/get-started-with-voice-video-calling-custom-teams-client#azure-communication-services-calling-web-sdk-object-model)
 
 
+## 1.9.1 (2022-12-12)
+Available in NPM - https://www.npmjs.com/package/@azure/communication-calling/v/1.9.1
+
+Features
+
+- EUDB compliance for Teams Identities 
+
+Bug fixes:
+
+- Fixes for internal instrumentation.
+
+Changes:
+
+- Internal instrumentation changes
+
+
 ## 1.9.1-beta.1 (2022-11-10)
 Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.9.1-beta.1](https://www.npmjs.com/package/@azure/communication-calling/v/1.9.1-beta.1)
 
@@ -53,23 +69,6 @@ const environmentInfo = await callClient.getEnvironmentInfo();
 const callClient = new CallClient(options);
 const environmentInfo = await callClient.feature(Features.DebugInfo).getEnvironmentInfo();
 ```
-
-
-
-## 1.9.1 (2022-12-12)
-Available in NPM - https://www.npmjs.com/package/@azure/communication-calling/v/1.9.1
-
-Features
-
-- EUDB compliance for Teams Identities 
-
-Bug fixes:
-
-- Fixes for internal instrumentation.
-
-Changes:
-
-- Internal instrumentation changes
 
 ## 1.8.1-beta.1 (2022-10-03)
 Available in NPM - https://www.npmjs.com/package/@azure/communication-calling/v/1.8.1-beta.1
