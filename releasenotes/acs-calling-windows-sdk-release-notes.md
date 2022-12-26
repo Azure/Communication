@@ -1,5 +1,8 @@
 # ACS Calling Windows SDK - Release history 
 
+## v1.0.0-beta.34 (2022-12-26)
+* EUDB compliance - starting from this version, all data is processed and stored according to new EU regulations - details https://blogs.microsoft.com/eupolicy/2021/05/06/eu-data-boundary
+
 ## v1.0.0-beta.32 (2022-04-16)
 * Add ability to join Teams User 
 * Various bug fixes
