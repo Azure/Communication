@@ -1,5 +1,17 @@
 # ACS Calling Android (Java) SDK - Release History
 
+## v2.2.2 (2022-12-26)
+### New Features:
+  - EUDB compliance - starting from this version, all data is processed and stored according to new EU regulations - details https://blogs.microsoft.com/eupolicy/2021/05/06/eu-data-boundary
+
+## 2.5.1-beta.2 (2022-12-26)
+
+### New Features:
+  - EUDB compliance - starting from this version, all data is processed and stored according to new EU regulations - details https://blogs.microsoft.com/eupolicy/2021/05/06/eu-data-boundary
+
+### Bug Fixes:
+  - Fix for start called with audio muted not working.
+
 ## v2.5.1-beta.1 (2022-11-21)
 
 ### Bug fixes
