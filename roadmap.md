@@ -6,18 +6,16 @@ It identifies some of the significant features we are currently working on and p
 
 These features are the current plans for the stated quarter at this time and are subject to change. The **Area** column reflects the area of the product the feature aligns with most, and **Release**  indicates if the feature will be in public preview or generally available, and **Status** indicates where we are in the development cycle. <!-- Links are provided to Azure DevOps (ADO) tracking that is used internally by Microsoft.-->
 
-### Q3 CY2022
-July - September 2022
+### Q1 CY2023
+January - March 2023
 | Area    | Release        | Status  |  Feature |Description                                                |
 | ------- | -------------- | ------| ----|------------------------------------------------------|
-| Calling | Public Preview | Shift to Q4 | Background blur | Enablement of background blur for Web SDK|
-| Calling    | GA | Shift to Q4 | Firefox browser support  | JavaScript Calling SDKs will support Firefox browsers on Android, macOS, Windows and Ubuntu/Linux. This will include all features and functionalities provided by the JavaScript ACS Calling SDK. |
-| Calling | Public Preview | Shift to Q4 | 3x3 (9) incoming videos | Support rendering up to 9 video simultaneously on ACS Calling (Web) SDK|
-| Calling | Public Preview | In Progress | Introducing video calling constraints | Developers can set audio and video constraints captured from a local device to better manage overall call quality. |
-| Calling | Public Preview | Planned | HD (1080p) Support for JS SDK | Video calling constraints feature: Resolution
-| Calling | Public Preview | Shift to Q4 | Simulcast for Web WebRTC | Using Simulcast, participants clients can send multiple stream versions (different resolutions) of the same video stream. ACS infrastructure can decide which stream to send to which participant, depending on the network conditions.|
-| Calling | Public Preview | In Progress | API: microphone/ speaker volume indicator  | API that exposes microphone/speaker volume indicator before and during call.
-| Calling | Public Preview | In Progress | Pre-Call Diagnostic APIs | API to check pre-call diagnostics including connection types, devices, and more.
-| Calling | Public Preview | In Progress | Publish screen sharing + one video local streams simultaneously  | Ability for users to publish both screen sharing and a local video stream simultaneously using the ACS JS web calling SDK.
-| PSTN | Public Preview | In Progress | Connect incoming PSTN call to ACS users | Enable developers to connect the incoming PSTN call from the ACS Phone numbers or Direct Routing to ACS SDKs.
-| PSTN | Public Preview | In Progress | PSTN/SMS cross-country offers  | US and PR customers will be able to purchase UK and CA phone numbers; IT customers will be able to purchase US, PR, CA, and UK phone lines.
+| Calling | Public Preview | In Progress | Background blur | Enablement of background blur for Web SDK|
+| UI Library    | Public Preview | In Progress | Chat composite  | Ability to bring Chat capabilities into mobile applications providing a beautiful UI. Contoso will handle threads and participants. |
+| UI Library | Public Preview | Planned | MAUI calling composite | Provides the bindings sample to add Calling capabilities into a MAUI application|
+| Sample Builder | GA | In Progress | Test appointments (supported by Rooms) | Enable a Virtual Appointment Experience without the need to configure a scheduling system by leveraging ACS Rooms. |
+| Power Automate | Public Preview | In Progress | Inbound SMS connector | Ability to trigger a flow on SMS receive message event
+| PSTN |GA | In Progress | PSTN launch | Expansion of PSTN numbers in UK, Ireland, Italy, Sweden, Canada (incl SMS) |
+| PSTN | Public Preview | In Progress | PSTN/SMS cross country offers  | US and PR customers will be able to purchase UK and CA phone numbers; IT customers will be able to purchase US, PR, CA, and UK phone lines. |
+| PSTN | Public Preview | In Progress | PSTN launch | Public preview of PSTN numbers in France, Spain, Switzerland, Belgium, Luxembourg, Austria, Portugal, Slovakia, Norway, Netherlands, Germany |
+
