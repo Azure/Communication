@@ -13,10 +13,9 @@ Available in NPM - https://www.npmjs.com/package/@azure/communication-calling/v/
 
 Features:
 
-- Video effects added
-- Early media support
-- iOS Web view support
-- Raw audio updates
+- Video effects - added a ability to apply effects on top of local video, these include a "background blur" and "background replacement"
+- Early media support - added proper handling of Eearly Media in PSTN scenarios
+- iOS Web view support - starting from this version we're adding support (preview) of WKWebView iOS WebView
 
 Bug fixes:
 
@@ -25,7 +24,7 @@ Bug fixes:
 
 Changes:
 
-- Raw audio updates
+- Raw audio updates - aligning RAW Audio and RAW Video APIs, RAW Audio operates now using MediaStream instead of MediaStreamTrack
 
 ## 1.9.1 (2022-12-12)
 Available in NPM - https://www.npmjs.com/package/@azure/communication-calling/v/1.9.1
