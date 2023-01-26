@@ -8,6 +8,23 @@ If you are working with **Teams users**, please follow the `Teams identities` do
 - [Teams Identities quick start](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/get-started-with-voice-video-calling-custom-teams-client)
 - [Teams Identities object model](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/get-started-with-voice-video-calling-custom-teams-client#azure-communication-services-calling-web-sdk-object-model)
 
+## 1.10.0-beta.1 (2023-01-25)
+Available in NPM - https://www.npmjs.com/package/@azure/communication-calling/v/1.10.0-beta.1
+Features:
+
+- Video effects added
+- Early media support
+- iOS Web view support
+- Raw audio updates
+
+Bug fixes:
+
+- Telemetry improvements and bug fixes
+- Teams CTE code/subcode failure support for enterprise voice
+
+Changes:
+
+- Raw audio updates
 
 ## 1.9.1 (2022-12-12)
 Available in NPM - https://www.npmjs.com/package/@azure/communication-calling/v/1.9.1
