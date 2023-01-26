@@ -10,6 +10,7 @@ If you are working with **Teams users**, please follow the `Teams identities` do
 
 ## 1.10.0-beta.1 (2023-01-25)
 Available in NPM - https://www.npmjs.com/package/@azure/communication-calling/v/1.10.0-beta.1
+
 Features:
 
 - Video effects added
