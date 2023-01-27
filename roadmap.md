@@ -15,7 +15,7 @@ January - March 2023
 | UI Library | Public Preview | Planned | MAUI calling composite | Provides the bindings sample to add Calling capabilities into a MAUI application|
 | Sample Builder | GA | In Progress | Test appointments (supported by Rooms) | Enable a Virtual Appointment Experience without the need to configure a scheduling system by leveraging ACS Rooms. |
 | Power Automate | Public Preview | In Progress | Inbound SMS connector | Ability to trigger a flow on SMS receive message event
-| PSTN |GA | In Progress | PSTN launch | Expansion of PSTN numbers in UK, Ireland, Italy, Sweden, Canada (incl SMS) |
+| PSTN |GA | In Progress | PSTN launch | Expansion of PSTN numbers in Canada (incl SMS), UK, Ireland, Italy, Sweden |
 | PSTN | Public Preview | In Progress | PSTN/SMS cross country offers  | US and PR customers will be able to purchase UK and CA phone numbers; IT customers will be able to purchase US, PR, CA, and UK phone lines. |
 | PSTN | Public Preview | In Progress | PSTN launch | Public preview of PSTN numbers in France, Spain, Switzerland, Belgium, Luxembourg, Austria, Portugal, Slovakia, Norway, Netherlands, Germany |
 
