@@ -8,6 +8,29 @@ If you are working with **Teams users**, please follow the `Teams identities` do
 - [Teams Identities quick start](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/get-started-with-voice-video-calling-custom-teams-client)
 - [Teams Identities object model](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/get-started-with-voice-video-calling-custom-teams-client#azure-communication-services-calling-web-sdk-object-model)
 
+## 1.11.0-beta.1 (2023-02-15)
+Available in NPM - https://www.npmjs.com/package/@azure/communication-calling/v/1.11.0-beta.1
+
+Features:
+
+- Capability Model - A new feature API that determines what the current participant can do in a meeting setup or in a call setup
+- Video Constraints - Added video constraints support on Desktop browsers and iOS Safari. We can specify an optional video max send resolution in the call options, it will limit the video resolution sent from the sender.
+
+Bug fixes:
+
+- Telemetry improvements
+
+
+## 1.10.1 (2023-02-15)
+Available in NPM - https://www.npmjs.com/package/@azure/communication-calling/v/1.10.1
+
+Bug fixes:
+
+- Resolved call state and send code/subcode when enterprise voice is disabled during PSTN calls
+- Telemetry improvements and bug fixes
+- Teams CTE code/subcode failure support for enterprise voice
+
+
 ## 1.10.1-beta.1 (2023-02-06)
 Available in NPM - https://www.npmjs.com/package/@azure/communication-calling/v/1.10.1-beta.1
 
