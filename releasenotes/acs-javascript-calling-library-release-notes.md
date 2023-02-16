@@ -28,7 +28,7 @@ Bug fixes:
 
 - Resolved call state and send code/subcode when enterprise voice is disabled during PSTN calls
 - Telemetry improvements and bug fixes
-- Teams CTE code/subcode failure support for enterprise voice
+- Custom Teams endpoint code/subcode failure support for enterprise voice
 
 
 ## 1.10.1-beta.1 (2023-02-06)
@@ -56,7 +56,7 @@ Features:
 Bug fixes:
 
 - Telemetry improvements and bug fixes
-- Teams CTE code/subcode failure support for enterprise voice
+- Custom Teams endpoint code/subcode failure support for enterprise voice
 
 Changes:
 
