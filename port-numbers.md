@@ -7,7 +7,7 @@ Customers who are interested in porting their toll-free phone numbers from exter
 Follow the steps below to port numbers to your Azure Communication Services account:
 - Download and fill out the appropriate Letter of Authorization (LOA) form. There is one for toll-free and one for greographic numbers in the [Forms folder](https://github.com/Azure/Communication/tree/master/Forms).
 - Get the Azure Resource ID for the resource you want to port the numbers to
-- Send the for and the resource ID to us at acsporting@microsoft.com  
+- Send the for and the resource ID to us at acstns@microsoft.com  
 
 **Please ensure that your email subject line begins with "ACS Number Request:"**
 
