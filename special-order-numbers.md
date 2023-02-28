@@ -10,15 +10,15 @@ For a new number order, you will need to work through the following steps:
     - [Number Request Form for Italy](./Forms/ACS-Manual-Number-Acquisition-Form-for-Italy.docx)
     - [Number Request Form for Sweden](./Forms/ACS-Manual-Number-Acquisition-Form-for-Sweden.docx)
   
-    - [Number Request Form for Portugal](./Forms/ACS-Manual-Number-Acquisition-Form-Portugal.docx)
+    - [Number Request Form for Portugal](./Forms/ACS-Manual-Number-Acquisition-Form-for-Portugal.docx)
     - [Number Request Form for Austria](./Forms/ACS-Manual-Number-Acquisition-Form-for-Austria.docx)
     - [Number Request Form for France](./Forms/ACS-Manual-Number-Acquisition-Form-for-France.docx)
     - [Number Request Form for Norway](./Forms/ACS-Manual-Number-Acquisition-Form-for-Norway.docx)
-    - [Number Request Form for Spain](./Forms/ACS-Manual-Number-Acquisition-Form-Spain.docx)
+    - [Number Request Form for Spain](./Forms/ACS-Manual-Number-Acquisition-Form-for-Spain.docx)
     - [Number Request Form for Switzerland](./Forms/ACS-Manual-Number-Acquisition-Form-for-Switzerland.docx)
     - [Number Request Form for Belgium](./Forms/ACS-Manual-Number-Acquisition-Form-for-Belgium.docx)
     - [Number Request Form for Luxembourg](./Forms/ACS-Manual-Number-Acquisition-Form-for-Luxembourg.docx)
-    - [Number Request Form for Slovakia](./Forms/ACS-Manual-Number-Acquisition-Form-Slovakia.docx)
+    - [Number Request Form for Slovakia](./Forms/ACS-Manual-Number-Acquisition-Form-for-Slovakia.docx)
     - [Number Request Form for Netherlands](./Forms/ACS-Manual-Number-Acquisition-Form-for-Netherlands.docx)
     - [Number Request Form for Germany](./Forms/ACS-Manual-Number-Acquisition-Form-for-Germany.docx)
   
