@@ -11,8 +11,8 @@ January - March 2023
 | Area    | Release        | Status  |  Feature |Description                                                |
 | ------- | -------------- | ------| ----|------------------------------------------------------|
 | Calling | Public Preview | Launched | Background blur | Enablement of background blur for Web SDK|
-| UI Library    | Public Preview | In Progress | Chat composite  | Ability to bring Chat capabilities into mobile applications providing a beautiful UI. Contoso will handle threads and participants. |
-| UI Library | Public Preview | Planned | MAUI calling composite | Provides the bindings sample to add Calling capabilities into a MAUI application|
+| UI Library    | Public Preview | Launched | Chat composite  | Ability to bring Chat capabilities into mobile applications providing a beautiful UI. Contoso will handle threads and participants. |
+| UI Library | Public Preview | Launched | MAUI calling composite | Provides the bindings sample to add Calling capabilities into a MAUI application|
 | Sample Builder | GA | In Progress | Test appointments (supported by Rooms) | Enable a Virtual Appointment Experience without the need to configure a scheduling system by leveraging ACS Rooms. |
 | Power Automate | Public Preview | In Progress | Inbound SMS connector | Ability to trigger a flow on SMS receive message event
 | PSTN |GA | In Progress | PSTN launch | Expansion of PSTN numbers in Canada (incl SMS), UK, Ireland, Italy, Sweden |
