@@ -10,12 +10,12 @@ These features are the current plans for the stated quarter at this time and are
 January - March 2023
 | Area    | Release        | Status  |  Feature |Description                                                |
 | ------- | -------------- | ------| ----|------------------------------------------------------|
-| Calling | Public Preview | In Progress | Background blur | Enablement of background blur for Web SDK|
-| UI Library    | Public Preview | In Progress | Chat composite  | Ability to bring Chat capabilities into mobile applications providing a beautiful UI. Contoso will handle threads and participants. |
-| UI Library | Public Preview | Planned | MAUI calling composite | Provides the bindings sample to add Calling capabilities into a MAUI application|
-| Sample Builder | GA | In Progress | Test appointments (supported by Rooms) | Enable a Virtual Appointment Experience without the need to configure a scheduling system by leveraging ACS Rooms. |
+| Calling | Public Preview | Launched | Background blur | Enablement of background blur for Web SDK|
+| UI Library    | Public Preview | Launched | Chat composite  | Ability to bring Chat capabilities into mobile applications providing a beautiful UI. Contoso will handle threads and participants. |
+| UI Library | Public Preview | Launched | MAUI calling composite | Provides the bindings sample to add Calling capabilities into a MAUI application|
+| Sample Builder | GA | Launched | Test appointments (supported by Rooms) | Enable a Virtual Appointment Experience without the need to configure a scheduling system by leveraging ACS Rooms. |
 | Power Automate | Public Preview | In Progress | Inbound SMS connector | Ability to trigger a flow on SMS receive message event
-| PSTN |GA | In Progress | PSTN launch | Expansion of PSTN numbers in Canada (incl SMS), UK, Ireland, Italy, Sweden |
+| PSTN |GA | Launched | PSTN launch | Expansion of PSTN numbers in Canada (incl SMS), UK, Ireland, Italy, Sweden |
 | PSTN | Public Preview | In Progress | PSTN/SMS cross country offers  | US and PR customers will be able to purchase UK and CA phone numbers; IT customers will be able to purchase US, PR, CA, and UK phone lines. |
 | PSTN | Public Preview | In Progress | PSTN launch | Public preview of PSTN numbers in France, Spain, Switzerland, Belgium, Luxembourg, Austria, Portugal, Slovakia, Norway, Netherlands, Germany |
 
