@@ -1,5 +1,9 @@
 # ACS Calling Windows SDK - Release history 
 
+## v1.0.0-beta.36 (2023-03-10)
+* Various bug fixes.
+* changes async method signatures to have async postfix.
+
 ## v1.0.0-beta.35 (2023-01-12)
 * Fixes issue where one cannot unmute speaker when a call is started with the microphone muted.
 
