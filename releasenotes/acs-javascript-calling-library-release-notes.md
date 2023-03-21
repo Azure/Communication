@@ -8,6 +8,15 @@ If you are working with **Teams users**, please follow the `Teams identities` do
 - [Teams Identities quick start](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/get-started-with-voice-video-calling-custom-teams-client)
 - [Teams Identities object model](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/get-started-with-voice-video-calling-custom-teams-client#azure-communication-services-calling-web-sdk-object-model)
 
+## 1.11.1  (2023-03-20)
+Available in NPM - https://www.npmjs.com/package/@azure/communication-calling/v/1.11.1
+
+Bug fixes:
+
+- Stability and telemetry improvements
+- Fixed memory leak that would surface when in call or meeting with other participants, memory would increase constantly for the duration of the call, with a rate of ~100MB per hour with all modalities active worst case scenario.
+
+
 ## 1.11.0-beta.1 (2023-02-15)
 Available in NPM - https://www.npmjs.com/package/@azure/communication-calling/v/1.11.0-beta.1
 
