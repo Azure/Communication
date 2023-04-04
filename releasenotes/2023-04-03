@@ -1,0 +1,39 @@
+# Release Notes for April 03, 2023
+
+## Table of contents
+* [Email](#email)
+
+## Email - General Availability
+
+### .NET
+1.0.0 (2023-03-31)
+We have released our first General Availability (GA) SDK
+#### Breaking Changes
+##### What is changed from previous version
+- Renamed parameter names in EmailMessage constructor
+##### What is going to be removed in the current version 
+- Public methods for GetSendResult and GetSendResultAsync since the same functionality is available through EmailSendOperation.UpdateStatus method
+
+### Java
+1.0.0 (2023-03-31)
+We have released our first General Availability (GA) SDK
+#### Features Added
+The public release of the Azure Communication Services SDK for Email has the following features:
+- Send emails with a variety of options (multiple recipients, attachments, etc.)
+- Poll for the status of the email that was sent to track its progress
+
+### Python
+1.0.0 (2023-03-31)
+We have released our first General Availability (GA) SDK
+#### Features Added
+The public release of the Azure Communication Services SDK for Email has the following features:
+- Send emails with a variety of options (multiple recipients, attachments, etc.)
+- Poll for the status of the email that was sent to track its progress
+
+### JS
+1.0.0 (2023-03-31)
+We have released our first General Availability (GA) SDK
+#### Features Added
+The public release of the Azure Communication Services SDK for Email has the following features:
+- Send emails with a variety of options (multiple recipients, attachments, etc.)
+- Poll for the status of the email that was sent to track its progress
