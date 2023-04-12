@@ -6,7 +6,19 @@ It identifies some of the significant features we are currently working on and p
 
 These features are the current plans for the stated quarter at this time and are subject to change. The **Area** column reflects the area of the product the feature aligns with most, and **Release**  indicates if the feature will be in public preview or generally available, and **Status** indicates where we are in the development cycle. <!-- Links are provided to Azure DevOps (ADO) tracking that is used internally by Microsoft.-->
 
-### Q1 CY2023
+### CY2023 Q2
+April - June 2023
+| Area    | Release        | Status  |  Feature |Description                                                |
+| ------- | -------------- | ------| ----|------------------------------------------------------|
+| Email | GA | Launched | Email |  APIs that allow developers to add email capabilities to their applications |
+| PSTN    | Public Preview | In Progress | PSTN Launch  | PSTN numbers in Australia and Japan |
+| PSTN    | Public Preview | In Progress | PSTN Launch  | Inbound only PSTN Toll-free numbers in Argentina, Brazil, Chile, China, Colombia, Finland, Hong Kong, Indonesia, Israel, South Korea, Malaysia, Mexico, New Zealand, Philippines, Poland, Saudi Arabia, Singapore, South Africa, Taiwan, Thailand, United Arab Emirates |
+| PSTN    | GA | In Progress | PSTN Launch  | PSTN numbers in France, Spain, Switzerland, Belgium, Luxembourg, Austria, Portugal, Slovakia, Norway, Netherlands, Germany and Denmark |
+
+
+
+
+### CY2023 Q1 - Completed
 January - March 2023
 | Area    | Release        | Status  |  Feature |Description                                                |
 | ------- | -------------- | ------| ----|------------------------------------------------------|
