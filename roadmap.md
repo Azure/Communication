@@ -16,6 +16,6 @@ January - March 2023
 | Sample Builder | GA | Launched | Test appointments (supported by Rooms) | Enable a Virtual Appointment Experience without the need to configure a scheduling system by leveraging ACS Rooms. |
 | Power Automate | Public Preview | Launched | Inbound SMS connector | Ability to trigger a flow on SMS receive message event
 | PSTN |GA | Launched | PSTN launch | Expansion of PSTN numbers in Canada (incl SMS), UK, Ireland, Italy, Sweden |
-| PSTN | Public Preview | In Progress | PSTN/SMS cross country offers  | US and PR customers will be able to purchase UK and CA phone numbers; IT customers will be able to purchase US, PR, CA, and UK phone lines. |
-| PSTN | Public Preview | In Progress | PSTN launch | Public preview of PSTN numbers in France, Spain, Switzerland, Belgium, Luxembourg, Austria, Portugal, Slovakia, Norway, Netherlands, Germany |
+| PSTN | Public Preview | Launched | PSTN/SMS cross country offers  | US and PR customers will be able to purchase UK and CA phone numbers; IT customers will be able to purchase US, PR, CA, and UK phone lines. |
+| PSTN | Public Preview | Launched | PSTN launch | Public preview of PSTN numbers in France, Spain, Switzerland, Belgium, Luxembourg, Austria, Portugal, Slovakia, Norway, Netherlands, Germany |
 
