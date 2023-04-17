@@ -8,6 +8,28 @@ If you are working with **Teams users**, please follow the `Teams identities` do
 - [Teams Identities quick start](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/get-started-with-voice-video-calling-custom-teams-client)
 - [Teams Identities object model](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/get-started-with-voice-video-calling-custom-teams-client#azure-communication-services-calling-web-sdk-object-model)
 
+## 1.13.0-beta.4 (2023-04-17)
+Available in NPM - https://www.npmjs.com/package/@azure/communication-calling/v/1.13.0-beta.4
+
+Features:
+
+- Teams captions - Added Teams captions feature that allows ACS users to enable closed captions in Teams meeting and allows Microsoft 365 users on ACS SDK to use closed captions in one to one and group calls. Users will also have the ability to update spoken language for the call and caption language for themselves (requires Teams Premium).
+- End of call survey - Added end of call survey feature to provide a way to understand how your end users perceive the overall quality and reliability. The rating data is available in Log Analytics workspace.
+- Lobby - Enabled lobby operation APIs that allows ACS and Teams users to admit and reject users from Teams meeting lobby
+- Proxy and custom TURN - Added the ability to provide a network configuration to the CallClient, while initializing the SDK.
+    * You can optionally provide a network configuration to the SDK for:
+        * Proxy - Provide the details of a proxy server to route all our network requests through it. Note: this will only affect our HTTP/HTTPS requests and web socket connections; and not media traffic in calls.
+        * Custom TURN - Provide the details of your TURN servers to route all media traffic through them instead of our default ACS service TURN servers.
+- Raise hand - Added Raise Hand feature that allow to publish and remove RaiseHand states on ACS and Teams meetings.
+- Spotlight - Added Spotlight feature that allows participants to be able to publish and remove spotlight states in ACS and Teams meetings.
+- iOS Chrome - Added ACS Web Calling SDK support on iOS Chrome
+
+Bug fixes:
+
+- Telemetry improvements
+- Fixed endpoint mute state when joining the call with microphone muted
+
+
 ## 1.12.1 (2023-04-13)
 Available in NPM - https://www.npmjs.com/package/@azure/communication-calling/v/1.12.1
 
