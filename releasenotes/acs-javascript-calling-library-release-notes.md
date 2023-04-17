@@ -22,7 +22,7 @@ Features:
         * Custom TURN - Provide the details of your TURN servers to route all media traffic through them instead of our default ACS service TURN servers.
 - Raise hand - Added Raise Hand feature that allow to publish and remove RaiseHand states on ACS and Teams meetings.
 - Spotlight - Added Spotlight feature that allows participants to be able to publish and remove spotlight states in ACS and Teams meetings.
-- iOS Chrome - Added ACS Web Calling SDK support on iOS Chrome
+- iOS Chrome - Added ACS Web Calling SDK support for Chrome on iOS
 
 Bug fixes:
 
