@@ -1,5 +1,33 @@
 # ACS Calling Android (Java) SDK - Release History
 
+## 2.5.1-beta.5 (2023-04-12)
+
+### Bug Fixes:
+  - Maintenance release.
+
+## 2.5.1-beta.4 (2023-03-30)
+
+### New Features:
+  - Introduced IncomingAudioOptions and OutgoingAudioOptions and deprecated AudioOptions.
+  - Introduced muteOutgoingAudio and unmuteOutgoingAudio and deprecated mute/unmute.
+  - Introduced muteIncomingAudio and unmuteIncomingAudio.
+  - Deprecated isMuted.
+  - Added ActiveIncomingAudioStream and ActiveOutgoingAudioStream.
+  - StopAudio API now takes AudioStream as argument instead of MedaiStreamDirection.
+  - Add isOutgoingAudioMuted, isIncomingAudioMuted properties.
+  - Add Raise Hand feature that allow to publish and remove RaiseHand states on ACS and Teams meetings.
+  - Add Teams captions feature that allows ACS users to enable closed captions in Teams meeting and allows Microsoft 365 users on ACS SDK to use closed captions in one to one and group calls. Users will also have the ability to update spoken language for the call and caption language for themselves (requires Teams Premium).
+  - Add Raw Audio Feature.
+  - Adds Video Effects Feature for LocalVideoStream.
+  - Adds Background Blur Video Effect for Local Video Streams to use with `VideoEffectsLocalVideoStreamFeature`.
+  - Adds User Facing Diagnostics as part of Call Features.
+
+### Bug Fixes:
+  - Fixes call `unmute` operation taking too long to complete.
+
+### Breking Changes:
+  - Dominant Speakers changed the method name `getTimestamp()` to `getLastUpdatedAt()`.
+
 ## 2.5.1-beta.3 (2023-01-12)
 
 ### Bug Fixes:
