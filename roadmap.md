@@ -11,9 +11,9 @@ April - June 2023
 | Area    | Release        | Status  |  Feature |Description                                                |
 | ------- | -------------- | ------| ----|------------------------------------------------------|
 | Email | GA | Launched | Email |  APIs that allow developers to add email capabilities to their applications |
-| PSTN    | Public Preview | In Progress | PSTN Launch  | PSTN numbers in Australia and Japan |
-| PSTN    | Public Preview | In Progress | PSTN Launch  | Inbound only PSTN Toll-free numbers in Argentina, Brazil, Chile, China, Colombia, Finland, Hong Kong, Indonesia, Israel, South Korea, Malaysia, Mexico, New Zealand, Philippines, Poland, Saudi Arabia, Singapore, South Africa, Taiwan, Thailand, United Arab Emirates |
-| PSTN    | GA | In Progress | PSTN Launch  | PSTN numbers in France, Spain, Switzerland, Belgium, Luxembourg, Austria, Portugal, Slovakia, Norway, Netherlands, Germany and Denmark |
+| Voice & Video Calling    | GA | In Progress | Background Blur  | Allows the participants to blur their background during call time. This will be available across native platforms (Windows, Android & iOS) |
+| Voice & video Calling    | GA | In Progress | Windows SDK | Set of APIs to allow calling capabilities using Windows native development. |
+
 
 
 
