@@ -8,7 +8,7 @@ These features are the current plans for the stated quarter at this time and are
 
 ### CY2023 Q2
 April - June 2023
-| Area    | Release        | Status  |  Feature |Description                                                |
+| Area    | Release        | Status  |  Feature | Description                                                |
 | ------- | -------------- | ------| ----|------------------------------------------------------|
 | Email | GA | Launched | Email |  APIs that allow developers to add email capabilities to their applications |
 | Calling    | GA | In Progress | Background Blur  | Allows the participants to blur their background during call time. This will be available across native platforms (Windows, Android & iOS) |
