@@ -8,6 +8,13 @@ If you are working with **Teams users**, please follow the `Teams identities` do
 - [Teams Identities quick start](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/get-started-with-voice-video-calling-custom-teams-client)
 - [Teams Identities object model](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/get-started-with-voice-video-calling-custom-teams-client#azure-communication-services-calling-web-sdk-object-model)
 
+## 1.13.1-beta.1 (2023-05-01)
+Available in NPM - https://www.npmjs.com/package/@azure/communication-calling/v/1.13.1-beta.1
+
+Bug fixes:
+
+- Accept incoming call  as muted: participant should join as muted when participant accepts the call with mute option. Example- _incomingCall.accept({audioOptions: { muted: true}})_.
+
 ## 1.13.0-beta.4 (2023-04-17)
 Available in NPM - https://www.npmjs.com/package/@azure/communication-calling/v/1.13.0-beta.4
 
