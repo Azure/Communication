@@ -8,6 +8,28 @@ If you are working with **Teams users**, please follow the `Teams identities` do
 - [Teams Identities quick start](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/get-started-with-voice-video-calling-custom-teams-client)
 - [Teams Identities object model](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/get-started-with-voice-video-calling-custom-teams-client#azure-communication-services-calling-web-sdk-object-model)
 
+## 1.13.1 (2023-05-09)
+Available in NPM - https://www.npmjs.com/package/@azure/communication-calling/v/1.13.1
+Available in NPM - https://www.npmjs.com/package/@azure/communication-calling-effects/v/1.0.1
+
+Features:
+- Background Blur / Replacement
+    - Promoted APIs from beta to GA
+    - Added a new property on the feature called "activeEffects" that will provide the current status of effects.
+- RAW audio/video - Promoted APIs from beta to GA.
+- Volume Indicator - Promoted APIs from beta to GA.
+- Mute Incoming Audio - Promoted APIs from beta to GA.
+- End of Call Survey - Promoted APIs from beta to GA.
+- Environment isSupported / Multiple tabs - Promoted APIs from beta to GA.
+- Rooms - Promoted APIs from beta to GA.
+- Spotlight - Promoted APIs from beta to GA.
+- Raise hand - Promoted APIs from beta to GA.
+
+Bug fixes:
+- RAW audio/video - Fixed RemoteVideoStream.getMediaStream() API to only allow to be called when the stream's isAvailable flag is true. 
+- Fix to be able to accept an incoming call with microphone muted
+- Telemetry improvements
+
 ## 1.13.1-beta.1 (2023-05-01)
 Available in NPM - https://www.npmjs.com/package/@azure/communication-calling/v/1.13.1-beta.1
 
