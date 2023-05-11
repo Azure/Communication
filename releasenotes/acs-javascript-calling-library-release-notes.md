@@ -13,7 +13,7 @@ If you are working with **Teams users**, please follow the `Teams identities` do
 - Calling effects - Available in NPM - https://www.npmjs.com/package/@azure/communication-calling-effects/v/1.0.1
 
 Features:
-- Background Blur / Replacement
+- Background Blur / Replacement on desktop
     - Promoted APIs from beta to GA
     - Added a new property on the feature called "activeEffects" that will provide the current status of effects.
 - RAW audio/video - Promoted APIs from beta to GA.
