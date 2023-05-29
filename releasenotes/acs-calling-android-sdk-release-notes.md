@@ -1,5 +1,29 @@
 # ACS Calling Android (Java) SDK - Release History
 
+## 2.3.0 (2023-05-26)
+
+### New Features:
+  - Introduced IncomingAudioOptions and OutgoingAudioOptions and deprecated AudioOptions.
+  - Introduced muteOutgoingAudio and unmuteOutgoingAudio and deprecated mute/unmute.
+  - Introduced muteIncomingAudio and unmuteIncomingAudio.
+  - Deprecated isMuted.
+  - Added ActiveIncomingAudioStream and ActiveOutgoingAudioStream.
+  - StopAudio API now takes AudioStream as argument instead of MediaStreamDirection.
+  - Add isOutgoingAudioMuted, isIncomingAudioMuted properties.
+  - Add Raw Audio Feature.
+  - Add Raw Video Feature.
+  - Dominant Speaker Feature: Dominant speakers is an extended feature that allows you to obtain a list of the active speakers in the call. The dominant speakers list can change dynamically according to the activity of the participants on the call.
+  - Adds Video Effects Feature for LocalVideoStream.
+  - Adds Background Blur Video Effect for Local Video Streams to use with `VideoEffectsLocalVideoStreamFeature`.
+
+### Bug Fixes:
+  - Maintenance release.
+
+## 2.5.1-beta.6 (2023-05-26)
+
+### Bug Fixes:
+  - Maintenance release.
+
 ## 2.5.1-beta.5 (2023-04-12)
 
 ### Bug Fixes:
@@ -13,7 +37,7 @@
   - Introduced muteIncomingAudio and unmuteIncomingAudio.
   - Deprecated isMuted.
   - Added ActiveIncomingAudioStream and ActiveOutgoingAudioStream.
-  - StopAudio API now takes AudioStream as argument instead of MedaiStreamDirection.
+  - StopAudio API now takes AudioStream as argument instead of MediaStreamDirection.
   - Add isOutgoingAudioMuted, isIncomingAudioMuted properties.
   - Add Raise Hand feature that allow to publish and remove RaiseHand states on ACS and Teams meetings.
   - Add Teams captions feature that allows ACS users to enable closed captions in Teams meeting and allows Microsoft 365 users on ACS SDK to use closed captions in one to one and group calls. Users will also have the ability to update spoken language for the call and caption language for themselves (requires Teams Premium).
