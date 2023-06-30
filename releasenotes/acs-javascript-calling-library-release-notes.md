@@ -62,58 +62,58 @@ Features:
     - [More raw media access sample usage documentation](https://learn.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/get-started-raw-media-access)
 
 - Data Channel - Send and receive messages between the participants in a call via Datachannel.
-```js
-// Get the data channel deature from the call object
-const dataChannelCallFeature = call.feature(Features.DataChannel);
-const DATA_CHANNEL_ID = 10000;
-// Create data channel receiver so you can receive emessages
-dataChannelCallFeature.on('dataChannelReceiverCreated', receiver => {
-    if (receiver.channelId === DATA_CHANNEL_ID) {
-	receiver.on('messageReady', () => {
-	    const message = receiver.readMessage();
-	    if(message) {
-		const displayMessage = {
-		    from: receiver.senderParticipantIdentifier,
-		    sequenceNumber: message.sequenceNumber,
-		    message: (new TextDecoder()).decode(message.data)
-		};
-		console.log('Data channel message received: ', 'JSON.stringify(displayMessage));
+    ```js
+        // Get the data channel deature from the call object
+	const dataChannelCallFeature = call.feature(Features.DataChannel);
+	const DATA_CHANNEL_ID = 10000;
+	// Create data channel receiver so you can receive emessages
+	dataChannelCallFeature.on('dataChannelReceiverCreated', receiver => {
+	    if (receiver.channelId === DATA_CHANNEL_ID) {
+		receiver.on('messageReady', () => {
+		    const message = receiver.readMessage();
+		    if(message) {
+			const displayMessage = {
+			    from: receiver.senderParticipantIdentifier,
+			    sequenceNumber: message.sequenceNumber,
+			    message: (new TextDecoder()).decode(message.data)
+			};
+			console.log('Data channel message received: ', JSON.stringify(displayMessage));
+		    }
+		});
 	    }
 	});
-    }
-});
-
-// Create data channel sender so you can send messages
-const dataChannelSender = dataChannelCallFeature.createDataChannelSender({
-    channelId: DATA_CHANNEL_ID
-});
-
-const data = (new TextEncoder()).encode("Message to send out in the data channel");
-
-// Send a message to specific participants in the call
-dataChannelSender.setParticipants([{ communicationUserId: '<UserId1>' },{ communicationUserId: '<UserId2>' }]);
-await dataChannelSender.sendMessage(data);
-
-// To broadcasst a message to all participants in the call, set an empty array of participants
-dataChannelSender.setParticipants([]);
-await dataChannelSender.sendMessage(data);
-```
+	
+	// Create data channel sender so you can send messages
+	const dataChannelSender = dataChannelCallFeature.createDataChannelSender({
+	    channelId: DATA_CHANNEL_ID
+	});
+	
+	const data = (new TextEncoder()).encode("Message to send out in the data channel");
+	
+	// Send a message to specific participants in the call
+	dataChannelSender.setParticipants([{ communicationUserId: '<UserId1>' },{ communicationUserId: '<UserId2>' }]);
+	await dataChannelSender.sendMessage(data);
+	
+	// To broadcasst a message to all participants in the call, set an empty array of participants
+	dataChannelSender.setParticipants([]);
+	await dataChannelSender.sendMessage(data);
+    ```
 
 - Call agent connection state - New property on the Call Agent which indicates if the Call Agent is connected to ACS services.
-```js
-console.log('Current call agent connection state: ', callAgent.connectionState);
-callAgent.on('connectionStateChanged', (args) => {
-    if (args.newValue === 'Connected') {
-    	console.log('Call agent is connected');
-    } else {
-        console.warn(`Call agent connection state changed from ${args.oldValue} -> ${args.newValue}. Reason: ${args.reason}`;
-    }
-
-    if (args.reason === 'tokenExpired') {
-        console.warn('Call agent token has expired');
-    }
-});
-```
+    ```js
+	console.log('Current call agent connection state: ', callAgent.connectionState);
+	callAgent.on('connectionStateChanged', (args) => {
+	    if (args.newValue === 'Connected') {
+	    	console.log('Call agent is connected');
+	    } else {
+	        console.warn(`Call agent connection state changed from ${args.oldValue} -> ${args.newValue}. Reason: ${args.reason}`;
+	    }
+	
+	    if (args.reason === 'tokenExpired') {
+	        console.warn('Call agent token has expired');
+	    }
+	});
+    ```
 
 ## 1.14.1 (2023-06-21)
 - Calling - Available in NPM - https://www.npmjs.com/package/@azure/communication-calling/v/1.14.1
