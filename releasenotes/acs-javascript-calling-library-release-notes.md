@@ -8,6 +8,113 @@ If you are working with **Teams users**, please follow the `Teams identities` do
 - [Teams Identities quick start](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/get-started-with-voice-video-calling-custom-teams-client)
 - [Teams Identities object model](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/get-started-with-voice-video-calling-custom-teams-client#azure-communication-services-calling-web-sdk-object-model)
 
+## 1.15.1-beta.1 (2023-05-09)
+- Available in NPM - https://www.npmjs.com/package/@azure/communication-calling/v/1.15.1-beta.1
+
+Features:
+- Local screen sharing rendering/preview - You can now view a preview of your local screen sharing stream that is being sent out to remote particiapants in the call. Call.localVideoStreams[] array will now contain the local screen sharing stream where mediaStreamType === 'ScreenSharing' if your local screen share is on.
+    ```js
+	// To start viewing local screen share preview
+	await call.startScreenSharing();
+	const localScreenSharingStream = call.localVideoStreams.find( (stream) => { return stream.mediaStreamType === 'ScreenSharing' });
+	const videoStreamRenderer = new VideoStreamRenderer(localScreenSharingStream);
+	const view = await videoStreamRenderer.createView();
+	htmlElement.appendChild(view.target);
+	
+	// To stop viewing local screen share preview.
+	await call.stopScreenSharing();
+        view.dispose();
+	htmlElement.removeChild(view.target);
+	
+	// Screen sharing can also be stoped by clicking on the native browser's "Stop sharing" button.
+	// The isScreenSharingOnChanged event will be triggered where you can check the value of call.isScreenSharingOn.
+	// If the value is false, then that means screen sharing is turned off and so we can go ahead and dispose the screen share preview.
+        // This event is also triggered for the case when stopping screen sharing via Call.stopScreenSharing() API.
+	call.on('isScreenSharingOnChanged', () => {
+	    if (!call.isScreenSharingOn) {
+	        view.dispose();
+	        htmlElement.removeChild(view.target);
+	    }
+        });
+    ```
+- Raw media access to local screen sharing stream
+    - Start screen sharing a screen, browser tab, or application, and access the raw media stream.
+    ```js
+	// Call startScreenSharing API without passing any stream parameter. Browser will prompt the user to select the screen, browser tab, or app to share in the call.
+	await call.startScreenSharing();
+	const localScreenSharingStream = call.localVideoStreams.find( (stream) => { return stream.mediaStreamType === 'ScreenSharing' });
+	console.log(localScreenSharingStream.mediaStreamType); // 'ScreenSharing'
+	// Get the raw media stream from the screen, brwoser tab, or application
+	const rawMediaStream = await localScreenSharingStream.getMediaStream();
+	// Apply effects to the media stream as you wish
+	const mediaStreamWithEffects = applyEffects(rawMediaStream);
+	// Set the media stream with effects no the local screen sharing sctream
+	await localScreenSharingStream.setMediaStream(mediaStreamWithEffects);
+    ```   
+    - Start screen sharing with a custom media stream.
+    ```js
+        const mediaStream = createCustomMediaStreamToSend();
+        const localScreenSharingStream = new LocalVideoStream(mediaStream);
+        // Start sending screen sharing stream with the custom media stream
+        await call.startScreenSharing(localScreenSharingStream);
+        console.log(localScreenSharingStream.mediaStreamType) // 'RawMedia'
+    ```
+    - [More raw media access sample usage documentation](https://learn.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/get-started-raw-media-access)
+
+- Data Channel - Send and receive messages between the participants in a call via Datachannel.
+```js
+// Get the data channel deature from the call object
+const dataChannelCallFeature = call.feature(Features.DataChannel);
+const DATA_CHANNEL_ID = 10000;
+// Create data channel receiver so you can receive emessages
+dataChannelCallFeature.on('dataChannelReceiverCreated', receiver => {
+    if (receiver.channelId === DATA_CHANNEL_ID) {
+	receiver.on('messageReady', () => {
+	    const message = receiver.readMessage();
+	    if(message) {
+		const displayMessage = {
+		    from: receiver.senderParticipantIdentifier,
+		    sequenceNumber: message.sequenceNumber,
+		    message: (new TextDecoder()).decode(message.data)
+		};
+		console.log('Data channel message received: ', 'JSON.stringify(displayMessage));
+	    }
+	});
+    }
+});
+
+// Create data channel sender so you can send messages
+const dataChannelSender = dataChannelCallFeature.createDataChannelSender({
+    channelId: DATA_CHANNEL_ID
+});
+
+const data = (new TextEncoder()).encode("Message to send out in the data channel");
+
+// Send a message to specific participants in the call
+dataChannelSender.setParticipants([{ communicationUserId: '<UserId1>' },{ communicationUserId: '<UserId2>' }]);
+await dataChannelSender.sendMessage(data);
+
+// To broadcasst a message to all participants in the call, set an empty array of participants
+dataChannelSender.setParticipants([]);
+await dataChannelSender.sendMessage(data);
+```
+
+- Call agent connection state - New property on the Call Agent which indicates if the Call Agent is connected to ACS services.
+```js
+console.log('Current call agent connection state: ', callAgent.connectionState);
+callAgent.on('connectionStateChanged', (args) => {
+    if (args.newValue === 'Connected') {
+    	console.log('Call agent is connected');
+    } else {
+        console.warn(`Call agent connection state changed from ${args.oldValue} -> ${args.newValue}. Reason: ${args.reason}`;
+    }
+
+    if (args.reason === 'tokenExpired') {
+        console.warn('Call agent token has expired');
+    }
+});
+```
+
 ## 1.14.1 (2023-06-21)
 - Calling - Available in NPM - https://www.npmjs.com/package/@azure/communication-calling/v/1.14.1
 
