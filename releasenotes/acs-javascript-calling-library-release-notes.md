@@ -114,6 +114,9 @@ Features:
 	    }
 	});
     ```
+  Fixes:
+  - Bug Fixes
+  - Telemetry improvements
 
 ## 1.14.1 (2023-06-21)
 - Calling - Available in NPM - https://www.npmjs.com/package/@azure/communication-calling/v/1.14.1
