@@ -17,12 +17,12 @@ Features:
 - Local screen sharing rendering/preview
     - You can now view a preview of your local screen sharing stream that is being sent out to remote particiapants in the call.
     - Call.localVideoStreams[] array will now contain the local screen sharing stream of mediaStreamType === 'ScreenSharing' if your local screen share is on.
-    - [Local screen share preview usage documentation](https://learn.microsoft.com/en-us/azure/communication-services/how-tos/calling-sdk/manage-video?pivots=platform-web#local-screen-share-preview)
+    - [Local screen share preview usage documentation](https://learn.microsoft.com/en-us/azure/communication-services/how-tos/calling-sdk/manage-video?pivots=platform-web#local-screen-share-preview) - docs will be live shortly
 - Raw media access to local screen sharing stream
     - Start screen sharing a screen, browser tab, or application, and access the raw media stream.
     - Start screen sharing with a custom media stream.
     - Call.localVideoStreams[] array will now contain the local screen sharing stream of mediaStreamType === 'RawMedia' if your local screen share is on.
-    - [Raw media access sample usage documentation](https://learn.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/get-started-raw-media-access)
+    - [Raw media access sample usage documentation](https://learn.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/get-started-raw-media-access) - docs will be live shortly
 
 - Data Channel
     - Send and receive messages between the participants in a call via Datachannel.
