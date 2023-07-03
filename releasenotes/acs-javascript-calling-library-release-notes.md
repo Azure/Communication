@@ -2,11 +2,40 @@
 - [Sample Applications](https://docs.microsoft.com/azure/communication-services/samples/overview)
 - [API usage documentation](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/calling-client-samples?pivots=platform-web)
 - [API reference documentation](https://docs.microsoft.com/en-us/javascript/api/azure-communication-services/@azure/communication-calling/?view=azure-communication-services-js)
+- [Voice and Video Calling quickstart](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/get-started-with-video-calling?pivots=platform-web) - This is a quick start application to get started with voice and video calling.
+- [Overview](https://learn.microsoft.com/en-us/azure/communication-services/concepts/voice-video-calling/calling-sdk-features) - Concepts, supported environments, and best practices.
 
 If you are working with **Teams users**, please follow the `Teams identities` documentation in the list for example and usage
 - [Teams Identities API usage](https://docs.microsoft.com/en-us/azure/communication-services/how-tos/cte-calling-sdk/manage-calls)
 - [Teams Identities quick start](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/get-started-with-voice-video-calling-custom-teams-client)
 - [Teams Identities object model](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/get-started-with-voice-video-calling-custom-teams-client#azure-communication-services-calling-web-sdk-object-model)
+
+## 1.15.1-beta.1 (2023-07-03)
+- Available in NPM - https://www.npmjs.com/package/@azure/communication-calling/v/1.15.1-beta.1
+
+Features:
+- Local screen sharing rendering/preview
+    - You can now view a preview of your local screen sharing stream that is being sent out to remote particiapants in the call.
+    - Call.localVideoStreams[] array will now contain the local screen sharing stream of mediaStreamType === 'ScreenSharing' if your local screen share is on.
+    - [Local screen share preview usage documentation](https://learn.microsoft.com/en-us/azure/communication-services/how-tos/calling-sdk/manage-video?pivots=platform-web#local-screen-share-preview)
+- Raw media access to local screen sharing stream
+    - Start screen sharing a screen, browser tab, or application, and access the raw media stream.
+    - Start screen sharing with a custom media stream.
+    - Call.localVideoStreams[] array will now contain the local screen sharing stream of mediaStreamType === 'RawMedia' if your local screen share is on.
+    - [Raw media access sample usage documentation](https://learn.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/get-started-raw-media-access)
+
+- Data Channel
+    - Send and receive messages between the participants in a call via Datachannel.
+    - Send messges to specific remote participants.
+    - Broadcast a message to all remote participants.
+  
+- Call agent connection state
+    - New property on the Call Agent which indicates if the Call Agent is connected to ACS services.
+    - Disconnected state will be due to conectivity issues or token credential expiration.
+
+Fixes:
+- Bug Fixes
+- Telemetry improvements
 
 ## 1.14.1 (2023-06-21)
 - Calling - Available in NPM - https://www.npmjs.com/package/@azure/communication-calling/v/1.14.1
