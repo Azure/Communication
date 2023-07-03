@@ -32,6 +32,8 @@ Features:
 - Call agent connection state
     - New property on the Call Agent which indicates if the Call Agent is connected to ACS services.
     - Disconnected state will be due to conectivity issues or token credential expiration.
+- Lobby admit/reject
+    - Admit/reject participants from a Teams meeting lobby into the Teams meeting.
 
 Fixes:
 - Bug Fixes
