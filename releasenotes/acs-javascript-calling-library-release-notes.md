@@ -36,6 +36,7 @@ Features:
     - Admit/reject participants from a Teams meeting lobby into the Teams meeting.
 
 Fixes:
+- When mobile users exit/kill the browser while on a call, they will now be removed from the call after 60 seconds
 - Bug Fixes
 - Telemetry improvements
 
