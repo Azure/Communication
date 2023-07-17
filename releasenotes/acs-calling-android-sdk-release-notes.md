@@ -1,5 +1,11 @@
 # ACS Calling Android (Java) SDK - Release History
 
+## 2.4.0 (2023-07-13)
+
+### New Features:
+  - Added support for Raise Hand feature on ACS and Teams meetings.
+  - Added support for joining a Teams's room.
+
 ## 2.3.0 (2023-05-26)
 
 ### New Features:
