@@ -1,5 +1,10 @@
 # ACS Calling Android (Java) SDK - Release History
 
+## 2.6.0-beta.1 (2023-07-19)
+
+### Bug Fixes:
+  - Maintenance release.
+
 ## 2.4.0 (2023-07-13)
 
 ### New Features:
