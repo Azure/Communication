@@ -49,7 +49,7 @@ April - June 2023
 | Calling    | Public Preview | Launched | Raised hand | APIs that allow developers to raise and lower hands. |
 | Calling    | Public Preview | Launched | Spotlight | APIs that allow developers to control and subscribe to Spotlight of participants in Teams meeting. |
 | Calling    | Public Preview | Launched | Lobby management |  APIs that allow organizers, co-organizers, and presenters to manage participants in a call lobby |
-| Calling    | Public Preview | Moved to Q3 | Ad-hoc calling in Teams Interoperability | Developers can use the calling SDKs to call federated Microsoft 365 users. |
+| Calling    | Public Preview | Move to Q3 | Ad-hoc calling in Teams Interoperability | Developers can use the calling SDKs to call federated Microsoft 365 users. |
 | Calling    | Public Preview | Planned | Unmixed Raw Audio | Allows developers to easily access, process, enhance, and send real-time raw audio, video and screen sharing media streams. This will be available across native platforms (Windows, Android & iOS). |
 | Calling    | Public Preview | In Progress | Rooms SDK support | UI Library now supports API that allows users to join calls using room ID (Note: currently roles are not supported). |
 | PSTN    | Public Preview | Launched | Direct Routing | Enables customers to use their existing numbers with Dynamics 365 Omnichannel, Power Virtual Agents, Azure Communication Services Interaction SDK and with a variety of Azure services including Azure functions and Logic Apps. |
