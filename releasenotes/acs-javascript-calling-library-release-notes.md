@@ -12,9 +12,10 @@ If you are working with **Teams users**, please follow the `Teams identities` do
 
 ## 1.15.2-beta.1 (20203-08-04)
 - Available in NPM - https://www.npmjs.com/package/@azure/communication-calling/v/1.15.2-beta.1
-- 
+  
 Features:
 - Added support for Edge browser on Android.
+  
 Fixes:
 - Fixed participants in the call are not able to see all the other participants while the call is initialized
 
