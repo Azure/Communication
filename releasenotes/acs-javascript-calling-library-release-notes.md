@@ -10,6 +10,18 @@ If you are working with **Teams users**, please follow the `Teams identities` do
 - [Teams Identities quick start](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/get-started-with-voice-video-calling-custom-teams-client)
 - [Teams Identities object model](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/get-started-with-voice-video-calling-custom-teams-client#azure-communication-services-calling-web-sdk-object-model)
 
+## 1.15.2 stable (20203-08-08)
+- Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.15.2](https://www.npmjs.com/package/@azure/communication-calling/v/1.15.2)
+  
+Features:
+- Promoted OVC from beta to GA
+- Promoted isReceiving from beta to GA
+- Added support for Edge browser on Android.
+
+Fixes:
+- Fixed participants in the call are not able to see all the other participants while the call is initialized
+- Fixed disposing of Call Agent to not throw
+
 ## 1.15.2-beta.1 (20203-08-04)
 - Available in NPM - https://www.npmjs.com/package/@azure/communication-calling/v/1.15.2-beta.1
   
