@@ -11,9 +11,9 @@ These features are the current plans for the stated quarter at this time and are
 July - September 2023
 | Area    | Release        | Status  |  Feature |Description                                                |
 | ------- | -------------- | ------| ----|------------------------------------------------------|
-| Job Router | Public Preview | In Progress | Job Router | SDKs and APIs to create, classify, queue and distribute Jobs (interactions) to the best suitable worker |
+| Job Router | Public Preview | Launched | Job Router | SDKs and APIs to create, classify, queue and distribute Jobs (interactions) to the best suitable worker |
 | SMS   | GA | In Progress | Geo Expansion  | 1-way SMS using Alphanumeric Sender ID in Germany, Netherlands, United Kingdom, Australia, France, Switzerland, Sweden, Italy, Spain, Denmark, Ireland, Portugal, Poland, Austria, Lithuania, Latvia, Estonia, Norway, Finland, Slovakia, Slovenia, Czech Republic |
-| Calling | Public Preview | In Progress | Trial Phone Numbers | Users can get a phone number to make and receive PSTN calls, free of charge, for 30 days |
+| Calling | Public Preview | Launched | Trial Phone Numbers | Users can get a phone number to make and receive PSTN calls, free of charge, for 30 days |
 | Calling | Public Preview | In Progress | Call Recording | APIs to record Call Automation and Calling client SDK Teams interoperability (dial out) scenarios |
 | Calling | Public Preview | In Progress | Number Lookup | An API that allows developers to retrieve number details including number type and carrier details. |
 | Calling | Public Preview | In Progress | Geo Expansion | Direct Offers for Australia and Japan (Geo and TF numbers) |
