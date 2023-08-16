@@ -1,5 +1,11 @@
 # ACS Calling Android (Java) SDK - Release History
 
+## 2.5.0 (2023-08-11)
+
+### New Features:
+  - New Teams captions feature that allows ACS users to enable closed captions in Teams meeting and allows Microsoft 365 users on ACS SDK to use closed captions in one to one and group calls. Users will also have the ability to update spoken language for the call and caption language for themselves (requires Teams Premium).
+  - Added support for user facing diagnostics feature.
+
 ## 2.6.0-beta.1 (2023-07-19)
 
 ### Bug Fixes:
