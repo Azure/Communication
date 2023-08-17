@@ -20,6 +20,8 @@ For a new number order, you will need to work through the following steps:
     - [Number Request Form for Slovakia](./Forms/ACS-Manual-Number-Acquisition-Form-for-Slovakia.docx?raw=1)
     - [Number Request Form for Netherlands](./Forms/ACS-Manual-Number-Acquisition-Form-for-Netherlands.docx?raw=1)
     - [Number Request Form for Germany](./Forms/ACS-Manual-Number-Acquisition-Form-for-Germany.docx?raw=1)
+    - [Number Request Form for Australia](./Forms/ACS-Manual-Number-Acquisition-Form-for-Australia.docx?raw=1)
+    - [Number Request Form for China, Finland, Hong Kong, Israel, New Zealand, Poland, Singapore, Taiwan, Thailand](./Forms/ACS-Manual-Number-Acquisition-Form-for-TF-InboundOnly.docx?raw=1)
   
 
 2) Fill in the form and send the filled out form to acstns@microsoft.com. Use "ACS Number Request - CountryName" as part of your subject line
