@@ -15,7 +15,6 @@ If you are working with **Teams users**, please follow the `Teams identities` do
 
 Features:
  - Promoted 3x3 video rendering on desktop to GA
- - Promoted 2x2 video rendering on mobile to GA
  - Promoted Capabilities feature to GA
  - Promoted Teams Captions feature to GA
  - Promoted isLocalVideoStarted API to GA
