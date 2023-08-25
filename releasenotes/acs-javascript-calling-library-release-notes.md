@@ -19,8 +19,9 @@ Features:
  - Promoted Teams Captions feature to GA
  - Promoted isLocalVideoStarted API to GA
  - Promoted CallClient.features() API to GA
+
 Fixes:
-- Fixed broken MicrosoftBotIdentifier in communication-calling.d.ts
+ - Fixed broken MicrosoftBotIdentifier in communication-calling.d.ts
 
 ## 1.15.3 stable (2023-08-18)
 - Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.15.3](https://www.npmjs.com/package/@azure/communication-calling/v/1.15.3)
