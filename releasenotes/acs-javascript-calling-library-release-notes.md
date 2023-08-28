@@ -25,6 +25,7 @@ Fixes:
 
 ## 1.15.3 stable (2023-08-18)
 - Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.15.3](https://www.npmjs.com/package/@azure/communication-calling/v/1.15.3)
+- Promoted Optimal Video Count feature to GA
 
 Fixes:
 - Fixes for the type declaration file
