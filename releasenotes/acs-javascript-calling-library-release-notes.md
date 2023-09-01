@@ -10,6 +10,19 @@ If you are working with **Teams users**, please follow the `Teams identities` do
 - [Teams Identities quick start](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/get-started-with-voice-video-calling-custom-teams-client)
 - [Teams Identities object model](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/get-started-with-voice-video-calling-custom-teams-client#azure-communication-services-calling-web-sdk-object-model)
 
+## 1.17.1-beta.5 (2023-09-01)
+- Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.17.1-beta.5](https://www.npmjs.com/package/@azure/communication-calling/v/1.17.1-beta.5)
+
+### New Features
+ - Enabling ACS/CTE Users to join Teams Meeting with MeetingId and Passcode
+ - Support for sending two different cameras with two different call agents in the same call (on Desktop)
+ - Pre Call Diagnostics now supports individual test runs. User can pass a second input as options specifying which Pre Call Diagnostics steps they would like to run.
+ - Adding support for dynamically setting video send constraints during the call.
+
+### Breaking API Changes
+ - The video send constraints object has a minor change in the name of the 'height' property. It's now 'frameHeight' starting from this beta.
+
+
 ## 1.16.3 stable (2023-08-24)
 - Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.16.3](https://www.npmjs.com/package/@azure/communication-calling/v/1.16.3)
 
