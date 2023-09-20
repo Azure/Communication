@@ -16,8 +16,8 @@ July - September 2023
 | Calling | Public Preview | Launched | Trial Phone Numbers | Users can get a phone number to make and receive PSTN calls, free of charge, for 30 days |
 | Calling | Public Preview | In Progress | Call Recording | APIs to record Call Automation and Calling client SDK Teams interoperability (dial out) scenarios |
 | Calling | Public Preview | In Progress | Number Lookup | An API that allows developers to retrieve number details including number type and carrier details. |
-| Calling | Public Preview | In Progress | Geo Expansion | Direct Offers for Australia and Japan (Geo and TF numbers) |
-| Calling | Public Preview | In Progress | Geo Expansion | Direct Offers for 21 countries (Inbound TF only) |
+| Calling | Public Preview | Launched | Geo Expansion | Direct Offers for Australia and Japan (Geo and TF numbers) |
+| Calling | Public Preview | Launched | Geo Expansion | Direct Offers for 21 countries (Inbound TF only) |
 | Calling | GA | In Progress | Geo Expansion | Direct Offers in FR, ES, CH, BE, LU, AT, PT, SK, NO, NL, DE, DK |
 | Calling | Public Preview | In Progress | Cross Country Offers | Making all available offers possible to purchase from US, JP, UK, CA, DE, IT, NL, AU, FR, ES billing locations |
 | Calling | GA | In Progress | Direct Routing | Improve SBC failover switching by using OPTIONS|
@@ -30,7 +30,7 @@ July - September 2023
 | Calling | GA | Planned | Recording notification | Recording feature supports local recording triggered by Microsoft 365 users in Teams clients. |
 | Calling | GA | In Progress | Capability APIs in Microsoft Teams meeting | Capability APIs that show only buttons that the user can select during a Teams meeting. |
 | Calling | Public Preview | In Progress | Call Automation/Media AI | Enable AI capabilities with Text-to-Speech and Speech-to-Text using Azure Cognitive Services |
-| Calling | Public Preview | In Progress | DTMF Enhancements | Developers can Send DTMF tones to external participants or  choose to continuously receive DTMF tones from call participants. |
+| Calling | Public Preview | Launched | DTMF Enhancements | Developers can Send DTMF tones to external participants or  choose to continuously receive DTMF tones from call participants. |
 | Calling | GA | In Progress | Closed Captions | Closed captions capabilities for participants during Teams interoperability scenarios on web and native platforms. |
 
 
