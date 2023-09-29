@@ -22,6 +22,7 @@ If you are working with **Teams users**, please follow the `Teams identities` do
 
 ### Fixes
  - Bug fixes and telemetry imporevements
+ - `MicrosoftBotIdentifier` was renamed to `MicrosoftTeamsAppIdentifier` in new `@azure/communication-common@2.3.0`
 
 ## 1.17.1-beta.5 (2023-09-01)
 - Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.17.1-beta.5](https://www.npmjs.com/package/@azure/communication-calling/v/1.17.1-beta.5)
