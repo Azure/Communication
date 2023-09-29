@@ -10,6 +10,19 @@ If you are working with **Teams users**, please follow the `Teams identities` do
 - [Teams Identities quick start](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/get-started-with-voice-video-calling-custom-teams-client)
 - [Teams Identities object model](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/get-started-with-voice-video-calling-custom-teams-client#azure-communication-services-calling-web-sdk-object-model)
 
+## 1.18.1-beta.1 (2023-09-29)
+- Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.18.1-beta.1](https://www.npmjs.com/package/@azure/communication-calling/v/1.18.1-beta.1)
+
+### New Features
+ - Reaction - Send and receive meeting reactions in calls and Teams meetings.
+ - Soft Mute - Mute a specific participant or all participants in the call.
+ - Teams Meeting Audio Conferencing - Retrieve the pstn dial in details of a Teams Meeting.
+ - ACS support to call Teams voice applications such as an Auto Attendant or Call Queue.
+ - Join Teams Meeting with MeetingId and Passcode.
+
+### Fixes
+ - Bug fixes and telemetry imporevements
+
 ## 1.17.1-beta.5 (2023-09-01)
 - Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.17.1-beta.5](https://www.npmjs.com/package/@azure/communication-calling/v/1.17.1-beta.5)
 
