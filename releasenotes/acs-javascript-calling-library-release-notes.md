@@ -14,7 +14,7 @@ If you are working with **Teams users**, please follow the `Teams identities` do
 - Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.18.1-beta.1](https://www.npmjs.com/package/@azure/communication-calling/v/1.18.1-beta.1)
 
 ### New Features
- - Reaction - Send and receive meeting reactions in ACS Group Calls and Teams Meetings.
+ - Reaction - Send and receive meeting reactions in calls and Teams meetings.
  - Soft Mute - Mute a specific participant or all participants in the call.
  - Teams Meeting Audio Conferencing - Retrieve the pstn dial in details of a Teams Meeting.
  - Join Teams Meeting with MeetingId and Passcode.
