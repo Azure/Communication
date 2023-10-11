@@ -12,26 +12,26 @@ July - September 2023
 | Area    | Release        | Status  |  Feature |Description                                                |
 | ------- | -------------- | ------| ----|------------------------------------------------------|
 | Job Router | Public Preview | Launched | Job Router | SDKs and APIs to create, classify, queue and distribute Jobs (interactions) to the best suitable worker |
-| SMS   | GA | In Progress | Geo Expansion  | 1-way SMS using Alphanumeric Sender ID in Germany, Netherlands, United Kingdom, Australia, France, Switzerland, Sweden, Italy, Spain, Denmark, Ireland, Portugal, Poland, Austria, Lithuania, Latvia, Estonia, Norway, Finland, Slovakia, Slovenia, Czech Republic |
+| SMS   | GA | Launched | Geo Expansion  | 1-way SMS using Alphanumeric Sender ID in Germany, Netherlands, United Kingdom, Australia, France, Switzerland, Sweden, Italy, Spain, Denmark, Ireland, Portugal, Poland, Austria, Lithuania, Latvia, Estonia, Norway, Finland, Slovakia, Slovenia, Czech Republic |
 | Calling | Public Preview | Launched | Trial Phone Numbers | Users can get a phone number to make and receive PSTN calls, free of charge, for 30 days |
 | Calling | Public Preview | In Progress | Call Recording | APIs to record Call Automation and Calling client SDK Teams interoperability (dial out) scenarios |
-| Calling | Public Preview | In Progress | Number Lookup | An API that allows developers to retrieve number details including number type and carrier details. |
+| Calling | Public Preview | Launched | Number Lookup | An API that allows developers to retrieve number details including number type and carrier details. |
 | Calling | Public Preview | Launched | Geo Expansion | Direct Offers for Australia and Japan (Geo and TF numbers) |
 | Calling | Public Preview | Launched | Geo Expansion | Direct Offers for 21 countries (Inbound TF only) |
 | Calling | GA | In Progress | Geo Expansion | Direct Offers in FR, ES, CH, BE, LU, AT, PT, SK, NO, NL, DE, DK |
 | Calling | Public Preview | In Progress | Cross Country Offers | Making all available offers possible to purchase from US, JP, UK, CA, DE, IT, NL, AU, FR, ES billing locations |
 | Calling | GA | In Progress | Direct Routing | Improve SBC failover switching by using OPTIONS|
 | Calling | GA | In Progress | Direct Routing | Try Telephony. Azure Portal allows testing of outbound and inbound telephony capabilities |
-| Calling | GA | In Progress | Raised hand | APIs that allow developers to empower users to raise and lower hands |
-| Calling | GA | In Progress | Spotlight | APIs that allow developers to control and subscribe to Spotlight participants in Microsoft Teams meetings.
+| Calling | GA | Launched | Raised hand | APIs that allow developers to empower users to raise and lower hands |
+| Calling | GA | Launched | Spotlight | APIs that allow developers to control and subscribe to Spotlight participants in Microsoft Teams meetings.
 | Calling | GA | In Progress | Lobby Management | APIs that allow organizers, co-organizers, and presenters to manage participants in a call lobby
 | Calling | Public Preview| In Progress | Ad hoc calling in Teams Interoperability | Developers can use the calling SDKs to call federated Microsoft 365 users |
 | Calling | GA | Planned | Phone conference dial in | Microsoft Teams meeting supporting conferencing can provide phone number and conference ID to join call via a phone call |
 | Calling | GA | Planned | Recording notification | Recording feature supports local recording triggered by Microsoft 365 users in Teams clients. |
-| Calling | GA | In Progress | Capability APIs in Microsoft Teams meeting | Capability APIs that show only buttons that the user can select during a Teams meeting. |
+| Calling | GA | Launched | Capability APIs in Microsoft Teams meeting | Capability APIs that show only buttons that the user can select during a Teams meeting. |
 | Calling | Public Preview | In Progress | Call Automation/Media AI | Enable AI capabilities with Text-to-Speech and Speech-to-Text using Azure Cognitive Services |
 | Calling | Public Preview | Launched | DTMF Enhancements | Developers can Send DTMF tones to external participants or  choose to continuously receive DTMF tones from call participants. |
-| Calling | GA | In Progress | Closed Captions | Closed captions capabilities for participants during Teams interoperability scenarios on web and native platforms. |
+| Calling | GA | Launched | Closed Captions | Closed captions capabilities for participants during Teams interoperability scenarios on web and native platforms. |
 
 
 
