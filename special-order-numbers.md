@@ -5,23 +5,23 @@ Customers are limited to purchasing one phone number per tenant for Azure Commun
 
 For a new number order, you will need to work through the following steps: 
 1) Download one of the forms below:
-    - [Number Request Form for United States, Canada, United Kingdom, Denmark](./Forms/ACS-Manual-Number-Acquisition-Form-US-UK-CA-DK.docx?raw=1)
-    - [Number Request Form for Ireland](./Forms/ACS-Manual-Number-Acquisition-Form-for-Ireland.docx?raw=1)
-    - [Number Request Form for Italy](./Forms/ACS-Manual-Number-Acquisition-Form-for-Italy.docx?raw=1)
-    - [Number Request Form for Sweden](./Forms/ACS-Manual-Number-Acquisition-Form-for-Sweden.docx?raw=1)
-    - [Number Request Form for Portugal](./Forms/ACS-Manual-Number-Acquisition-Form-for-Portugal.docx?raw=1)
-    - [Number Request Form for Austria](./Forms/ACS-Manual-Number-Acquisition-Form-for-Austria.docx?raw=1)
-    - [Number Request Form for France](./Forms/ACS-Manual-Number-Acquisition-Form-for-France.docx?raw=1)
-    - [Number Request Form for Norway](./Forms/ACS-Manual-Number-Acquisition-Form-for-Norway.docx?raw=1)
-    - [Number Request Form for Spain](./Forms/ACS-Manual-Number-Acquisition-Form-for-Spain.docx?raw=1)
-    - [Number Request Form for Switzerland](./Forms/ACS-Manual-Number-Acquisition-Form-for-Switzerland.docx?raw=1)
-    - [Number Request Form for Belgium](./Forms/ACS-Manual-Number-Acquisition-Form-for-Belgium.docx?raw=1)
-    - [Number Request Form for Luxembourg](./Forms/ACS-Manual-Number-Acquisition-Form-for-Luxembourg.docx?raw=1)
-    - [Number Request Form for Slovakia](./Forms/ACS-Manual-Number-Acquisition-Form-for-Slovakia.docx?raw=1)
-    - [Number Request Form for Netherlands](./Forms/ACS-Manual-Number-Acquisition-Form-for-Netherlands.docx?raw=1)
-    - [Number Request Form for Germany](./Forms/ACS-Manual-Number-Acquisition-Form-for-Germany.docx?raw=1)
-    - [Number Request Form for Australia](./Forms/ACS-Manual-Number-Acquisition-Form-for-Australia.docx?raw=1)
-    - [Number Request Form for China, Finland, Hong Kong, Israel, New Zealand, Poland, Singapore, Taiwan, Thailand](./Forms/ACS-Manual-Number-Acquisition-Form-for-TF-InboundOnly.docx?raw=1)
+    - [Number Request Form for United States, Canada, United Kingdom, Denmark](./Forms/ACS-Manual-Number-Acquisition-Form-US-UK-CA-DK.docx)
+    - [Number Request Form for Ireland](./Forms/ACS-Manual-Number-Acquisition-Form-for-Ireland.docx)
+    - [Number Request Form for Italy](./Forms/ACS-Manual-Number-Acquisition-Form-for-Italy.docx)
+    - [Number Request Form for Sweden](./Forms/ACS-Manual-Number-Acquisition-Form-for-Sweden.docx)
+    - [Number Request Form for Portugal](./Forms/ACS-Manual-Number-Acquisition-Form-for-Portugal.docx)
+    - [Number Request Form for Austria](./Forms/ACS-Manual-Number-Acquisition-Form-for-Austria.docx)
+    - [Number Request Form for France](./Forms/ACS-Manual-Number-Acquisition-Form-for-France.docx)
+    - [Number Request Form for Norway](./Forms/ACS-Manual-Number-Acquisition-Form-for-Norway.docx)
+    - [Number Request Form for Spain](./Forms/ACS-Manual-Number-Acquisition-Form-for-Spain.docx)
+    - [Number Request Form for Switzerland](./Forms/ACS-Manual-Number-Acquisition-Form-for-Switzerland.docx)
+    - [Number Request Form for Belgium](./Forms/ACS-Manual-Number-Acquisition-Form-for-Belgium.docx)
+    - [Number Request Form for Luxembourg](./Forms/ACS-Manual-Number-Acquisition-Form-for-Luxembourg.docx)
+    - [Number Request Form for Slovakia](./Forms/ACS-Manual-Number-Acquisition-Form-for-Slovakia.docx)
+    - [Number Request Form for Netherlands](./Forms/ACS-Manual-Number-Acquisition-Form-for-Netherlands.docx)
+    - [Number Request Form for Germany](./Forms/ACS-Manual-Number-Acquisition-Form-for-Germany.docx)
+    - [Number Request Form for Australia](./Forms/ACS-Manual-Number-Acquisition-Form-for-Australia.docx)
+    - [Number Request Form for China, Finland, Hong Kong, Israel, New Zealand, Poland, Singapore, Taiwan, Thailand](./Forms/ACS-Manual-Number-Acquisition-Form-for-TF-InboundOnly.docx)
   
 
 2) Fill in the form and send the filled out form to acstns@microsoft.com. Use "ACS Number Request - CountryName" as part of your subject line
@@ -32,12 +32,12 @@ To port your existing telephone numbers over to Azure Communication Services, yo
 
 You will need to work through the following steps:
 1) Download one of the forms below:
-    - [Port In Form for United States and Puerto Rico](./Forms/ACS-Port-In-Form-Geographic-and-Toll-Free-(United-States-and-Puerto-Rico).docx?raw=1)
-    - [Port In Form for Canada](./Forms/ACS-Port-In-Form-Geographic-and-Toll-Free-(Canada).docx?raw=1)
-    - [Port In Form for United Kingdom](./Forms/ACS-Port-In-Form-Geographic-and-Toll-Free-(United-Kingdom).pdf?raw=1)
-    - [Port In Form for Sweden](./Forms/ACS-Port-In-Form-Geographic-and-Toll-Free-(Sweden).pdf?raw=1)
-    - [Port In Form for Ireland](./Forms/ACS-Port-In-Form-Geographic-and-Toll-Free-(Ireland).pdf?raw=1)
-    - [Port In Form for Italy](./Forms/ACS-Port-In-Form-Geographic-and-Toll-Free-(Italy).pdf?raw=1)
+    - [Port In Form for United States and Puerto Rico](./Forms/ACS-Port-In-Form-Geographic-and-Toll-Free-(United-States-and-Puerto-Rico).docx)
+    - [Port In Form for Canada](./Forms/ACS-Port-In-Form-Geographic-and-Toll-Free-(Canada).docx)
+    - [Port In Form for United Kingdom](./Forms/ACS-Port-In-Form-Geographic-and-Toll-Free-(United-Kingdom).pdf)
+    - [Port In Form for Sweden](./Forms/ACS-Port-In-Form-Geographic-and-Toll-Free-(Sweden).pdf)
+    - [Port In Form for Ireland](./Forms/ACS-Port-In-Form-Geographic-and-Toll-Free-(Ireland).pdf)
+    - [Port In Form for Italy](./Forms/ACS-Port-In-Form-Geographic-and-Toll-Free-(Italy).pdf)
 
     
 2) Fill in the form. 
