@@ -6,6 +6,30 @@ It identifies some of the significant features we are currently working on and p
 
 These features are the current plans for the stated quarter at this time and are subject to change. The **Area** column reflects the area of the product the feature aligns with most, and **Release**  indicates if the feature will be in public preview or generally available, and **Status** indicates where we are in the development cycle. <!-- Links are provided to Azure DevOps (ADO) tracking that is used internally by Microsoft.-->
 
+### CY2023 Q4
+October - December 2023
+| Area    | Release        | Status  |  Feature |Description                                                |
+| ------- | -------------- | ------| ----|------------------------------------------------------|
+| Advanced Messaging | Public Preview | Launched | WhatsApp | Adding WhatsApp as a channel to send/receive text messages |
+| Email | Public Preview | In Progress | SMTP Support | Send an email using SMTP endpoint |
+| Chat | GA | Planned | Chat Channel for Bot Framework | Adding Azure bot to Azure Communication Services Chat Channel |
+| Number Management | Public Preview | Planned | Chery Picker API | Customers can pick multiple numbers at once from online portal and SDK |
+| Call Automation | GA | Planned | Advanced Actions with Azure AI Speech | Enhancing the current Call Automation play and recognize actions to support Text-to-Speech and Speech-to-Text as well as support for custom voices and custom speech models. |
+| Call Automation | GA | Planned | Custom Context Support | Developers can now share custom info with agents and bots when routing calls to them; also enables support for SIP UUI and custom headers for scenarios where the call is being routed between Azure Communication Services and SIP networks using Direct Routing.  |
+| Call Automation | GA | Planned | Group Transfer | In addition to supporting blind transfers in 1:1 call, developers will now be able to transfer a user from a group call to another endpoint. |
+| Call Automation | GA | Planned | Cancel Add Participant | Have the flexibility to cancel previously initiated Add Participant requests if the call invite hasn't been accepted by the target user. |
+| Call Automation | GA | Planned | Override Callback URI | Support for overriding the original callback URI so developers can configure to receive events for a particular action to a different endpoint.  |
+| Call Automation | GA | Planned | Send DTMF | Support for sending DTMF tones from a Call Automation app to 3rd Party applications/IVRs. |
+| Call Automation | GA | Planned | Continuous DTMF | Call Automation will support developers using continuous DTMF subscription to receive DTMF inputs throughout the call. |
+| Calling | Public Preview | Planned | Remote UFD | Calling to support the ability to see remote User Facing Diagnositcs (UFD). |
+| Calling | Public Preview | GA | Supporting on WebJ 1080P receive | WebJS calling SDK to support the ability to receive 1 1080P incoming video stream. |
+
+
+
+
+
+
+
 
 ### CY2023 Q3
 July - September 2023
@@ -32,28 +56,5 @@ July - September 2023
 | Calling | Public Preview | In Progress | Call Automation/Media AI | Enable AI capabilities with Text-to-Speech and Speech-to-Text using Azure Cognitive Services |
 | Calling | Public Preview | Launched | DTMF Enhancements | Developers can Send DTMF tones to external participants or  choose to continuously receive DTMF tones from call participants. |
 | Calling | GA | Launched | Closed Captions | Closed captions capabilities for participants during Teams interoperability scenarios on web and native platforms. |
-
-
-
-### CY2023 Q2
-April - June 2023
-| Area    | Release        | Status  |  Feature | Description                                                |
-| ------- | -------------- | ------| ----|------------------------------------------------------|
-| Email | GA | Launched | Email |  APIs that allow developers to add email capabilities to their applications |
-| Calling    | GA | In Progress | Background Blur  | Allows the participants to blur their background during call time. This will be available across native platforms (Windows, Android & iOS) |
-| Calling    | GA | Launched | Windows SDK | Set of APIs to allow calling capabilities using Windows native development. |
-| Calling    | GA | In Progress | User Facing Diagnostics | Enables real-time call monitoring to diagnose issues. This will be available across native platforms (Windows, Android & iOS). |
-| Calling    | Public Preview | Planned | Client Logs | Enables developers to get the log files from their customer devices quickly to support troubleshooting and error trace. This will be available across native platforms (Windows, Android & iOS). |
-| Calling    | Public Preview | Launched | Closed Captions | Enables closed captions in Teams Interoperability scenarios. 
-| Calling    | Public Preview | In Progress | Picture in Picture (PiP) | UI Library allows users to open another application without disconnecting an ongoing call. This will be available across UI Library calling composite platforms (Android & iOS).
-| Calling    | Public Preview | Launched | Raised hand | APIs that allow developers to raise and lower hands. |
-| Calling    | Public Preview | Launched | Spotlight | APIs that allow developers to control and subscribe to Spotlight of participants in Teams meeting. |
-| Calling    | Public Preview | Launched | Lobby management |  APIs that allow organizers, co-organizers, and presenters to manage participants in a call lobby |
-| Calling    | Public Preview | Move to Q3 | Ad-hoc calling in Teams Interoperability | Developers can use the calling SDKs to call federated Microsoft 365 users. |
-| Calling    | Public Preview | Planned | Unmixed Raw Audio | Allows developers to easily access, process, enhance, and send real-time raw audio, video and screen sharing media streams. This will be available across native platforms (Windows, Android & iOS). |
-| Calling    | Public Preview | In Progress | Rooms SDK support | UI Library now supports API that allows users to join calls using room ID (Note: currently roles are not supported). |
-| PSTN    | Public Preview | Launched | Direct Routing | Enables customers to use their existing numbers with Dynamics 365 Omnichannel, Power Virtual Agents, Azure Communication Services Interaction SDK and with a variety of Azure services including Azure functions and Logic Apps. |
-| Chat | Public Preview | Launched | Image Sharing | APIs that allows developers share images from Teams client within a Teams Interoperability scenario. |
-
 
 
