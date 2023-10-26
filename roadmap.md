@@ -22,8 +22,8 @@ October - December 2023
 | Call Automation | GA | Planned | Send DTMF | Support for sending DTMF tones from a Call Automation app to 3rd Party applications/IVRs. |
 | Call Automation | GA | Planned | Continuous DTMF | Call Automation will support developers using continuous DTMF subscription to receive DTMF inputs throughout the call. |
 | Calling | Public Preview | Planned | Remote UFD | Calling to support the ability to see remote User Facing Diagnositcs (UFD). |
-| Calling | Public Preview | GA | Supporting on WebJ 1080P receive | WebJS calling SDK to support the ability to receive 1 1080P incoming video stream. |
-
+| Calling | Public Preview | Planned | Supporting on WebJ 1080P receive | WebJS calling SDK to support the ability to receive 1 1080P incoming video stream. |
+| Job Router | GA | Planned | Job Router | SDKs and APIs to create, classify, enqueue and distribute Jobs (interactions) to the most suitable worker. |
 
 
 
