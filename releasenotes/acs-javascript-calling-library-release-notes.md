@@ -23,7 +23,7 @@ If you are working with **Teams users**, please follow the `Teams identities` do
  - Bug fixes and telemetry imporevements
  - Added missing reaction capability resolution for teams and rooms meetings
  - Fixed broken regression bug due to Reaction Feature not being initialized in Lobby
- - Call survey - validate survey data types. Throw validation error if there is unexpected elemets in survey data.
+ - Call survey - validate survey data types. Throw validation error if there is unexpected elements in survey data.
 
 ## 1.17.1 stable (2023-10-02)
 - Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.17.1](https://www.npmjs.com/package/@azure/communication-calling/v/1.17.1)
