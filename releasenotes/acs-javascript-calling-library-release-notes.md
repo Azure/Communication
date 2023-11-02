@@ -10,6 +10,20 @@ If you are working with **Teams users**, please follow the `Teams identities` do
 - [Teams Identities quick start](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/get-started-with-voice-video-calling-custom-teams-client)
 - [Teams Identities object model](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/get-started-with-voice-video-calling-custom-teams-client#azure-communication-services-calling-web-sdk-object-model)
 
+## 1.19.1-beta.2 (2023-11-02)
+- Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.19.1-beta.2](https://www.npmjs.com/package/@azure/communication-calling/v/1.19.1-beta.2)
+
+### New Features
+ - PPTLive -  View the powerpoint in teams meeting as attendee.
+ - CallInfoCommon.participantId - The local participant Id
+ - RemoteParticipant.endpointDetails - The details of all the endpoints for this remote participant such as the participant id
+ - Teams Meeting Audio Conferencing - Expose the DialIn provisioned PSTN numbers of a Teams Meeting
+
+### Fixes
+ - Bug fixes and telemetry imporevements
+ - Added missing reaction capability resolution for teams and rooms meetings
+ - Fixed broken regression bug due to Reaction Feature not being initialized in Lobby
+
 ## 1.17.1 stable (2023-10-02)
 - Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.17.1](https://www.npmjs.com/package/@azure/communication-calling/v/1.17.1)
 
