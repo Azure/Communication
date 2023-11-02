@@ -20,7 +20,7 @@ If you are working with **Teams users**, please follow the `Teams identities` do
  - Teams Meeting Audio Conferencing - Expose the DialIn provisioned PSTN numbers of a Teams Meeting
 
 ### Fixes
- - Bug fixes and telemetry imporevements
+ - Bug fixes and telemetry improvements
  - Added missing reaction capability resolution for teams and rooms meetings
  - Fixed broken regression bug due to Reaction Feature not being initialized in Lobby
  - Call survey - validate survey data types. Throw validation error if there is unexpected elements in survey data.
