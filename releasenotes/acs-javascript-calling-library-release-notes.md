@@ -10,6 +10,24 @@ If you are working with **Teams users**, please follow the `Teams identities` do
 - [Teams Identities quick start](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/get-started-with-voice-video-calling-custom-teams-client)
 - [Teams Identities object model](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/get-started-with-voice-video-calling-custom-teams-client#azure-communication-services-calling-web-sdk-object-model)
 
+## 1.18.1 stable (2023-11-02)
+- Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.18.1](https://www.npmjs.com/package/@azure/communication-calling/v/1.18.1)
+
+### New Features
+ - Reaction - Send and receive meeting reactions in calls and Teams meetings.
+ - Soft Mute - Mute a specific participant or all participants in the call.
+ - Teams Meeting Audio Conferencing - Retrieve the pstn dial in details of a Teams Meeting.
+ - ACS support to call Teams voice applications such as an Auto Attendant or Call Queue.
+ - Join Teams Meeting with MeetingId and Passcode.
+ - Call survey - validate survey data types. Throw validation error if there is unexpected elements in survey data.
+ - Reaction API made available for GA and Reaction Capability resolution added for teams meetings
+
+### Fixes
+ - Bug fixes and telemetry imporevements
+ - `MicrosoftBotIdentifier` was renamed to `MicrosoftTeamsAppIdentifier` in new `@azure/communication-common@2.3.0`
+ - Fixed broken regression bug due to Reaction Feature not being initialized in Lobby
+ - Fix long delay for selectSpeaker and selectMicrophone API
+
 ## 1.19.1-beta.2 (2023-11-02)
 - Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.19.1-beta.2](https://www.npmjs.com/package/@azure/communication-calling/v/1.19.1-beta.2)
 
