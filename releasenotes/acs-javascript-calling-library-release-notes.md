@@ -14,11 +14,11 @@ If you are working with **Teams users**, please follow the `Teams identities` do
 - Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.18.1](https://www.npmjs.com/package/@azure/communication-calling/v/1.18.1)
 
 ### New Features
- - Call survey - validate survey data types. Throw validation error if there is unexpected elements in survey data.
  - Reaction API made available for GA and Reaction Capability resolution added for teams meetings
 
 ### Fixes
  - Bug fixes and telemetry imporevements
+ - Call survey - validate survey data types. Throw validation error if there is unexpected elements in survey data.
  - Fixed broken regression bug due to Reaction Feature not being initialized in Lobby
  - Fix long delay for selectSpeaker and selectMicrophone API
 
