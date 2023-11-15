@@ -1,5 +1,11 @@
 # ACS Calling SDK release notes
 
+## v1.3.0
+
+### New Features:
+- Spotlight Call Feature for Teams Meetings.
+- CallDebugDetails Support retrival of debug details from CallAgent.
+
 ## v1.2.0
 
 ### New Features:
@@ -23,5 +29,3 @@
 - Mid-call operations (Switch between Video devices)
 - Mid-call operations (Add/Remove participant to/from the ongoing audio/video call)
 - Dominant Speaker Feature: Dominant speakers is an extended feature that allows you to obtain a list of the active speakers in the call. The dominant speakers list can change dynamically according to the activity of the participants on the call
-
-
