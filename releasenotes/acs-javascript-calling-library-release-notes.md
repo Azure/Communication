@@ -15,6 +15,7 @@ If you are working with **Teams users**, please follow the `Teams identities` do
 
 ### New Features
  - Reaction API made available for GA and Reaction Capability resolution added for teams meetings
+ - Teams Meeting Audio Conferencing API made available for GA
 
 ### Fixes
  - Bug fixes and telemetry imporevements
@@ -29,7 +30,6 @@ If you are working with **Teams users**, please follow the `Teams identities` do
  - PPTLive -  View the powerpoint in teams meeting as attendee.
  - CallInfoCommon.participantId - The local participant Id
  - RemoteParticipant.endpointDetails - The details of all the endpoints for this remote participant such as the participant id
- - Teams Meeting Audio Conferencing - Expose the DialIn provisioned PSTN numbers of a Teams Meeting
 
 ### Fixes
  - Bug fixes and telemetry improvements
