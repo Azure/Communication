@@ -23,6 +23,22 @@ If you are working with **Teams users**, please follow the `Teams identities` do
  - Fixed broken regression bug due to Reaction Feature not being initialized in Lobby
  - Fix long delay for selectSpeaker and selectMicrophone API
 
+### Breaking API Changes
+ - Enforce callAgent to be created ONLY with ACS token. Creating a callAgent with any other token will throw an error
+    ```js
+    const userToken = '<ACCESS_TOKEN_FOR_ACS_IDENTITY>';
+    callClient = new CallClient();
+    const tokenCredential = new AzureCommunicationTokenCredential(userToken);
+    const callAgent = await callClient.createCallAgent(tokenCredential);
+    ```
+ - Enforce teamsCallAgent to be created only with Microsoft 365 user token. Creating a teamsCallAgent with any other token will throw an error
+    ```js
+    const userToken = '<ACCESS_TOKEN_FOR_MICROSOFT_365_IDENTITY>';
+    callClient = new CallClient();
+    const tokenCredential = new AzureCommunicationTokenCredential(userToken);
+    const teamsCallAgent = await callClient.createTeamsCallAgent(tokenCredential);
+    ```
+
 ## 1.19.1-beta.2 (2023-11-02)
 - Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.19.1-beta.2](https://www.npmjs.com/package/@azure/communication-calling/v/1.19.1-beta.2)
 
@@ -36,6 +52,22 @@ If you are working with **Teams users**, please follow the `Teams identities` do
  - Added missing reaction capability resolution for teams and rooms meetings
  - Fixed broken regression bug due to Reaction Feature not being initialized in Lobby
  - Call survey - validate survey data types. Throw validation error if there is unexpected elements in survey data.
+
+### Breaking API Changes
+ - Enforce callAgent to be created ONLY with ACS token. Creating a callAgent with any other token will throw an error
+    ```js
+    const userToken = '<ACCESS_TOKEN_FOR_ACS_IDENTITY>';
+    callClient = new CallClient();
+    const tokenCredential = new AzureCommunicationTokenCredential(userToken);
+    const callAgent = await callClient.createCallAgent(tokenCredential);
+    ```
+ - Enforce teamsCallAgent to be created only with Microsoft 365 user token. Creating a teamsCallAgent with any other token will throw an error 
+    ```js
+    const userToken = '<ACCESS_TOKEN_FOR_MICROSOFT_365_IDENTITY>';
+    callClient = new CallClient();
+    const tokenCredential = new AzureCommunicationTokenCredential(userToken);
+    const teamsCallAgent = await callClient.createTeamsCallAgent(tokenCredential);
+    ```
 
 ## 1.17.1 stable (2023-10-02)
 - Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.17.1](https://www.npmjs.com/package/@azure/communication-calling/v/1.17.1)
