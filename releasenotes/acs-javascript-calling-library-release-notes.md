@@ -10,6 +10,23 @@ If you are working with **Teams users**, please follow the `Teams identities` do
 - [Teams Identities quick start](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/get-started-with-voice-video-calling-custom-teams-client)
 - [Teams Identities object model](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/get-started-with-voice-video-calling-custom-teams-client#azure-communication-services-calling-web-sdk-object-model)
 
+## 1.19.1 stable (2023-11-22)
+- Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.19.1](https://www.npmjs.com/package/@azure/communication-calling/v/1.19.1)
+
+### New Features
+ - participantId in CallInfo made available for GA
+ - Reaction Feature API made available for GA
+ - PPTLive Feature made available for GA
+
+
+## 1.20.1-beta.2 (2023-11-22)
+- Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.20.1-beta.2](https://www.npmjs.com/package/@azure/communication-calling/v/1.20.1-beta.2)
+
+### Fixes
+ - Fix for ask device permissions where permissions are denied at the OS level (Enrico, could you please confirm this right?)
+ - New isSupported method on the VideoEffectsFeature API to check support for effects. Deprecated the old one that on the effects themselves.
+
+
 ## 1.18.1 stable (2023-11-02)
 - Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.18.1](https://www.npmjs.com/package/@azure/communication-calling/v/1.18.1)
 
