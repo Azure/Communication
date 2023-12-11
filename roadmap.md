@@ -11,19 +11,19 @@ October - December 2023
 | Area    | Release        | Status  |  Feature |Description                                                |
 | ------- | -------------- | ------| ----|------------------------------------------------------|
 | Advanced Messaging | Public Preview | Launched | WhatsApp | Adding WhatsApp as a channel to send/receive text messages |
-| Email | Public Preview | In Progress | SMTP Support | Send an email using SMTP endpoint |
-| Chat | GA | Planned | Chat Channel for Bot Framework | Adding Azure bot to Azure Communication Services Chat Channel |
+| Email | Public Preview | Launched | SMTP Support | Send an email using SMTP endpoint |
+| Chat | GA | Launched | Chat Channel for Bot Framework | Adding Azure bot to Azure Communication Services Chat Channel |
 | Number Management | Public Preview | Planned | Chery Picker API | Customers can pick multiple numbers at once from online portal and SDK |
-| Call Automation | GA | Planned | Advanced Actions with Azure AI Speech | Enhancing the current Call Automation play and recognize actions to support Text-to-Speech and Speech-to-Text as well as support for custom voices and custom speech models. |
-| Call Automation | GA | In Progress | Custom Context Support | Developers can now share custom info with agents and bots when routing calls to them; also enables support for SIP UUI and custom headers for scenarios where the call is being routed between Azure Communication Services and SIP networks using Direct Routing.  |
+| Call Automation | GA | Launched | Advanced Actions with Azure AI Speech | Enhancing the current Call Automation play and recognize actions to support Text-to-Speech and Speech-to-Text as well as support for custom voices and custom speech models. |
+| Call Automation | GA | Launched | Custom Context Support | Developers can now share custom info with agents and bots when routing calls to them; also enables support for SIP UUI and custom headers for scenarios where the call is being routed between Azure Communication Services and SIP networks using Direct Routing.  |
 | Call Automation | GA | In Progress | Group Transfer | In addition to supporting blind transfers in 1:1 call, developers will now be able to transfer a user from a group call to another endpoint. |
 | Call Automation | GA | In Progress | Cancel Add Participant | Have the flexibility to cancel previously initiated Add Participant requests if the call invite hasn't been accepted by the target user. |
 | Call Automation | GA | In Progress | Override Callback URI | Support for overriding the original callback URI so developers can configure to receive events for a particular action to a different endpoint.  |
-| Call Automation | GA | In Progress | Send DTMF | Support for sending DTMF tones from a Call Automation app to 3rd Party applications/IVRs. |
-| Call Automation | GA | Planned | Continuous DTMF | Call Automation will support developers using continuous DTMF subscription to receive DTMF inputs throughout the call. |
+| Call Automation | GA | Launched | Send DTMF | Support for sending DTMF tones from a Call Automation app to 3rd Party applications/IVRs. |
+| Call Automation | GA | Launched | Continuous DTMF | Call Automation will support developers using continuous DTMF subscription to receive DTMF inputs throughout the call. |
 | Calling | Public Preview | Planned | Remote UFD | Calling to support the ability to see remote User Facing Diagnositcs (UFD). |
 | Calling | Public Preview | Planned | Supporting on WebJ 1080P receive | WebJS calling SDK to support the ability to receive 1 1080P incoming video stream. |
-| Job Router | GA | In Progress | Job Router | SDKs and APIs to create, classify, enqueue and distribute Jobs (interactions) to the most suitable worker. |
+| Job Router | GA | Launched | Job Router | SDKs and APIs to create, classify, enqueue and distribute Jobs (interactions) to the most suitable worker. |
 
 
 
