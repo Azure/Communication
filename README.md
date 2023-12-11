@@ -34,11 +34,12 @@ Communication Services APIs are documented alongside other Azure REST APIs in [l
 |------------------------|-----------------------------------------------------------------|
 | Azure Resource Manager | Provision and manage Communication Services resources           |
 | Calling                | Voice, video, screen-sharing, and other real-time communication |
-| Calling Server         | Make and manage calls, play audio, and configure recording      |
+| Call Automation        | Make and manage calls, play audio, and configure recording      |
 | Chat                   | Add real-time text based chat to your applications              |
 | Common                 | Provides base types for other SDKs                              |
 | Email                  | Facilitates high volume transactional, and enable Application-to-Person (A2P) use cases               |
 | Identity               | Manage users, access tokens                                     |
+| Job Router             | Create and manage jobs, queues and workers                      |
 | Phone numbers          | Acquire and manage phone numbers                                |
 | Rooms                  | Control who can join a call, when they meet and how they collaborate |
 | SMS                    | Send and receive SMS messages                                   |
@@ -60,6 +61,7 @@ Publishing locations for individual SDK packages are detailed below.
 | Calling| [npm](https://www.npmjs.com/package/@azure/communication-calling) | [NuGet](https://www.nuget.org/packages/Azure.Communication.Calling.WindowsClient) | -| - | [GitHub](https://github.com/Azure/Communication/releases) | [Maven](https://search.maven.org/artifact/com.azure.android/azure-communication-calling/)| -|
 |Call Automation||[nuget](https://www.nuget.org/packages/Azure.Communication.CallingServer/)||[Maven](https://search.maven.org/artifact/com.azure/azure-communication-callingserver)
 |Email | [npm](https://www.npmjs.com/package/@azure/communication-email) | [NuGet](https://www.nuget.org/packages/Azure.Communication.Email) | - | - | - | - | - |
+| Job Router | [npm](https://www.npmjs.com/package/@azure-rest/communication-job-router) | [NuGet](https://www.nuget.org/packages/Azure.Communication.JobRouter) | [PyPi](https://pypi.org/project/azure-communication-jobrouter/) | [Maven](https://search.maven.org/search?q=a:azure-communication-jobrouter) | - | - | - |
 | Rooms | [npm](https://www.npmjs.com/package/@azure/communication-rooms/v/1.0.0-beta.1) | [NuGet](https://www.nuget.org/packages/Azure.Communication.Rooms/1.0.0-beta.1) | [PyPi](https://pypi.org/project/azure-communication-rooms/) | [Maven](https://repo1.maven.org/maven2/com/azure/azure-communication-rooms/1.0.0-beta.2/) | [GitHub](https://github.com/Azure/Communication/releases/tag/v2.3.0-beta.1) | [Maven](https://search.maven.org/artifact/com.azure.android/azure-communication-calling/2.4.0-beta.1/aar) | - |
 |Network Traversal| [npm](https://www.npmjs.com/package/@azure/communication-network-traversal)|[nuget](https://www.nuget.org/packages/Azure.Communication.NetworkTraversal/) |  [PyPi](https://pypi.org/project/azure-communication-networktraversal/)| [Maven](https://search.maven.org/search?q=a:azure-communication-networktraversal) | - | - |
 | UI Library| [npm](https://www.npmjs.com/package/@azure/communication-react) | - | - | - | [GitHub](https://github.com/Azure/communication-ui-library-ios) | [GitHub](https://github.com/Azure/communication-ui-library-android) | [GitHub](https://github.com/Azure/communication-ui-library), [Storybook](https://azure.github.io/communication-ui-library/?path=/story/overview--page) |
