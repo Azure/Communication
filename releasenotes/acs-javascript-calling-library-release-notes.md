@@ -10,6 +10,14 @@ If you are working with **Teams users**, please follow the `Teams identities` do
 - [Teams Identities quick start](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/get-started-with-voice-video-calling-custom-teams-client)
 - [Teams Identities object model](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/get-started-with-voice-video-calling-custom-teams-client#azure-communication-services-calling-web-sdk-object-model)
 
+## 1.20.1 stable (2023-12-12)
+- Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.20.1](https://www.npmjs.com/package/@azure/communication-calling/v/1.20.1)
+
+### New Features
+ - Media quality stats API made available for GA
+ - Sender video constraints feature made available for GA
+ - Data channel Feature made available for GA
+  
 ## 1.19.1 stable (2023-11-22)
 - Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.19.1](https://www.npmjs.com/package/@azure/communication-calling/v/1.19.1)
 
