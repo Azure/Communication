@@ -17,6 +17,9 @@ If you are working with **Teams users**, please follow the `Teams identities` do
  - Media quality stats API made available for GA
  - Sender video constraints feature made available for GA
  - Data channel Feature made available for GA
+
+### Fixes
+ - Fix screen sharing being cropped when resizing the sharing window
   
 ## 1.19.1 stable (2023-11-22)
 - Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.19.1](https://www.npmjs.com/package/@azure/communication-calling/v/1.19.1)
