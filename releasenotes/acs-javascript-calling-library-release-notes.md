@@ -10,6 +10,28 @@ If you are working with **Teams users**, please follow the `Teams identities` do
 - [Teams Identities quick start](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/get-started-with-voice-video-calling-custom-teams-client)
 - [Teams Identities object model](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/get-started-with-voice-video-calling-custom-teams-client#azure-communication-services-calling-web-sdk-object-model)
 
+## 1.21.1-beta.4 (2024-01-09)
+- Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.21.1-beta.4](https://www.npmjs.com/package/@azure/communication-calling/v/1.21.1-beta.4)
+
+### New Features
+ - Introduced subCodes and resultCategories in exceptions thrown by the sdk
+ - `voip.join` toke scope to have token based access control
+ - Update the public interface in MediaStats feature
+
+### Fixes
+ - Fix an potential unhandled error when subscribing the raw screensharing stream.
+ - Hide unexpected bot participants
+
+### Breaking API Changes
+ - `call.feature(Features.Capabilities).capabilities.reaction` property renamed to `call.feature(Features.Capabilities).capabilities.useReaction`.
+
+## 1.19.2-beta.2 (2024-01-09)
+- Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.19.2-beta.2](https://www.npmjs.com/package/@azure/communication-calling/v/1.19.2-beta.2)
+
+### Fixes
+ - Hide unexpected bot participants
+ - Show correct participant count in XL meeting
+ 
 ## 1.20.1 stable (2023-12-12)
 - Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.20.1](https://www.npmjs.com/package/@azure/communication-calling/v/1.20.1)
 
