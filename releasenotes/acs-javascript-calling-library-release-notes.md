@@ -56,7 +56,7 @@ If you are working with **Teams users**, please follow the `Teams identities` do
 - Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.20.1-beta.2](https://www.npmjs.com/package/@azure/communication-calling/v/1.20.1-beta.2)
 
 ### Fixes
- - Fix for ask device permissions where permissions are denied at the OS level (Enrico, could you please confirm this right?)
+ - Fix for ask device permissions where permissions are denied at the OS level
  - New isSupported method on the VideoEffectsFeature API to check support for effects. Deprecated the old one that on the effects themselves.
 
 
