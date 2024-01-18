@@ -29,6 +29,7 @@ If you are working with **Teams users**, please follow the `Teams identities` do
 - Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.19.2-beta.2](https://www.npmjs.com/package/@azure/communication-calling/v/1.19.2-beta.2)
 
 ### Fixes
+ - Workaround for a bug on iOS, Users making video calls on iOS with Safari (iOS versions 16 and 17) browser would send incorrect video resolution from the iOS Safari browser, resulting in no video being rendered on the receiver side
  - Hide unexpected bot participants
  - Show correct participant count in XL meeting
  
