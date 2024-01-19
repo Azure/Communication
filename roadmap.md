@@ -17,6 +17,7 @@ January - March 2024
 | Rooms | Public Preview | Launched | Soft mute Calling and Rooms SDK | Soft mute capability allows a user with Presenter or Organizer to mute any other user in the call. Muted user can unmute themselves if needed. |
 | Calling | GA | Launched | Access Tokens - Calling | Additional token scopes for secure conversations with permissions to prevent thread deletion and additional users from joining the conversation. |
 | Calling | GA | Planned | Video Constraints | Send video constraints using native SDK |
+| Calling | GA | Planned | Call Info | ACS WebJS API that returns the current state of a call |
 | Email | GA | Planned | Email SMTP | SMTP Support for email communication |
 | Advanced Messaging | GA | Planned | WhatsApp | Ability for companies to communicate with end users via WhatsApp |
 | Virtual Appointments | GA | Planned | Phone Conf Dial-In | Users can learn conference dial-in details for Microsft Teams meetings. |
