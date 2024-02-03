@@ -10,6 +10,14 @@ If you are working with **Teams users**, please follow the `Teams identities` do
 - [Teams Identities quick start](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/get-started-with-voice-video-calling-custom-teams-client)
 - [Teams Identities object model](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/get-started-with-voice-video-calling-custom-teams-client#azure-communication-services-calling-web-sdk-object-model)
 
+## 1.22.1-beta.1 (2024-02-03 TODO)
+- Available in NPM - TODO [https://www.npmjs.com/package/@azure/communication-calling/v/1.19.2-beta.2](https://www.npmjs.com/package/@azure/communication-calling/v/1.19.2-beta.2)
+
+### Fixes
+ - Improved the PPTLive feature so that it only shows the active signal after the call has been connected.
+ - Always render N number of videos in a large meeting. Dominant speakers video will be rendered as priority then non-dominant speakers by their join order (if need to have N videos).
+ - Enabled auto-acceptance for transfer requests within the transfer feature. Replaced the `transferRequested` event with `transferAccepted` to facilitate automatic acceptance.
+
 ## 1.21.1-beta.4 (2024-01-09)
 - Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.21.1-beta.4](https://www.npmjs.com/package/@azure/communication-calling/v/1.21.1-beta.4)
 
