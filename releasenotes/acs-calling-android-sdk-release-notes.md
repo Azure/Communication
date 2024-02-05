@@ -1,5 +1,24 @@
 # ACS Calling Android (Java) SDK - Release History
 
+## 2.6.0 (2024-02-02)
+
+### New Features:
+  - Support Proxy feature to allow users specify and use their own http proxy and media relays.
+  - Spotlight Call Feature for Teams Meetings.
+  - Add Audio Filter into AudioOptions to allow configuring of settings for echo cancellation, automatic gain control, and noise suppression
+  - Add Teams Meeting Lobby support.
+  - Add `setCommunicationAudioModeEnabled` method in  `OutgoingAudioOptions` to enable MODE_IN_COMMUNICATION for the call https://developer.android.com/reference/android/media/AudioManager#MODE_IN_COMMUNICATION
+
+## 2.6.0-beta.7 (2024-01-24)
+
+### Bug Fixes:
+  - Maintenance release.
+
+## 2.6.0-beta.6 (2023-12-21)
+
+### Bug Fixes:
+  - Maintenance release.
+
 ## 2.6.0-beta.5 (2023-12-08)
 
 ### Bug Fixes:
