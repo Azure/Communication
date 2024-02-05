@@ -16,7 +16,9 @@ If you are working with **Teams users**, please follow the `Teams identities` do
 ### Fixes
  - Improved the PPTLive feature so that it only shows the active signal after the call has been connected.
  - Always render N number of videos in a large meeting. Dominant speakers video will be rendered as priority then non-dominant speakers by their join order (if need to have N videos).
- - Enabled auto-acceptance for transfer requests within the transfer feature. Replaced the `transferRequested` event with `transferAccepted` to facilitate automatic acceptance.
+ - Enabled auto-acceptance for transfer requests within the transfer feature. Replaced the `transferRequested` event with `transferAccepted` due to auto-transfer acceptance.
+- Fix the video source when starting a video call with raw video stream.
+- Improved selectMicrophone/selectSpeaker input validation.
 
 ## 1.21.1-beta.4 (2024-01-09)
 - Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.21.1-beta.4](https://www.npmjs.com/package/@azure/communication-calling/v/1.21.1-beta.4)
