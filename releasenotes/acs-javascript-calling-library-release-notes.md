@@ -20,6 +20,7 @@ Support receiving one incoming video stream with Full HD(1080p) resolution
  - Always render N number of videos in a large meeting. Dominant speakers video will be rendered as priority then non-dominant speakers by their join order (if need to have N videos).
  - Enabled auto-acceptance for transfer requests within the transfer feature. Replaced the `transferRequested` event with `transferAccepted` due to auto-transfer acceptance.
  - Fix the video source when starting a video call with raw video stream.
+ - Improved selectMicrophone/selectSpeaker input validation.
 
 ## 1.21.1 stable (2024-02-07)
 - Available in NPM - TODO [https://www.npmjs.com/package/@azure/communication-calling/v/1.21.1](https://www.npmjs.com/package/@azure/communication-calling/v/1.21.1)
@@ -28,7 +29,7 @@ Support receiving one incoming video stream with Full HD(1080p) resolution
 - Support receiving one incoming video stream with Full HD(1080p) resolution
 
 ### Fixes
-- Improved selectMicrophone/selectSpeaker input validation.
+- Fix the video source when starting a video call with raw video stream.
 
 ## 1.21.1-beta.4 (2024-01-09)
 - Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.21.1-beta.4](https://www.npmjs.com/package/@azure/communication-calling/v/1.21.1-beta.4)
