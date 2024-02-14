@@ -11,13 +11,13 @@ If you are working with **Teams users**, please follow the `Teams identities` do
 - [Teams Identities object model](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/get-started-with-voice-video-calling-custom-teams-client#azure-communication-services-calling-web-sdk-object-model)
 
 ## 1.22.2-beta.1 (2024-02-13)
-- Available in NPM - TODO [https://www.npmjs.com/package/@azure/communication-calling/v/1.22.2-beta.1](https://www.npmjs.com/package/@azure/communication-calling/v/1.22.2-beta.1)
+- Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.22.2-beta.1](https://www.npmjs.com/package/@azure/communication-calling/v/1.22.2-beta.1)
 
 ### Fixes
  - Fix Transcription feature's 'isTranscriptionActive' flag
 
 ## 1.22.1 stable (2024-02-13)
-- Available in NPM - TODO [https://www.npmjs.com/package/@azure/communication-calling/v/1.22.1](https://www.npmjs.com/package/@azure/communication-calling/v/1.22.1)
+- Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.22.1](https://www.npmjs.com/package/@azure/communication-calling/v/1.22.1)
 
 ### New Features:
 - Transfer API made available for GA
@@ -26,7 +26,7 @@ If you are working with **Teams users**, please follow the `Teams identities` do
 - Fix Transcription feature's 'isTranscriptionActive' flag
 
 ## 1.22.1-beta.1 (2024-02-07)
-- Available in NPM - TODO [https://www.npmjs.com/package/@azure/communication-calling/v/1.22.1-beta.1](https://www.npmjs.com/package/@azure/communication-calling/v/1.22.1-beta.1)
+- Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.22.1-beta.1](https://www.npmjs.com/package/@azure/communication-calling/v/1.22.1-beta.1)
 ### New Features:
 Support receiving one incoming video stream with Full HD(1080p) resolution
 
@@ -38,7 +38,7 @@ Support receiving one incoming video stream with Full HD(1080p) resolution
  - Improved selectMicrophone/selectSpeaker input validation.
 
 ## 1.21.1 stable (2024-02-07)
-- Available in NPM - TODO [https://www.npmjs.com/package/@azure/communication-calling/v/1.21.1](https://www.npmjs.com/package/@azure/communication-calling/v/1.21.1)
+- Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.21.1](https://www.npmjs.com/package/@azure/communication-calling/v/1.21.1)
 
 ### New Features:
 - Support receiving one incoming video stream with Full HD(1080p) resolution
