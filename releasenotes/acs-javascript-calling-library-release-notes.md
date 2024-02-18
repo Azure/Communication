@@ -19,7 +19,7 @@ If you are working with **Teams users**, please follow the `Teams identities` do
 ## 1.21.2 (2024-02-16)
 - Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.21.2](https://www.npmjs.com/package/@azure/communication-calling/v/1.21.2)
 
-- ### Fixes
+### Fixes
 - Fixed MediaStats feature declaration in the type declaration file.
 
 ## 1.22.2-beta.1 (2024-02-13)
