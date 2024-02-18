@@ -10,6 +10,18 @@ If you are working with **Teams users**, please follow the `Teams identities` do
 - [Teams Identities quick start](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/get-started-with-voice-video-calling-custom-teams-client)
 - [Teams Identities object model](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/get-started-with-voice-video-calling-custom-teams-client#azure-communication-services-calling-web-sdk-object-model)
 
+## 1.22.2 (2024-02-16)
+- Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.22.2](https://www.npmjs.com/package/@azure/communication-calling/v/1.22.2)
+
+### Fixes
+- Fixed a raw video stream subscription error when the remote participant stops and starts sending video in a short time.
+
+## 1.21.2 (2024-02-16)
+- Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.21.2](https://www.npmjs.com/package/@azure/communication-calling/v/1.21.2)
+
+- ### Fixes
+- Fixed MediaStats feature declaration in the type declaration file.
+
 ## 1.22.2-beta.1 (2024-02-13)
 - Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.22.2-beta.1](https://www.npmjs.com/package/@azure/communication-calling/v/1.22.2-beta.1)
 
@@ -106,7 +118,7 @@ Support receiving one incoming video stream with Full HD(1080p) resolution
 
 ### Fixes
  - Bug fixes and telemetry imporevements
- - Call survey - validate survey data types. Throw validation error if there is unexpected elements in survey data.
+ - Call survey - validate survey data s. Throw validation error if there is unexpected elements in survey data.
  - Fixed broken regression bug due to Reaction Feature not being initialized in Lobby
  - Fix long delay for selectSpeaker and selectMicrophone API
 
@@ -138,7 +150,7 @@ Support receiving one incoming video stream with Full HD(1080p) resolution
  - Bug fixes and telemetry improvements
  - Added missing reaction capability resolution for teams and rooms meetings
  - Fixed broken regression bug due to Reaction Feature not being initialized in Lobby
- - Call survey - validate survey data types. Throw validation error if there is unexpected elements in survey data.
+ - Call survey - validate survey data s. Throw validation error if there is unexpected elements in survey data.
 
 ### Breaking API Changes
  - Enforce callAgent to be created ONLY with ACS token. Creating a callAgent with any other token will throw an error
