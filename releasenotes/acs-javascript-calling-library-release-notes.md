@@ -40,7 +40,8 @@ If you are working with **Teams users**, please follow the `Teams identities` do
 ## 1.22.1-beta.1 (2024-02-07)
 - Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.22.1-beta.1](https://www.npmjs.com/package/@azure/communication-calling/v/1.22.1-beta.1)
 ### New Features:
-Support receiving one incoming video stream with Full HD(1080p) resolution
+ - Support receiving one incoming video stream with Full HD(1080p) resolution
+ - ACS captions - allows ACS users to enable closed captions in one to one and group calls. Users will also have the ability to update spoken language for the call
 
 ### Fixes
  - Improved the PPTLive feature so that it only shows the active signal after the call has been connected.
