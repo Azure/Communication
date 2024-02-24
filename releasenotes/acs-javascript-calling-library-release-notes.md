@@ -15,18 +15,21 @@ If you are working with **Teams users**, please follow the `Teams identities` do
 
 ### Fixes
 - Fixed MediaStats feature declaration in the type declaration file.
+- Fixed an uncaught error of DataChannel feature when call is disconnected
 
 ## 1.22.2 stable (2024-02-16)
 - Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.22.2](https://www.npmjs.com/package/@azure/communication-calling/v/1.22.2)
 
 ### Fixes
 - Fixed a raw video stream subscription error when the remote participant stops and starts sending video in a short time.
+- Fixed an uncaught error of DataChannel feature when call is disconnected
 
 ## 1.21.2 stable (2024-02-16)
 - Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.21.2](https://www.npmjs.com/package/@azure/communication-calling/v/1.21.2)
 
 ### Fixes
 - Fixed MediaStats feature declaration in the type declaration file.
+- Fixed an uncaught error of DataChannel feature when call is disconnected
 
 ## 1.22.2-beta.1 (2024-02-13)
 - Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.22.2-beta.1](https://www.npmjs.com/package/@azure/communication-calling/v/1.22.2-beta.1)
