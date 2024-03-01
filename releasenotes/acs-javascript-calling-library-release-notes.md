@@ -22,6 +22,7 @@ If you are working with **Teams users**, please follow the `Teams identities` do
 
 ### Fixes
 - Fixed OVC.
+- Fixed a raw video stream subscription error when the remote participant stops and starts sending video in a short time.
 
 ### Improvement: 
 - PPTLive - clears the target before starting a new session to prevent duplicate views.
