@@ -1,5 +1,23 @@
 # ACS Calling SDK release notes
 
+## v1.5.0
+
+### New Features:
+- Support Proxy feature to allow users specify and use their own http proxy and media relays.
+- Support Data Channel (lossy) to allow users send data to other participants in the call.
+- Media Statistics for audio, video and data channel.
+- Support customization for TTL persion for device token associated with push notification.
+- Enable replacement for background effect.
+
+## v1.4.0
+
+### New Features:
+- Add Audio Filter into AudioOptions to allow configuring of settings for echo cancellation, automatic gain control, and noise suppression
+- Add Teams Meeting Lobby support
+
+### Bug Fixes
+- Device Manager crash fix (random:RaiseCamerasUpdatedEvent)
+
 ## v1.3.0
 
 ### New Features:
