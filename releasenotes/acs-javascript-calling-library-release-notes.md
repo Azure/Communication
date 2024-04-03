@@ -14,7 +14,7 @@ If you are working with **Teams users**, please follow the `Teams identities` do
 - Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.23.1-beta.2](https://www.npmjs.com/package/@azure/communication-calling/v/1.23.1)
 
 ### New Features:
-- GroupId made available for GA
+- CallInfo (call.info) and a GroupId property of CallInfo made available for GA
 - ConnectionState feature made available for GA. Application must use connectionState property to check if ACS SDK is actively connected to ACS service and capable of receiving incoming calls, or if it's disconnected due to network problems or invalid token. Application should handle this information and either re-initialize ACS SDK and/or prompt user to check their network. ConnectionState 'reason' value were updated comparing to beta release.
 - View Attendee names - Enabled view attendee names to the Capabilities features. When enabled, this capability would allow or restrict user to view the attendee names based on their role and Teams Premium option of hiding attendees in the meeting.
 
