@@ -10,6 +10,13 @@ If you are working with **Teams users**, please follow the `Teams identities` do
 - [Teams Identities quick start](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/get-started-with-voice-video-calling-custom-teams-client)
 - [Teams Identities object model](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/get-started-with-voice-video-calling-custom-teams-client#azure-communication-services-calling-web-sdk-object-model)
 
+## 1.23.1 stable (2024-04-03)
+- Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.23.1-beta.2](https://www.npmjs.com/package/@azure/communication-calling/v/1.23.1)
+
+### New Features:
+- GroupId made available for GA
+- ConnectionState feature made available for GA. Application must use connectionState property to check if ACS SDK is actively connected to ACS service and capable of receiving incoming calls, or if it's disconnected due to network problems or invalid token. Application should handle this information and either re-initialize ACS SDK and/or prompt user to check their network. ConnectionState 'reason' value were updated comparing to beta release.
+- View Attendee names - Enabled view attendee names to the Capabilities features. When enabled, this capability would allow or restrict user to view the attendee names based on their role and Teams Premium option of hiding attendees in the meeting.
 
 ## 1.22.3 stable (2024-02-29)
 - Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.22.3](https://www.npmjs.com/package/@azure/communication-calling/v/1.22.3)
