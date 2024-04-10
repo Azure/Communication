@@ -1,5 +1,7 @@
 # ACS Calling Android (Java) SDK - Release History
 
+Package location: [Maven](https://search.maven.org/artifact/com.azure.android/azure-communication-calling)
+
 ## 2.6.0 (2024-02-02)
 
 ### New Features:
