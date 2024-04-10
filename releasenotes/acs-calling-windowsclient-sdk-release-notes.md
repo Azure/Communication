@@ -1,5 +1,7 @@
 # ACS Calling SDK release notes
 
+Package location: [NuGet](https://www.nuget.org/packages/Azure.Communication.Calling.WindowsClient/)
+
 ## v1.5.0
 
 ### New Features:
