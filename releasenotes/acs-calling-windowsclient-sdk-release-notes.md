@@ -2,6 +2,11 @@
 
 Package location: [NuGet](https://www.nuget.org/packages/Azure.Communication.Calling.WindowsClient/)
 
+## v1.6.0
+
+### New Features:
+- Support Custom Teams Endpoints (CTE).
+
 ## v1.5.0
 
 ### New Features:
