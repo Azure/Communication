@@ -4,6 +4,25 @@ Package location: [Maven](https://search.maven.org/artifact/com.azure.android/az
 
 Please note, packages version 2.2.2 and older has been deprecated and will no longer be maintained. We encourage you to upgrade to the latest version to continue receiving updates.
 
+## 2.8.0 (2024-04-10)
+
+### New Features:
+  - Support Custom Teams Endpoints (CTE).
+
+## 2.8.0-beta.1 (2024-04-05)
+
+### Bug Fixes:
+  - Maintenance release.
+
+## 2.7.0 (2024-03-21)
+
+### New Features:
+  - Support for Media Statistics feature.
+  - Support for Data Channel feature.
+  - Support for Background Replacement Effect.
+  - Support for CallNetworkOptions that allows setting up proxy address.
+  - Support for setting custom Time To Live for push notifications.
+
 ## 2.6.0 (2024-02-02)
 
 ### New Features:
