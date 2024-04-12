@@ -4,6 +4,14 @@ Package location: [Maven](https://search.maven.org/artifact/com.azure.android/az
 
 Please note, packages version 2.2.2 and older has been deprecated and will no longer be maintained. We encourage you to upgrade to the latest version to continue receiving updates.
 
+## 2.9.0-beta.1 (2024-04-12)
+
+### New Features:
+  - Telecom Manager integration.
+
+### Bug Fixes:
+  - Fix for video effects issue [1492](https://github.com/Azure/azure-sdk-for-android/issues/1492).
+
 ## 2.8.0 (2024-04-10)
 
 ### New Features:
