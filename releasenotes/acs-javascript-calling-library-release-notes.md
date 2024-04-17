@@ -10,6 +10,19 @@ If you are working with **Teams users**, please follow the `Teams identities` do
 - [Teams Identities quick start](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/get-started-with-voice-video-calling-custom-teams-client)
 - [Teams Identities object model](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/get-started-with-voice-video-calling-custom-teams-client#azure-communication-services-calling-web-sdk-object-model)
 
+## 1.24.1-beta.2 beta (2024-04-17)
+- Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.24.1-beta.2](https://www.npmjs.com/package/@azure/communication-calling/v/1.24.1-beta.2)
+
+### New Features:
+- Adding support for background noise suppression in calls - New AudioEffects feature that can now be used to start our ML based Noise Suppression.
+
+### Fixes
+- Fixed an issue where the remoteAudioStreamsUpdated event is missing when a call is in LocalHold state.
+- Fixed an issue where the volume indicator doesn't show the volume level when a call is escalated from 1:1 to group call.
+- The localAudioStreams collection on the Call object now correctly has an instance of LocalAudioStream of the current audio source in the call.
+- Expose the details of the PPTLive presenter.
+- View Attendee names - Enabled view attendee names to the Capabilities features. When enabled, this capability would allow or restrict user to view the attendee names based on their role and Teams Premium option of hiding attendees in the meeting.
+
 ## 1.23.2 stable (2024-04-04)
 - Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.23.2](https://www.npmjs.com/package/@azure/communication-calling/v/1.23.2)
 
