@@ -31,7 +31,37 @@ If you are working with **Teams users**, please follow the `Teams identities` do
 - ConnectionState feature made available for GA. Application must use connectionState property to check if ACS SDK is actively connected to ACS service and capable of receiving incoming calls, or if it's disconnected due to network problems or invalid token. Application should handle this information and either re-initialize ACS SDK and/or prompt user to check their network. ConnectionState 'reason' value were updated comparing to beta release.
 - View Attendee names - Enabled view attendee names to the Capabilities features. When enabled, this capability would allow or restrict user to view the attendee names based on their role and Teams Premium option of hiding attendees in the meeting.
 
-## 1.22.3 stable (2024-02-29)
+## 1.23.2-beta.1 beta (2024-03-20)
+- Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.23.2-beta.1](https://www.npmjs.com/package/@azure/communication-calling/v/1.23.2-beta.1)
+
+### Fixes
+- Fixed token refresh mechanism in the SDK, now during call SDK will correctly ask application for a new token if current one is expired.
+
+## 1.22.4 stable (2024-03-20)
+- Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.22.4](https://www.npmjs.com/package/@azure/communication-calling/v/1.22.4)
+
+### Fixes
+- Fixed token refresh mechanism in the SDK, now during call SDK will correctly ask application for a new token if current one is expired.
+
+## 1.22.3-beta.1 beta (2024-03-20)
+- Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.22.3-beta.1](https://www.npmjs.com/package/@azure/communication-calling/v/1.22.3-beta.1)
+
+### Fixes
+- Fixed token refresh mechanism in the SDK, now during call SDK will correctly ask application for a new token if current one is expired.
+
+## 1.21.3 stable (2024-03-20)
+- Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.21.3](https://www.npmjs.com/package/@azure/communication-calling/v/1.21.3)
+
+### Fixes
+- Fixed token refresh mechanism in the SDK, now during call SDK will correctly ask application for a new token if current one is expired.
+
+## 1.21.2-beta.1 beta (2024-03-20)
+- Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.21.2-beta.1](https://www.npmjs.com/package/@azure/communication-calling/v/1.21.2-beta.1)
+
+### Fixes
+- Fixed token refresh mechanism in the SDK, now during call SDK will correctly ask application for a new token if current one is expired.
+
+## 1.22.3 stable (2024-02-29) (Deprecated)
 - Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.22.3](https://www.npmjs.com/package/@azure/communication-calling/v/1.22.3)
 
 ### Fixes
@@ -74,7 +104,7 @@ If you are working with **Teams users**, please follow the `Teams identities` do
 ### Fixes
  - Fix Transcription feature's 'isTranscriptionActive' flag
 
-## 1.22.1 stable (2024-02-13)
+## 1.22.1 stable (2024-02-13) (Deprecated)
 - Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.22.1](https://www.npmjs.com/package/@azure/communication-calling/v/1.22.1)
 
 ### New Features:
@@ -83,7 +113,7 @@ If you are working with **Teams users**, please follow the `Teams identities` do
 ### Fixes
 - Fix Transcription feature's 'isTranscriptionActive' flag
 
-## 1.22.1-beta.1 (2024-02-07)
+## 1.22.1-beta.1 (2024-02-07) (Deprecated)
 - Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.22.1-beta.1](https://www.npmjs.com/package/@azure/communication-calling/v/1.22.1-beta.1)
 ### New Features:
  - Support receiving one incoming video stream with Full HD(1080p) resolution
@@ -105,7 +135,7 @@ If you are working with **Teams users**, please follow the `Teams identities` do
 ### Fixes
 - Fix the video source when starting a video call with raw video stream.
 
-## 1.21.1-beta.4 (2024-01-09)
+## 1.21.1-beta.4 (2024-01-09) (Deprecated)
 - Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.21.1-beta.4](https://www.npmjs.com/package/@azure/communication-calling/v/1.21.1-beta.4)
 
 ### New Features
