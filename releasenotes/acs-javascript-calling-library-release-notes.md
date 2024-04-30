@@ -15,10 +15,12 @@ If you are working with **Teams users**, please follow the `Teams identities` do
 
 ### New Features:
 - Adding support for background noise suppression in calls - New AudioEffects feature that can now be used to start our ML based Noise Suppression.
+- Adding support for enhanced PSTN coordinates when retrieving meeting dial-in details; country name and city name are now available for configured PSTN numbers in the meeting policy
 
 ### Fixes
 - Fixed an issue where the remoteAudioStreamsUpdated event is missing when a call is in LocalHold state.
 - Fixed an issue where the volume indicator doesn't show the volume level when a call is escalated from 1:1 to group call.
+- Fixed an issue where PSTN coordinates weren't being retrieved properly when calling for meeting dial-in details
 - The localAudioStreams collection on the Call object now correctly has an instance of LocalAudioStream of the current audio source in the call.
 - Expose the details of the PPTLive presenter.
 - View Attendee names - Enabled view attendee names to the Capabilities features. When enabled, this capability would allow or restrict user to view the attendee names based on their role and Teams Premium option of hiding attendees in the meeting.
