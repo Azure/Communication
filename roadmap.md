@@ -21,6 +21,8 @@ April - June 2024
 | Calling | GA | Planned | Web UI Breakout Rooms | Enables Azure Communicatin Services side users to use breakout rooms while in Teams Interop based calls. |
 | Calling | GA | Planned | Web UI Conference Coordinates | Enables conference coordinates to be surfaced (to join meetings) for Azure Communication Services users. |
 | Calling | GA | Planned | Web UI Inbound Calling | Enables developers to listen for incoming calls |
+| Calling | GA | In Progress | Call Diagnostics | Enables developers to quickly understand and diagnose end user facing calling issues. |
+| Calling | GA | In Progress | Call Diagnostics with Microsoft Copilot | Developers can use Microsoft Copilot from within Call Diagnostics to understand end user issues and resolve quickly |
 
 
 ## CY2024 Q1
