@@ -7,7 +7,7 @@ It identifies some of the significant features we are currently working on and p
 These features are the current plans for the stated quarter at this time and are subject to change. The **Area** column reflects the area of the product the feature aligns with most, and **Release**  indicates if the feature will be in public preview or generally available, and **Status** indicates where we are in the development cycle. <!-- Links are provided to Azure DevOps (ADO) tracking that is used internally by Microsoft.-->
 
 
-## CY2024 Q1
+## CY2024 Q2
 April - June 2024
 | Area    | Release        | Status  |  Feature |Description                                                |
 | ------- | -------------- | ------| ----|------------------------------------------------------|
