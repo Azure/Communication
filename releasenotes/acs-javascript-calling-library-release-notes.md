@@ -10,6 +10,28 @@ If you are working with **Teams users**, please follow the `Teams identities` do
 - [Teams Identities quick start](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/get-started-with-voice-video-calling-custom-teams-client)
 - [Teams Identities object model](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/get-started-with-voice-video-calling-custom-teams-client#azure-communication-services-calling-web-sdk-object-model)
 
+## 1.25.1-beta.1 (2024-05-02)
+- Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.25.1-beta.1](https://www.npmjs.com/package/@azure/communication-calling/v/1.25.1-beta.1)
+
+### New Features:
+- Disable PSTN participants from being able to be soft muted by others
+
+## 1.24.1 stable (2024-05-01)
+- Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.24.1](https://www.npmjs.com/package/@azure/communication-calling/v/1.24.1)
+
+### New Features:
+- Enable ACS-Teams interop Group call scenarios - moved to GA
+
+## 1.24.2-beta.1 beta (2024-05-01)
+- Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.24.2-beta.1](https://www.npmjs.com/package/@azure/communication-calling/v/1.24.2-beta.1)
+
+### New Features:
+- Added new event when muted by another participant in the call
+
+### Fixes
+- Adding support for background noise suppression in calls - New AudioEffects feature that can now be used to start our ML based Noise Suppression.
+	- Fixed DeepNoiseSuppressionEffect not applying correctly if BrowserNoiseSuppression was used.
+
 ## 1.24.1-beta.2 beta (2024-04-17)
 - Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.24.1-beta.2](https://www.npmjs.com/package/@azure/communication-calling/v/1.24.1-beta.2)
 
