@@ -15,7 +15,7 @@ If you are working with **Teams users**, please follow the `Teams identities` do
 - Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.24.3](https://www.npmjs.com/package/@azure/communication-calling/v/1.24.3)
 
 ### Fixes:
-- `CallAgent` connection state bug fix to show correct initial state.
+- `CallAgent` connection state bug fix to show `Disconnected` as initial state.
 - Allow to initialize SDK regardless of the `CallAgent` connection state.
 
 ## 1.25.1-beta.1 (2024-05-02)
