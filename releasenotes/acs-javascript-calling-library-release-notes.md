@@ -10,6 +10,14 @@ If you are working with **Teams users**, please follow the `Teams identities` do
 - [Teams Identities quick start](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/get-started-with-voice-video-calling-custom-teams-client)
 - [Teams Identities object model](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/get-started-with-voice-video-calling-custom-teams-client#azure-communication-services-calling-web-sdk-object-model)
 
+
+## 1.24.3 stable (2024-05-14)
+- Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.24.3](https://www.npmjs.com/package/@azure/communication-calling/v/1.24.3)
+
+### Fixes:
+- `CallAgent` connection state bug fix to show correct initial state.
+- Allow to initialize SDK regardless of the `CallAgent` connection state.
+
 ## 1.25.1-beta.1 (2024-05-02)
 - Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.25.1-beta.1](https://www.npmjs.com/package/@azure/communication-calling/v/1.25.1-beta.1)
 
