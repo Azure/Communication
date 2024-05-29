@@ -11,7 +11,7 @@ These features are the current plans for the stated quarter at this time and are
 April - June 2024
 | Area    | Release        | Status  |  Feature |Description                                                |
 | ------- | -------------- | ------| ----|------------------------------------------------------|
-| Chat | Public Preview | In Progress | Data retention for chat threads | Add a retention policy on a chat thread between 30 and 90 days |
+| Chat | Public Preview | Launched | Data retention for chat threads | Add a retention policy on a chat thread between 30 and 90 days |
 | Calling | Public Preview | Launched | Noise Suppression | Add the ability to remove background noise from your Web calls |
 | Calling | GA | In Progress | WebUI supports short meeting URL | Use shortened meeting URLs to join meetings |
 | Calling | GA | In Progress | WebUI supports short bundled external JavaScript | Officially be able to support a build that customers can use with a <script> tag |
