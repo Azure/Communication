@@ -10,6 +10,33 @@ If you are working with **Teams users**, please follow the `Teams identities` do
 - [Teams Identities quick start](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/get-started-with-voice-video-calling-custom-teams-client)
 - [Teams Identities object model](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/get-started-with-voice-video-calling-custom-teams-client#azure-communication-services-calling-web-sdk-object-model)
 
+## 1.25.1 stable (2024-05-30)
+- Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.25.1](https://www.npmjs.com/package/@azure/communication-calling/v/1.25.1)
+
+### New Features:
+- Proxy and custom TURN - Added the ability to provide a network configuration to the CallClient, while initializing the SDK.
+  
+## 1.25.3-beta.1 (2024-05-30)
+- Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.25.3-beta.1](https://www.npmjs.com/package/@azure/communication-calling/v/1.25.3-beta.1)
+
+### Fixes:
+- When participant added after recording started, then the `RecordingCallFeature::isRecordingActive` was not giving correct value. Now it will give accurate state when the API is called.
+- Fixed an issue where the microphone would remain on even after the call was over. The microphone usage now stops properly on call end.
+
+## 1.24.4 stable (2024-05-30)
+- Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.24.4](https://www.npmjs.com/package/@azure/communication-calling/v/1.24.4)
+
+### Fixes:
+- When participant added after recording started, then the `RecordingCallFeature::isRecordingActive` was not giving correct value. Now it will give accurate state when the API is called.
+- Fixed an issue where the microphone would remain on even after the call was over. The microphone usage now stops properly on call end.
+
+## 1.24.3-beta.1 (2024-05-30)
+- Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.24.3-beta.1](https://www.npmjs.com/package/@azure/communication-calling/v/1.24.3-beta.1)
+
+### Fixes:
+- When participant added after recording started, then the `RecordingCallFeature::isRecordingActive` was not giving correct value. Now it will give accurate state when the API is called.
+- Fixed an issue where the microphone would remain on even after the call was over. The microphone usage now stops properly on call end.
+
 ## 1.25.2-beta.2 (2024-05-16)
 - Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.25.2-beta.2](https://www.npmjs.com/package/@azure/communication-calling/v/1.25.2-beta.2)
 
