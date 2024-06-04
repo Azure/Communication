@@ -10,6 +10,19 @@ If you are working with **Teams users**, please follow the `Teams identities` do
 - [Teams Identities quick start](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/get-started-with-voice-video-calling-custom-teams-client)
 - [Teams Identities object model](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/get-started-with-voice-video-calling-custom-teams-client#azure-communication-services-calling-web-sdk-object-model)
 
+## 1.26.1-beta.1 (2024-05-30)
+- Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.26.1-beta.1](https://www.npmjs.com/package/@azure/communication-calling/v/1.26.1-beta.1)
+
+### New Features:
+- Adding support for teams premium license check with Captions related calling and meeting policy checks for Capabilities.
+
+## 1.25.1 stable (2024-05-30)
+- Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.25.1](https://www.npmjs.com/package/@azure/communication-calling/v/1.25.1)
+
+### New Features:
+- New start call API `startCall(participants: (CommunicationIdentifier)[], options?: StartCallOptions): Call`
+- Custom context feature.
+
 ## 1.25.3-beta.1 (2024-05-30)
 - Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.25.3-beta.1](https://www.npmjs.com/package/@azure/communication-calling/v/1.25.3-beta.1)
 
