@@ -3,6 +3,25 @@
 Package location: [Maven](https://search.maven.org/artifact/com.azure.android/azure-communication-calling)
 
 Please note, packages version 2.2.2 and older has been deprecated and will no longer be maintained. We encourage you to upgrade to the latest version to continue receiving updates.
+## 2.9.0 (2024-06-05)
+
+### New Features:
+  - Added `CapabilitiesCallFeature` for Rooms/Teams Meeting.
+  - Telecom Manager integration.
+  - Added `TeamsMeetingIdLocator` for joining Teams.
+
+## 2.8.1 (2024-05-28)
+
+### Bug Fixes:
+  - Performance improvements.
+    
+## 2.9.0-beta.2 (2024-05-23)
+
+### New Features:
+  - Added `CapabilitiesCallFeature` for Rooms/Teams Meeting.
+  - Various updates for `MediaStatistics`.
+  - Various updates for `PrecallDiagnostics`.
+  - Added `TeamsMeetingIdLocator` for joining Teams.
 
 ## 2.9.0-beta.1 (2024-04-12)
 
