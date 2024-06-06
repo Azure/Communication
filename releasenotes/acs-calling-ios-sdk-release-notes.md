@@ -1,5 +1,7 @@
 # ACS Calling iOS (Objective-C) SDK - Release History
 
+## Deprecated, please refer to https://github.com/Azure/Communication/releases for any new releases
+
 ## v2.2.0 (2022-06-14)
 [Azure Communication Calling iOS SDK version 2.2.0](https://github.com/Azure/Communication/releases/tag/v2.2.0)
 ### Features Added
@@ -217,4 +219,4 @@ The SDK is released for the following platforms: arm64 and x86_64 (simulator)
 
 ### Limitations
 * While the ability to make PSTN calls is available in the SDK, you need a PSTN number in ACS to make the call. PSTN functionality is available under private preview; follow this [document](https://docs.microsoft.com/azure/communication-services/quickstarts/telephony-sms/get-phone-number) for availability updates
-* The PSTN and VOIP access token scopes are currently not enforced. All-access tokens implicitly authorize users to access VOIP and PSTN calling functionality until further notice. 
+* The PSTN and VOIP access token scopes are currently not enforced. All-access tokens implicitly authorize users to access VOIP and PSTN calling functionality until further notice.
