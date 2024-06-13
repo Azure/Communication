@@ -21,7 +21,7 @@ If you are working with **Teams users**, please follow the `Teams identities` do
 
 ### New Features:
 - New start call API `startCall(participants: (CommunicationIdentifier)[], options?: StartCallOptions): Call`
-- Custom context feature.
+- Custom context feature. Adding support for calling with userToUser and custom headers.
 
 ## 1.25.3-beta.1 (2024-05-30)
 - Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.25.3-beta.1](https://www.npmjs.com/package/@azure/communication-calling/v/1.25.3-beta.1)
