@@ -10,6 +10,16 @@ If you are working with **Teams users**, please follow the `Teams identities` do
 - [Teams Identities quick start](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/get-started-with-voice-video-calling-custom-teams-client)
 - [Teams Identities object model](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/get-started-with-voice-video-calling-custom-teams-client#azure-communication-services-calling-web-sdk-object-model)
 
+## 1.27.1-beta.1 (2024-07-04)
+- Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.27.1-beta.1](https://www.npmjs.com/package/@azure/communication-calling/v/1.27.1-beta.1)
+
+### New Features:
+- The audio effect feature clears the active effect when the call is over.
+- Soft Mute - mute a specific participant or all participants in the call, and a local event notifying connected participants they have been muted by others.
+
+### Fixes:
+- Fixed a bug where the screenshare banner would not disappear immediately while sharing a tab on Windows Chrome.
+
 ## 1.26.1 stable (2024-07-04)
 - Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.26.1](https://www.npmjs.com/package/@azure/communication-calling/v/1.26.1)
 
