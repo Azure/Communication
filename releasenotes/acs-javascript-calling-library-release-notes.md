@@ -10,6 +10,21 @@ If you are working with **Teams users**, please follow the `Teams identities` do
 - [Teams Identities quick start](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/get-started-with-voice-video-calling-custom-teams-client)
 - [Teams Identities object model](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/get-started-with-voice-video-calling-custom-teams-client#azure-communication-services-calling-web-sdk-object-model)
 
+## 1.26.1 stable (2024-07-04)
+- Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.26.1](https://www.npmjs.com/package/@azure/communication-calling/v/1.26.1)
+
+### New Features:
+- The audio effect feature clears the active effect when the call is over.
+- Add captions feature allowing ACS users to enable closed captions in one to one and group calls. Users will also have the ability to update spoken language for the call.
+- Soft Mute - mute a specific participant or all participants in the call, and a local event notifying connected participants they have been muted by others.
+- Call information reaches general availability, application can see these extra properties and methods right on the call object, groupid, participantid and getServerCallId().
+
+### Fixes:
+- Fixed a bug where remote mute status state was not propagating correctly
+- Fixed a memory leak where disposing local audio/video streams was not disposing correctly.
+- Fixed a bug where Screenshare DOM element had wrong attributes.
+- CreateView performance improvements.
+
 ## 1.26.1-beta.1 (2024-05-30)
 - Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.26.1-beta.1](https://www.npmjs.com/package/@azure/communication-calling/v/1.26.1-beta.1)
 
