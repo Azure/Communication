@@ -14,11 +14,12 @@ If you are working with **Teams users**, please follow the `Teams identities` do
 - Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.27.1-beta.1](https://www.npmjs.com/package/@azure/communication-calling/v/1.27.1-beta.1)
 
 ### New Features:
-- The audio effect feature clears the active effect when the call is over.
 - Soft Mute - mute a specific participant or all participants in the call, and a local event notifying connected participants they have been muted by others.
 
 ### Fixes:
+- The audio effect feature clears the active effect when the call is over.
 - Fixed a bug where the screenshare banner would not disappear immediately while sharing a tab on Windows Chrome.
+- When rendering remote participants video, createView method shall return faster with the perfomance improvements added to the SDK.
 
 ## 1.26.1 stable (2024-07-04)
 - Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.26.1](https://www.npmjs.com/package/@azure/communication-calling/v/1.26.1)
@@ -26,14 +27,15 @@ If you are working with **Teams users**, please follow the `Teams identities` do
 ### New Features:
 - Add captions feature allowing ACS users to enable closed captions in one to one and group calls. Users will also have the ability to update spoken language for the call.
 - Soft Mute - mute a specific participant or all participants in the call, and a local event notifying connected participants they have been muted by others.
-- Call information reaches general availability, application can see these extra properties and methods right on the call object, groupid, participantid and getServerCallId().
+- Call information reaches general availability, application can see these extra properties and methods right on the call object and access groupid, participantid and getServerCallId().
+- [Proxy and Turn](https://learn.microsoft.com/en-us/azure/communication-services/tutorials/proxy-calling-support-tutorial?pivots=platform-web) configuration options reach general availability, application can configure and send all client traffic proxied to a different server.
 
 ### Fixes:
 - The audio effect feature clears the active effect when the call is over.
-- Fixed a bug where remote mute status state was not propagating correctly. https://github.com/Azure/azure-sdk-for-js/issues/29391
+- Fixed a [bug](https://github.com/Azure/azure-sdk-for-js/issues/29391) where remote mute status state was not propagating correctly.
 - Fixed a memory leak where disposing local audio/video streams was not disposing correctly.
-- Fixed a bug where Screenshare DOM element had wrong attributes. https://github.com/Azure/azure-sdk-for-js/issues/29260
-- CreateView performance improvements.
+- Fixed a [bug](https://github.com/Azure/azure-sdk-for-js/issues/29260) where Screenshare DOM element had wrong attributes.
+- When rendering remote participants video, createView method shall return faster with the perfomance improvements added to the SDK.
 
 ## 1.26.1-beta.1 (2024-05-30)
 - Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.26.1-beta.1](https://www.npmjs.com/package/@azure/communication-calling/v/1.26.1-beta.1)
