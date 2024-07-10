@@ -4,7 +4,7 @@ Package location: [Maven](https://search.maven.org/artifact/com.azure.android/az
 
 Please note, packages version 2.2.2 and older has been deprecated and will no longer be maintained. We encourage you to upgrade to the latest version to continue receiving updates.
 
-## 2.10.0 (2024-06-27)
+## 2.10.0-beta.1 (2024-06-27)
 
 ### New Features:
   - Added `CallSurvey`.
