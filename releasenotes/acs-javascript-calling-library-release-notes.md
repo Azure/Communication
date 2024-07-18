@@ -10,6 +10,22 @@ If you are working with **Teams users**, please follow the `Teams identities` do
 - [Teams Identities quick start](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/get-started-with-voice-video-calling-custom-teams-client)
 - [Teams Identities object model](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/get-started-with-voice-video-calling-custom-teams-client#azure-communication-services-calling-web-sdk-object-model)
 
+## 1.27.1-beta.2 (2024-07-18)
+- Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.27.1-beta.2](https://www.npmjs.com/package/@azure/communication-calling/v/1.27.1-beta.2)
+
+### Fixes:
+- Fixed uncaught exception leak on TeamsCall when terminated the call before it is connected.
+- Updated the fix for tab screenshare banner not disappearing immediately after stopping screenshare. The screenshare banner should now disappear immediately on stopping screenshare.
+- Hotfix for video effects not working in subsequent calls, after ending the first call.
+- Improve networkReceiveQuality UFD.
+
+## 1.26.2 stable (2024-07-18)
+- Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.26.2](https://www.npmjs.com/package/@azure/communication-calling/v/1.26.2)
+
+### Fixes:
+- Hotfix for video effects not working in subsequent calls, after ending the first call.
+- Fixed uncaught exception leak on TeamsCall when terminated the call before it is connected.
+
 ## 1.27.1-beta.1 (2024-07-04)
 - Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.27.1-beta.1](https://www.npmjs.com/package/@azure/communication-calling/v/1.27.1-beta.1)
 
