@@ -10,6 +10,16 @@ If you are working with **Teams users**, please follow the `Teams identities` do
 - [Teams Identities quick start](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/get-started-with-voice-video-calling-custom-teams-client)
 - [Teams Identities object model](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/get-started-with-voice-video-calling-custom-teams-client#azure-communication-services-calling-web-sdk-object-model)
 
+## 1.27.2 (2024-07-24)
+- Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.27.2](https://www.npmjs.com/package/@azure/communication-calling/v/1.27.2)
+
+### Fixes
+- Added new internal telemetry to capture network information.
+- Added ability to mute remote participants who are on hold.
+### New features:
+- Upgraded muteOthers capability to GA for Soft Mute.
+
+  
 ## 1.27.1-beta.2 (2024-07-18)
 - Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.27.1-beta.2](https://www.npmjs.com/package/@azure/communication-calling/v/1.27.1-beta.2)
 
