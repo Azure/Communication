@@ -16,6 +16,7 @@ If you are working with **Teams users**, please follow the `Teams identities` do
 ### Fixes
 - Added new internal telemetry to capture network information.
 - Added ability to mute remote participants who are on hold.
+- Fixed the issue where the incoming screensharing stream freezes when the mobile phone's camera is enabled.
 ### New features:
 - Upgraded muteOthers capability to GA for Soft Mute.
 
