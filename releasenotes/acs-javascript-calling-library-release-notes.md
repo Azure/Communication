@@ -14,9 +14,9 @@ If you are working with **Teams users**, please follow the `Teams identities` do
 - Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.28.1-beta.1](https://www.npmjs.com/package/@azure/communication-calling/v/1.28.1-beta.1)
 
 ### New features:
-Together Mode - Bring everyone's video stream together in a shared background.
-Transfer to VoiceMail - Transfer a call directly to a colleague's voicemail.
-Breakout Rooms - ACS identities and Teams identities can join breakout rooms.
+- Together Mode - Bring everyone's video stream together in a shared background.
+- Transfer to VoiceMail - Transfer a call directly to a colleague's voicemail.
+- Breakout Rooms - ACS identities and Teams identities can join breakout rooms.
 
 ## 1.27.2 (2024-07-24)
 - Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.27.2](https://www.npmjs.com/package/@azure/communication-calling/v/1.27.2)
