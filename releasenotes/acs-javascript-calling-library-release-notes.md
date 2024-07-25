@@ -27,6 +27,10 @@ If you are working with **Teams users**, please follow the `Teams identities` do
 - Fixed the issue where the incoming screensharing stream freezes when the mobile phone's camera is enabled.
 ### New features:
 - Upgraded muteOthers capability to GA for Soft Mute.
+- Rendering 4x4 (16) incoming videos is now GA on desktop browsers.
+    - Requirements: 
+        - 16GB RAM and 4-core CPU no older than 3 years as minimal recommended requirements for 4x4.
+        - Use OVC (Optimal Video Count) API to render the most optimal count of incoming videos.
 
   
 ## 1.27.1-beta.2 (2024-07-18)
