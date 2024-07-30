@@ -41,6 +41,10 @@ If you are working with **Teams users**, please follow the `Teams identities` do
 - Updated the fix for tab screenshare banner not disappearing immediately after stopping screenshare. The screenshare banner should now disappear immediately on stopping screenshare.
 - Hotfix for video effects not working in subsequent calls, after ending the first call.
 - Improve networkReceiveQuality UFD.
+- Rendering 4x4 (16) incoming videos is now GA on desktop browsers,also available in BETA SDKs
+  - Requirements: 
+    - 16GB RAM and 4-core CPU no older than 3 years as minimal recommended requirements for 4x4.
+    - Use OVC (Optimal Video Count) API to render the most optimal count of incoming videos.
 
 ## 1.26.2 stable (2024-07-18)
 - Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.26.2](https://www.npmjs.com/package/@azure/communication-calling/v/1.26.2)
