@@ -1429,14 +1429,14 @@ You first need to obtain the transcription feature API object
 
 **Example**
 ```js
-const callTranscriptionApi = call.api(Features.Transcription);
+const callTranscriptionFeature = call.api(Features.Transcription);
 ```
 
-Then, you can check if the audio in the call is being transcribed, inspect the `isTranscriptionActive` property of `callTranscriptionApi`, it returns `Boolean`
+Then, you can check if the audio in the call is being transcribed, inspect the `isTranscriptionActive` property of `callTranscriptionFeature`, it returns `Boolean`
 
 **Example**
 ```js
-const isTranscriptionActive = callTranscriptionApi.isTranscriptionActive;
+const isTranscriptionActive = callTranscriptionFeature.isTranscriptionActive;
 ```
 
 You can also subscribe to transcription state changes
@@ -1444,16 +1444,16 @@ You can also subscribe to transcription state changes
 **Example**
 ```js
 const isTranscriptionActiveChangedHandler = () => {
-  console.log(callTranscriptionApi.isTranscriptionActive);
+  console.log(callTranscriptionFeature.isTranscriptionActive);
 };
-callRecordingApi.on('isTranscriptionActiveChanged', isTranscriptionActiveChangedHandler);
+callTranscriptionFeature.on('isTranscriptionActiveChanged', isTranscriptionActiveChangedHandler);
 ```
 
 To unsubscribe your event handler call
 
 **Example**
 ```js
-callRecordingApi.off('isTranscriptionActiveChanged', isTranscriptionActiveChangedHandler);
+callTranscriptionFeature.off('isTranscriptionActiveChanged', isTranscriptionActiveChangedHandler);
 ```
 
 ## v1.0.0-beta.7 (2021-03-01)
