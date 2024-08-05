@@ -196,6 +196,7 @@ If you are working with **Teams users**, please follow the `Teams identities` do
 
 ### Fixes
 - Fixed token refresh mechanism in the SDK, now during call SDK will correctly ask application for a new token if current one is expired.
+- Fixed support for new Microsoft Teams transcription. If you try to connect to Teams meeting or a call with Teams user with SDK version lower than this version, Teams transcription would be stopped and won't be able to start. You need to update your SDK in order to leverage Teams transcription in calls and meetings.
 
 ## 1.22.3-beta.1 beta (2024-03-20)
 - Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.22.3-beta.1](https://www.npmjs.com/package/@azure/communication-calling/v/1.22.3-beta.1)
