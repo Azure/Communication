@@ -13,9 +13,9 @@ April - June 2024
 | ------- | -------------- | ------| ----|------------------------------------------------------|
 | Chat | Public Preview | Launched | Data retention for chat threads | Add a retention policy on a chat thread between 30 and 90 days |
 | Calling | Public Preview | Launched | Noise Suppression | Add the ability to remove background noise from your Web calls |
-| Calling | GA | In Progress | WebUI supports short meeting URL | Use shortened meeting URLs to join meetings |
+| Calling | GA | Launched | WebUI supports short meeting URL | Use shortened meeting URLs to join meetings |
 | Calling | GA | In Progress | WebUI supports short bundled external JavaScript | Officially be able to support a build that customers can use with a <script> tag |
-| Calling | GA | In Progress | Web UI Client-side Click to Call | Refined components in client side Click to call developer experience |
+| Calling | GA | Launched | Web UI Client-side Click to Call | Refined components in client side Click to call developer experience |
 | Calling | GA | In Progress | Web UI In call notifications | This feature provides a better way to manage and render multiple notifications |
 | Calling | GA | Planned | Web UI Soft mute | Enables for users to soft mute other users while in a call. |
 | Calling | GA | Planned | Web UI Breakout Rooms | Enables Azure Communicatin Services side users to use breakout rooms while in Teams Interop based calls. |
@@ -29,7 +29,7 @@ April - June 2024
 January - March 2024
 | Area    | Release        | Status  |  Feature |Description                                                |
 | ------- | -------------- | ------| ----|------------------------------------------------------|
-| Teams Interoperability | GA | Planned | Calling Team queue/ auto attendant | Supports Teams click to call and contact center |
+| Teams Interoperability | GA | Launched | Calling Team queue/ auto attendant | Supports Teams click to call and contact center |
 | Chat | GA | Launched | Access Token - Chat | Additional token scopes for secure conversations with permissions to prevent thread deletion and additional users from joining the conversation. |
 | Chat | Public Preview | Launched | Data Retention | Data retention on chat threads to enable developers to set a 90 day retention period on chat threads. |
 | Rooms | Public Preview | Launched | PSTN Dial Out from Rooms | Feature will allow users to dial out to a PSTN number from a Rooms call, if the capability is enabled for the Room through configuration. |
