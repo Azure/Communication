@@ -10,6 +10,18 @@ If you are working with **Teams users**, please follow the `Teams identities` do
 - [Teams Identities quick start](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/get-started-with-voice-video-calling-custom-teams-client)
 - [Teams Identities object model](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/get-started-with-voice-video-calling-custom-teams-client#azure-communication-services-calling-web-sdk-object-model)
 
+## 1.28.1-beta.3 (2024-08-08)
+- Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.28.1-beta.3](https://www.npmjs.com/package/@azure/communication-calling/v/1.28.1-beta.3)
+
+### Fixes
+- Fixed the issue where Teams Captions did not start for ACS users in P2P and Group Call scenarios with CTE users
+
+## 1.27.4 stable (2024-08-08)
+- Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.27.4](https://www.npmjs.com/package/@azure/communication-calling/v/1.27.4)
+
+### Fixes
+- Fixed the issue where Teams Captions did not start for ACS users in P2P and Group Call scenarios with CTE users
+
 ## 1.28.1-beta.2 (2024-07-31)
 - Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.28.1-beta.2](https://www.npmjs.com/package/@azure/communication-calling/v/1.28.1-beta.2)
 
