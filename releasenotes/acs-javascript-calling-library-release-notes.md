@@ -10,6 +10,20 @@ If you are working with **Teams users**, please follow the `Teams identities` do
 - [Teams Identities quick start](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/get-started-with-voice-video-calling-custom-teams-client)
 - [Teams Identities object model](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/get-started-with-voice-video-calling-custom-teams-client#azure-communication-services-calling-web-sdk-object-model)
 
+## 1.28.1-beta.4 (2024-08-15)
+- Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.28.1-beta.4](https://www.npmjs.com/package/@azure/communication-calling/v/1.28.1-beta.4)
+
+### Fixes
+- Fixed issue where Call.callEndReason API returns the wrong code/subcode.
+- Fixed RoomID being undefined in CallInfo object.
+
+## 1.27.5 stable (2024-08-15)
+- Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.27.5](https://www.npmjs.com/package/@azure/communication-calling/v/1.27.5)
+
+### Fixes
+- Fixed issue where Call.callEndReason API returns the wrong code/subcode.
+- Fixed RoomID being undefined in CallInfo object.
+
 ## 1.28.1-beta.3 (2024-08-08)
 - Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.28.1-beta.3](https://www.npmjs.com/package/@azure/communication-calling/v/1.28.1-beta.3)
 
