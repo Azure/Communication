@@ -2,6 +2,13 @@
 
 Package location: [NuGet](https://www.nuget.org/packages/Azure.Communication.Calling.WindowsClient/)
 
+## v1.8.0 (2024-08-08)
+
+### New Features:
+  - Added support for `Call Survey`.
+  - Added `OutgoingVideoConstraints` feature.
+  - Added support for `CommunicationCaptions`.
+
 ## v1.7.0 (2024-06-05)
 
 ### New Features:
