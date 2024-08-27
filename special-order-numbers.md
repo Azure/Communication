@@ -33,17 +33,33 @@ To port your existing telephone numbers over to Azure Communication Services, yo
 
 You will need to work through the following steps:
 1) Download one of the forms below:
-    - [Port In Form for United States and Puerto Rico](./Forms/ACS-Port-In-Form-Geographic-and-Toll-Free-(United-States-and-Puerto-Rico).docx)
-    - [Port In Form for Canada](./Forms/ACS-Port-In-Form-Geographic-and-Toll-Free-(Canada).docx)
-    - [Port In Form for United Kingdom](./Forms/ACS-Port-In-Form-Geographic-and-Toll-Free-(United-Kingdom).pdf)
-    - [Port In Form for Sweden](./Forms/ACS-Port-In-Form-Geographic-and-Toll-Free-(Sweden).pdf)
-    - [Port In Form for Ireland](./Forms/ACS-Port-In-Form-Geographic-and-Toll-Free-(Ireland).pdf)
-    - [Port In Form for Italy](./Forms/ACS-Port-In-Form-Geographic-and-Toll-Free-(Italy).pdf)
+	- [Port In Form for Australia (Geo)](./Forms/)
+	- [Port In Form for Australia (Geo)](./Forms/)
+	- [Port In Form for Austria (Geo & Toll-free)](./Forms/)
+	- [Port In Form for Belgium (Geo & Toll-free)](./Forms/)
+	- [Port In Form for Canada (Geo & Toll-free)](./Forms/ACS-Port-In-Form-Geographic-and-Toll-Free-(Canada).docx)
+	- [Port In Form for Denmark (Geo & Toll-free)](./Forms/)
+	- [Port In Form for France (Geo](./Forms/)
+	- [Port In Form for France (Toll-free)](./Forms/)
+	- [Port In Form for Germany (Geo)](./Forms/)
+	- [Port In Form for Germany (Toll-free)](./Forms/)
+	- [Port In Form for Ireland (Geo & Toll-free)](./Forms/ACS-Port-In-Form-Geographic-and-Toll-Free-(Ireland).pdf)
+	- [Port In Form for Italy (Geo & Toll-free)](./Forms/ACS-Port-In-Form-Geographic-and-Toll-Free-(Italy).pdf)
+	- [Port In Form for Luxembourg (Geo & Toll-free)](./Forms/)
+	- [Port In Form for Netherlands (Geo & Toll-free)](./Forms/)
+	- [Port In Form for Norway (Geo & Toll-free)](./Forms/)
+	- [Port In Form for Portugal (Geo & Toll-free)](./Forms/)
+	- [Port In Form for Slovakia (Geo & Toll-free)](./Forms/)
+	- [Port In Form for Spain (Geo & Toll-free)](./Forms/)
+	- [Port In Form for Sweden (Geo & Toll-free)](./Forms/ACS-Port-In-Form-Geographic-and-Toll-Free-(Sweden).pdf)
+	- [Port In Form for Switzerland (Geo & Toll-free)](./Forms/)
+	- [Port In Form for United Kingdom (Geo & Toll-free)](./Forms/ACS-Port-In-Form-Geographic-and-Toll-Free-(United-Kingdom).pdf)
+	- [Port In Form for United States and Puerto Rico (Geo & Toll-free)](./Forms/ACS-Port-In-Form-Geographic-and-Toll-Free-(United-States-and-Puerto-Rico).docx)
 
     
-2) Fill in the form. 
-3) Send the filled out form to acstns@microsoft.com using "ACS Port Request" as part of your subject line
-4) Our Service Desk team will let you know of the next steps and advises you on the port process.
+3) Fill in the form. 
+4) Send the filled out form to acstns@microsoft.com using "ACS Port Request" as part of your subject line
+5) Our Service Desk team will let you know of the next steps and advises you on the port process.
 
 *PLEASE NOTE:* You need to have an [eligible Azure Subscription and Resource](https://docs.microsoft.com/azure/communication-services/concepts/telephony-sms/plan-solution#azure-subscriptions-eligibility) to be able to port numbers.
  
