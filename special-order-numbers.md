@@ -1,7 +1,7 @@
 # Create a Special Order for Telephone Numbers
 
 ### New Number Request
-Customers are limited to purchasing one phone number per tenant for Azure Communication Services through the Phone Numbers SDK or through the [Azure Portal](https://portal.azure.com). Customers who are interested in a special order (ex. acquiring large quantities of numbers or specific area codes) or if the number acquisition needs to be completed manually, can do so by following the process below. For general information on how to acquire a phone number, see the [quickstart here](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/telephony/get-phone-number?pivots=platform-azp).
+In some countries phone numbers cannot be purchased directly through [Azure Portal](https://portal.azure.com). Customers who are interested in a special order (ex. acquiring large quantities of numbers or specific area codes) or if the number acquisition needs to be completed manually, can do so by following the process below. For general information on how to acquire a phone number, see the [quickstart here](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/telephony/get-phone-number?pivots=platform-azp).
 
 For a new number order, you will need to work through the following steps: 
 1) Download one of the forms below:
@@ -21,6 +21,7 @@ For a new number order, you will need to work through the following steps:
     - [Number Request Form for Netherlands](./Forms/ACS-Manual-Number-Acquisition-Form-for-Netherlands.docx)
     - [Number Request Form for Germany](./Forms/ACS-Manual-Number-Acquisition-Form-for-Germany.docx)
     - [Number Request Form for Australia](./Forms/ACS-Manual-Number-Acquisition-Form-for-Australia.docx)
+    - [Number Request Form for Japan](./Forms/ACS-Manual-Number-Acquisition-Form-for-Japan.docx)
     - [Number Request Form for China, Finland, Hong Kong, Israel, New Zealand, Poland, Singapore, Taiwan, Thailand](./Forms/ACS-Manual-Number-Acquisition-Form-for-TF-InboundOnly.docx)
   
 
