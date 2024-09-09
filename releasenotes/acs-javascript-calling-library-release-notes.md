@@ -10,11 +10,68 @@ If you are working with **Teams users**, please follow the `Teams identities` do
 - [Teams Identities quick start](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/get-started-with-voice-video-calling-custom-teams-client)
 - [Teams Identities object model](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/get-started-with-voice-video-calling-custom-teams-client#azure-communication-services-calling-web-sdk-object-model)
 
+## 1.29.1-beta.2 (2024-9-5)
+## 1.28.2 (2024-9-5)
+## 1.27.7 (2024-9-5)
+- Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.29.1-beta.2](https://www.npmjs.com/package/@azure/communication-calling/v/1.29.1-beta.2)
+- Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.28.1](https://www.npmjs.com/package/@azure/communication-calling/v/1.28.2)
+- Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.27.7](https://www.npmjs.com/package/@azure/communication-calling/v/1.27.7)
+
+### Fixes
+- Fixed a crash on incoming calls when customer application was built using Angular JS framework, would cause the application to freeze and incoming calls to fail to connect.
+
 ## 1.29.1-beta.1 (2024-08-26)
 - Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.29.1-beta.1](https://www.npmjs.com/package/@azure/communication-calling/v/1.29.1-beta.1)
 
-### New features:
+### New features
 - Background blur and background replacement features are now available in public preview on Android Chrome.
+- Pass contextual data between calls through headers during call initialization, adding participant and call transfer.
+```js
+
+   // Setting custom context.
+   // Any combination of only sipHeaders or voipHeaders or both is allowed.
+ 
+   const callOptions = {
+        customContext: {
+            voipHeaders: [
+                {key: 'voip-key-1', value: 'voip-value-1'},
+                {key: 'voip-key-2', value: 'voip-value-2'}
+            ],
+            sipHeaders: [
+                {key: 'sip-key-1', value: 'sip-value-1'},
+                {key: 'sip-key-2', value: 'sip-value-2'}
+            ],
+            userToUser: 'userToUserHeader',
+        },
+    };
+    // Starting a call with custom context.
+    
+    callAgent.startCall("USER_ID", callOptions);
+    
+    // adding participant to existing call or transfer with custom context.
+    
+    call.addParticipant("USER_ID", callOptions);
+
+    // Parsing custom context on the receiver side
+    
+    let info = '';
+ 
+    callAgent.on("incomingCall", (args) => {
+        const incomingCall = args.incomingCall;
+        if (incomingCall.customContext) {
+            if (incomingCall.customContext.userToUser) {
+                info += `userToUser: '${incomingCall.customContext.userToUser}'\n`;
+            }
+            if (incomingCall.customContext.sipHeaders) {
+                incomingCall.customContext.sipHeaders.forEach(header => info += `sip: ${header.key}: '${header.value}'\n`);
+            }
+            if (incomingCall.customContext.voipHeaders) {
+                incomingCall.customContext.voipHeaders.forEach(header => info += `voip: ${header.key}: '${header.value}'\n`);
+            }
+        }
+    });
+    
+```
   
 ### Fixes
 - Bug Fixes
