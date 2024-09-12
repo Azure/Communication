@@ -10,6 +10,13 @@ If you are working with **Teams users**, please follow the `Teams identities` do
 - [Teams Identities quick start](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/get-started-with-voice-video-calling-custom-teams-client)
 - [Teams Identities object model](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/get-started-with-voice-video-calling-custom-teams-client#azure-communication-services-calling-web-sdk-object-model)
 
+## 1.28.4 (2024-9-11)
+- Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.28.4?activeTab=readme](https://www.npmjs.com/package/@azure/communication-calling/v/1.28.4?activeTab=readme)
+
+### Features
+- Noise suppression now available in GA. Try it out with the help of our latest effects stable SDK [https://www.npmjs.com/package/@azure/communication-calling-effects/v/1.1.1](https://www.npmjs.com/package/@azure/communication-calling-effects/v/1.1.1).
+	- More info: [https://review.learn.microsoft.com/en-us/azure/communication-services/tutorials/audio-quality-enhancements/add-noise-supression?branch=main&branchFallbackFrom=pr-en-us-286559&pivots=platform-web](https://review.learn.microsoft.com/en-us/azure/communication-services/tutorials/audio-quality-enhancements/add-noise-supression?branch=main&branchFallbackFrom=pr-en-us-286559&pivots=platform-web)
+
 ## 1.29.1-beta.2 (2024-9-5)
 ## 1.28.2 (2024-9-5)
 ## 1.27.7 (2024-9-5)
