@@ -4,6 +4,13 @@ Package location: [Maven](https://search.maven.org/artifact/com.azure.android/az
 
 Please note, packages version 2.2.2 and older has been deprecated and will no longer be maintained. We encourage you to upgrade to the latest version to continue receiving updates.
 
+## 2.11.0 (2024-09-24)
+
+### New Features:
+  - Added support for `Soft mute`.
+  - Added a new Maven dependency called `trouter-client-android`. This dependency enhances the SDK's capabilities by providing efficient asynchronous delivery of messages from cloud services to client applications.
+  - This new version will also work seamlessly with the ACS Chat SDK in the same application, providing a unified and efficient solution for both messaging and chat functionalities..
+
 ## 2.10.0 (2024-08-02)
 
 ### New Features:
