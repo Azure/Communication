@@ -2,6 +2,11 @@
 
 Package location: [NuGet](https://www.nuget.org/packages/Azure.Communication.Calling.WindowsClient/)
 
+## v1.9.0 (2024-09-24)
+
+### New Features:
+  - Mute other participants
+
 ## v1.8.0 (2024-08-08)
 
 ### New Features:
