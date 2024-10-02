@@ -10,6 +10,19 @@ If you are working with **Teams users**, please follow the `Teams identities` do
 - [Teams Identities quick start](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/get-started-with-voice-video-calling-custom-teams-client)
 - [Teams Identities object model](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/get-started-with-voice-video-calling-custom-teams-client#azure-communication-services-calling-web-sdk-object-model)
 
+## 1.30.1-beta.1 (2024-10-01)
+- Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.30.1-beta.1](https://www.npmjs.com/package/@azure/communication-calling/v/1.30.1-beta.1)
+
+### New features:
+- Remote Client User Facing Diagnostics - You can now see UFDs for remote participants in the call.
+- iOS Edge support - The SDK now supports the iOS Edge platform
+
+### Fixes
+- Telemetry improvement
+- Added additional logging for video and audio effects usage.
+- Fixed the screen sharing issue that occurred when a call was put on hold. Now, screen sharing stops before the call is placed on hold
+- Fixed scene and seat changed events for together mode
+
 ## 1.28.4 (2024-9-11)
 - Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.28.4?activeTab=readme](https://www.npmjs.com/package/@azure/communication-calling/v/1.28.4?activeTab=readme)
 
