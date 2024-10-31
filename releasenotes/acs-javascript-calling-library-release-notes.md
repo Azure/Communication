@@ -19,10 +19,6 @@ If you are working with **Teams users**, please follow the `Teams identities` do
 ### Fixes
 - Telemetry improvements
 
-### New features
-- ⁠Transfer to VoiceMail feature GA
-- ⁠Audio Effects feature GA
-
 ## 1.30.1-beta.2 (2024-10-22)
 - Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.30.1-beta.2](https://www.npmjs.com/package/@azure/communication-calling/v/1.30.1-beta.2)
 
