@@ -10,6 +10,18 @@ If you are working with **Teams users**, please follow the `Teams identities` do
 - [Teams Identities quick start](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/get-started-with-voice-video-calling-custom-teams-client)
 - [Teams Identities object model](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/get-started-with-voice-video-calling-custom-teams-client#azure-communication-services-calling-web-sdk-object-model)
 
+## 1.30.4 (2024-11-12)
+- Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.30.4](https://www.npmjs.com/package/@azure/communication-calling/v/1.30.4)
+
+### Fixes
+- This update resolves an issue in the Web SDK that disabled early media when making 1:1 calls to a PSTN phone number. Please upgrade to this SDK to enable early media for outbound calls
+
+## 1.31.2-beta.1 (2024-11-11)
+- Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.31.2-beta.1](https://www.npmjs.com/package/@azure/communication-calling/v/1.31.2-beta.1)
+
+### Fixes
+- This update resolves an issue in the Web SDK that disabled early media when making 1:1 calls to a PSTN phone number. Please upgrade to this SDK to enable early media for outbound calls
+
 ## 1.31.1-beta.1 (2024-11-05)
 - Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.31.1-beta.1](https://www.npmjs.com/package/@azure/communication-calling/v/1.31.1-beta.1)
 
