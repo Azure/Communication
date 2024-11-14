@@ -33,7 +33,7 @@ If you are working with **Teams users**, please follow the `Teams identities` do
 
 ### New features
 - iOS Edge support GA
-- ACS interop call survey data is accessible through the Teams Admin Center, Call Quality Dashboard (CQD), PowerBI (via the CQD connector), and Graph API.
+- Call survey data of interop call is now accessible through the Teams Admin Center, Call Quality Dashboard (CQD), PowerBI (via the CQD connector), and Graph API.
 
 ### Fixes
 - Telemetry improvements
