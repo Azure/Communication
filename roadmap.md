@@ -7,6 +7,31 @@ It identifies some of the significant features we are currently working on and p
 These features are the current plans for the stated quarter at this time and are subject to change. The **Area** column reflects the area of the product the feature aligns with most, and **Release**  indicates if the feature will be in public preview or generally available, and **Status** indicates where we are in the development cycle. <!-- Links are provided to Azure DevOps (ADO) tracking that is used internally by Microsoft.-->
 
 
+## CY2024 Q4
+September - December 2024
+
+| Area                | Release Type    | Status       | Feature                          | Description                                                                 |
+|---------------------|-----------------|--------------|----------------------------------|-----------------------------------------------------------------------------|
+| Call Automation     | GA              | Launched     | Call Automation Events           | Support additional events for better programmability in Call Automation.    |
+| Call Automation     | GA              | Launched     | Rooms Call Programmability       | Enable server programmability for Rooms calls in real time.                 |
+| Call Automation     | GA              | Launched     | VoIP to PSTN Transfer            | Provide mechanism for call transfer from VoIP to PSTN.                      |
+| Call Automation     | GA              | In Progress  | HADR for Call Automation         | Support HADR (High Availability Disaster Recovery) for regional failover in Call Automation AI Actions. |
+| Call Automation     | Public Preview  | Launched     | Bidirectional Audio Streaming    | Enables real-time, two-way audio communication for seamless user interactions. |
+| Calling             | Public Preview  | Not Launched | Call Recording Enhancements      | Ensure recordings are free of any potential clippings.                      |
+| Calling             | GA              | In Progress  | Call Recording Service Enhancements to BYOS | Enable users to store call recordings in their own storage solutions.       |
+| Calling             | GA              | In Progress  | Improved Availability            | Enhance availability and concurrency for enterprise-grade workloads.        |
+| Calling             | Public Preview  | In Progress  | XL Participant Roster            | Graph Calling SDK supports XL participant roster notification for ISVs.     |
+| Email               | Public Preview  | Launched     | Inline Image Attachments         | Support for sending emails with inline image attachments.                   |
+| Email               | Public Preview  | Launched     | Multiple Email Domains           | Support for multiple email domains per ACS resource.                        |
+| Email               | Public Preview  | Launched     | Custom Message-Id                | Support for customer-provided Message-Id in email headers.                  |
+| Rooms               | GA              | Launched     | Call Caption GA                  | General Availability of Call Caption for all call participants and roles.   |
+| Rooms               | Public Preview  | Launched     | Transcriptions in Rooms Calls    | Public Preview of transcriptions in Rooms calls.                            |
+| Rooms               | GA              | Launched     | Remote Mute for VoIP             | General Availability of remote mute for VoIP participants.                  |
+| Virtual Appointments| GA              | In Progress  | DeepVQE Noise Suppression        | Web Calling (desktop) supports DeepVQE noise suppression.                   |
+| Virtual Appointments| Public Preview  | In Progress  | Background Blur on Chrome        | Web Calling supports background blur & replacement on Android Chrome.       |
+| Virtual Appointments| GA              | In Progress  | 4x4 Grid Views                   | Web Calling (Desktop) supports 4x4 grid views.                              |
+
+
 ## CY2024 Q2
 April - June 2024
 | Area    | Release        | Status  |  Feature |Description                                                |
