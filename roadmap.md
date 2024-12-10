@@ -17,7 +17,7 @@ September - December 2024
 | Call Automation     | GA              | Launched     | VoIP to PSTN Transfer            | Provide mechanism for call transfer from VoIP to PSTN.                      |
 | Call Automation     | GA              | In Progress  | HADR for Call Automation         | Support HADR (High Availability Disaster Recovery) for regional failover in Call Automation AI Actions. |
 | Call Automation     | Public Preview  | Launched     | Bidirectional Audio Streaming    | Enables real-time, two-way audio communication for seamless user interactions. |
-| Calling             | Public Preview  | Not Launched | Call Recording Enhancements      | Ensure recordings are free of any potential clippings.                      |
+| Calling             | Public Preview  | In Progress  | Call Recording Enhancements      | Ensure recordings are free of any potential clippings.                      |
 | Calling             | GA              | In Progress  | Call Recording Service Enhancements to BYOS | Enable users to store call recordings in their own storage solutions.       |
 | Calling             | GA              | In Progress  | Improved Availability            | Enhance availability and concurrency for enterprise-grade workloads.        |
 | Calling             | Public Preview  | In Progress  | XL Participant Roster            | Graph Calling SDK supports XL participant roster notification for ISVs.     |
@@ -27,6 +27,7 @@ September - December 2024
 | Rooms               | GA              | Launched     | Call Caption GA                  | General Availability of Call Caption for all call participants and roles.   |
 | Rooms               | Public Preview  | Launched     | Transcriptions in Rooms Calls    | Public Preview of transcriptions in Rooms calls.                            |
 | Rooms               | GA              | Launched     | Remote Mute for VoIP             | General Availability of remote mute for VoIP participants.                  |
+| SMS                 | Public Preview  | In Progress  | SMS 10 Digit Long Code           | Add support for SMS 10 Digit Long Code.                                     |
 | Virtual Appointments| GA              | In Progress  | DeepVQE Noise Suppression        | Web Calling (desktop) supports DeepVQE noise suppression.                   |
 | Virtual Appointments| Public Preview  | In Progress  | Background Blur on Chrome        | Web Calling supports background blur & replacement on Android Chrome.       |
 | Virtual Appointments| GA              | In Progress  | 4x4 Grid Views                   | Web Calling (Desktop) supports 4x4 grid views.                              |
