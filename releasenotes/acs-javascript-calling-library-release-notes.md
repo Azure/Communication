@@ -10,6 +10,21 @@ If you are working with **Teams users**, please follow the `Teams identities` do
 - [Teams Identities quick start](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/get-started-with-voice-video-calling-custom-teams-client)
 - [Teams Identities object model](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/get-started-with-voice-video-calling-custom-teams-client#azure-communication-services-calling-web-sdk-object-model)
 
+## 1.31.1 (2024-12-05)
+- Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.31.1](https://www.npmjs.com/package/@azure/communication-calling/v/1.31.1)
+
+### New features:
+- <b>Ad hoc calling</b> - ACS WebJS SDK now enables users to make ad hoc calls to Teams users. This offers external customers a custom experience and allows employees to meet all communication needs in one hub: Teams. See [Quickstart - Teams interop calls on Azure Communication Services - An Azure Communication Services quickstart | Microsoft Learn](https://learn.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/get-started-teams-interop-group-calls) for more learning and details.
+- <b>Together Mode</b> – ACS calling now supports Together Mode, a feature that places participants in a shared virtual background to make meetings more engaging. This enhances virtual meetings and calls by creating a unified view that places everyone in a shared background, allowing participants to connect and collaborate effectively. Unify your virtual meetings experience with a shared background. See [Together Mode - An Azure Communication Services how-to guide | Microsoft Learn](https://review.learn.microsoft.com/en-us/azure/communication-services/how-tos/calling-sdk/together-mode?branch=live) to learn more.
+- <b>Breakout Rooms</b> - Enable users of ACS and Custom Teams Endpoint (CTE) to participate in Teams Interop breakout rooms, facilitating more personal connections and meaningful discussions. See [Tutorial - Integrate Microsoft Teams breakout rooms - An Azure Communication Services tutorial | Microsoft Learn](https://learn.microsoft.com/en-us/azure/communication-services/how-tos/calling-sdk/breakoutrooms) for more details.
+- <b>Media Access</b> - The media access feature allows organizers or presenters to prevent attendees from unmuting themselves or turning on their video during a Microsoft Teams meeting. If the microphone or camera is disabled by the organizer or presenter, attendees will not be able to unmute or turn on their video until the organizer enables it.
+
+## 1.32.1-beta.1 (2024-12-05)
+- Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.31.2-beta.1](https://www.npmjs.com/package/@azure/communication-calling/v/1.31.2-beta.1)
+
+### New features
+- <b>Ensure explicit consent for recording and transcription when utilizing the ACS SDK.</b> The ACS calling SDK includes an API that facilitates obtaining consent for recording and transcription during meetings. See [Manage call recording on the client - An Azure Communication Services how-to guide | Microsoft Learn](https://learn.microsoft.com/en-us/azure/communication-services/how-tos/calling-sdk/record-calls?pivots=platform-web) and [Display call transcription state on the client - An Azure Communication Services how-to guide | Microsoft Learn](https://learn.microsoft.com/en-us/azure/communication-services/how-tos/calling-sdk/call-transcription?pivots=platform-web) for more details.
+
 ## 1.30.4 (2024-11-12)
 - Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.30.4](https://www.npmjs.com/package/@azure/communication-calling/v/1.30.4)
 
