@@ -20,18 +20,27 @@ September - December 2024
 | Calling             | Public Preview  | In Progress  | Call Recording Enhancements      | Ensure recordings are free of any potential clippings.                      |
 | Calling             | GA              | In Progress  | Call Recording Service Enhancements to BYOS | Enable users to store call recordings in their own storage solutions.       |
 | Calling             | GA              | In Progress  | Improved Availability            | Enhance availability and concurrency for enterprise-grade workloads.        |
+| Calling             | GA              | In Progress  | SIP-UUI Context Data             | Pass SIP-UUI custom context data when transferring calls.                   |
 | Calling             | Public Preview  | In Progress  | XL Participant Roster            | Graph Calling SDK supports XL participant roster notification for ISVs.     |
+| Email               | Public Preview  | Launched     | Custom Message-Id                | Support for customer-provided Message-Id in email headers.                  |
 | Email               | Public Preview  | Launched     | Inline Image Attachments         | Support for sending emails with inline image attachments.                   |
 | Email               | Public Preview  | Launched     | Multiple Email Domains           | Support for multiple email domains per Azure Communication Services resource.                        |
-| Email               | Public Preview  | Launched     | Custom Message-Id                | Support for customer-provided Message-Id in email headers.                  |
 | Rooms               | GA              | Launched     | Call Caption GA                  | General Availability of Call Caption for all call participants and roles.   |
 | Rooms               | Public Preview  | Launched     | Transcriptions in Rooms Calls    | Public Preview of transcriptions in Rooms calls.                            |
 | Rooms               | GA              | Launched     | Remote Mute for VoIP             | General Availability of remote mute for VoIP participants.                  |
 | SMS                 | Public Preview  | In Progress  | SMS 10 Digit Long Code           | Add support for SMS 10 Digit Long Code.                                     |
-| Virtual Appointments| GA              | In Progress  | DeepVQE Noise Suppression        | Web Calling (desktop) supports DeepVQE noise suppression.                   |
-| Virtual Appointments| Public Preview  | In Progress  | Background Blur on Chrome        | Web Calling supports background blur & replacement on Android Chrome.       |
+| SMS                 | Public Preview  | In Progress  | SMS Opt-out management API       | The Opt-Out API lets developers manage SMS opt-out preferences programmatically. |
+| Teams Interoperability| GA            | In Progress  | User Naming                      | Correct naming of Azure Communication Services user in Teams using DisplayName. |
+| Teams Interoperability| GA            | In Progress  | PPT Live                         | Enable PPT Live on iOS, Windows, and Android.                               |
+| Teams Interoperability| GA            | In Progress  | Teams Call Queues                | iOS and Android Calling SDKs can call Teams call queues and auto-attendants. |
 | Virtual Appointments| GA              | In Progress  | 4x4 Grid Views                   | Web Calling (Desktop) supports 4x4 grid views.                              |
-
+| Virtual Appointments| Public Preview  | In Progress  | Background Blur on Chrome        | Web Calling supports background blur & replacement on Android Chrome.       |
+| Virtual Appointments| GA              | In Progress  | DeepVQE Noise Suppression        | Web Calling (desktop) supports DeepVQE noise suppression.                   |
+| Virtual Appointments| GA              | In Progress  | iOS PiP                          | Add Picture-in-Picture (PiP) support on iOS.                                |
+| Virtual Appointments| GA              | In Progress  | Recording Consent                | Web UI SDK components for requesting user consent of recording & transcription. |
+| Virtual Appointments| GA              | In Progress  | Teams Breakout Rooms             | Use Breakout Rooms in Teams Meetings.                                       |
+| Virtual Appointments| Public Preview  | In Progress  | Together Mode Interop            | Use Together Mode in Teams Meetings.                                        |
+| Virtual Appointments| Public Preview  | In Progress  | User-Facing Diagnostics          | Native Calling SDK supports server-side user-facing diagnostics (UFD).      |
 
 ## CY2024 Q2
 April - June 2024
