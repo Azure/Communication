@@ -28,8 +28,8 @@ September - December 2024
 | Rooms               | GA              | Launched     | Call Caption GA                  | General Availability of Call Caption for all call participants and roles.   |
 | Rooms               | Public Preview  | Launched     | Transcriptions in Rooms Calls    | Public Preview of transcriptions in Rooms calls.                            |
 | Rooms               | GA              | Launched     | Remote Mute for VoIP             | General Availability of remote mute for VoIP participants.                  |
-| SMS                 | Public Preview  | In Progress  | SMS 10 Digit Long Code           | Add support for SMS 10 Digit Long Code.                                     |
-| SMS                 | Public Preview  | In Progress  | SMS Opt-out management API       | The Opt-Out API lets developers manage SMS opt-out preferences programmatically. |
+| SMS                 | Public Preview  | Launched     | SMS 10 Digit Long Code           | Add support for SMS 10 Digit Long Code.                                     |
+| SMS                 | Public Preview  | Launched     | SMS Opt-out management API       | The Opt-Out API lets developers manage SMS opt-out preferences programmatically. |
 | Teams Interoperability| GA            | In Progress  | User Naming                      | Correct naming of Azure Communication Services user in Teams using DisplayName. |
 | Teams Interoperability| GA            | In Progress  | PPT Live                         | Enable PPT Live on iOS, Windows, and Android.                               |
 | Teams Interoperability| GA            | In Progress  | Teams Call Queues                | iOS and Android Calling SDKs can call Teams call queues and auto-attendants. |
