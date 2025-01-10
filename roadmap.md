@@ -17,6 +17,10 @@ September - December 2024
 | Call Automation     | GA              | Launched     | VoIP to PSTN Transfer            | Provide mechanism for call transfer from VoIP to PSTN.                      |
 | Call Automation     | GA              | In Progress  | High Availability Disaster Recovery (HADR) for Call Automation         | Support High Availability Disaster Recovery (HADR) for regional failover in Call Automation AI Actions. |
 | Call Automation     | Public Preview  | Launched     | Bidirectional Audio Streaming    | Enables real-time, two-way audio communication for seamless user interactions. |
+| Call Automation     | GA              | Launched     | UI Library Closed Captions       | Integrate closed captions for ACS and Teams interop calls to enhance accessibility. |
+| Call Automation     | GA              | Launched     | UI Library Customization         | Customize interface colors, titles, and button layouts to match brand and workflows. |
+| Calling             | GA              | Launched     | Calling & Chat SDK in Android    | Enable integration of Chat and Calling SDKs within the same Android project. |
+| Calling             | GA              | Launched     | Improvements in Azure Monitor Log Latency | Reduce latency for Calling logs in Azure Monitor. |
 | Calling             | Public Preview  | In Progress  | Call Recording Enhancements      | Ensure recordings are free of any potential clippings.                      |
 | Calling             | GA              | In Progress  | Call Recording Service Enhancements to BYOS | Enable users to store call recordings in their own storage solutions.       |
 | Calling             | GA              | In Progress  | Improved Availability            | Enhance availability and concurrency for enterprise-grade workloads.        |
@@ -41,6 +45,7 @@ September - December 2024
 | Virtual Appointments| GA              | In Progress  | Teams Breakout Rooms             | Use Breakout Rooms in Teams Meetings.                                       |
 | Virtual Appointments| Public Preview  | In Progress  | Together Mode Interop            | Use Together Mode in Teams Meetings.                                        |
 | Virtual Appointments| Public Preview  | In Progress  | User-Facing Diagnostics          | Native Calling SDK supports server-side user-facing diagnostics (UFD).      |
+| Virtual Appointments| GA | Launched | List Townhall APIs | Retrieve a list of townhalls for the tenant and organizers/co-organizers. |
 
 ## CY2024 Q2
 April - June 2024
