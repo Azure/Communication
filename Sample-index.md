@@ -1,6 +1,12 @@
 # Sample Index - Azure Communication Services 
 
-Can't find what you're looking for? [Request a sample](https://feedback.azure.com/d365community/forum/81ff6d2b-0c25-ec11-b6e6-000d3a4f0858)
+<!-- 
+[**Basic samples:**](#basic-samples) single purpose building blocks
+
+[**Advanced samples:**](#solution-samples) end-to-end experiences piecing together multiple communication capabilities.  -->
+
+
+[**Basic samples**](#basic-samples): understand the fundementals of Azure Communication Services
 - [Identity](#identity) 
 - [Chat](#chat)
 - [Email](#email)
@@ -11,8 +17,12 @@ Can't find what you're looking for? [Request a sample](https://feedback.azure.co
 - [Advanced Calling](#advanced-calling)
 - [Job Router](#job-router)
 
+[**Advanced samples:**](#advanced-samples) see how capabilities come together to create more advanced communication experiences.
 
----
+Can't find what you're looking for? [Request a sample](https://feedback.azure.com/d365community/forum/81ff6d2b-0c25-ec11-b6e6-000d3a4f0858) 📥
+
+
+## Basic samples
 
 ### Identity
 | Scenario                                                        | JS                                                                                                      | .NET                                                                                                   | Python                                                                                                | Java                                                                                                              |
@@ -86,3 +96,23 @@ Can't find what you're looking for? [Request a sample](https://feedback.azure.co
 |-------------------------------------------|---------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|
 | Submit a job for queueing and routing     | [Repo](https://github.com/Azure-Samples/communication-services-javascript-quickstarts/blob/main/job-router-quickstart/readme.md) | [Repo](https://github.com/Azure-Samples/communication-services-dotnet-quickstarts/blob/main/JobRouterQuickStart/readme.md) | [Repo](https://github.com/Azure-Samples/communication-services-python-quickstarts/blob/main/jobrouter-quickstart/readme.md) | [Repo](https://github.com/Azure-Samples/communication-services-java-quickstarts/tree/main/jobrouter-quickstart-java) |
 | Intelligent routing with Azure OpenAI     |  | [Repo](https://github.com/Azure-Samples/communication-services-dotnet-quickstarts/blob/main/JobRouterOpenAIIntegration/readme.md) |
+
+----
+
+## Advanced Samples
+See how Azure Communication Services capabilities come together to create advanced communication experiences.
+
+| Name                                 | Description                                                                                                                                                                                                                                    |
+|--------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [Authentication server](https://github.com/Azure-Samples/communication-services-authentication-hero-nodejs) | A sample of a server implementation of an authentication service for Azure Communication Services. It uses best practices to build a trusted backend service that issues Azure Communication Services credentials and maps them to Azure Active Directory identities. |
+| [Calling SDK demo app](https://github.com/Azure-Samples/communication-services-web-calling-tutorial) | A comprehensive demo of the Azure Communication Services Calling SDK including placing calls, connecting to teams meetings, calling media, and diagnostics.                                                                                   |
+| [Calling hero app](https://github.com/Azure-Samples/communication-services-web-calling-hero) | Sample demonstrating how the Communication Services Calling Web SDK can be used to build a group calling experience.                                                                                                                          |
+| [Chat hero app](https://github.com/Azure-Samples/communication-services-web-chat-hero) | A sample demonstrating how the Communication Services Chat Web SDK can be used to build a group chat experience.                                                                                                                               |
+| [Call automation sample](https://github.com/Azure-Samples/communication-services-javascript-quickstarts/tree/main/callautomation-live-transcription) | A sample application showing accepting of incoming PSTN call from a phone number, DTMF recognition, transfer call to agent, and live transcription. The application is a web-based application built on .Net7 framework.                      |
+| [Conversational SMS bot](https://github.com/Azure-Samples/communication-services-javascript-quickstarts/blob/main/sms-open-ai-bot/README.md) | This IVR (interactive voice response) sample makes an outbound call to a phone number or a communication identifier and plays an audio message.                                                                                               |
+| [Outbound reminder call sample](https://github.com/Azure-Samples/communication-services-dotnet-quickstarts/tree/main/OutboundCallReminder) | This sample application is also capable of making multiple concurrent outbound calls. The application is a console-based application built on .Net Framework 4.7.2.                                                                           |
+| [Customer service sample (with Azure OpenAI)](https://github.com/Azure-Samples/communication-services-AI-customer-service-sample) | An intelligent customer service solution for a fictitious energy company built by integrating Azure OpenAI Service and Azure AI Services.                                                                                                     |
+| [Conversational voice agent sample](https://github.com/Azure-Samples/communication-services-javascript-quickstarts/tree/main/callautomation-az-openai-voice) | An intelligent conversational voice agent, built by integrating with Azure OpenAI Service, and Microsoft Teams.                                                                                                                                |
+| [Virtual appointments sample](https://github.com/Azure-Samples/communication-services-virtual-visits-js) | A customizable virtual appointments experience built by integrating Microsoft Bookings, Microsoft Teams, and Azure Communication Services UI Library.                                                                                           |
+| [Retail customer support sample](https://github.com/Azure-Samples/communication-services-contoso-retail-app) | A retail customer service solution for a fictitious retail company featuring calling and chat capabilities.                                                                                                                                   |
+| [Health services sample](https://github.com/Azure-Samples/communication-services-contoso-med-app) | A health services sample application demonstrating appointment booking, virtual appointments, appointment updates via SMS.                                                                                                                     |
