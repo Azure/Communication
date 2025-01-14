@@ -1,4 +1,4 @@
-# Sample Index - Azure Communication Services 
+# Samples ✨ - Azure Communication Services 
 
 <!-- 
 [**Basic samples:**](#basic-samples) single purpose building blocks
