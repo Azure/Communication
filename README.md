@@ -1,3 +1,5 @@
+![image](https://github.com/user-attachments/assets/7fcaa6d5-6425-4573-859b-1b1cf9d1fc05)
+
 # Azure Communication Services
 
 [Azure Communication Services](https://docs.microsoft.com/azure/communication-services/overview) are cloud-based services with REST APIs and client library SDKs to help you integrate communication into your applications. You can add communication features to your applications without being an expert in communication technologies such as media encoding and real-time networking. 
