@@ -7,9 +7,12 @@
 - [SDKs 🧰](#sdks) : Links to client libraries
 - [Samples ✨](https://github.com/Azure/Communication/blob/master/Sample-index.md): Basic and advanced examples demonstrating common communication use cases.
 - [Documentation 📖](https://docs.microsoft.com/azure/communication-services/overview): Explore the platform documentation on _learn.microsoft.com_.
-- [Feature roadmap 📆](#feature-roadmap) :  Product roadmap and current public preview features.
 
 This repo is not open to contributions, though many of the linked SDKs are open-source and allow contributions.
+
+## Stay up to date 📣
+- [Feature roadmap 📆](#feature-roadmap) :  Product roadmap and current public preview features.
+- [Release Notes 📫](https://github.com/Azure/Communication/tree/pereiralex-repo-content-devX-refresh/releasenotes) : Collated release notes for the service and SDKs
 
 ## Have ideas or feedback? ❤️
 - [Submit feedback or feature requests](https://feedback.azure.com/d365community/forum/81ff6d2b-0c25-ec11-b6e6-000d3a4f0858) to our board on Azure Feedback.
