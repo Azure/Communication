@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/7fcaa6d5-6425-4573-859b-1b1cf9d1fc05)
+![image](https://github.com/user-attachments/assets/81db040d-8853-4aa6-8783-50114b62ed3f)
 
 # Azure Communication Services
 
