@@ -1,31 +1,22 @@
-
 # Azure Communication Services
-![image](https://github.com/user-attachments/assets/81db040d-8853-4aa6-8783-50114b62ed3f)
+![image](https://github.com/user-attachments/assets/84ab8a47-c0ee-4b95-a967-86393625961d)
 
 [Azure Communication Services](https://docs.microsoft.com/azure/communication-services/overview) are cloud-based services with REST APIs and client library SDKs to help you integrate communication into your applications. You can add communication features to your applications without being an expert in communication technologies such as media encoding and real-time networking. 
 
-## What can you find here?
+## Start building now 🔨
+- [SDKs 🧰](#sdks) : Links to client libraries
+- [Samples ✨](https://github.com/Azure/Communication/blob/master/Sample-index.md): Basic and advanced examples demonstrating common communication use cases.
+- [Documentation 📖](https://docs.microsoft.com/azure/communication-services/overview): Explore the platform documentation on _learn.microsoft.com_.
+- [Feature roadmap 📆](#feature-roadmap) :  Product roadmap and current public preview features.
 
-- *SDKs* - Links to client libraries
-- *Release Notes* - [Collated release notes](https://github.com/Azure/Communication/tree/master/releasenotes) for the service and SDKs
-- [*Roadmap*](https://github.com/Azure/Communication/blob/master/roadmap.md) - Priorities for current and future service development
-- [*Awesome List*](https://github.com/Azure/Communication/blob/master/Awesome.md) - External GitHub projects interesting to Azure Communication Services developers
+This repo is not open to contributions, though many of the linked SDKs are open-source and allow contributions.
 
-This repo is not open to contributions, though many of the linked SDKs are open-source and allow contributions. Documentation and other resources for developers are indexed below.
-
-| Topic            | Channel                             |
-|------------------|------------------------------|
-|Concepts & Quickstarts | [Docs](https://docs.microsoft.com/azure/communication-services/overview) 
-|Samples | [Sample Index](https://github.com/Azure/Communication/blob/master/Sample-index.md) or [GitHub](https://github.com/orgs/Azure-Samples/repositories?language=&q=communication&sort=&type=) 
-| Feature Requests | [Ideas](https://feedback.azure.com/d365community/forum/81ff6d2b-0c25-ec11-b6e6-000d3a4f0858)                     |
-| Questions & Bugs | [Q&A](https://docs.microsoft.com/answers/topics/azure-communication-services.html) or [Azure Support](https://docs.microsoft.com/azure/azure-portal/supportability/how-to-create-azure-support-request) |
-
-## ❤️ Feedback
-
-[Submit feedback or feature requests](https://feedback.azure.com/d365community/forum/81ff6d2b-0c25-ec11-b6e6-000d3a4f0858) to our board on Azure Feedback.
+## Have ideas or feedback? ❤️
+- [Submit feedback or feature requests](https://feedback.azure.com/d365community/forum/81ff6d2b-0c25-ec11-b6e6-000d3a4f0858) to our board on Azure Feedback.
+- [Q&A](https://docs.microsoft.com/answers/topics/azure-communication-services.html)
+- [Create an Azure Support request](https://docs.microsoft.com/azure/azure-portal/supportability/how-to-create-azure-support-request)
 
 ## SDKs
-
 Azure Communication Services is conceptually organized into 12 areas. Most areas have fully open-sourced SDKs programmed against published REST APIs that you can use directly over the Internet. Development of Web Calling and Chat client applications can be accelerated by [Azure Communication Services UI libraries](https://azure.github.io/communication-ui-library). The UI library provides production-ready UI components that you can drop into your applications.
 
 Communication Services APIs are documented alongside other Azure REST APIs in [learn.microsoft.com](https://learn.microsoft.com/rest/api/communication/). This documentation will tell you how to structure your HTTP messages and offers guidance for using Postman. REST interface documentation is also offered in Swagger format on [GitHub](https://github.com/Azure/azure-rest-api-specs).
