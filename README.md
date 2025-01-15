@@ -3,16 +3,17 @@
 # Azure Communication Services
 [Azure Communication Services](https://docs.microsoft.com/azure/communication-services/overview) are cloud-based services with REST APIs and client library SDKs to help you integrate communication into your applications. You can add communication features to your applications without being an expert in communication technologies such as media encoding and real-time networking. 
 
-## Start building now 🔨
-- [SDKs 🧰](#sdks) : Links to client libraries
-- [Samples ✨](https://github.com/Azure/Communication/blob/master/Sample-index.md): Basic and advanced examples demonstrating common communication use cases.
-- [Documentation 📖](https://docs.microsoft.com/azure/communication-services/overview): Explore the platform documentation on _learn.microsoft.com_.
+*This repo is not open to contributions, though many of the linked SDKs are open-source and allow contributions.*
 
-This repo is not open to contributions, though many of the linked SDKs are open-source and allow contributions.
+
+## Start building now 🔨
+- [SDKs 🧰](#sdks) : Explore the client libraries.
+- [Samples ✨](https://github.com/Azure/Communication/blob/master/Sample-index.md): Basic and advanced examples demonstrating common communication use cases.
+- [Documentation 📖](https://docs.microsoft.com/azure/communication-services/overview): Explore platform fundementals, capabilities, and tutorials.
 
 ## Stay up to date 📣
 - [Feature roadmap 📆](#feature-roadmap) :  Product roadmap and current public preview features.
-- [Release Notes 📫](https://github.com/Azure/Communication/tree/pereiralex-repo-content-devX-refresh/releasenotes) : Collated release notes for the service and SDKs
+- [Release Notes 📫](https://github.com/Azure/Communication/tree/pereiralex-repo-content-devX-refresh/releasenotes) : Collated release notes for the service and SDKs.
 
 ## Have ideas or feedback? ❤️
 - [Submit feedback or feature requests](https://feedback.azure.com/d365community/forum/81ff6d2b-0c25-ec11-b6e6-000d3a4f0858) to our board on Azure Feedback.
