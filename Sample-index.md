@@ -1,17 +1,11 @@
 # Samples ✨ - Azure Communication Services 
 
-<!-- 
-[**Basic samples:**](#basic-samples) single purpose building blocks
-
-[**Advanced samples:**](#solution-samples) end-to-end experiences piecing together multiple communication capabilities.  -->
-
-
-[**Basic samples**](#basic-samples): understand the fundementals of Azure Communication Services
+[**Basic samples**](#basic-samples): understand the fundementals of Azure Communication Services.
 - [Identity](#identity) 
 - [Chat](#chat)
 - [Email](#email)
 - [SMS](#sms)
-- [Advanced Messaging](#advanced-messaging)
+- [Advanced Messaging (WhatsApp)](#advanced-messaging)
 - [Voice & Video Calling](#voice--video-calling)
 - [Telephony](#telephony)
 - [Advanced Calling](#advanced-calling)
@@ -39,7 +33,7 @@ Can't find what you're looking for? [Request a sample](https://feedback.azure.co
 | Add chat to your app                                                                    | [Repo](https://github.com/Azure-Samples/communication-services-javascript-quickstarts/tree/main/add-chat) | [Repo](https://github.com/Azure-Samples/communication-services-dotnet-quickstarts/tree/main/add-chat) | [Repo](https://github.com/Azure-Samples/communication-services-python-quickstarts/blob/main/add-chat/README.md) | [Repo](https://github.com/Azure-Samples/communication-services-java-quickstarts/tree/main/chat-quickstart-java) |
 | Join a Microsoft Teams meeting chat                                                     | [Repo](https://github.com/Azure-Samples/communication-services-javascript-quickstarts/tree/main/join-chat-to-teams-meeting) | [Repo](https://github.com/Azure-Samples/communication-services-dotnet-quickstarts/tree/main/ChatTeamsInteropQuickStart) |
 | Get started with the chat composite                                                     | [Link](https://azure.github.io/communication-ui-library/?path=/docs/composites-get-started--docs)        |                                                                                                       |                                                                                                          |                                                                                                                  |
-| Natural language processing of messages (sentiment, summarization, and translation)     | [Repo](https://github.com/Azure-Samples/communication-services-javascript-quickstarts/tree/main/chat-openai-sample) |                                                                                                       |                                                                                                          |                                                                                                                  |
+| Natural language processing of messages (sentiment, summarization, and translation)     | [Repo](https://github.com/Azure-Samples/communication-services-javascript-quickstarts/tree/main/chat-nlp-analysis) |                                                                                                       |                                                                                                          |                                                                                                                  |
 
 ### Email
 
@@ -60,7 +54,7 @@ Can't find what you're looking for? [Request a sample](https://feedback.azure.co
 
 | Scenario                | JS                                                                                                      | .NET                                                                                                   | Python                                                                                                | Java                                                                                                     |
 |-------------------------|---------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Send a WhatsApp message | || [Repo](https://github.com/Azure-Samples/communication-services-python-quickstarts/blob/main/send-whatsapp/README.md)
+| Send a WhatsApp message | || [Repo](https://github.com/Azure-Samples/communication-services-python-quickstarts/blob/main/messages-quickstart/readme.md)
 
 
 ### Voice & Video Calling
