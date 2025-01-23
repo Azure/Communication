@@ -9,7 +9,7 @@
 ## Start building now 🔨
 - [SDKs 🧰](#sdks) : Explore the client libraries.
 - [Samples ✨](https://github.com/Azure/Communication/blob/master/Sample-index.md): Basic and advanced examples demonstrating common communication use cases.
-- [Documentation 📖](https://docs.microsoft.com/azure/communication-services/overview): Explore platform fundementals, tutorials, and pricing.
+- [Documentation 📖](https://docs.microsoft.com/azure/communication-services/overview): Explore platform fundamentals, tutorials, and pricing.
 
 ## Stay up to date 📣
 - [Feature roadmap 📆](#feature-roadmap) :  Product roadmap and current public preview features.
