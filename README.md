@@ -1,7 +1,7 @@
 
 ![image](https://github.com/user-attachments/assets/84ab8a47-c0ee-4b95-a967-86393625961d)
 # Azure Communication Services
-[Azure Communication Services](https://docs.microsoft.com/azure/communication-services/overview) are cloud-based services with REST APIs and client library SDKs to help you integrate communication into your applications. You can add communication features to your applications without being an expert in communication technologies such as media encoding and real-time networking. 
+[Azure Communication Services](https://docs.microsoft.com/azure/communication-services/overview) are cloud-based services with REST APIs and client library SDKs to help you integrate communication into your applications. You can add communication features to your applications without being an expert in communication technologies such as public switched telecommunications networks (PSTN), media encoding, and real-time networking. 
 
 *This repo is not open to contributions, though many of the linked SDKs are open-source and allow contributions.*
 
@@ -9,14 +9,14 @@
 ## Start building now 🔨
 - [SDKs 🧰](#sdks) : Explore the client libraries.
 - [Samples ✨](https://github.com/Azure/Communication/blob/master/Sample-index.md): Basic and advanced examples demonstrating common communication use cases.
-- [Documentation 📖](https://docs.microsoft.com/azure/communication-services/overview): Explore platform fundementals, capabilities, and tutorials.
+- [Documentation 📖](https://docs.microsoft.com/azure/communication-services/overview): Explore platform fundementals, tutorials, and pricing.
 
 ## Stay up to date 📣
 - [Feature roadmap 📆](#feature-roadmap) :  Product roadmap and current public preview features.
-- [Release Notes 📫](https://github.com/Azure/Communication/tree/pereiralex-repo-content-devX-refresh/releasenotes) : Collated release notes for the service and SDKs.
+- [Release notes 📫](https://github.com/Azure/Communication/tree/pereiralex-repo-content-devX-refresh/releasenotes) : Collated release notes for the service and SDKs.
 
 ## Have ideas or feedback? ❤️
-- [Submit feedback or feature requests](https://feedback.azure.com/d365community/forum/81ff6d2b-0c25-ec11-b6e6-000d3a4f0858) to our board on Azure Feedback.
+- [Submit feedback or feature requests 📥](https://feedback.azure.com/d365community/forum/81ff6d2b-0c25-ec11-b6e6-000d3a4f0858) to our board on Azure Feedback.
 - [Q&A](https://docs.microsoft.com/answers/topics/azure-communication-services.html)
 - [Create an Azure Support request](https://docs.microsoft.com/azure/azure-portal/supportability/how-to-create-azure-support-request)
 
