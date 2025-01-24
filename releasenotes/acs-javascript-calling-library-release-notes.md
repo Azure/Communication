@@ -14,7 +14,7 @@ If you are working with **Teams users**, please follow the `Teams identities` do
 - Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.32.1](https://www.npmjs.com/package/@azure/communication-calling/v/1.32.1)
 
 ### Fixes
-- Fixed blurry screensharing stream sent from MacOS Safari
+- Addressed an issue where clients using MacOS Safari were sending low-quality screen share resolutions.
 
 ## 1.31.2 (2024-12-12)
 - Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.31.2](https://www.npmjs.com/package/@azure/communication-calling/v/1.31.2)
