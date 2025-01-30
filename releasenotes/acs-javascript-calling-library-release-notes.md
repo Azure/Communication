@@ -10,6 +10,13 @@ If you are working with **Teams users**, please follow the `Teams identities` do
 - [Teams Identities quick start](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/get-started-with-voice-video-calling-custom-teams-client)
 - [Teams Identities object model](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/get-started-with-voice-video-calling-custom-teams-client#azure-communication-services-calling-web-sdk-object-model)
 
+## 1.33.2-beta.1 (2025-01-30)
+- Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.33.2-beta.1](https://www.npmjs.com/package/@azure/communication-calling/v/1.33.2-beta.1)
+
+### New features:
+- <b>Dual Pin</b> - Support for rendering 2 streams with high resolution - up to 2 streams with resolution up to 720p can be rendered simultaneously. 
+- <b>RealTimeText</b> - Instantly transmit text as you type while in a call, enabling seamless and immediate communication for more accessible and responsive interactions.
+
 ## 1.32.1 (2024-01-09)
 - Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.32.1](https://www.npmjs.com/package/@azure/communication-calling/v/1.32.1)
 
