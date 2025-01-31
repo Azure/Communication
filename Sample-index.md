@@ -1,4 +1,4 @@
-# Samples ✨ - Azure Communication Services 
+# Sample library ✨
 
 [**Basic samples**](#basic-samples): understand the fundementals of Azure Communication Services.
 - [Identity](#identity) 
