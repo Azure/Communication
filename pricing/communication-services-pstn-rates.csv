@@ -1,67 +1,17 @@
 Destination Name,Destination Type,Country,Prefix,Price / min
 Afghanistan,mixed,AF,93,0.32
 Albania,landline,AL,355,0.241
-Albania - Mobile,mobile,AL,35566,0.645
-Albania - Mobile,mobile,AL,35567,0.645
-Albania - Mobile,mobile,AL,35568,0.645
-Albania - Mobile,mobile,AL,35569,0.645
-Albania - Tirana,landline,AL,35542,0.239
-Albania - Tirana,landline,AL,35544,0.239
-Albania - Tirana,landline,AL,35545,0.239
-Albania - Tirana,landline,AL,35546,0.239
-Albania - Tirana,landline,AL,35547,0.239
-Albania - Tirana,landline,AL,35548,0.239
-Albania - Tirana,landline,AL,35549,0.239
-Algeria,landline,DZ,213,0.1
-Algeria - Algiers,landline,DZ,21321,0.1
-Algeria - Mobile,mobile,DZ,21365,0.818
-Algeria - Mobile,mobile,DZ,213659,0.818
-Algeria - Mobile,mobile,DZ,21366,0.818
-Algeria - Mobile,mobile,DZ,21367,0.818
-Algeria - Mobile,mobile,DZ,213670,0.818
-Algeria - Mobile,mobile,DZ,21368,0.818
-Algeria - Mobile,mobile,DZ,21369,0.818
-Algeria - Mobile,mobile,DZ,213696,0.818
-Algeria - Mobile,mobile,DZ,213697,0.818
-Algeria - Mobile,mobile,DZ,213698,0.818
-Algeria - Mobile,mobile,DZ,213699,0.818
-Algeria - Mobile,mobile,DZ,21370,0.818
-Algeria - Mobile,mobile,DZ,21377,0.818
-Algeria - Mobile,mobile,DZ,21378,0.818
-Algeria - Mobile,mobile,DZ,213780,0.818
-Algeria - Mobile,mobile,DZ,213781,0.818
-Algeria - Mobile,mobile,DZ,21379,0.818
-Algeria - Mobile,mobile,DZ,2139619,0.818
-Algeria - Mobile,mobile,DZ,21396190,0.818
-Algeria - Mobile,mobile,DZ,21396191,0.818
-Algeria - Mobile,mobile,DZ,21396192,0.818
-Algeria - Mobile - Wataniya,mobile,DZ,2135,0.969
 Andorra,landline,AD,376,0.047
 Andorra - Mobile,mobile,AD,3763,0.28
 Andorra - Mobile,mobile,AD,3764,0.28
 Andorra - Mobile,mobile,AD,3765,0.28
 Andorra - Mobile,mobile,AD,3766,0.28
-Angola,landline,AO,244,0.813
 Angola - Mobile,mobile,AO,2449,0.274
 Angola - Mobile,mobile,AO,24491,0.274
 Angola - Mobile,mobile,AO,24492,0.274
 Angola - Mobile,mobile,AO,24493,0.274
 Angola - Mobile,mobile,AO,24494,0.274
 Anguilla,landline,AI,1264,0.377
-Anguilla - Mobile,mobile,AI,1264235,0.604
-Anguilla - Mobile,mobile,AI,1264469,0.604
-Anguilla - Mobile,mobile,AI,1264476,0.604
-Anguilla - Mobile,mobile,AI,1264536,0.604
-Anguilla - Mobile,mobile,AI,1264537,0.604
-Anguilla - Mobile,mobile,AI,1264538,0.604
-Anguilla - Mobile,mobile,AI,1264539,0.604
-Anguilla - Mobile,mobile,AI,1264543,0.604
-Anguilla - Mobile,mobile,AI,1264581,0.604
-Anguilla - Mobile,mobile,AI,1264582,0.604
-Anguilla - Mobile,mobile,AI,1264583,0.604
-Anguilla - Mobile,mobile,AI,1264584,0.604
-Anguilla - Mobile,mobile,AI,1264729,0.604
-Anguilla - Mobile,mobile,AI,1264772,0.604
 Antigua Barbuda,mixed,AG,1268,0.378
 Argentina,landline,AR,54,0.039
 Argentina-Buenos Aires,landline,AR,5411,0.015
@@ -253,13 +203,6 @@ Bangladesh-Dhaka,landline,BD,8802,0.06
 Bangladesh - Mobile,mobile,BD,8801,0.06
 Bangladesh-Sylhet,landline,BD,880821,0.06
 Barbados,mixed,BB,1246,0.28
-Belarus,landline,BY,375,0.51
-Belarus-Minsk,landline,BY,37517,0.51
-Belarus - Mobile,mobile,BY,37525,0.54
-Belarus - Mobile,mobile,BY,37529,0.54
-Belarus - Mobile,mobile,BY,37533,0.54
-Belarus - Mobile,mobile,BY,37544,0.54
-Belarus - Toll Free,non-geographic,BY,3758820,0.51
 Belgium,landline,BE,32,0.13
 Belgium - Mobile,mobile,BE,3246,0.45
 Belgium - Mobile,mobile,BE,32460,0.45
@@ -281,24 +224,6 @@ Belgium - Mobile - Proximus,mobile,BE,3247,0.45
 Belgium - Toll Free,non-geographic,BE,32800,0.13
 Belize,mixed,BZ,501,0.3
 Belize - Toll Free,non-geographic,BZ,5011800,0.3
-Benin,landline,BJ,229,0.528
-Benin - Mobile,mobile,BJ,22961,0.525
-Benin - Mobile,mobile,BJ,22962,0.525
-Benin - Mobile,mobile,BJ,22963,0.525
-Benin - Mobile,mobile,BJ,22964,0.525
-Benin - Mobile,mobile,BJ,22965,0.525
-Benin - Mobile,mobile,BJ,22966,0.525
-Benin - Mobile,mobile,BJ,22967,0.525
-Benin - Mobile,mobile,BJ,22968,0.525
-Benin - Mobile,mobile,BJ,22990,0.525
-Benin - Mobile,mobile,BJ,22992,0.525
-Benin - Mobile,mobile,BJ,22993,0.525
-Benin - Mobile,mobile,BJ,22994,0.525
-Benin - Mobile,mobile,BJ,22995,0.525
-Benin - Mobile,mobile,BJ,22996,0.525
-Benin - Mobile,mobile,BJ,22997,0.525
-Benin - Mobile,mobile,BJ,22998,0.525
-Benin - Mobile,mobile,BJ,22999,0.525
 Bermuda,mixed,BM,1441,0.05
 Bhutan,mixed,BT,975,0.16
 Bolivia,landline,BO,591,0.1476
@@ -324,11 +249,6 @@ Bolivia - Mobile,mobile,BO,59178,0.28
 Bolivia - Mobile,mobile,BO,59179,0.28
 Bolivia-Santa Cruz,landline,BO,5913,0.145
 Bosnia and Herzegovina,landline,BA,387,0.232
-Bosnia and Herzegovina - Mobile,mobile,BA,3876,0.51
-Bosnia and Herzegovina - Mobile,mobile,BA,38761,0.51
-Bosnia and Herzegovina - Mobile,mobile,BA,38762,0.51
-Bosnia and Herzegovina - Mobile,mobile,BA,38763,0.51
-Bosnia and Herzegovina - Mobile,mobile,BA,38765,0.51
 Bosnia and Herzegovina - Toll Free,non-geographic,BA,387800,0.232
 Botswana,landline,BW,267,0.231
 Botswana - Mobile,mobile,BW,2677,0.319
@@ -1188,40 +1108,6 @@ Bulgaria - Mobile,mobile,BG,359988,0.437
 Bulgaria - Mobile,mobile,BG,359989,0.437
 Bulgaria-Sofia,landline,BG,3592,0.35
 Bulgaria - Toll Free,non-geographic,BG,3590800,0.35
-Burkina Faso,landline,BF,226,0.542
-Burkina Faso - Mobile,mobile,BF,22660,0.51
-Burkina Faso - Mobile,mobile,BF,22661,0.51
-Burkina Faso - Mobile,mobile,BF,22662,0.51
-Burkina Faso - Mobile,mobile,BF,22663,0.51
-Burkina Faso - Mobile,mobile,BF,22664,0.51
-Burkina Faso - Mobile,mobile,BF,22665,0.51
-Burkina Faso - Mobile,mobile,BF,22666,0.51
-Burkina Faso - Mobile,mobile,BF,22667,0.51
-Burkina Faso - Mobile,mobile,BF,22668,0.51
-Burkina Faso - Mobile,mobile,BF,22669,0.51
-Burkina Faso - Mobile,mobile,BF,22670,0.51
-Burkina Faso - Mobile,mobile,BF,22671,0.51
-Burkina Faso - Mobile,mobile,BF,22672,0.51
-Burkina Faso - Mobile,mobile,BF,22673,0.51
-Burkina Faso - Mobile,mobile,BF,22674,0.51
-Burkina Faso - Mobile,mobile,BF,22675,0.51
-Burkina Faso - Mobile,mobile,BF,22676,0.51
-Burkina Faso - Mobile,mobile,BF,22677,0.51
-Burkina Faso - Mobile,mobile,BF,22678,0.51
-Burkina Faso - Mobile,mobile,BF,22679,0.51
-Burundi,landline,BI,257,0.885
-Burundi - Mobile,mobile,BI,25729,0.72
-Burundi - Mobile,mobile,BI,2576,0.72
-Burundi - Mobile,mobile,BI,2577,0.72
-Burundi - Mobile,mobile,BI,25771,0.72
-Burundi - Mobile,mobile,BI,25772,0.72
-Burundi - Mobile,mobile,BI,25774,0.72
-Burundi - Mobile,mobile,BI,25775,0.72
-Burundi - Mobile,mobile,BI,25776,0.72
-Burundi - Mobile,mobile,BI,25777,0.72
-Burundi - Mobile,mobile,BI,25778,0.72
-Burundi - Mobile,mobile,BI,2578,0.72
-Burundi - Mobile,mobile,BI,2579,0.72
 Cambodia,landline,KH,855,0.1
 Cambodia - Mobile,mobile,KH,8551,0.1
 Cambodia - Mobile,mobile,KH,85588,0.1
@@ -1230,26 +1116,6 @@ Cambodia - Mobile,mobile,KH,8559,0.1
 Cambodia - Toll Free,non-geographic,KH,8551800,0.1
 Cambodia - Toll Free,non-geographic,KH,855800,0.1
 Cameroon,landline,CM,237,0.41
-Cameroon - Mobile,mobile,CM,23722258,0.501
-Cameroon - Mobile,mobile,CM,23750,0.501
-Cameroon - Mobile,mobile,CM,23751,0.501
-Cameroon - Mobile,mobile,CM,23752,0.501
-Cameroon - Mobile,mobile,CM,23753,0.501
-Cameroon - Mobile,mobile,CM,23754,0.501
-Cameroon - Mobile,mobile,CM,23755,0.501
-Cameroon - Mobile,mobile,CM,23756,0.501
-Cameroon - Mobile,mobile,CM,2376,0.501
-Cameroon - Mobile,mobile,CM,237650,0.501
-Cameroon - Mobile,mobile,CM,237651,0.501
-Cameroon - Mobile,mobile,CM,237652,0.501
-Cameroon - Mobile,mobile,CM,237653,0.501
-Cameroon - Mobile,mobile,CM,237654,0.501
-Cameroon - Mobile,mobile,CM,237655,0.501
-Cameroon - Mobile,mobile,CM,237656,0.501
-Cameroon - Mobile,mobile,CM,23767,0.501
-Cameroon - Mobile,mobile,CM,23769,0.501
-Cameroon - Mobile,mobile,CM,2377,0.501
-Cameroon - Mobile,mobile,CM,2379,0.501
 Canada,mixed,CA,1204,0.013
 Canada,mixed,CA,1226,0.013
 Canada,mixed,CA,1236,0.013
@@ -1292,12 +1158,6 @@ Canada,mixed,CA,1902,0.013
 Canada,mixed,CA,1905,0.013
 Cape Verde,mixed,CV,238,0.33
 Cayman Islands,mixed,KY,1345,0.338
-Central Africa,landline,CF,236,1.076
-Central Africa - Mobile,mobile,CF,23670,1.076
-Central Africa - Mobile,mobile,CF,23672,1.076
-Central Africa - Mobile,mobile,CF,23675,1.076
-Central Africa - Mobile,mobile,CF,23677,1.076
-Chad,mixed,TD,235,0.684
 Chile,landline,CL,56,0.04
 Chile - Mobile,mobile,CL,568,0.067
 Chile - Mobile,mobile,CL,569,0.067
@@ -1340,55 +1200,13 @@ Colombia - Mobile,mobile,CO,57320,0.026
 Colombia - Mobile,mobile,CO,57321,0.026
 Colombia - Mobile,mobile,CO,57350,0.026
 Colombia - Toll Free,non-geographic,CO,571800,0.07
-Comoros,landline,KM,269,0.702
-Comoros,landline,KM,2697,0.702
-Comoros -  Mobile,mobile,KM,2693,0.711
-Comoros -  Mobile,mobile,KM,26932,0.711
-Comoros -  Mobile,mobile,KM,26933,0.711
-Congo,landline,CG,242,0.9
-Congo Dem Rep,landline,CD,243,0.704
-Congo Dem Rep - Mobile,mobile,CD,24373,0.666
-Congo Dem Rep - Mobile,mobile,CD,24378,0.666
-Congo Dem Rep - Mobile,mobile,CD,24380,0.666
-Congo Dem Rep - Mobile,mobile,CD,24381,0.666
-Congo Dem Rep - Mobile,mobile,CD,24382,0.666
-Congo Dem Rep - Mobile,mobile,CD,24384,0.666
-Congo Dem Rep - Mobile,mobile,CD,24385,0.666
-Congo Dem Rep - Mobile,mobile,CD,24388,0.666
-Congo Dem Rep - Mobile,mobile,CD,24389,0.666
-Congo Dem Rep - Mobile,mobile,CD,24390,0.666
-Congo Dem Rep - Mobile,mobile,CD,24391,0.666
-Congo Dem Rep - Mobile,mobile,CD,24392,0.666
-Congo Dem Rep - Mobile,mobile,CD,24393,0.666
-Congo Dem Rep - Mobile,mobile,CD,24394,0.666
-Congo Dem Rep - Mobile,mobile,CD,24395,0.666
-Congo Dem Rep - Mobile,mobile,CD,24396,0.666
-Congo Dem Rep - Mobile,mobile,CD,24397,0.666
-Congo Dem Rep - Mobile,mobile,CD,24398,0.666
-Congo Dem Rep - Mobile,mobile,CD,24399,0.666
-Congo - Mobile,mobile,CG,24201,0.9
-Congo - Mobile,mobile,CG,24204,0.9
-Congo - Mobile,mobile,CG,24205,0.9
-Congo - Mobile,mobile,CG,24206,0.9
-Cook Islands,mixed,CK,682,2.3
 Costa Rica,landline,CR,506,0.03
 Costa Rica - Mobile,mobile,CR,5065,0.115
 Costa Rica - Mobile,mobile,CR,5066,0.115
 Costa Rica - Mobile,mobile,CR,5067,0.115
 Costa Rica - Mobile,mobile,CR,5068,0.115
 Croatia,landline,HR,385,0.215
-Croatia - Mobile,mobile,HR,38562,0.615
-Croatia - Mobile,mobile,HR,38576,0.615
-Croatia - Mobile,mobile,HR,38577,0.615
-Croatia - Mobile,mobile,HR,3859,0.615
-Croatia - Mobile,mobile,HR,38591,0.615
-Croatia - Mobile,mobile,HR,38592,0.615
-Croatia - Mobile,mobile,HR,38595,0.615
-Croatia - Mobile,mobile,HR,38597,0.615
-Croatia - Mobile,mobile,HR,38598,0.615
-Croatia - Mobile,mobile,HR,38599,0.615
 Croatia - Toll Free,non-geographic,HR,385800,0.215
-Cuba,mixed,CU,53,1.015
 Cyprus,landline,CY,357,0.07
 Cyprus - Mobile,mobile,CY,35712397,0.115
 Cyprus - Mobile,mobile,CY,35712399,0.115
@@ -1561,7 +1379,6 @@ Denmark - Mobile,mobile,DK,459220,0.0508
 Denmark - Mobile,mobile,DK,459222,0.0508
 Denmark - Mobile,mobile,DK,4593,0.0508
 Denmark - Toll Free,non-geographic,DK,4580,0.019
-Djibouti,mixed,DJ,253,0.555
 Dominica,mixed,DM,1767,0.405
 Dominican Republic,landline,DO,1809,0.11
 Dominican Republic,landline,DO,18098594,0.11
@@ -3418,7 +3235,6 @@ El Salvador - Mobile,mobile,SV,5037988,0.29
 El Salvador - Mobile,mobile,SV,5037989,0.29
 El Salvador - Mobile,mobile,SV,503799,0.29
 El Salvador - Mobile,mobile,SV,5038,0.29
-Equatorial Guinea,mixed,GQ,240,0.747
 Eritrea,mixed,ER,291,0.335
 Estonia,landline,EE,372,0.033
 Estonia - Mobile,mobile,EE,3725,0.4783
@@ -3442,7 +3258,6 @@ Ethiopia - Mobile,mobile,ET,251919,0.36
 Ethiopia - Mobile,mobile,ET,25192,0.36
 Ethiopia - Mobile,mobile,ET,25193,0.36
 Ethiopia - Mobile,mobile,ET,25195,0.36
-Falkland Islands,mixed,FK,500,3.3
 Faroe Islands,landline,FO,298,0.025
 Faroe Islands - Mobile,mobile,FO,2982,0.057
 Faroe Islands - Mobile,mobile,FO,29821,0.057
@@ -3598,8 +3413,6 @@ French Guiana - Mobile,mobile,GF,59469447,0.166
 French Guiana - Mobile,mobile,GF,5946949,0.166
 French Guiana - Mobile,mobile,GF,594876,0.166
 French Polynesia,mixed,PF,689,0.375
-Gabon,landline,GA,241,0.655
-Gambia,landline,GM,220,0.825
 Georgia,landline,GE,995,0.29
 Georgia - Mobile,mobile,GE,7840,0.385
 Georgia - Mobile,mobile,GE,7940,0.385
@@ -3662,46 +3475,7 @@ Greece,landline,GR,30,0.044
 Greece-Athens,landline,GR,3021,0.044
 Greece - Toll Free,non-geographic,GR,300800,0.044
 Greenland,landline,GL,299,0.475
-Greenland - Mobile,mobile,GL,2992,0.705
-Greenland - Mobile,mobile,GL,2994,0.705
-Greenland - Mobile,mobile,GL,29949,0.705
-Greenland - Mobile,mobile,GL,2995,0.705
 Grenada,landline,GD,1473,0.29
-Grenada - Mobile,mobile,GD,1473403,0.524
-Grenada - Mobile,mobile,GD,1473404,0.524
-Grenada - Mobile,mobile,GD,1473405,0.524
-Grenada - Mobile,mobile,GD,1473406,0.524
-Grenada - Mobile,mobile,GD,1473407,0.524
-Grenada - Mobile,mobile,GD,1473409,0.524
-Grenada - Mobile,mobile,GD,1473410,0.524
-Grenada - Mobile,mobile,GD,1473414,0.524
-Grenada - Mobile,mobile,GD,1473415,0.524
-Grenada - Mobile,mobile,GD,1473416,0.524
-Grenada - Mobile,mobile,GD,1473417,0.524
-Grenada - Mobile,mobile,GD,1473418,0.524
-Grenada - Mobile,mobile,GD,1473419,0.524
-Grenada - Mobile,mobile,GD,1473420,0.524
-Grenada - Mobile,mobile,GD,1473421,0.524
-Grenada - Mobile,mobile,GD,1473422,0.524
-Grenada - Mobile,mobile,GD,14734412,0.524
-Grenada - Mobile,mobile,GD,14734413,0.524
-Grenada - Mobile,mobile,GD,14734414,0.524
-Grenada - Mobile,mobile,GD,14734415,0.524
-Grenada - Mobile,mobile,GD,14734416,0.524
-Grenada - Mobile,mobile,GD,14734417,0.524
-Grenada - Mobile,mobile,GD,14734418,0.524
-Grenada - Mobile,mobile,GD,14734419,0.524
-Grenada - Mobile,mobile,GD,1473449,0.524
-Grenada - Mobile,mobile,GD,1473456,0.524
-Grenada - Mobile,mobile,GD,1473457,0.524
-Grenada - Mobile,mobile,GD,1473458,0.524
-Grenada - Mobile,mobile,GD,1473459,0.524
-Grenada - Mobile,mobile,GD,1473533,0.524
-Grenada - Mobile,mobile,GD,1473534,0.524
-Grenada - Mobile,mobile,GD,1473535,0.524
-Grenada - Mobile,mobile,GD,1473536,0.524
-Grenada - Mobile,mobile,GD,1473537,0.524
-Grenada - Mobile,mobile,GD,1473538,0.524
 Guadeloupe,landline,GP,590,0.044
 Guadeloupe - Mobile,mobile,GP,590690,0.152
 Guam,mixed,GU,1671,0.04
@@ -3839,25 +3613,6 @@ Guatemala - Mobile,mobile,GT,50280,0.19
 Guatemala - Mobile,mobile,GT,50281,0.19
 Guatemala - Mobile,mobile,GT,50290,0.19
 Guatemala - Mobile,mobile,GT,50291,0.19
-Guinea,landline,GN,224,0.783
-Guinea-Bissau,mixed,GW,245,1.009
-Guinea - Mobile,mobile,GN,22424,0.667
-Guinea - Mobile,mobile,GN,22460,0.667
-Guinea - Mobile,mobile,GN,22462,0.667
-Guinea - Mobile,mobile,GN,224624,0.667
-Guinea - Mobile,mobile,GN,22463,0.667
-Guinea - Mobile,mobile,GN,22464,0.667
-Guinea - Mobile,mobile,GN,22465,0.667
-Guinea - Mobile,mobile,GN,22466,0.667
-Guinea - Mobile,mobile,GN,224662,0.667
-Guinea - Mobile,mobile,GN,224664,0.667
-Guinea - Mobile,mobile,GN,224666,0.667
-Guinea - Mobile,mobile,GN,224669,0.667
-Guinea - Mobile,mobile,GN,22467,0.667
-Guinea - Mobile,mobile,GN,22468,0.667
-Guinea - Mobile,mobile,GN,22469,0.667
-Guinea - Mobile,mobile,GN,22478,0.667
-Guinea - Mobile,mobile,GN,22479,0.667
 Guyana,mixed,GY,592,0.275
 Haiti,landline,HT,509,0.415
 Haiti - Mobile,mobile,HT,509200,0.42
@@ -4371,17 +4126,12 @@ Kenya - Mobile,mobile,KE,254789,0.285
 Kenya-Mombasa,landline,KE,25441,0.245
 Kenya-Nairobi,landline,KE,25420,0.245
 Kenya - Toll Free,non-geographic,KE,254800,0.245
-Korea Dem People's Rep,mixed,KP,850,0.745
 Korea Republic of,landline,KR,82,0.031
 Korea Republic of - Mobile,mobile,KR,821,0.035
 Korea Republic of-Seoul,landline,KR,822,0.031
 Korea Republic of - Toll Free,non-geographic,KR,8203,0.031
 Korea Republic of - Toll Free,non-geographic,KR,820798,0.031
 Kosovo,landline,XK,383,0.247
-Kosovo - Mobile,mobile,XK,38343,0.8
-Kosovo - Mobile,mobile,XK,38344,0.8
-Kosovo - Mobile,mobile,XK,38345,0.8
-Kosovo - Mobile,mobile,XK,38349,0.8
 Kosovo - Pristina,landline,XK,38383,0.247
 Kuwait,landline,KW,965,0.08
 Kuwait - Mobile,mobile,KW,96540,0.13
@@ -4451,40 +4201,6 @@ Lebanon - Mobile,mobile,LB,961812,0.28
 Lebanon - Mobile,mobile,LB,961813,0.28
 Lebanon - Mobile,mobile,LB,961816,0.28
 Lebanon - Mobile,mobile,LB,961817,0.28
-Lesotho,landline,LS,266,0.55
-Lesotho - Mobile,mobile,LS,2665,0.631
-Lesotho - Mobile,mobile,LS,26650,0.631
-Lesotho - Mobile,mobile,LS,26651,0.631
-Lesotho - Mobile,mobile,LS,26652,0.631
-Lesotho - Mobile,mobile,LS,26653,0.631
-Lesotho - Mobile,mobile,LS,26654,0.631
-Lesotho - Mobile,mobile,LS,26655,0.631
-Lesotho - Mobile,mobile,LS,26656,0.631
-Lesotho - Mobile,mobile,LS,26657,0.631
-Lesotho - Mobile,mobile,LS,26658,0.631
-Lesotho - Mobile,mobile,LS,266588,0.631
-Lesotho - Mobile,mobile,LS,26659,0.631
-Lesotho - Mobile,mobile,LS,2666,0.631
-Lesotho - Mobile,mobile,LS,26662,0.631
-Lesotho - Mobile,mobile,LS,26663,0.631
-Lesotho - Mobile,mobile,LS,26665,0.631
-Lesotho - Mobile,mobile,LS,26685,0.631
-Lesotho - Mobile,mobile,LS,26686,0.631
-Liberia,mixed,LR,231,0.614
-Liberia - Mobile,mobile,LR,2314,0.565
-Liberia - Mobile,mobile,LR,2315,0.565
-Liberia - Mobile,mobile,LR,23153201,0.565
-Liberia - Mobile,mobile,LR,23153203,0.565
-Liberia - Mobile,mobile,LR,23153204,0.565
-Liberia - Mobile,mobile,LR,23153210,0.565
-Liberia - Mobile,mobile,LR,2315321135,0.565
-Liberia - Mobile,mobile,LR,2315321137,0.565
-Liberia - Mobile,mobile,LR,2315321138,0.565
-Liberia - Mobile,mobile,LR,2315321139,0.565
-Liberia - Mobile,mobile,LR,2316,0.565
-Liberia - Mobile,mobile,LR,2317,0.565
-Liberia - Mobile,mobile,LR,23188,0.565
-Liberia - Mobile,mobile,LR,23199,0.565
 Libya,landline,LY,218,0.295
 Libya - Mobile,mobile,LY,21891,0.45
 Libya - Mobile,mobile,LY,21892,0.45
@@ -4602,44 +4318,11 @@ Luxembourg - Mobile,mobile,LU,35298,0.23
 Luxembourg - Toll Free,non-geographic,LU,352800,0.23
 Macao,landline,MO,853,0.182
 Macedonia,landline,MK,389,0.411
-Macedonia - Mobile,mobile,MK,38951,0.62
-Macedonia - Mobile,mobile,MK,3897,0.62
-Macedonia - Mobile,mobile,MK,38970,0.62
-Macedonia - Mobile,mobile,MK,38971,0.62
-Macedonia - Mobile,mobile,MK,38972,0.62
-Macedonia - Mobile,mobile,MK,38973,0.62
-Macedonia - Mobile,mobile,MK,38974,0.62
-Macedonia - Mobile,mobile,MK,38975,0.62
-Macedonia - Mobile,mobile,MK,38976,0.62
-Macedonia - Mobile,mobile,MK,38977,0.62
-Macedonia - Mobile,mobile,MK,38978,0.62
-Macedonia - Mobile,mobile,MK,38979,0.62
 Macedonia - Toll Free,non-geographic,MK,389800,0.411
-Madagascar,landline,MG,261,0.964
-Madagascar - Mobile,mobile,MG,26130,0.88
-Madagascar - Mobile,mobile,MG,26131,0.88
-Madagascar - Mobile,mobile,MG,26132,0.88
-Madagascar - Mobile,mobile,MG,26133,0.88
-Madagascar - Mobile,mobile,MG,26134,0.88
-Malawi,landline,MW,265,0.45
-Malawi - Mobile,mobile,MW,265111,0.687
-Malawi - Mobile,mobile,MW,2652,0.687
-Malawi - Mobile,mobile,MW,2654,0.687
-Malawi - Mobile,mobile,MW,2655,0.687
-Malawi - Mobile,mobile,MW,2658,0.687
-Malawi - Mobile,mobile,MW,26588,0.687
-Malawi - Mobile,mobile,MW,2659,0.687
-Malawi - Mobile,mobile,MW,26599,0.687
 Malaysia,landline,MY,60,0.05
 Malaysia-Kuala Lumpur,landline,MY,603,0.05
 Malaysia - Mobile,mobile,MY,601,0.08
 Malaysia - Toll Free,non-geographic,MY,601800,0.05
-Maldives,landline,MV,960,1.17
-Maldives - Mobile,mobile,MV,9607,1.313
-Maldives - Mobile,mobile,MV,9608,1.313
-Maldives - Mobile,mobile,MV,9609,1.313
-Mali,mixed,ML,223,0.589
-Mali-Bamako,landline,ML,22322,0.589
 Malta,landline,MT,356,0.21
 Malta - Mobile,mobile,MT,356217,0.445
 Malta - Mobile,mobile,MT,3567,0.445
@@ -4658,34 +4341,6 @@ Marshall Islands,mixed,MH,692,0.355
 Martinique,landline,MQ,596,0.026
 Martinique - Mobile,mobile,MQ,33696,0.105
 Martinique - Mobile,mobile,MQ,596696,0.105
-Mauritania,landline,MR,222,0.823
-Mauritania - Mobile,mobile,MR,22220,0.858
-Mauritania - Mobile,mobile,MR,22221,0.858
-Mauritania - Mobile,mobile,MR,22222,0.858
-Mauritania - Mobile,mobile,MR,22223,0.858
-Mauritania - Mobile,mobile,MR,22224,0.858
-Mauritania - Mobile,mobile,MR,22226,0.858
-Mauritania - Mobile,mobile,MR,22227,0.858
-Mauritania - Mobile,mobile,MR,22228,0.858
-Mauritania - Mobile,mobile,MR,22229,0.858
-Mauritania - Mobile,mobile,MR,22230,0.858
-Mauritania - Mobile,mobile,MR,22231,0.858
-Mauritania - Mobile,mobile,MR,22232,0.858
-Mauritania - Mobile,mobile,MR,22233,0.858
-Mauritania - Mobile,mobile,MR,22234,0.858
-Mauritania - Mobile,mobile,MR,22236,0.858
-Mauritania - Mobile,mobile,MR,22237,0.858
-Mauritania - Mobile,mobile,MR,22238,0.858
-Mauritania - Mobile,mobile,MR,22239,0.858
-Mauritania - Mobile,mobile,MR,22240,0.858
-Mauritania - Mobile,mobile,MR,22241,0.858
-Mauritania - Mobile,mobile,MR,22242,0.858
-Mauritania - Mobile,mobile,MR,22243,0.858
-Mauritania - Mobile,mobile,MR,22244,0.858
-Mauritania - Mobile,mobile,MR,22246,0.858
-Mauritania - Mobile,mobile,MR,22247,0.858
-Mauritania - Mobile,mobile,MR,22248,0.858
-Mauritania - Mobile,mobile,MR,22249,0.858
 Mauritius,mixed,MU,230,0.213
 Mexico,landline,MX,52,0.013
 Mexico-Guadalajara,landline,MX,5233,0.013
@@ -4693,7 +4348,6 @@ Mexico-Mexico City,landline,MX,5255,0.013
 Mexico - Mobile,mobile,MX,521,0.045
 Mexico-Monterrey,landline,MX,5281,0.013
 Mexico - Toll Free,non-geographic,MX,521800,0.013
-Micronesia,mixed,FM,691,0.786
 Moldova,landline,MD,373,0.442
 Moldova - Mobile,mobile,MD,373562,0.365
 Moldova - Mobile,mobile,MD,373567,0.365
@@ -4732,116 +4386,29 @@ Moldova - Mobile,mobile,MD,3737988,0.365
 Moldova - Mobile,mobile,MD,373799,0.365
 Moldova - Toll Free,non-geographic,MD,373800,0.442
 Monaco,landline,MC,377,0.12
-Monaco - Mobile,mobile,MC,3774,0.55
-Monaco - Mobile,mobile,MC,3776,0.55
-Monaco - Mobile,mobile,MC,3777,0.55
 Monaco - Toll Free,non-geographic,MC,377800,0.12
 Mongolia,mixed,MN,976,0.053
-Montenegro,landline,ME,382,0.452
+Montenegro,landline,ME,38220,0.452
+Montenegro,landline,ME,38230,0.452
+Montenegro,landline,ME,38231,0.452
+Montenegro,landline,ME,38232,0.452
+Montenegro,landline,ME,38233,0.452
+Montenegro,landline,ME,38240,0.452
+Montenegro,landline,ME,38241,0.452
+Montenegro,landline,ME,38250,0.452
+Montenegro,landline,ME,38251,0.452
+Montenegro,landline,ME,38252,0.452
 Montenegro - Mobile,mobile,ME,38260,0.708
 Montenegro - Mobile,mobile,ME,38263,0.708
+Montenegro - Mobile,mobile,ME,38266,0.708
 Montenegro - Mobile,mobile,ME,38267,0.708
 Montenegro - Mobile,mobile,ME,38268,0.708
 Montenegro - Mobile,mobile,ME,38269,0.708
-Montserrat,mixed,MS,1664,0.634
 Morocco,landline,MA,212,0.33
 Morocco,landline,MA,212520,0.33
 Morocco,landline,MA,212529,0.33
 Morocco,landline,MA,212530,0.33
 Morocco-Casablanca,landline,MA,212522,0.33
-Morocco - Mobile,mobile,MA,212521,0.735
-Morocco - Mobile,mobile,MA,212525,0.735
-Morocco - Mobile,mobile,MA,212526,0.735
-Morocco - Mobile,mobile,MA,212527,0.735
-Morocco - Mobile,mobile,MA,212531,0.735
-Morocco - Mobile,mobile,MA,212532,0.735
-Morocco - Mobile,mobile,MA,212533,0.735
-Morocco - Mobile,mobile,MA,212534,0.735
-Morocco - Mobile,mobile,MA,212538,0.735
-Morocco - Mobile,mobile,MA,212540,0.735
-Morocco - Mobile,mobile,MA,212546,0.735
-Morocco - Mobile,mobile,MA,212547,0.735
-Morocco - Mobile,mobile,MA,212550,0.735
-Morocco - Mobile,mobile,MA,212553,0.735
-Morocco - Mobile,mobile,MA,2126,0.735
-Morocco - Mobile,mobile,MA,212600,0.735
-Morocco - Mobile,mobile,MA,212601,0.735
-Morocco - Mobile,mobile,MA,212602,0.735
-Morocco - Mobile,mobile,MA,212603,0.735
-Morocco - Mobile,mobile,MA,212606,0.735
-Morocco - Mobile,mobile,MA,212610,0.735
-Morocco - Mobile,mobile,MA,212611,0.735
-Morocco - Mobile,mobile,MA,212612,0.735
-Morocco - Mobile,mobile,MA,212613,0.735
-Morocco - Mobile,mobile,MA,212614,0.735
-Morocco - Mobile,mobile,MA,212615,0.735
-Morocco - Mobile,mobile,MA,212616,0.735
-Morocco - Mobile,mobile,MA,212617,0.735
-Morocco - Mobile,mobile,MA,212618,0.735
-Morocco - Mobile,mobile,MA,212619,0.735
-Morocco - Mobile,mobile,MA,212620,0.735
-Morocco - Mobile,mobile,MA,212621,0.735
-Morocco - Mobile,mobile,MA,212622,0.735
-Morocco - Mobile,mobile,MA,212623,0.735
-Morocco - Mobile,mobile,MA,212624,0.735
-Morocco - Mobile,mobile,MA,212625,0.735
-Morocco - Mobile,mobile,MA,212626,0.735
-Morocco - Mobile,mobile,MA,212627,0.735
-Morocco - Mobile,mobile,MA,212628,0.735
-Morocco - Mobile,mobile,MA,212629,0.735
-Morocco - Mobile,mobile,MA,212630,0.735
-Morocco - Mobile,mobile,MA,212631,0.735
-Morocco - Mobile,mobile,MA,212632,0.735
-Morocco - Mobile,mobile,MA,212633,0.735
-Morocco - Mobile,mobile,MA,212634,0.735
-Morocco - Mobile,mobile,MA,212635,0.735
-Morocco - Mobile,mobile,MA,212636,0.735
-Morocco - Mobile,mobile,MA,212637,0.735
-Morocco - Mobile,mobile,MA,212638,0.735
-Morocco - Mobile,mobile,MA,212640,0.735
-Morocco - Mobile,mobile,MA,212641,0.735
-Morocco - Mobile,mobile,MA,212642,0.735
-Morocco - Mobile,mobile,MA,212644,0.735
-Morocco - Mobile,mobile,MA,212645,0.735
-Morocco - Mobile,mobile,MA,212646,0.735
-Morocco - Mobile,mobile,MA,212647,0.735
-Morocco - Mobile,mobile,MA,212648,0.735
-Morocco - Mobile,mobile,MA,212649,0.735
-Morocco - Mobile,mobile,MA,212650,0.735
-Morocco - Mobile,mobile,MA,212651,0.735
-Morocco - Mobile,mobile,MA,212652,0.735
-Morocco - Mobile,mobile,MA,212653,0.735
-Morocco - Mobile,mobile,MA,212654,0.735
-Morocco - Mobile,mobile,MA,212655,0.735
-Morocco - Mobile,mobile,MA,212656,0.735
-Morocco - Mobile,mobile,MA,212657,0.735
-Morocco - Mobile,mobile,MA,212658,0.735
-Morocco - Mobile,mobile,MA,212659,0.735
-Morocco - Mobile,mobile,MA,212660,0.735
-Morocco - Mobile,mobile,MA,212661,0.735
-Morocco - Mobile,mobile,MA,212662,0.735
-Morocco - Mobile,mobile,MA,212663,0.735
-Morocco - Mobile,mobile,MA,212664,0.735
-Morocco - Mobile,mobile,MA,212665,0.735
-Morocco - Mobile,mobile,MA,212666,0.735
-Morocco - Mobile,mobile,MA,212667,0.735
-Morocco - Mobile,mobile,MA,212668,0.735
-Morocco - Mobile,mobile,MA,212669,0.735
-Morocco - Mobile,mobile,MA,212670,0.735
-Morocco - Mobile,mobile,MA,212671,0.735
-Morocco - Mobile,mobile,MA,212672,0.735
-Morocco - Mobile,mobile,MA,212673,0.735
-Morocco - Mobile,mobile,MA,212674,0.735
-Morocco - Mobile,mobile,MA,212675,0.735
-Morocco - Mobile,mobile,MA,212676,0.735
-Morocco - Mobile,mobile,MA,212677,0.735
-Morocco - Mobile,mobile,MA,212678,0.735
-Morocco - Mobile,mobile,MA,212679,0.735
-Morocco - Mobile,mobile,MA,212680,0.735
-Morocco - Mobile,mobile,MA,212681,0.735
-Morocco - Mobile,mobile,MA,212694,0.735
-Morocco - Mobile,mobile,MA,212699,0.735
-Morocco - Mobile,mobile,MA,2128920,0.735
 Morocco-Rabat,landline,MA,212537,0.33
 Mozambique,landline,MZ,258,0.363
 Mozambique - Mobile,mobile,MZ,25882,0.3
@@ -4853,7 +4420,6 @@ Namibia,mixed,NA,264,0.143
 Nepal,mixed,NP,977,0.189
 Nepal-Kathmandu,landline,NP,9771,0.189
 Netherlands,landline,NL,31,0.35
-Netherlands Antilles,mixed,AN,599,1.159
 Netherlands - Mobile,mobile,NL,316,0.35
 Netherlands - Mobile,mobile,NL,31610,0.35
 Netherlands - Mobile,mobile,NL,31611,0.35
@@ -5118,8 +4684,6 @@ Panama - Mobile,mobile,PA,5076,0.325
 Panama - Mobile,mobile,PA,507708,0.325
 Panama - Mobile,mobile,PA,507718,0.325
 Panama - Toll Free,non-geographic,PA,5070800,0.045
-Papua New Guinea,mixed,PG,675,1.15
-Papua New Guinea,mixed,PG,67520,1.15
 Paraguay,landline,PY,595,0.055
 Paraguay-Asuncion,landline,PY,59521,0.055
 Paraguay - Mobile,mobile,PY,5959,0.145
@@ -5556,8 +5120,6 @@ Russia-Moscow,landline,RU,7495,0.029
 Russia-Moscow,landline,RU,7499,0.029
 Russia-St Petersburg,landline,RU,7812,0.029
 Rwanda,mixed,RW,250,0.405
-Samoa American,mixed,AS,1684,1.77
-Samoa Western,mixed,WS,685,1.77
 San Marino,mixed,SM,378,0.305
 Saudi Arabia,landline,SA,966,0.14
 Saudi Arabia-Jeddah,landline,SA,96622,0.14
@@ -5568,31 +5130,12 @@ Saudi Arabia - Mobile,mobile,SA,9665,0.225
 Saudi Arabia-Riyadh,landline,SA,96612,0.14
 Saudi Arabia-Riyadh,landline,SA,96614,0.14
 Saudi Arabia - Toll Free,non-geographic,SA,966800,0.14
-Senegal,landline,SN,221,0.548
-Senegal - Mobile,mobile,SN,22130,0.565
-Senegal - Mobile,mobile,SN,22170,0.565
-Senegal - Mobile,mobile,SN,22176,0.565
-Senegal - Mobile,mobile,SN,22177,0.565
-Senegal - Mobile,mobile,SN,22178,0.565
 Serbia,landline,RS,381,0.336
 Serbia,landline,RS,3811,0.336
 Serbia,landline,RS,3812,0.336
 Serbia,landline,RS,3813,0.336
 Serbia-Belgrade,landline,RS,38111,0.336
-Serbia - Mobile,mobile,RS,3816,0.61
-Serbia - Mobile,mobile,RS,38160,0.61
-Serbia - Mobile,mobile,RS,38161,0.61
-Serbia - Mobile,mobile,RS,38162,0.61
-Serbia - Mobile,mobile,RS,38163,0.61
-Serbia - Mobile,mobile,RS,38164,0.61
-Serbia - Mobile,mobile,RS,38165,0.61
-Serbia - Mobile,mobile,RS,38166,0.61
-Serbia - Mobile,mobile,RS,38167,0.61
-Serbia - Mobile,mobile,RS,38168,0.61
-Serbia - Mobile,mobile,RS,38169,0.61
 Serbia - Toll Free,non-geographic,RS,381800,0.336
-Seychelles,mixed,SC,248,1.349
-Sierra Leone,mixed,SL,232,0.781
 Singapore,landline,SG,65,0.035
 Singapore - Mobile,mobile,SG,658,0.055
 Singapore - Mobile,mobile,SG,659,0.055
@@ -5621,8 +5164,6 @@ Slovenia - Mobile,mobile,SI,38671,0.4612
 Slovenia - Mobile,mobile,SI,38698,0.4612
 Slovenia - Mobile,mobile,SI,3869814,0.4612
 Slovenia - Toll Free,non-geographic,SI,386800,0.2179
-Solomon Islands,mixed,SB,677,1.25
-Somalia,mixed,SO,252,0.768
 South Africa,landline,ZA,27,0.45
 South Africa,landline,ZA,27214105500,0.45
 South Africa,landline,ZA,278600,0.45
@@ -5685,1098 +5226,93 @@ South Africa - Mobile,mobile,ZA,278515,0.34
 South Africa - Mobile,mobile,ZA,27852,0.34
 South Africa - Mobile,mobile,ZA,27853,0.34
 South Africa - Mobile,mobile,ZA,27855,0.34
-South Africa - Special Services,non-geographic,ZA,270070,0.85
-South Africa - Special Services,non-geographic,ZA,270220,0.85
-South Africa - Special Services,non-geographic,ZA,27100,0.85
-South Africa - Special Services,non-geographic,ZA,27100010,0.85
-South Africa - Special Services,non-geographic,ZA,271000110,0.85
-South Africa - Special Services,non-geographic,ZA,271000111,0.85
-South Africa - Special Services,non-geographic,ZA,271000112,0.85
-South Africa - Special Services,non-geographic,ZA,271000113,0.85
-South Africa - Special Services,non-geographic,ZA,271000114,0.85
-South Africa - Special Services,non-geographic,ZA,2710001200,0.85
-South Africa - Special Services,non-geographic,ZA,271000125,0.85
-South Africa - Special Services,non-geographic,ZA,271000126,0.85
-South Africa - Special Services,non-geographic,ZA,271000127,0.85
-South Africa - Special Services,non-geographic,ZA,271000128,0.85
-South Africa - Special Services,non-geographic,ZA,271000129,0.85
-South Africa - Special Services,non-geographic,ZA,271000135,0.85
-South Africa - Special Services,non-geographic,ZA,271000136,0.85
-South Africa - Special Services,non-geographic,ZA,271000137,0.85
-South Africa - Special Services,non-geographic,ZA,271000138,0.85
-South Africa - Special Services,non-geographic,ZA,271000139,0.85
-South Africa - Special Services,non-geographic,ZA,27100014,0.85
-South Africa - Special Services,non-geographic,ZA,27100015,0.85
-South Africa - Special Services,non-geographic,ZA,27100016,0.85
-South Africa - Special Services,non-geographic,ZA,27100017,0.85
-South Africa - Special Services,non-geographic,ZA,27100018,0.85
-South Africa - Special Services,non-geographic,ZA,27100019,0.85
-South Africa - Special Services,non-geographic,ZA,2710003,0.85
-South Africa - Special Services,non-geographic,ZA,27100040,0.85
-South Africa - Special Services,non-geographic,ZA,27100041,0.85
-South Africa - Special Services,non-geographic,ZA,27100042,0.85
-South Africa - Special Services,non-geographic,ZA,27100043,0.85
-South Africa - Special Services,non-geographic,ZA,27100044,0.85
-South Africa - Special Services,non-geographic,ZA,27100070,0.85
-South Africa - Special Services,non-geographic,ZA,27100100,0.85
-South Africa - Special Services,non-geographic,ZA,27100120,0.85
-South Africa - Special Services,non-geographic,ZA,27100300,0.85
-South Africa - Special Services,non-geographic,ZA,27100301,0.85
-South Africa - Special Services,non-geographic,ZA,27100302,0.85
-South Africa - Special Services,non-geographic,ZA,27100303,0.85
-South Africa - Special Services,non-geographic,ZA,27100304,0.85
-South Africa - Special Services,non-geographic,ZA,27100350,0.85
-South Africa - Special Services,non-geographic,ZA,2710040,0.85
-South Africa - Special Services,non-geographic,ZA,2710041,0.85
-South Africa - Special Services,non-geographic,ZA,2710050,0.85
-South Africa - Special Services,non-geographic,ZA,27100720,0.85
-South Africa - Special Services,non-geographic,ZA,2710080,0.85
-South Africa - Special Services,non-geographic,ZA,27101000,0.85
-South Africa - Special Services,non-geographic,ZA,27101003,0.85
-South Africa - Special Services,non-geographic,ZA,27101100,0.85
-South Africa - Special Services,non-geographic,ZA,27101120,0.85
-South Africa - Special Services,non-geographic,ZA,27101250,0.85
-South Africa - Special Services,non-geographic,ZA,27101300,0.85
-South Africa - Special Services,non-geographic,ZA,2710140,0.85
-South Africa - Special Services,non-geographic,ZA,27101450,0.85
-South Africa - Special Services,non-geographic,ZA,27101500,0.85
-South Africa - Special Services,non-geographic,ZA,27101610,0.85
-South Africa - Special Services,non-geographic,ZA,2710185,0.85
-South Africa - Special Services,non-geographic,ZA,27102009,0.85
-South Africa - Special Services,non-geographic,ZA,27102760,0.85
-South Africa - Special Services,non-geographic,ZA,27102850,0.85
-South Africa - Special Services,non-geographic,ZA,27102860,0.85
-South Africa - Special Services,non-geographic,ZA,27102870,0.85
-South Africa - Special Services,non-geographic,ZA,27103300,0.85
-South Africa - Special Services,non-geographic,ZA,27103440,0.85
-South Africa - Special Services,non-geographic,ZA,27103500,0.85
-South Africa - Special Services,non-geographic,ZA,27103505,0.85
-South Africa - Special Services,non-geographic,ZA,27104000,0.85
-South Africa - Special Services,non-geographic,ZA,27104100,0.85
-South Africa - Special Services,non-geographic,ZA,27104260,0.85
-South Africa - Special Services,non-geographic,ZA,27104300,0.85
-South Africa - Special Services,non-geographic,ZA,27104500,0.85
-South Africa - Special Services,non-geographic,ZA,2710492,0.85
-South Africa - Special Services,non-geographic,ZA,2710500,0.85
-South Africa - Special Services,non-geographic,ZA,27105160,0.85
-South Africa - Special Services,non-geographic,ZA,2710555,0.85
-South Africa - Special Services,non-geographic,ZA,2710556,0.85
-South Africa - Special Services,non-geographic,ZA,2710590,0.85
-South Africa - Special Services,non-geographic,ZA,2710591,0.85
-South Africa - Special Services,non-geographic,ZA,2710592,0.85
-South Africa - Special Services,non-geographic,ZA,2710593,0.85
-South Africa - Special Services,non-geographic,ZA,2710594,0.85
-South Africa - Special Services,non-geographic,ZA,2710595,0.85
-South Africa - Special Services,non-geographic,ZA,2710596,0.85
-South Africa - Special Services,non-geographic,ZA,2710610,0.85
-South Africa - Special Services,non-geographic,ZA,27106120,0.85
-South Africa - Special Services,non-geographic,ZA,27107440,0.85
-South Africa - Special Services,non-geographic,ZA,27107860,0.85
-South Africa - Special Services,non-geographic,ZA,27107861,0.85
-South Africa - Special Services,non-geographic,ZA,27107862,0.85
-South Africa - Special Services,non-geographic,ZA,27107863,0.85
-South Africa - Special Services,non-geographic,ZA,27107864,0.85
-South Africa - Special Services,non-geographic,ZA,2710860,0.85
-South Africa - Special Services,non-geographic,ZA,27109000,0.85
-South Africa - Special Services,non-geographic,ZA,27109001,0.85
-South Africa - Special Services,non-geographic,ZA,27109002,0.85
-South Africa - Special Services,non-geographic,ZA,27109003,0.85
-South Africa - Special Services,non-geographic,ZA,27109004,0.85
-South Africa - Special Services,non-geographic,ZA,2711100,0.85
-South Africa - Special Services,non-geographic,ZA,2711207590,0.85
-South Africa - Special Services,non-geographic,ZA,2711210410,0.85
-South Africa - Special Services,non-geographic,ZA,2711210411,0.85
-South Africa - Special Services,non-geographic,ZA,271121720,0.85
-South Africa - Special Services,non-geographic,ZA,271124716,0.85
-South Africa - Special Services,non-geographic,ZA,2711247171,0.85
-South Africa - Special Services,non-geographic,ZA,2711247172,0.85
-South Africa - Special Services,non-geographic,ZA,2711247173,0.85
-South Africa - Special Services,non-geographic,ZA,2711247174,0.85
-South Africa - Special Services,non-geographic,ZA,27112575,0.85
-South Africa - Special Services,non-geographic,ZA,271125750,0.85
-South Africa - Special Services,non-geographic,ZA,271125751,0.85
-South Africa - Special Services,non-geographic,ZA,271125752,0.85
-South Africa - Special Services,non-geographic,ZA,27112906,0.85
-South Africa - Special Services,non-geographic,ZA,2711290600,0.85
-South Africa - Special Services,non-geographic,ZA,2711290601,0.85
-South Africa - Special Services,non-geographic,ZA,2711290602,0.85
-South Africa - Special Services,non-geographic,ZA,2711290603,0.85
-South Africa - Special Services,non-geographic,ZA,2711290604,0.85
-South Africa - Special Services,non-geographic,ZA,2711353350,0.85
-South Africa - Special Services,non-geographic,ZA,27114373,0.85
-South Africa - Special Services,non-geographic,ZA,271143733,0.85
-South Africa - Special Services,non-geographic,ZA,271143734,0.85
-South Africa - Special Services,non-geographic,ZA,271143735,0.85
-South Africa - Special Services,non-geographic,ZA,271143736,0.85
-South Africa - Special Services,non-geographic,ZA,271143737,0.85
-South Africa - Special Services,non-geographic,ZA,271143738,0.85
-South Africa - Special Services,non-geographic,ZA,27114385,0.85
-South Africa - Special Services,non-geographic,ZA,271143850,0.85
-South Africa - Special Services,non-geographic,ZA,271143851,0.85
-South Africa - Special Services,non-geographic,ZA,271143852,0.85
-South Africa - Special Services,non-geographic,ZA,27114594,0.85
-South Africa - Special Services,non-geographic,ZA,2711459450,0.85
-South Africa - Special Services,non-geographic,ZA,2711459451,0.85
-South Africa - Special Services,non-geographic,ZA,2711459452,0.85
-South Africa - Special Services,non-geographic,ZA,2711459453,0.85
-South Africa - Special Services,non-geographic,ZA,2711459454,0.85
-South Africa - Special Services,non-geographic,ZA,2711459455,0.85
-South Africa - Special Services,non-geographic,ZA,27114706,0.85
-South Africa - Special Services,non-geographic,ZA,2711470680,0.85
-South Africa - Special Services,non-geographic,ZA,2711470681,0.85
-South Africa - Special Services,non-geographic,ZA,2711470682,0.85
-South Africa - Special Services,non-geographic,ZA,2711470683,0.85
-South Africa - Special Services,non-geographic,ZA,2711470684,0.85
-South Africa - Special Services,non-geographic,ZA,2711470685,0.85
-South Africa - Special Services,non-geographic,ZA,2711470686,0.85
-South Africa - Special Services,non-geographic,ZA,2711470687,0.85
-South Africa - Special Services,non-geographic,ZA,2711485444,0.85
-South Africa - Special Services,non-geographic,ZA,27114865,0.85
-South Africa - Special Services,non-geographic,ZA,2711486580,0.85
-South Africa - Special Services,non-geographic,ZA,2711486581,0.85
-South Africa - Special Services,non-geographic,ZA,271150396,0.85
-South Africa - Special Services,non-geographic,ZA,271153724,0.85
-South Africa - Special Services,non-geographic,ZA,271153725,0.85
-South Africa - Special Services,non-geographic,ZA,2711557570,0.85
-South Africa - Special Services,non-geographic,ZA,2711557571,0.85
-South Africa - Special Services,non-geographic,ZA,2711557572,0.85
-South Africa - Special Services,non-geographic,ZA,2711557573,0.85
-South Africa - Special Services,non-geographic,ZA,2711557574,0.85
-South Africa - Special Services,non-geographic,ZA,2711557575,0.85
-South Africa - Special Services,non-geographic,ZA,2711557576,0.85
-South Africa - Special Services,non-geographic,ZA,2711557577,0.85
-South Africa - Special Services,non-geographic,ZA,27115606,0.85
-South Africa - Special Services,non-geographic,ZA,271156069,0.85
-South Africa - Special Services,non-geographic,ZA,2711568,0.85
-South Africa - Special Services,non-geographic,ZA,27115702,0.85
-South Africa - Special Services,non-geographic,ZA,271157026,0.85
-South Africa - Special Services,non-geographic,ZA,27116127,0.85
-South Africa - Special Services,non-geographic,ZA,271161272,0.85
-South Africa - Special Services,non-geographic,ZA,2711676208,0.85
-South Africa - Special Services,non-geographic,ZA,2711676209,0.85
-South Africa - Special Services,non-geographic,ZA,27116996,0.85
-South Africa - Special Services,non-geographic,ZA,2711699680,0.85
-South Africa - Special Services,non-geographic,ZA,2711699681,0.85
-South Africa - Special Services,non-geographic,ZA,2711699682,0.85
-South Africa - Special Services,non-geographic,ZA,2711699683,0.85
-South Africa - Special Services,non-geographic,ZA,27117976,0.85
-South Africa - Special Services,non-geographic,ZA,271179763,0.85
-South Africa - Special Services,non-geographic,ZA,271179764,0.85
-South Africa - Special Services,non-geographic,ZA,271180810,0.85
-South Africa - Special Services,non-geographic,ZA,271180811,0.85
-South Africa - Special Services,non-geographic,ZA,271180812,0.85
-South Africa - Special Services,non-geographic,ZA,271180813,0.85
-South Africa - Special Services,non-geographic,ZA,271180814,0.85
-South Africa - Special Services,non-geographic,ZA,27118616,0.85
-South Africa - Special Services,non-geographic,ZA,271186166,0.85
-South Africa - Special Services,non-geographic,ZA,2711869261,0.85
-South Africa - Special Services,non-geographic,ZA,27118711,0.85
-South Africa - Special Services,non-geographic,ZA,271187116,0.85
-South Africa - Special Services,non-geographic,ZA,271187117,0.85
-South Africa - Special Services,non-geographic,ZA,271187118,0.85
-South Africa - Special Services,non-geographic,ZA,271187119,0.85
-South Africa - Special Services,non-geographic,ZA,2711883276,0.85
-South Africa - Special Services,non-geographic,ZA,271192883,0.85
-South Africa - Special Services,non-geographic,ZA,271196688,0.85
-South Africa - Special Services,non-geographic,ZA,271196689,0.85
-South Africa - Special Services,non-geographic,ZA,271197184,0.85
-South Africa - Special Services,non-geographic,ZA,271197185,0.85
-South Africa - Special Services,non-geographic,ZA,271197186,0.85
-South Africa - Special Services,non-geographic,ZA,271197187,0.85
-South Africa - Special Services,non-geographic,ZA,27120,0.85
-South Africa - Special Services,non-geographic,ZA,2712000,0.85
-South Africa - Special Services,non-geographic,ZA,2712001,0.85
-South Africa - Special Services,non-geographic,ZA,2712003,0.85
-South Africa - Special Services,non-geographic,ZA,2712004,0.85
-South Africa - Special Services,non-geographic,ZA,27120050,0.85
-South Africa - Special Services,non-geographic,ZA,27120051,0.85
-South Africa - Special Services,non-geographic,ZA,27120052,0.85
-South Africa - Special Services,non-geographic,ZA,27120053,0.85
-South Africa - Special Services,non-geographic,ZA,27120054,0.85
-South Africa - Special Services,non-geographic,ZA,27120070,0.85
-South Africa - Special Services,non-geographic,ZA,27120100,0.85
-South Africa - Special Services,non-geographic,ZA,27120350,0.85
-South Africa - Special Services,non-geographic,ZA,2712050,0.85
-South Africa - Special Services,non-geographic,ZA,27120720,0.85
-South Africa - Special Services,non-geographic,ZA,2712080,0.85
-South Africa - Special Services,non-geographic,ZA,27121003,0.85
-South Africa - Special Services,non-geographic,ZA,27121100,0.85
-South Africa - Special Services,non-geographic,ZA,27121101,0.85
-South Africa - Special Services,non-geographic,ZA,27121102,0.85
-South Africa - Special Services,non-geographic,ZA,27121103,0.85
-South Africa - Special Services,non-geographic,ZA,27121104,0.85
-South Africa - Special Services,non-geographic,ZA,27121110,0.85
-South Africa - Special Services,non-geographic,ZA,27121235,0.85
-South Africa - Special Services,non-geographic,ZA,27121250,0.85
-South Africa - Special Services,non-geographic,ZA,27121420,0.85
-South Africa - Special Services,non-geographic,ZA,27121450,0.85
-South Africa - Special Services,non-geographic,ZA,27121500,0.85
-South Africa - Special Services,non-geographic,ZA,27121510,0.85
-South Africa - Special Services,non-geographic,ZA,27121610,0.85
-South Africa - Special Services,non-geographic,ZA,27122850,0.85
-South Africa - Special Services,non-geographic,ZA,27123731,0.85
-South Africa - Special Services,non-geographic,ZA,271237310,0.85
-South Africa - Special Services,non-geographic,ZA,27124100,0.85
-South Africa - Special Services,non-geographic,ZA,27124501,0.85
-South Africa - Special Services,non-geographic,ZA,271245013,0.85
-South Africa - Special Services,non-geographic,ZA,27124509,0.85
-South Africa - Special Services,non-geographic,ZA,271245090,0.85
-South Africa - Special Services,non-geographic,ZA,2712492,0.85
-South Africa - Special Services,non-geographic,ZA,27125100,0.85
-South Africa - Special Services,non-geographic,ZA,27125160,0.85
-South Africa - Special Services,non-geographic,ZA,2712555,0.85
-South Africa - Special Services,non-geographic,ZA,2712562099,0.85
-South Africa - Special Services,non-geographic,ZA,2712562910,0.85
-South Africa - Special Services,non-geographic,ZA,27125800,0.85
-South Africa - Special Services,non-geographic,ZA,2712610,0.85
-South Africa - Special Services,non-geographic,ZA,27126120,0.85
-South Africa - Special Services,non-geographic,ZA,2712665515,0.85
-South Africa - Special Services,non-geographic,ZA,2712668900,0.85
-South Africa - Special Services,non-geographic,ZA,2712668901,0.85
-South Africa - Special Services,non-geographic,ZA,2712668902,0.85
-South Africa - Special Services,non-geographic,ZA,2712668903,0.85
-South Africa - Special Services,non-geographic,ZA,2712668904,0.85
-South Africa - Special Services,non-geographic,ZA,2712668905,0.85
-South Africa - Special Services,non-geographic,ZA,2712668906,0.85
-South Africa - Special Services,non-geographic,ZA,27126747,0.85
-South Africa - Special Services,non-geographic,ZA,271267471,0.85
-South Africa - Special Services,non-geographic,ZA,27126831,0.85
-South Africa - Special Services,non-geographic,ZA,271268312,0.85
-South Africa - Special Services,non-geographic,ZA,271268313,0.85
-South Africa - Special Services,non-geographic,ZA,27127440,0.85
-South Africa - Special Services,non-geographic,ZA,27127860,0.85
-South Africa - Special Services,non-geographic,ZA,2712807027,0.85
-South Africa - Special Services,non-geographic,ZA,271280790,0.85
-South Africa - Special Services,non-geographic,ZA,27128300,0.85
-South Africa - Special Services,non-geographic,ZA,27128800,0.85
-South Africa - Special Services,non-geographic,ZA,2712940,0.85
-South Africa - Special Services,non-geographic,ZA,2712941,0.85
-South Africa - Special Services,non-geographic,ZA,2712942,0.85
-South Africa - Special Services,non-geographic,ZA,2712943,0.85
-South Africa - Special Services,non-geographic,ZA,27129460,0.85
-South Africa - Special Services,non-geographic,ZA,27129904,0.85
-South Africa - Special Services,non-geographic,ZA,271299046,0.85
-South Africa - Special Services,non-geographic,ZA,271299047,0.85
-South Africa - Special Services,non-geographic,ZA,271299048,0.85
-South Africa - Special Services,non-geographic,ZA,27130,0.85
-South Africa - Special Services,non-geographic,ZA,2713000,0.85
-South Africa - Special Services,non-geographic,ZA,2713001,0.85
-South Africa - Special Services,non-geographic,ZA,2713004,0.85
-South Africa - Special Services,non-geographic,ZA,27130070,0.85
-South Africa - Special Services,non-geographic,ZA,27130100,0.85
-South Africa - Special Services,non-geographic,ZA,2713080,0.85
-South Africa - Special Services,non-geographic,ZA,27131010,0.85
-South Africa - Special Services,non-geographic,ZA,27131011,0.85
-South Africa - Special Services,non-geographic,ZA,27131012,0.85
-South Africa - Special Services,non-geographic,ZA,27131013,0.85
-South Africa - Special Services,non-geographic,ZA,27131014,0.85
-South Africa - Special Services,non-geographic,ZA,27131100,0.85
-South Africa - Special Services,non-geographic,ZA,27131200,0.85
-South Africa - Special Services,non-geographic,ZA,27131201,0.85
-South Africa - Special Services,non-geographic,ZA,27131202,0.85
-South Africa - Special Services,non-geographic,ZA,27131203,0.85
-South Africa - Special Services,non-geographic,ZA,27131204,0.85
-South Africa - Special Services,non-geographic,ZA,27131500,0.85
-South Africa - Special Services,non-geographic,ZA,27131610,0.85
-South Africa - Special Services,non-geographic,ZA,27131800,0.85
-South Africa - Special Services,non-geographic,ZA,27132850,0.85
-South Africa - Special Services,non-geographic,ZA,27133300,0.85
-South Africa - Special Services,non-geographic,ZA,27133440,0.85
-South Africa - Special Services,non-geographic,ZA,27134920,0.85
-South Africa - Special Services,non-geographic,ZA,27135160,0.85
-South Africa - Special Services,non-geographic,ZA,2713590,0.85
-South Africa - Special Services,non-geographic,ZA,27135900,0.85
-South Africa - Special Services,non-geographic,ZA,27136120,0.85
-South Africa - Special Services,non-geographic,ZA,27139403,0.85
-South Africa - Special Services,non-geographic,ZA,27140,0.85
-South Africa - Special Services,non-geographic,ZA,2714000,0.85
-South Africa - Special Services,non-geographic,ZA,2714001,0.85
-South Africa - Special Services,non-geographic,ZA,2714004,0.85
-South Africa - Special Services,non-geographic,ZA,27140070,0.85
-South Africa - Special Services,non-geographic,ZA,2714080,0.85
-South Africa - Special Services,non-geographic,ZA,27141120,0.85
-South Africa - Special Services,non-geographic,ZA,27141500,0.85
-South Africa - Special Services,non-geographic,ZA,27141510,0.85
-South Africa - Special Services,non-geographic,ZA,27141610,0.85
-South Africa - Special Services,non-geographic,ZA,27142850,0.85
-South Africa - Special Services,non-geographic,ZA,27143300,0.85
-South Africa - Special Services,non-geographic,ZA,27143440,0.85
-South Africa - Special Services,non-geographic,ZA,27144950,0.85
-South Africa - Special Services,non-geographic,ZA,27146120,0.85
-South Africa - Special Services,non-geographic,ZA,2714940,0.85
-South Africa - Special Services,non-geographic,ZA,27149400,0.85
-South Africa - Special Services,non-geographic,ZA,27150,0.85
-South Africa - Special Services,non-geographic,ZA,2715000,0.85
-South Africa - Special Services,non-geographic,ZA,2715001,0.85
-South Africa - Special Services,non-geographic,ZA,2715004,0.85
-South Africa - Special Services,non-geographic,ZA,27150070,0.85
-South Africa - Special Services,non-geographic,ZA,2715080,0.85
-South Africa - Special Services,non-geographic,ZA,27151010,0.85
-South Africa - Special Services,non-geographic,ZA,27151011,0.85
-South Africa - Special Services,non-geographic,ZA,27151012,0.85
-South Africa - Special Services,non-geographic,ZA,27151013,0.85
-South Africa - Special Services,non-geographic,ZA,27151014,0.85
-South Africa - Special Services,non-geographic,ZA,27151100,0.85
-South Africa - Special Services,non-geographic,ZA,27151510,0.85
-South Africa - Special Services,non-geographic,ZA,27151610,0.85
-South Africa - Special Services,non-geographic,ZA,27152800,0.85
-South Africa - Special Services,non-geographic,ZA,27152850,0.85
-South Africa - Special Services,non-geographic,ZA,27153300,0.85
-South Africa - Special Services,non-geographic,ZA,27153440,0.85
-South Africa - Special Services,non-geographic,ZA,27154950,0.85
-South Africa - Special Services,non-geographic,ZA,2715590,0.85
-South Africa - Special Services,non-geographic,ZA,27155900,0.85
-South Africa - Special Services,non-geographic,ZA,27155901,0.85
-South Africa - Special Services,non-geographic,ZA,27155902,0.85
-South Africa - Special Services,non-geographic,ZA,27155903,0.85
-South Africa - Special Services,non-geographic,ZA,27155904,0.85
-South Africa - Special Services,non-geographic,ZA,27155905,0.85
-South Africa - Special Services,non-geographic,ZA,27155906,0.85
-South Africa - Special Services,non-geographic,ZA,27155907,0.85
-South Africa - Special Services,non-geographic,ZA,27155908,0.85
-South Africa - Special Services,non-geographic,ZA,27155909,0.85
-South Africa - Special Services,non-geographic,ZA,27156120,0.85
-South Africa - Special Services,non-geographic,ZA,2715700,0.85
-South Africa - Special Services,non-geographic,ZA,27160,0.85
-South Africa - Special Services,non-geographic,ZA,2716000,0.85
-South Africa - Special Services,non-geographic,ZA,2716001,0.85
-South Africa - Special Services,non-geographic,ZA,2716004,0.85
-South Africa - Special Services,non-geographic,ZA,2716080,0.85
-South Africa - Special Services,non-geographic,ZA,2716100,0.85
-South Africa - Special Services,non-geographic,ZA,27161100,0.85
-South Africa - Special Services,non-geographic,ZA,27161300,0.85
-South Africa - Special Services,non-geographic,ZA,27161301,0.85
-South Africa - Special Services,non-geographic,ZA,27161302,0.85
-South Africa - Special Services,non-geographic,ZA,27161303,0.85
-South Africa - Special Services,non-geographic,ZA,27161304,0.85
-South Africa - Special Services,non-geographic,ZA,27161500,0.85
-South Africa - Special Services,non-geographic,ZA,27161510,0.85
-South Africa - Special Services,non-geographic,ZA,27162850,0.85
-South Africa - Special Services,non-geographic,ZA,27163300,0.85
-South Africa - Special Services,non-geographic,ZA,27163440,0.85
-South Africa - Special Services,non-geographic,ZA,27164920,0.85
-South Africa - Special Services,non-geographic,ZA,2717001,0.85
-South Africa - Special Services,non-geographic,ZA,27170040,0.85
-South Africa - Special Services,non-geographic,ZA,27170070,0.85
-South Africa - Special Services,non-geographic,ZA,27170130,0.85
-South Africa - Special Services,non-geographic,ZA,27170650,0.85
-South Africa - Special Services,non-geographic,ZA,27171100,0.85
-South Africa - Special Services,non-geographic,ZA,27171500,0.85
-South Africa - Special Services,non-geographic,ZA,27172000,0.85
-South Africa - Special Services,non-geographic,ZA,27172850,0.85
-South Africa - Special Services,non-geographic,ZA,27173300,0.85
-South Africa - Special Services,non-geographic,ZA,27173440,0.85
-South Africa - Special Services,non-geographic,ZA,27174920,0.85
-South Africa - Special Services,non-geographic,ZA,27180,0.85
-South Africa - Special Services,non-geographic,ZA,2718000,0.85
-South Africa - Special Services,non-geographic,ZA,2718001,0.85
-South Africa - Special Services,non-geographic,ZA,27180070,0.85
-South Africa - Special Services,non-geographic,ZA,27180110,0.85
-South Africa - Special Services,non-geographic,ZA,27181100,0.85
-South Africa - Special Services,non-geographic,ZA,27181500,0.85
-South Africa - Special Services,non-geographic,ZA,27182800,0.85
-South Africa - Special Services,non-geographic,ZA,27182850,0.85
-South Africa - Special Services,non-geographic,ZA,27183440,0.85
-South Africa - Special Services,non-geographic,ZA,27184920,0.85
-South Africa - Special Services,non-geographic,ZA,27188300,0.85
-South Africa - Special Services,non-geographic,ZA,2720335070,0.85
-South Africa - Special Services,non-geographic,ZA,27210,0.85
-South Africa - Special Services,non-geographic,ZA,2721000,0.85
-South Africa - Special Services,non-geographic,ZA,2721001,0.85
-South Africa - Special Services,non-geographic,ZA,2721003,0.85
-South Africa - Special Services,non-geographic,ZA,27210060,0.85
-South Africa - Special Services,non-geographic,ZA,27210061,0.85
-South Africa - Special Services,non-geographic,ZA,27210062,0.85
-South Africa - Special Services,non-geographic,ZA,27210063,0.85
-South Africa - Special Services,non-geographic,ZA,27210064,0.85
-South Africa - Special Services,non-geographic,ZA,27210070,0.85
-South Africa - Special Services,non-geographic,ZA,27210100,0.85
-South Africa - Special Services,non-geographic,ZA,27210120,0.85
-South Africa - Special Services,non-geographic,ZA,27210300,0.85
-South Africa - Special Services,non-geographic,ZA,27210350,0.85
-South Africa - Special Services,non-geographic,ZA,2721040,0.85
-South Africa - Special Services,non-geographic,ZA,2721050,0.85
-South Africa - Special Services,non-geographic,ZA,27210720,0.85
-South Africa - Special Services,non-geographic,ZA,2721080,0.85
-South Africa - Special Services,non-geographic,ZA,27211000,0.85
-South Africa - Special Services,non-geographic,ZA,27211003,0.85
-South Africa - Special Services,non-geographic,ZA,27211100,0.85
-South Africa - Special Services,non-geographic,ZA,27211250,0.85
-South Africa - Special Services,non-geographic,ZA,27211260,0.85
-South Africa - Special Services,non-geographic,ZA,2721140,0.85
-South Africa - Special Services,non-geographic,ZA,27211450,0.85
-South Africa - Special Services,non-geographic,ZA,27211800,0.85
-South Africa - Special Services,non-geographic,ZA,27211801,0.85
-South Africa - Special Services,non-geographic,ZA,27211802,0.85
-South Africa - Special Services,non-geographic,ZA,27211803,0.85
-South Africa - Special Services,non-geographic,ZA,27211804,0.85
-South Africa - Special Services,non-geographic,ZA,2721200,0.85
-South Africa - Special Services,non-geographic,ZA,2721201,0.85
-South Africa - Special Services,non-geographic,ZA,2721202,0.85
-South Africa - Special Services,non-geographic,ZA,2721203,0.85
-South Africa - Special Services,non-geographic,ZA,2721204,0.85
-South Africa - Special Services,non-geographic,ZA,27212500,0.85
-South Africa - Special Services,non-geographic,ZA,2721274028,0.85
-South Africa - Special Services,non-geographic,ZA,27212760,0.85
-South Africa - Special Services,non-geographic,ZA,27212850,0.85
-South Africa - Special Services,non-geographic,ZA,27212860,0.85
-South Africa - Special Services,non-geographic,ZA,2721300,0.85
-South Africa - Special Services,non-geographic,ZA,27213300,0.85
-South Africa - Special Services,non-geographic,ZA,27213440,0.85
-South Africa - Special Services,non-geographic,ZA,27213500,0.85
-South Africa - Special Services,non-geographic,ZA,27213505,0.85
-South Africa - Special Services,non-geographic,ZA,272138032,0.85
-South Africa - Special Services,non-geographic,ZA,27214105,0.85
-South Africa - Special Services,non-geographic,ZA,272141055,0.85
-South Africa - Special Services,non-geographic,ZA,272141056,0.85
-South Africa - Special Services,non-geographic,ZA,2721492,0.85
-South Africa - Special Services,non-geographic,ZA,27214950,0.85
-South Africa - Special Services,non-geographic,ZA,27215160,0.85
-South Africa - Special Services,non-geographic,ZA,27215276,0.85
-South Africa - Special Services,non-geographic,ZA,272152760,0.85
-South Africa - Special Services,non-geographic,ZA,272155567,0.85
-South Africa - Special Services,non-geographic,ZA,2721565,0.85
-South Africa - Special Services,non-geographic,ZA,2721610,0.85
-South Africa - Special Services,non-geographic,ZA,27216120,0.85
-South Africa - Special Services,non-geographic,ZA,27216200,0.85
-South Africa - Special Services,non-geographic,ZA,272167075,0.85
-South Africa - Special Services,non-geographic,ZA,27217440,0.85
-South Africa - Special Services,non-geographic,ZA,27217700,0.85
-South Africa - Special Services,non-geographic,ZA,27217701,0.85
-South Africa - Special Services,non-geographic,ZA,27217702,0.85
-South Africa - Special Services,non-geographic,ZA,27217703,0.85
-South Africa - Special Services,non-geographic,ZA,27217704,0.85
-South Africa - Special Services,non-geographic,ZA,2721873402,0.85
-South Africa - Special Services,non-geographic,ZA,2721912210,0.85
-South Africa - Special Services,non-geographic,ZA,2721912212,0.85
-South Africa - Special Services,non-geographic,ZA,2721912236,0.85
-South Africa - Special Services,non-geographic,ZA,27219339,0.85
-South Africa - Special Services,non-geographic,ZA,2721933958,0.85
-South Africa - Special Services,non-geographic,ZA,2721933959,0.85
-South Africa - Special Services,non-geographic,ZA,27220070,0.85
-South Africa - Special Services,non-geographic,ZA,27220220,0.85
-South Africa - Special Services,non-geographic,ZA,27220650,0.85
-South Africa - Special Services,non-geographic,ZA,27221000,0.85
-South Africa - Special Services,non-geographic,ZA,27221100,0.85
-South Africa - Special Services,non-geographic,ZA,27221250,0.85
-South Africa - Special Services,non-geographic,ZA,27221500,0.85
-South Africa - Special Services,non-geographic,ZA,27222850,0.85
-South Africa - Special Services,non-geographic,ZA,27223300,0.85
-South Africa - Special Services,non-geographic,ZA,27224950,0.85
-South Africa - Special Services,non-geographic,ZA,2722952570,0.85
-South Africa - Special Services,non-geographic,ZA,2723001,0.85
-South Africa - Special Services,non-geographic,ZA,2723004,0.85
-South Africa - Special Services,non-geographic,ZA,27230070,0.85
-South Africa - Special Services,non-geographic,ZA,27230220,0.85
-South Africa - Special Services,non-geographic,ZA,27230650,0.85
-South Africa - Special Services,non-geographic,ZA,27231000,0.85
-South Africa - Special Services,non-geographic,ZA,27231100,0.85
-South Africa - Special Services,non-geographic,ZA,27231110,0.85
-South Africa - Special Services,non-geographic,ZA,27232850,0.85
-South Africa - Special Services,non-geographic,ZA,27233300,0.85
-South Africa - Special Services,non-geographic,ZA,27234920,0.85
-South Africa - Special Services,non-geographic,ZA,27234950,0.85
-South Africa - Special Services,non-geographic,ZA,2724881013,0.85
-South Africa - Special Services,non-geographic,ZA,2725911409,0.85
-South Africa - Special Services,non-geographic,ZA,27270070,0.85
-South Africa - Special Services,non-geographic,ZA,27270220,0.85
-South Africa - Special Services,non-geographic,ZA,27270500,0.85
-South Africa - Special Services,non-geographic,ZA,27270650,0.85
-South Africa - Special Services,non-geographic,ZA,2727083142,0.85
-South Africa - Special Services,non-geographic,ZA,27271100,0.85
-South Africa - Special Services,non-geographic,ZA,27271500,0.85
-South Africa - Special Services,non-geographic,ZA,27272850,0.85
-South Africa - Special Services,non-geographic,ZA,27273300,0.85
-South Africa - Special Services,non-geographic,ZA,27274950,0.85
-South Africa - Special Services,non-geographic,ZA,2727850286,0.85
-South Africa - Special Services,non-geographic,ZA,27280070,0.85
-South Africa - Special Services,non-geographic,ZA,27280220,0.85
-South Africa - Special Services,non-geographic,ZA,27280500,0.85
-South Africa - Special Services,non-geographic,ZA,27280650,0.85
-South Africa - Special Services,non-geographic,ZA,27281100,0.85
-South Africa - Special Services,non-geographic,ZA,27281250,0.85
-South Africa - Special Services,non-geographic,ZA,27281500,0.85
-South Africa - Special Services,non-geographic,ZA,27282850,0.85
-South Africa - Special Services,non-geographic,ZA,27283300,0.85
-South Africa - Special Services,non-geographic,ZA,27283500,0.85
-South Africa - Special Services,non-geographic,ZA,27284920,0.85
-South Africa - Special Services,non-geographic,ZA,27284950,0.85
-South Africa - Special Services,non-geographic,ZA,27288401138,0.85
-South Africa - Special Services,non-geographic,ZA,27288401139,0.85
-South Africa - Special Services,non-geographic,ZA,2728986818,0.85
-South Africa - Special Services,non-geographic,ZA,2729481714,0.85
-South Africa - Special Services,non-geographic,ZA,27310,0.85
-South Africa - Special Services,non-geographic,ZA,2731000,0.85
-South Africa - Special Services,non-geographic,ZA,2731001,0.85
-South Africa - Special Services,non-geographic,ZA,2731003,0.85
-South Africa - Special Services,non-geographic,ZA,27310060,0.85
-South Africa - Special Services,non-geographic,ZA,27310061,0.85
-South Africa - Special Services,non-geographic,ZA,27310062,0.85
-South Africa - Special Services,non-geographic,ZA,27310063,0.85
-South Africa - Special Services,non-geographic,ZA,27310064,0.85
-South Africa - Special Services,non-geographic,ZA,27310070,0.85
-South Africa - Special Services,non-geographic,ZA,27310100,0.85
-South Africa - Special Services,non-geographic,ZA,27310120,0.85
-South Africa - Special Services,non-geographic,ZA,27310300,0.85
-South Africa - Special Services,non-geographic,ZA,27310301,0.85
-South Africa - Special Services,non-geographic,ZA,2731040,0.85
-South Africa - Special Services,non-geographic,ZA,2731050,0.85
-South Africa - Special Services,non-geographic,ZA,27310720,0.85
-South Africa - Special Services,non-geographic,ZA,2731080,0.85
-South Africa - Special Services,non-geographic,ZA,2731100,0.85
-South Africa - Special Services,non-geographic,ZA,27311013,0.85
-South Africa - Special Services,non-geographic,ZA,27311100,0.85
-South Africa - Special Services,non-geographic,ZA,27311110,0.85
-South Africa - Special Services,non-geographic,ZA,27311200,0.85
-South Africa - Special Services,non-geographic,ZA,27311250,0.85
-South Africa - Special Services,non-geographic,ZA,2731140,0.85
-South Africa - Special Services,non-geographic,ZA,27311420,0.85
-South Africa - Special Services,non-geographic,ZA,27311450,0.85
-South Africa - Special Services,non-geographic,ZA,27311500,0.85
-South Africa - Special Services,non-geographic,ZA,27312748,0.85
-South Africa - Special Services,non-geographic,ZA,2731274800,0.85
-South Africa - Special Services,non-geographic,ZA,27312755,0.85
-South Africa - Special Services,non-geographic,ZA,2731275500,0.85
-South Africa - Special Services,non-geographic,ZA,2731275501,0.85
-South Africa - Special Services,non-geographic,ZA,2731275502,0.85
-South Africa - Special Services,non-geographic,ZA,2731275503,0.85
-South Africa - Special Services,non-geographic,ZA,2731275504,0.85
-South Africa - Special Services,non-geographic,ZA,2731275505,0.85
-South Africa - Special Services,non-geographic,ZA,2731275506,0.85
-South Africa - Special Services,non-geographic,ZA,2731275507,0.85
-South Africa - Special Services,non-geographic,ZA,27312850,0.85
-South Africa - Special Services,non-geographic,ZA,27312860,0.85
-South Africa - Special Services,non-geographic,ZA,27312900,0.85
-South Africa - Special Services,non-geographic,ZA,27313300,0.85
-South Africa - Special Services,non-geographic,ZA,27313440,0.85
-South Africa - Special Services,non-geographic,ZA,2731350,0.85
-South Africa - Special Services,non-geographic,ZA,27313500,0.85
-South Africa - Special Services,non-geographic,ZA,27313501,0.85
-South Africa - Special Services,non-geographic,ZA,27313502,0.85
-South Africa - Special Services,non-geographic,ZA,27313503,0.85
-South Africa - Special Services,non-geographic,ZA,27313504,0.85
-South Africa - Special Services,non-geographic,ZA,27314100,0.85
-South Africa - Special Services,non-geographic,ZA,27314400,0.85
-South Africa - Special Services,non-geographic,ZA,2731492,0.85
-South Africa - Special Services,non-geographic,ZA,27315160,0.85
-South Africa - Special Services,non-geographic,ZA,2731555,0.85
-South Africa - Special Services,non-geographic,ZA,273157116,0.85
-South Africa - Special Services,non-geographic,ZA,273157117,0.85
-South Africa - Special Services,non-geographic,ZA,273157118,0.85
-South Africa - Special Services,non-geographic,ZA,2731610,0.85
-South Africa - Special Services,non-geographic,ZA,27316120,0.85
-South Africa - Special Services,non-geographic,ZA,27317440,0.85
-South Africa - Special Services,non-geographic,ZA,27317870,0.85
-South Africa - Special Services,non-geographic,ZA,2731836325,0.85
-South Africa - Special Services,non-geographic,ZA,2731940,0.85
-South Africa - Special Services,non-geographic,ZA,2731941,0.85
-South Africa - Special Services,non-geographic,ZA,2731942,0.85
-South Africa - Special Services,non-geographic,ZA,27320,0.85
-South Africa - Special Services,non-geographic,ZA,2732000,0.85
-South Africa - Special Services,non-geographic,ZA,2732001,0.85
-South Africa - Special Services,non-geographic,ZA,27320070,0.85
-South Africa - Special Services,non-geographic,ZA,27321500,0.85
-South Africa - Special Services,non-geographic,ZA,27323300,0.85
-South Africa - Special Services,non-geographic,ZA,27324920,0.85
-South Africa - Special Services,non-geographic,ZA,2732662452,0.85
-South Africa - Special Services,non-geographic,ZA,2732779581,0.85
-South Africa - Special Services,non-geographic,ZA,27329400,0.85
-South Africa - Special Services,non-geographic,ZA,2733001,0.85
-South Africa - Special Services,non-geographic,ZA,2733004,0.85
-South Africa - Special Services,non-geographic,ZA,27330070,0.85
-South Africa - Special Services,non-geographic,ZA,2733009299,0.85
-South Africa - Special Services,non-geographic,ZA,27330320,0.85
-South Africa - Special Services,non-geographic,ZA,27331010,0.85
-South Africa - Special Services,non-geographic,ZA,27331500,0.85
-South Africa - Special Services,non-geographic,ZA,27333500,0.85
-South Africa - Special Services,non-geographic,ZA,27334920,0.85
-South Africa - Special Services,non-geographic,ZA,2733555,0.85
-South Africa - Special Services,non-geographic,ZA,2733940,0.85
-South Africa - Special Services,non-geographic,ZA,27339400,0.85
-South Africa - Special Services,non-geographic,ZA,2734001,0.85
-South Africa - Special Services,non-geographic,ZA,27340070,0.85
-South Africa - Special Services,non-geographic,ZA,27340080,0.85
-South Africa - Special Services,non-geographic,ZA,27340320,0.85
-South Africa - Special Services,non-geographic,ZA,27340650,0.85
-South Africa - Special Services,non-geographic,ZA,27341500,0.85
-South Africa - Special Services,non-geographic,ZA,27342850,0.85
-South Africa - Special Services,non-geographic,ZA,2734303848,0.85
-South Africa - Special Services,non-geographic,ZA,27343300,0.85
-South Africa - Special Services,non-geographic,ZA,27344300,0.85
-South Africa - Special Services,non-geographic,ZA,27344920,0.85
-South Africa - Special Services,non-geographic,ZA,2734500,0.85
-South Africa - Special Services,non-geographic,ZA,2734501,0.85
-South Africa - Special Services,non-geographic,ZA,27349400,0.85
-South Africa - Special Services,non-geographic,ZA,2735001,0.85
-South Africa - Special Services,non-geographic,ZA,27350040,0.85
-South Africa - Special Services,non-geographic,ZA,27350070,0.85
-South Africa - Special Services,non-geographic,ZA,27350320,0.85
-South Africa - Special Services,non-geographic,ZA,27350650,0.85
-South Africa - Special Services,non-geographic,ZA,27351500,0.85
-South Africa - Special Services,non-geographic,ZA,27352850,0.85
-South Africa - Special Services,non-geographic,ZA,27353500,0.85
-South Africa - Special Services,non-geographic,ZA,27354920,0.85
-South Africa - Special Services,non-geographic,ZA,2735501,0.85
-South Africa - Special Services,non-geographic,ZA,2735745119,0.85
-South Africa - Special Services,non-geographic,ZA,27359400,0.85
-South Africa - Special Services,non-geographic,ZA,27359401,0.85
-South Africa - Special Services,non-geographic,ZA,27359402,0.85
-South Africa - Special Services,non-geographic,ZA,2735966484,0.85
-South Africa - Special Services,non-geographic,ZA,27360070,0.85
-South Africa - Special Services,non-geographic,ZA,27360320,0.85
-South Africa - Special Services,non-geographic,ZA,27361500,0.85
-South Africa - Special Services,non-geographic,ZA,27363300,0.85
-South Africa - Special Services,non-geographic,ZA,27364920,0.85
-South Africa - Special Services,non-geographic,ZA,27369400,0.85
-South Africa - Special Services,non-geographic,ZA,2738799021,0.85
-South Africa - Special Services,non-geographic,ZA,2739001,0.85
-South Africa - Special Services,non-geographic,ZA,27390040,0.85
-South Africa - Special Services,non-geographic,ZA,27390070,0.85
-South Africa - Special Services,non-geographic,ZA,27390101,0.85
-South Africa - Special Services,non-geographic,ZA,27390320,0.85
-South Africa - Special Services,non-geographic,ZA,27391010,0.85
-South Africa - Special Services,non-geographic,ZA,27391500,0.85
-South Africa - Special Services,non-geographic,ZA,27392400,0.85
-South Africa - Special Services,non-geographic,ZA,27393300,0.85
-South Africa - Special Services,non-geographic,ZA,27394920,0.85
-South Africa - Special Services,non-geographic,ZA,2739500,0.85
-South Africa - Special Services,non-geographic,ZA,2739700,0.85
-South Africa - Special Services,non-geographic,ZA,27399400,0.85
-South Africa - Special Services,non-geographic,ZA,27401010,0.85
-South Africa - Special Services,non-geographic,ZA,27401500,0.85
-South Africa - Special Services,non-geographic,ZA,27403300,0.85
-South Africa - Special Services,non-geographic,ZA,27404920,0.85
-South Africa - Special Services,non-geographic,ZA,2740555,0.85
-South Africa - Special Services,non-geographic,ZA,27409400,0.85
-South Africa - Special Services,non-geographic,ZA,27410,0.85
-South Africa - Special Services,non-geographic,ZA,2741000,0.85
-South Africa - Special Services,non-geographic,ZA,2741001,0.85
-South Africa - Special Services,non-geographic,ZA,2741004,0.85
-South Africa - Special Services,non-geographic,ZA,27410060,0.85
-South Africa - Special Services,non-geographic,ZA,27410061,0.85
-South Africa - Special Services,non-geographic,ZA,27410062,0.85
-South Africa - Special Services,non-geographic,ZA,27410063,0.85
-South Africa - Special Services,non-geographic,ZA,27410064,0.85
-South Africa - Special Services,non-geographic,ZA,27410070,0.85
-South Africa - Special Services,non-geographic,ZA,27410100,0.85
-South Africa - Special Services,non-geographic,ZA,27410200,0.85
-South Africa - Special Services,non-geographic,ZA,27410720,0.85
-South Africa - Special Services,non-geographic,ZA,2741080,0.85
-South Africa - Special Services,non-geographic,ZA,27411010,0.85
-South Africa - Special Services,non-geographic,ZA,27411011,0.85
-South Africa - Special Services,non-geographic,ZA,27411012,0.85
-South Africa - Special Services,non-geographic,ZA,27411013,0.85
-South Africa - Special Services,non-geographic,ZA,27411014,0.85
-South Africa - Special Services,non-geographic,ZA,27411100,0.85
-South Africa - Special Services,non-geographic,ZA,27411110,0.85
-South Africa - Special Services,non-geographic,ZA,27411250,0.85
-South Africa - Special Services,non-geographic,ZA,27411420,0.85
-South Africa - Special Services,non-geographic,ZA,27411800,0.85
-South Africa - Special Services,non-geographic,ZA,27411801,0.85
-South Africa - Special Services,non-geographic,ZA,27411802,0.85
-South Africa - Special Services,non-geographic,ZA,27411803,0.85
-South Africa - Special Services,non-geographic,ZA,27411804,0.85
-South Africa - Special Services,non-geographic,ZA,27412600,0.85
-South Africa - Special Services,non-geographic,ZA,27413300,0.85
-South Africa - Special Services,non-geographic,ZA,27413440,0.85
-South Africa - Special Services,non-geographic,ZA,2741364263,0.85
-South Africa - Special Services,non-geographic,ZA,27413921,0.85
-South Africa - Special Services,non-geographic,ZA,274139217,0.85
-South Africa - Special Services,non-geographic,ZA,27413996,0.85
-South Africa - Special Services,non-geographic,ZA,274139967,0.85
-South Africa - Special Services,non-geographic,ZA,274139968,0.85
-South Africa - Special Services,non-geographic,ZA,274140228,0.85
-South Africa - Special Services,non-geographic,ZA,27414100,0.85
-South Africa - Special Services,non-geographic,ZA,2741450,0.85
-South Africa - Special Services,non-geographic,ZA,2741492,0.85
-South Africa - Special Services,non-geographic,ZA,27415160,0.85
-South Africa - Special Services,non-geographic,ZA,27415550,0.85
-South Africa - Special Services,non-geographic,ZA,27416120,0.85
-South Africa - Special Services,non-geographic,ZA,27417860,0.85
-South Africa - Special Services,non-geographic,ZA,2742004,0.85
-South Africa - Special Services,non-geographic,ZA,27420070,0.85
-South Africa - Special Services,non-geographic,ZA,27420110,0.85
-South Africa - Special Services,non-geographic,ZA,27420650,0.85
-South Africa - Special Services,non-geographic,ZA,27421500,0.85
-South Africa - Special Services,non-geographic,ZA,27422850,0.85
-South Africa - Special Services,non-geographic,ZA,2742307714,0.85
-South Africa - Special Services,non-geographic,ZA,27423300,0.85
-South Africa - Special Services,non-geographic,ZA,27424920,0.85
-South Africa - Special Services,non-geographic,ZA,2742940,0.85
-South Africa - Special Services,non-geographic,ZA,27430010,0.85
-South Africa - Special Services,non-geographic,ZA,27430011,0.85
-South Africa - Special Services,non-geographic,ZA,2743004,0.85
-South Africa - Special Services,non-geographic,ZA,27430070,0.85
-South Africa - Special Services,non-geographic,ZA,27430101,0.85
-South Africa - Special Services,non-geographic,ZA,27430110,0.85
-South Africa - Special Services,non-geographic,ZA,27430500,0.85
-South Africa - Special Services,non-geographic,ZA,27430501,0.85
-South Africa - Special Services,non-geographic,ZA,27430502,0.85
-South Africa - Special Services,non-geographic,ZA,27430503,0.85
-South Africa - Special Services,non-geographic,ZA,27430504,0.85
-South Africa - Special Services,non-geographic,ZA,27430650,0.85
-South Africa - Special Services,non-geographic,ZA,27431010,0.85
-South Africa - Special Services,non-geographic,ZA,27431100,0.85
-South Africa - Special Services,non-geographic,ZA,27431110,0.85
-South Africa - Special Services,non-geographic,ZA,27431250,0.85
-South Africa - Special Services,non-geographic,ZA,27432850,0.85
-South Africa - Special Services,non-geographic,ZA,27433300,0.85
-South Africa - Special Services,non-geographic,ZA,27434920,0.85
-South Africa - Special Services,non-geographic,ZA,2743555,0.85
-South Africa - Special Services,non-geographic,ZA,274370303,0.85
-South Africa - Special Services,non-geographic,ZA,27440000,0.85
-South Africa - Special Services,non-geographic,ZA,2744001,0.85
-South Africa - Special Services,non-geographic,ZA,2744004,0.85
-South Africa - Special Services,non-geographic,ZA,27440070,0.85
-South Africa - Special Services,non-geographic,ZA,27440100,0.85
-South Africa - Special Services,non-geographic,ZA,27440101,0.85
-South Africa - Special Services,non-geographic,ZA,27440110,0.85
-South Africa - Special Services,non-geographic,ZA,27440500,0.85
-South Africa - Special Services,non-geographic,ZA,27440501,0.85
-South Africa - Special Services,non-geographic,ZA,27440502,0.85
-South Africa - Special Services,non-geographic,ZA,27440650,0.85
-South Africa - Special Services,non-geographic,ZA,27440720,0.85
-South Africa - Special Services,non-geographic,ZA,27440910,0.85
-South Africa - Special Services,non-geographic,ZA,27441100,0.85
-South Africa - Special Services,non-geographic,ZA,27441500,0.85
-South Africa - Special Services,non-geographic,ZA,27442200,0.85
-South Africa - Special Services,non-geographic,ZA,27442201,0.85
-South Africa - Special Services,non-geographic,ZA,27442202,0.85
-South Africa - Special Services,non-geographic,ZA,27442203,0.85
-South Africa - Special Services,non-geographic,ZA,27442204,0.85
-South Africa - Special Services,non-geographic,ZA,27442850,0.85
-South Africa - Special Services,non-geographic,ZA,27443300,0.85
-South Africa - Special Services,non-geographic,ZA,27444920,0.85
-South Africa - Special Services,non-geographic,ZA,27444950,0.85
-South Africa - Special Services,non-geographic,ZA,2745001,0.85
-South Africa - Special Services,non-geographic,ZA,27450070,0.85
-South Africa - Special Services,non-geographic,ZA,27450110,0.85
-South Africa - Special Services,non-geographic,ZA,27450500,0.85
-South Africa - Special Services,non-geographic,ZA,27451010,0.85
-South Africa - Special Services,non-geographic,ZA,27451500,0.85
-South Africa - Special Services,non-geographic,ZA,2745280872,0.85
-South Africa - Special Services,non-geographic,ZA,27452850,0.85
-South Africa - Special Services,non-geographic,ZA,27453300,0.85
-South Africa - Special Services,non-geographic,ZA,27454920,0.85
-South Africa - Special Services,non-geographic,ZA,2745555,0.85
-South Africa - Special Services,non-geographic,ZA,2746001,0.85
-South Africa - Special Services,non-geographic,ZA,27460110,0.85
-South Africa - Special Services,non-geographic,ZA,27461500,0.85
-South Africa - Special Services,non-geographic,ZA,27463300,0.85
-South Africa - Special Services,non-geographic,ZA,27464920,0.85
-South Africa - Special Services,non-geographic,ZA,2746555,0.85
-South Africa - Special Services,non-geographic,ZA,27469400,0.85
-South Africa - Special Services,non-geographic,ZA,27470110,0.85
-South Africa - Special Services,non-geographic,ZA,27470500,0.85
-South Africa - Special Services,non-geographic,ZA,27470501,0.85
-South Africa - Special Services,non-geographic,ZA,27470502,0.85
-South Africa - Special Services,non-geographic,ZA,27470503,0.85
-South Africa - Special Services,non-geographic,ZA,27470504,0.85
-South Africa - Special Services,non-geographic,ZA,27470650,0.85
-South Africa - Special Services,non-geographic,ZA,27471010,0.85
-South Africa - Special Services,non-geographic,ZA,27471100,0.85
-South Africa - Special Services,non-geographic,ZA,27471500,0.85
-South Africa - Special Services,non-geographic,ZA,27472850,0.85
-South Africa - Special Services,non-geographic,ZA,27473300,0.85
-South Africa - Special Services,non-geographic,ZA,27474950,0.85
-South Africa - Special Services,non-geographic,ZA,2747554,0.85
-South Africa - Special Services,non-geographic,ZA,2747700,0.85
-South Africa - Special Services,non-geographic,ZA,2747710,0.85
-South Africa - Special Services,non-geographic,ZA,2748001,0.85
-South Africa - Special Services,non-geographic,ZA,27481500,0.85
-South Africa - Special Services,non-geographic,ZA,27483300,0.85
-South Africa - Special Services,non-geographic,ZA,27484920,0.85
-South Africa - Special Services,non-geographic,ZA,27489400,0.85
-South Africa - Special Services,non-geographic,ZA,27490110,0.85
-South Africa - Special Services,non-geographic,ZA,27491250,0.85
-South Africa - Special Services,non-geographic,ZA,27491500,0.85
-South Africa - Special Services,non-geographic,ZA,27493300,0.85
-South Africa - Special Services,non-geographic,ZA,27494920,0.85
-South Africa - Special Services,non-geographic,ZA,27499400,0.85
-South Africa - Special Services,non-geographic,ZA,27510,0.85
-South Africa - Special Services,non-geographic,ZA,2751000,0.85
-South Africa - Special Services,non-geographic,ZA,2751001,0.85
-South Africa - Special Services,non-geographic,ZA,2751004,0.85
-South Africa - Special Services,non-geographic,ZA,27510070,0.85
-South Africa - Special Services,non-geographic,ZA,27510100,0.85
-South Africa - Special Services,non-geographic,ZA,2751011,0.85
-South Africa - Special Services,non-geographic,ZA,2751050,0.85
-South Africa - Special Services,non-geographic,ZA,27510720,0.85
-South Africa - Special Services,non-geographic,ZA,2751080,0.85
-South Africa - Special Services,non-geographic,ZA,27511010,0.85
-South Africa - Special Services,non-geographic,ZA,27511011,0.85
-South Africa - Special Services,non-geographic,ZA,27511012,0.85
-South Africa - Special Services,non-geographic,ZA,27511013,0.85
-South Africa - Special Services,non-geographic,ZA,27511014,0.85
-South Africa - Special Services,non-geographic,ZA,27511100,0.85
-South Africa - Special Services,non-geographic,ZA,27511110,0.85
-South Africa - Special Services,non-geographic,ZA,27511250,0.85
-South Africa - Special Services,non-geographic,ZA,2751140,0.85
-South Africa - Special Services,non-geographic,ZA,27511420,0.85
-South Africa - Special Services,non-geographic,ZA,27511610,0.85
-South Africa - Special Services,non-geographic,ZA,27512300,0.85
-South Africa - Special Services,non-geographic,ZA,27512500,0.85
-South Africa - Special Services,non-geographic,ZA,27512501,0.85
-South Africa - Special Services,non-geographic,ZA,27512502,0.85
-South Africa - Special Services,non-geographic,ZA,27512503,0.85
-South Africa - Special Services,non-geographic,ZA,27512504,0.85
-South Africa - Special Services,non-geographic,ZA,27512850,0.85
-South Africa - Special Services,non-geographic,ZA,27513300,0.85
-South Africa - Special Services,non-geographic,ZA,27513440,0.85
-South Africa - Special Services,non-geographic,ZA,27513470,0.85
-South Africa - Special Services,non-geographic,ZA,27513500,0.85
-South Africa - Special Services,non-geographic,ZA,27513505,0.85
-South Africa - Special Services,non-geographic,ZA,275135500,0.85
-South Africa - Special Services,non-geographic,ZA,27514150,0.85
-South Africa - Special Services,non-geographic,ZA,2751450,0.85
-South Africa - Special Services,non-geographic,ZA,2751492,0.85
-South Africa - Special Services,non-geographic,ZA,275150566,0.85
-South Africa - Special Services,non-geographic,ZA,275150567,0.85
-South Africa - Special Services,non-geographic,ZA,2751505760,0.85
-South Africa - Special Services,non-geographic,ZA,2751505761,0.85
-South Africa - Special Services,non-geographic,ZA,2751505762,0.85
-South Africa - Special Services,non-geographic,ZA,27517440,0.85
-South Africa - Special Services,non-geographic,ZA,27517780,0.85
-South Africa - Special Services,non-geographic,ZA,27517860,0.85
-South Africa - Special Services,non-geographic,ZA,2753001,0.85
-South Africa - Special Services,non-geographic,ZA,2753004,0.85
-South Africa - Special Services,non-geographic,ZA,27530101,0.85
-South Africa - Special Services,non-geographic,ZA,27530300,0.85
-South Africa - Special Services,non-geographic,ZA,27530500,0.85
-South Africa - Special Services,non-geographic,ZA,27530650,0.85
-South Africa - Special Services,non-geographic,ZA,27531100,0.85
-South Africa - Special Services,non-geographic,ZA,27531500,0.85
-South Africa - Special Services,non-geographic,ZA,27532850,0.85
-South Africa - Special Services,non-geographic,ZA,27532860,0.85
-South Africa - Special Services,non-geographic,ZA,27533300,0.85
-South Africa - Special Services,non-geographic,ZA,27534920,0.85
-South Africa - Special Services,non-geographic,ZA,27540101,0.85
-South Africa - Special Services,non-geographic,ZA,27540300,0.85
-South Africa - Special Services,non-geographic,ZA,27540500,0.85
-South Africa - Special Services,non-geographic,ZA,27540650,0.85
-South Africa - Special Services,non-geographic,ZA,27541100,0.85
-South Africa - Special Services,non-geographic,ZA,27541500,0.85
-South Africa - Special Services,non-geographic,ZA,27542850,0.85
-South Africa - Special Services,non-geographic,ZA,27543500,0.85
-South Africa - Special Services,non-geographic,ZA,27544950,0.85
-South Africa - Special Services,non-geographic,ZA,27560300,0.85
-South Africa - Special Services,non-geographic,ZA,27560500,0.85
-South Africa - Special Services,non-geographic,ZA,27561500,0.85
-South Africa - Special Services,non-geographic,ZA,27563300,0.85
-South Africa - Special Services,non-geographic,ZA,27564920,0.85
-South Africa - Special Services,non-geographic,ZA,2757001,0.85
-South Africa - Special Services,non-geographic,ZA,27570040,0.85
-South Africa - Special Services,non-geographic,ZA,27570070,0.85
-South Africa - Special Services,non-geographic,ZA,27570300,0.85
-South Africa - Special Services,non-geographic,ZA,27570500,0.85
-South Africa - Special Services,non-geographic,ZA,27570650,0.85
-South Africa - Special Services,non-geographic,ZA,27571100,0.85
-South Africa - Special Services,non-geographic,ZA,27571500,0.85
-South Africa - Special Services,non-geographic,ZA,27572850,0.85
-South Africa - Special Services,non-geographic,ZA,27573300,0.85
-South Africa - Special Services,non-geographic,ZA,27574920,0.85
-South Africa - Special Services,non-geographic,ZA,2758001,0.85
-South Africa - Special Services,non-geographic,ZA,27580300,0.85
-South Africa - Special Services,non-geographic,ZA,27580500,0.85
-South Africa - Special Services,non-geographic,ZA,27581100,0.85
-South Africa - Special Services,non-geographic,ZA,27583300,0.85
-South Africa - Special Services,non-geographic,ZA,27584920,0.85
-South Africa - Special Services,non-geographic,ZA,2767323717,0.85
-South Africa - Special Services,non-geographic,ZA,2.77724E+11,0.85
-South Africa - Special Services,non-geographic,ZA,2.77727E+11,0.85
-South Africa - Special Services,non-geographic,ZA,2785000,0.85
-South Africa - Special Services,non-geographic,ZA,2785001,0.85
-South Africa - Special Services,non-geographic,ZA,2785050,0.85
-South Africa - Special Services,non-geographic,ZA,2785051,0.85
-South Africa - Special Services,non-geographic,ZA,2785052,0.85
-South Africa - Special Services,non-geographic,ZA,2785053,0.85
-South Africa - Special Services,non-geographic,ZA,2785054,0.85
-South Africa - Special Services,non-geographic,ZA,2785055,0.85
-South Africa - Special Services,non-geographic,ZA,2785100,0.85
-South Africa - Special Services,non-geographic,ZA,2785101,0.85
-South Africa - Special Services,non-geographic,ZA,2785150,0.85
-South Africa - Special Services,non-geographic,ZA,2785151,0.85
-South Africa - Special Services,non-geographic,ZA,2785152,0.85
-South Africa - Special Services,non-geographic,ZA,2785153,0.85
-South Africa - Special Services,non-geographic,ZA,2785200,0.85
-South Africa - Special Services,non-geographic,ZA,2785201,0.85
-South Africa - Special Services,non-geographic,ZA,2785250,0.85
-South Africa - Special Services,non-geographic,ZA,2785251,0.85
-South Africa - Special Services,non-geographic,ZA,2785252,0.85
-South Africa - Special Services,non-geographic,ZA,2785300,0.85
-South Africa - Special Services,non-geographic,ZA,2785301,0.85
-South Africa - Special Services,non-geographic,ZA,27854,0.85
-South Africa - Special Services,non-geographic,ZA,2785400,0.85
-South Africa - Special Services,non-geographic,ZA,2785401,0.85
-South Africa - Special Services,non-geographic,ZA,2785500,0.85
-South Africa - Special Services,non-geographic,ZA,2786008900,0.85
-South Africa - Special Services,non-geographic,ZA,2786008901,0.85
-South Africa - Special Services,non-geographic,ZA,2786008902,0.85
-South Africa - Special Services,non-geographic,ZA,2786008903,0.85
-South Africa - Special Services,non-geographic,ZA,27860137483,0.85
-South Africa - Special Services,non-geographic,ZA,27860374831,0.85
-South Africa - Special Services,non-geographic,ZA,278610031,0.85
-South Africa - Special Services,non-geographic,ZA,278613660,0.85
-South Africa - Special Services,non-geographic,ZA,278613810,0.85
-South Africa - Special Services,non-geographic,ZA,27861766266,0.85
-South Africa - Special Services,non-geographic,ZA,27861797769,0.85
-South Africa - Special Services,non-geographic,ZA,27862800,0.85
-South Africa - Special Services,non-geographic,ZA,27867001,0.85
-South Africa - Special Services,non-geographic,ZA,2786868430,0.85
-South Africa - Special Services,non-geographic,ZA,2787,0.85
-South Africa - Special Services,non-geographic,ZA,27870210,0.85
-South Africa - Special Services,non-geographic,ZA,278704,0.85
-South Africa - Special Services,non-geographic,ZA,27870800,0.85
-South Africa - Special Services,non-geographic,ZA,27870801,0.85
-South Africa - Special Services,non-geographic,ZA,27870802,0.85
-South Africa - Special Services,non-geographic,ZA,27870803,0.85
-South Africa - Special Services,non-geographic,ZA,27870804,0.85
-South Africa - Special Services,non-geographic,ZA,27870950,0.85
-South Africa - Special Services,non-geographic,ZA,27870951,0.85
-South Africa - Special Services,non-geographic,ZA,27870952,0.85
-South Africa - Special Services,non-geographic,ZA,2787150,0.85
-South Africa - Special Services,non-geographic,ZA,27871510,0.85
-South Africa - Special Services,non-geographic,ZA,27871511,0.85
-South Africa - Special Services,non-geographic,ZA,27871512,0.85
-South Africa - Special Services,non-geographic,ZA,27871513,0.85
-South Africa - Special Services,non-geographic,ZA,27871514,0.85
-South Africa - Special Services,non-geographic,ZA,27871750,0.85
-South Africa - Special Services,non-geographic,ZA,27871751,0.85
-South Africa - Special Services,non-geographic,ZA,27871752,0.85
-South Africa - Special Services,non-geographic,ZA,27871753,0.85
-South Africa - Special Services,non-geographic,ZA,27871754,0.85
-South Africa - Special Services,non-geographic,ZA,27871755,0.85
-South Africa - Special Services,non-geographic,ZA,27871850,0.85
-South Africa - Special Services,non-geographic,ZA,27871851,0.85
-South Africa - Special Services,non-geographic,ZA,27871950,0.85
-South Africa - Special Services,non-geographic,ZA,27871951,0.85
-South Africa - Special Services,non-geographic,ZA,27871952,0.85
-South Africa - Special Services,non-geographic,ZA,27871953,0.85
-South Africa - Special Services,non-geographic,ZA,27871954,0.85
-South Africa - Special Services,non-geographic,ZA,2787200,0.85
-South Africa - Special Services,non-geographic,ZA,2787201,0.85
-South Africa - Special Services,non-geographic,ZA,2787310,0.85
-South Africa - Special Services,non-geographic,ZA,278735,0.85
-South Africa - Special Services,non-geographic,ZA,278736,0.85
-South Africa - Special Services,non-geographic,ZA,278738,0.85
-South Africa - Special Services,non-geographic,ZA,2787500,0.85
-South Africa - Special Services,non-geographic,ZA,2787501,0.85
-South Africa - Special Services,non-geographic,ZA,2787502,0.85
-South Africa - Special Services,non-geographic,ZA,2787503,0.85
-South Africa - Special Services,non-geographic,ZA,27875100,0.85
-South Africa - Special Services,non-geographic,ZA,27875101,0.85
-South Africa - Special Services,non-geographic,ZA,27875102,0.85
-South Africa - Special Services,non-geographic,ZA,27875103,0.85
-South Africa - Special Services,non-geographic,ZA,27875104,0.85
-South Africa - Special Services,non-geographic,ZA,27875200,0.85
-South Africa - Special Services,non-geographic,ZA,27875300,0.85
-South Africa - Special Services,non-geographic,ZA,27875350,0.85
-South Africa - Special Services,non-geographic,ZA,27875351,0.85
-South Africa - Special Services,non-geographic,ZA,27875352,0.85
-South Africa - Special Services,non-geographic,ZA,27875500,0.85
-South Africa - Special Services,non-geographic,ZA,27875501,0.85
-South Africa - Special Services,non-geographic,ZA,27875502,0.85
-South Africa - Special Services,non-geographic,ZA,2787571,0.85
-South Africa - Special Services,non-geographic,ZA,2787572,0.85
-South Africa - Special Services,non-geographic,ZA,2787573,0.85
-South Africa - Special Services,non-geographic,ZA,2787574,0.85
-South Africa - Special Services,non-geographic,ZA,2787575,0.85
-South Africa - Special Services,non-geographic,ZA,2787576,0.85
-South Africa - Special Services,non-geographic,ZA,2787577,0.85
-South Africa - Special Services,non-geographic,ZA,2787578,0.85
-South Africa - Special Services,non-geographic,ZA,27875850,0.85
-South Africa - Special Services,non-geographic,ZA,27875851,0.85
-South Africa - Special Services,non-geographic,ZA,27875852,0.85
-South Africa - Special Services,non-geographic,ZA,27876150,0.85
-South Africa - Special Services,non-geographic,ZA,2787625,0.85
-South Africa - Special Services,non-geographic,ZA,27876300,0.85
-South Africa - Special Services,non-geographic,ZA,27876301,0.85
-South Africa - Special Services,non-geographic,ZA,27876302,0.85
-South Africa - Special Services,non-geographic,ZA,27876303,0.85
-South Africa - Special Services,non-geographic,ZA,27876304,0.85
-South Africa - Special Services,non-geographic,ZA,27876400,0.85
-South Africa - Special Services,non-geographic,ZA,27876401,0.85
-South Africa - Special Services,non-geographic,ZA,27876402,0.85
-South Africa - Special Services,non-geographic,ZA,2787650,0.85
-South Africa - Special Services,non-geographic,ZA,27876650,0.85
-South Africa - Special Services,non-geographic,ZA,27876651,0.85
-South Africa - Special Services,non-geographic,ZA,2787700,0.85
-South Africa - Special Services,non-geographic,ZA,2787701,0.85
-South Africa - Special Services,non-geographic,ZA,2787720,0.85
-South Africa - Special Services,non-geographic,ZA,2787721,0.85
-South Africa - Special Services,non-geographic,ZA,2787722,0.85
-South Africa - Special Services,non-geographic,ZA,2787723,0.85
-South Africa - Special Services,non-geographic,ZA,2787724,0.85
-South Africa - Special Services,non-geographic,ZA,2787725,0.85
-South Africa - Special Services,non-geographic,ZA,2787726,0.85
-South Africa - Special Services,non-geographic,ZA,2787727,0.85
-South Africa - Special Services,non-geographic,ZA,278773,0.85
-South Africa - Special Services,non-geographic,ZA,2787740,0.85
-South Africa - Special Services,non-geographic,ZA,2787741,0.85
-South Africa - Special Services,non-geographic,ZA,2787742,0.85
-South Africa - Special Services,non-geographic,ZA,2787745,0.85
-South Africa - Special Services,non-geographic,ZA,2787746,0.85
-South Africa - Special Services,non-geographic,ZA,2787747,0.85
-South Africa - Special Services,non-geographic,ZA,2787748,0.85
-South Africa - Special Services,non-geographic,ZA,2787749,0.85
-South Africa - Special Services,non-geographic,ZA,2787750,0.85
-South Africa - Special Services,non-geographic,ZA,2787751,0.85
-South Africa - Special Services,non-geographic,ZA,2787752,0.85
-South Africa - Special Services,non-geographic,ZA,2787753,0.85
-South Africa - Special Services,non-geographic,ZA,2787754,0.85
-South Africa - Special Services,non-geographic,ZA,2787755,0.85
-South Africa - Special Services,non-geographic,ZA,2787802,0.85
-South Africa - Special Services,non-geographic,ZA,2787803,0.85
-South Africa - Special Services,non-geographic,ZA,2787805,0.85
-South Africa - Special Services,non-geographic,ZA,2787806,0.85
-South Africa - Special Services,non-geographic,ZA,2787807,0.85
-South Africa - Special Services,non-geographic,ZA,2787808,0.85
-South Africa - Special Services,non-geographic,ZA,2787809,0.85
-South Africa - Special Services,non-geographic,ZA,27878120,0.85
-South Africa - Special Services,non-geographic,ZA,27878130,0.85
-South Africa - Special Services,non-geographic,ZA,2787820,0.85
-South Africa - Special Services,non-geographic,ZA,27878250,0.85
-South Africa - Special Services,non-geographic,ZA,27878251,0.85
-South Africa - Special Services,non-geographic,ZA,27878300,0.85
-South Africa - Special Services,non-geographic,ZA,27878301,0.85
-South Africa - Special Services,non-geographic,ZA,27878302,0.85
-South Africa - Special Services,non-geographic,ZA,27878450,0.85
-South Africa - Special Services,non-geographic,ZA,27878451,0.85
-South Africa - Special Services,non-geographic,ZA,27878900,0.85
-South Africa - Special Services,non-geographic,ZA,27879000,0.85
-South Africa - Special Services,non-geographic,ZA,27879200,0.85
-South Africa - Special Services,non-geographic,ZA,27879201,0.85
-South Africa - Special Services,non-geographic,ZA,27879202,0.85
-South Africa - Special Services,non-geographic,ZA,27879203,0.85
-South Africa - Special Services,non-geographic,ZA,27879204,0.85
-South Africa - Special Services,non-geographic,ZA,2787940,0.85
-South Africa - Special Services,non-geographic,ZA,2787941,0.85
-South Africa - Special Services,non-geographic,ZA,2787942,0.85
-South Africa - Special Services,non-geographic,ZA,2787943,0.85
-South Africa - Special Services,non-geographic,ZA,2787944,0.85
-South Africa - Special Services,non-geographic,ZA,27879450,0.85
-South Africa - Special Services,non-geographic,ZA,27879800,0.85
-South Africa - Special Services,non-geographic,ZA,27879801,0.85
-South Africa - Special Services,non-geographic,ZA,27879802,0.85
-South Africa - Special Services,non-geographic,ZA,27879803,0.85
-South Africa - Special Services,non-geographic,ZA,27879804,0.85
-South Africa - Special Services,non-geographic,ZA,27879850,0.85
-South Africa - Special Services,non-geographic,ZA,27879851,0.85
-South Africa - Special Services,non-geographic,ZA,27879852,0.85
-South Africa - Special Services,non-geographic,ZA,278840113,0.85
-South Africa - Special Services,non-geographic,ZA,2788410283,0.85
-South Africa - Special Services,non-geographic,ZA,2789008904,0.85
-South Africa - Special Services,non-geographic,ZA,2790829848,0.85
-South Africa - Special Services,non-geographic,ZA,2796033063,0.85
-South Africa - Special Services,non-geographic,ZA,2798459241,0.85
-South Africa - Special Services,non-geographic,ZA,2798499104,0.85
-South Africa - Special Services,non-geographic,ZA,2799835955,0.85
 South Africa - Toll Free,non-geographic,ZA,27800,0.45
-South Sudan,landline,SS,211,0.51
-South Sudan - Mobile,mobile,SS,2119,0.664
 Spain,landline,ES,34,0.0165
-Spain-Barcelona,landline,ES,3493,0.0165
-Spain-Madrid,landline,ES,3491,0.0165
+Spain,landline,ES,34810,0.0165
+Spain,landline,ES,34822,0.0165
+Spain,landline,ES,34824,0.0165
+Spain,landline,ES,34825,0.0165
+Spain,landline,ES,34828,0.0165
+Spain,landline,ES,34830,0.0165
+Spain,landline,ES,34842,0.0165
+Spain,landline,ES,34843,0.0165
+Spain,landline,ES,34846,0.0165
+Spain,landline,ES,34848,0.0165
+Spain,landline,ES,34850,0.0165
+Spain,landline,ES,34851,0.0165
+Spain,landline,ES,34854,0.0165
+Spain,landline,ES,34856,0.0165
+Spain,landline,ES,34858,0.0165
+Spain,landline,ES,34865,0.0165
+Spain,landline,ES,34868,0.0165
+Spain,landline,ES,34871,0.0165
+Spain,landline,ES,34872,0.0165
+Spain,landline,ES,34873,0.0165
+Spain,landline,ES,34876,0.0165
+Spain,landline,ES,34877,0.0165
+Spain,landline,ES,34881,0.0165
+Spain,landline,ES,34882,0.0165
+Spain,landline,ES,34883,0.0165
+Spain,landline,ES,34886,0.0165
+Spain,landline,ES,34888,0.0165
+Spain,landline,ES,34910,0.0165
+Spain,landline,ES,34911,0.0165
+Spain,landline,ES,34912,0.0165
+Spain,landline,ES,34913,0.0165
+Spain,landline,ES,34914,0.0165
+Spain,landline,ES,34915,0.0165
+Spain,landline,ES,34916,0.0165
+Spain,landline,ES,34917,0.0165
+Spain,landline,ES,34918,0.0165
+Spain,landline,ES,34919,0.0165
+Spain,landline,ES,34920,0.0165
+Spain,landline,ES,34921,0.0165
+Spain,landline,ES,34922,0.0165
+Spain,landline,ES,34923,0.0165
+Spain,landline,ES,34924,0.0165
+Spain,landline,ES,34925,0.0165
+Spain,landline,ES,34926,0.0165
+Spain,landline,ES,34927,0.0165
+Spain,landline,ES,34928,0.0165
+Spain,landline,ES,34930,0.0165
+Spain,landline,ES,34931,0.0165
+Spain,landline,ES,34932,0.0165
+Spain,landline,ES,34933,0.0165
+Spain,landline,ES,34934,0.0165
+Spain,landline,ES,34935,0.0165
+Spain,landline,ES,34936,0.0165
+Spain,landline,ES,34937,0.0165
+Spain,landline,ES,34938,0.0165
+Spain,landline,ES,34939,0.0165
+Spain,landline,ES,34941,0.0165
+Spain,landline,ES,34942,0.0165
+Spain,landline,ES,34943,0.0165
+Spain,landline,ES,34944,0.0165
+Spain,landline,ES,34945,0.0165
+Spain,landline,ES,34946,0.0165
+Spain,landline,ES,34947,0.0165
+Spain,landline,ES,34948,0.0165
+Spain,landline,ES,34949,0.0165
+Spain,landline,ES,3495,0.0165
+Spain,landline,ES,3496,0.0165
+Spain,landline,ES,34971,0.0165
+Spain,landline,ES,34972,0.0165
+Spain,landline,ES,34973,0.0165
+Spain,landline,ES,34974,0.0165
+Spain,landline,ES,34975,0.0165
+Spain,landline,ES,34976,0.0165
+Spain,landline,ES,34977,0.0165
+Spain,landline,ES,34978,0.0165
+Spain,landline,ES,34979,0.0165
+Spain,landline,ES,34980,0.0165
+Spain,landline,ES,34981,0.0165
+Spain,landline,ES,34982,0.0165
+Spain,landline,ES,34983,0.0165
+Spain,landline,ES,34984,0.0165
+Spain,landline,ES,34985,0.0165
+Spain,landline,ES,34986,0.0165
+Spain,landline,ES,34987,0.0165
+Spain,landline,ES,34988,0.0165
 Spain - Mobile,mobile,ES,346,0.0925
 Spain - Mobile,mobile,ES,34600,0.0925
 Spain - Mobile,mobile,ES,34601,0.0925
@@ -6864,7 +5400,6 @@ Sri Lanka - Mobile,mobile,LK,94769,0.219
 Sri Lanka - Mobile,mobile,LK,9477,0.219
 Sri Lanka - Mobile,mobile,LK,9478,0.219
 St Lucia,mixed,LC,1758,0.483
-St Pierre and Miquelon,mixed,PM,508,0.585
 St Vincent Grenadines,mixed,VC,1784,0.255
 Sudan,mixed,SD,249,0.26
 Suriname,landline,SR,597,0.175
@@ -7079,8 +5614,6 @@ Taiwan - Toll Free,non-geographic,TW,8860811,0.099
 Taiwan - Toll Free,non-geographic,TW,88680,0.099
 Taiwan - Toll Free,non-geographic,TW,88681,0.099
 Tajikistan,mixed,TJ,992,0.3
-Tanzania,landline,TZ,255,0.5
-Tanzania-Dar es Salaam,landline,TZ,25522,0.5
 Tanzania - Mobile,mobile,TZ,25561,0.45
 Tanzania - Mobile,mobile,TZ,25562,0.45
 Tanzania - Mobile,mobile,TZ,25565,0.45
@@ -7099,8 +5632,6 @@ Thailand-Bangkok,landline,TH,662,0.1
 Thailand - Mobile,mobile,TH,668,0.1
 Thailand - Mobile,mobile,TH,669,0.1
 Thailand - Toll Free,non-geographic,TH,661800,0.1
-Togo,landline,TG,228,0.54
-Tonga,mixed,TO,676,1.803
 Trinidad and Tobago,landline,TT,1868,0.291
 Trinidad and Tobago - Mobile,mobile,TT,186827,0.34
 Trinidad and Tobago - Mobile,mobile,TT,186828,0.34
@@ -7617,7 +6148,6 @@ USA-Alaska,mixed,US,1907,0.09
 USA-Hawaii,mixed,US,1808,0.013
 USA-MetroPCS,mobile,US,12722689,0.013
 Uzbekistan,mixed,UZ,998,0.15
-Vanuatu,mixed,VU,678,1.7
 Vatican City,mixed,VA,379,0.021
 Venezuela,landline,VE,58,0.06
 Venezuela-Caracas,landline,VE,58212,0.06
@@ -7677,18 +6207,4 @@ Virgin Islands British - Mobile,mobile,VG,1284960,0.449
 Virgin Islands United States,mixed,VI,1340,0.036
 Wallis and Futuna,mixed,WF,681,0.02
 Yemen,mixed,YE,967,0.215
-Zambia,landline,ZM,260,0.65
-Zambia - Mobile,mobile,ZM,2609,0.69
-Zambia - Mobile,mobile,ZM,26094,0.69
-Zambia - Mobile,mobile,ZM,26095,0.69
-Zambia - Mobile,mobile,ZM,26096,0.69
-Zambia - Mobile,mobile,ZM,26097,0.69
-Zambia - Mobile,mobile,ZM,26098,0.69
-Zambia - Mobile,mobile,ZM,26099,0.69
 Zimbabwe,landline,ZW,263,0.223
-Zimbabwe - Mobile,mobile,ZW,26311,0.71
-Zimbabwe - Mobile,mobile,ZW,26371,0.71
-Zimbabwe - Mobile,mobile,ZW,26373,0.71
-Zimbabwe - Mobile,mobile,ZW,26377,0.71
-Zimbabwe - Mobile,mobile,ZW,26378,0.71
-Zimbabwe - Mobile,mobile,ZW,26391,0.71
