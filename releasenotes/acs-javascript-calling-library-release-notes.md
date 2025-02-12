@@ -13,8 +13,9 @@ If you are working with **Teams users**, please follow the `Teams identities` do
 ## 1.33.1 (2025-02-11)
 - Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.33.1](https://www.npmjs.com/package/@azure/communication-calling/v/1.33.1)
 
-### New features:
-- Added support for ACS public cloud to join Teams GCC meetings
+### Fixes and Improvements:
+- Enhanced the End of Call survey feature in the stable SDK to use slightly less memory. Please see [https://learn.microsoft.com/en-us/azure/communication-services/concepts/voice-video-calling/end-of-call-survey-concept](https://learn.microsoft.com/en-us/azure/communication-services/concepts/voice-video-calling/end-of-call-survey-concept) for more detials.
+- NetworkInfo telemetry to monitor pre incoming call. The NetworkInfo telemetry will be exposed to CDC.
   
 
 ## 1.33.2-beta.1 (2025-01-30)
