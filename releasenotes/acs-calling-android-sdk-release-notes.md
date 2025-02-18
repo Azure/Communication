@@ -7,7 +7,7 @@ Please note, packages version 2.2.2 and older has been deprecated and will no lo
 
 ## 2.13.0
 ### New Features:
-- Real-time text
+- [Real time text](https://learn.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/get-started-with-real-time-text?pivots=programming-language-java)
 - New getServerCallId() API for call recording
 
 ## 2.11.0 (2024-09-24)
