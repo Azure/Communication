@@ -2,6 +2,11 @@
 
 Package location: [NuGet](https://www.nuget.org/packages/Azure.Communication.Calling.WindowsClient/)
 
+## 1.11.0
+### New Features:
+- [Real time text](https://learn.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/get-started-with-real-time-text?pivots=programming-language-csharp)
+- New getServerCallId() API for call recording
+
 ## v1.9.0 (2024-09-24)
 
 ### New Features:
