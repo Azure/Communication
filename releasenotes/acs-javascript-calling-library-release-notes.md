@@ -16,6 +16,7 @@ If you are working with **Teams users**, please follow the `Teams identities` do
 ### Fixes and Improvements:
 - Enhanced the End of Call survey feature in the stable SDK to use slightly less memory. Please see [https://learn.microsoft.com/en-us/azure/communication-services/concepts/voice-video-calling/end-of-call-survey-concept](https://learn.microsoft.com/en-us/azure/communication-services/concepts/voice-video-calling/end-of-call-survey-concept) for more detials.
 - Implemented improvements in the NetworkInfo telemetry ability so that network telemetry data can be collected before a client joins a call. This data is now also available in the Call Diagnostics toolkit. See [https://learn.microsoft.com/en-us/azure/communication-services/concepts/voice-video-calling/call-diagnostics](https://learn.microsoft.com/en-us/azure/communication-services/concepts/voice-video-calling/call-diagnostics) to learn more about Call Diagnostics capabilities
+- Improved the calling experience when a WebJS user calls another directly, and the caller closes the browser tab before the recipient accepts. The call will now signal properly as the call ended instead of continuously ringing for the recipient.
   
 
 ## 1.33.2-beta.1 (2025-01-30)
