@@ -48,11 +48,7 @@ September - December 2024
 | Virtual Appointments| GA | Launched | List Townhall APIs | Retrieve a list of townhalls for the tenant and organizers/co-organizers. |
 
 
-| Virtual Appointments | GA | Planned | Phone Conf Dial-In | Users can learn conference dial-in details for Microsft Teams meetings. |
-| Virtual Appointments | GA | Planned | Local Recording Notification | Notify Microsoft Teams meeting participants, when someone starts local recording. |
-| Virtual Appointments | GA | Launched | Image Download | Download images psoted in Microsoft Teams meetings. |
-| Virtual Appointments | GA | Planned | File Download | Download files posted in Microsoft Teams meetings. |
-| Virtual Appointments | GA | Planned | Spotlight | Spotlight users in Microsoft Teams meetings via UI Library |
+
 
 
 
