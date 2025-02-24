@@ -9,7 +9,7 @@ These features are the current plans for the stated quarter at this time and are
 ## CY2025 Q2
 
 April 2025 - June 2025
-| Area   | Release        | Status      | Short name                  | Short desc.                                                                                       |
+| Area   | Release        | Status      | Feature                     | Description                                                                                       |
 |--------|----------------|-------------|-----------------------------|--------------------------------------------------------------------------------------------------|
 | Calling | Public Preview | In Progress | Bot Media SDK for AI Voice  | Enhance real-time AI voice interactions with advanced audio and data channels, with future support for video and screensharing. |
 | Calling | GA             | In Progress | 1080p Send Support          | Send video at 1080p quality for better presentations.                                                |
@@ -23,7 +23,7 @@ April 2025 - June 2025
 January 2025 - March 2025
 | Area              | Release        | Status      | Feature                          | Description                                                                                        |
 |-------------------|----------------|-------------|----------------------------------|----------------------------------------------------------------------------------------------------|
-| Calling           | Public Preview | Launched    | Real Time Text (RTT)                          | Transmit text in near real-time during calls for individuals with speech difficulties.             |
+| Calling           | Public Preview | Launched    | Real Time Text (RTT)             | Transmit text in near real-time during calls for individuals with speech difficulties.             |
 | Calling           | GA             | In Progress | Soft Mute PSTN Participant       | Mute remote PSTN participants' phones via APIs with a local notification.                          |
 | Calling           | GA             | In Progress | Pin 2 720P Video Support         | Spotlight up to 2 incoming video streams at higher resolution.                                     |
 | Email             | Public Preview | Planned     | SMTP Custom Username             | Allow shortened usernames for ACS connections, including email-ids                                 |
@@ -33,8 +33,6 @@ January 2025 - March 2025
 | Teams interop     | GA             | Launched    | Together Mode                    | Show together mode during Teams meetings                                                           |
 | Teams interop     | GA             | Launched    | Control Audio/Video              | Enable or disable audio and video of attendees in Teams meetings and group calls                   |
 | Teams interop     | GA             | Launched    | Native SDKs for Teams Call Queue | Place calls to Teams call queues and auto attendants using Native client SDKs                      |
-| Teams interop     | Beta           | Launched    | Shared Line Appearance           | Place calls using Teams shared line appearance with Web Calling SDK                                |
-| Teams Interop     | GA             | Launched    | Teams Call Queue SDKs            | Place calls to Teams call queues and auto attendants with video calling and screenshare available. |
 | Teams Interop     | Public Preview | Launched    | Shared Line Appearance           | Allow delegates to handle calls on behalf of a user in Teams.                                      |
 
 ## CY2024 Q4
@@ -52,7 +50,7 @@ September - December 2024
 | Calling             | GA              | Launched     | Calling & Chat SDK in Android    | Enable integration of Chat and Calling SDKs within the same Android project. |
 | Calling             | GA              | Launched     | Improvements in Azure Monitor Log Latency | Reduce latency for Calling logs in Azure Monitor. |
 | Calling             | Public Preview  | In Progress  | Call Recording Enhancements      | Ensure recordings are free of any potential clippings.                      |
-| Calling             | GA              | In Progress  | Call Recording Service Enhancements to BYOS | Enable users to store call recordings in their own storage solutions.       |
+| Calling             | GA              | Launched     | Call Recording Service Enhancements to BYOS | Enable users to store call recordings in their own storage solutions.       |
 | Calling             | GA              | In Progress  | Improved Availability            | Enhance availability and concurrency for enterprise-grade workloads.        |
 | Calling             | GA              | In Progress  | SIP-UUI Context Data             | Pass SIP-UUI custom context data when transferring calls.                   |
 | Calling             | Public Preview  | In Progress  | XL Participant Roster            | Graph Calling SDK supports XL participant roster notification for ISVs.     |
@@ -66,14 +64,14 @@ September - December 2024
 | SMS                 | Public Preview  | Launched     | SMS Opt-out management API       | The Opt-Out API lets developers manage SMS opt-out preferences programmatically. |
 | Teams Interoperability| GA            | In Progress  | User Naming                      | Correct naming of Azure Communication Services user in Teams using DisplayName. |
 | Teams Interoperability| GA            | In Progress  | PPT Live                         | Enable PPT Live on iOS, Windows, and Android.                               |
-| Teams Interoperability| GA            | In Progress  | Teams Call Queues                | iOS and Android Calling SDKs can call Teams call queues and auto-attendants. |
+| Teams Interoperability| GA            | Launched     | Teams Call Queues                | iOS and Android Calling SDKs can call Teams call queues and auto-attendants. |
 | Virtual Appointments| GA              | In Progress  | 4x4 Grid Views                   | Web Calling (Desktop) supports 4x4 grid views.                              |
 | Virtual Appointments| Public Preview  | In Progress  | Background Blur on Chrome        | Web Calling supports background blur & replacement on Android Chrome.       |
 | Virtual Appointments| GA              | In Progress  | DeepVQE Noise Suppression        | Web Calling (desktop) supports DeepVQE noise suppression.                   |
-| Virtual Appointments| GA              | In Progress  | iOS PiP                          | Add Picture-in-Picture (PiP) support on iOS.                                |
-| Virtual Appointments| GA              | In Progress  | Recording Consent                | Web UI SDK components for requesting user consent of recording & transcription. |
-| Virtual Appointments| GA              | In Progress  | Teams Breakout Rooms             | Use Breakout Rooms in Teams Meetings.                                       |
-| Virtual Appointments| Public Preview  | In Progress  | Together Mode Interop            | Use Together Mode in Teams Meetings.                                        |
+| Virtual Appointments| GA              | Launched     | iOS PiP                          | Add Picture-in-Picture (PiP) support on iOS.                                |
+| Virtual Appointments| GA              | Launched     | Recording Consent                | Web UI SDK components for requesting user consent of recording & transcription. |
+| Virtual Appointments| GA              | Launched     | Teams Breakout Rooms             | Use Breakout Rooms in Teams Meetings.                                       |
+| Virtual Appointments| Public Preview  | Launched     | Together Mode Interop            | Use Together Mode in Teams Meetings.                                        |
 | Virtual Appointments| Public Preview  | In Progress  | User-Facing Diagnostics          | Native Calling SDK supports server-side user-facing diagnostics (UFD).      |
 | Virtual Appointments| GA | Launched | List Townhall APIs | Retrieve a list of townhalls for the tenant and organizers/co-organizers. |
 
