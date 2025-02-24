@@ -16,7 +16,6 @@ If you are working with **Teams users**, please follow the `Teams identities` do
 ### New features:
 - <b>handleIncomingCall event</b> - The application can know whether the incoming call notification is succussfully acknowledged or not. 
 - <b>Transferor</b> - GA
-- <b>OPS</b> - Support for TeamsMultiPersona Identity
 
 ### Fixes
 - Addressed an issue that the user could not stop video when a cameraFailed UFD is fired before the call is connected.
