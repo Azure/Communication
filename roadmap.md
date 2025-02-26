@@ -11,7 +11,6 @@ These features are the current plans for the stated quarter at this time and are
 April 2025 - June 2025
 | Area   | Release        | Status      | Feature                     | Description                                                                                       |
 |--------|----------------|-------------|-----------------------------|--------------------------------------------------------------------------------------------------|
-| Calling | Public Preview | In Progress | Bot Media SDK for AI Voice  | Enhance real-time AI voice interactions with advanced audio and data channels, with future support for video and screensharing. |
 | Calling | GA             | In Progress | 1080p Send Support          | Send video at 1080p quality for better presentations.                                                |
 | Calling | GA             | In Progress | Headset Voice Isolation     | Reduce background noise for clearer audio with headset-optimized isolation.                          |
 | Calling | GA             | In Progress | Remote User Facing Diagnostics | Provide diagnostics to enhance call experience.                                                      |
