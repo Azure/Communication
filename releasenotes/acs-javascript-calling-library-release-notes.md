@@ -21,12 +21,11 @@ If you are working with **Teams users**, please follow the `Teams identities` do
 - Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.33.2](https://www.npmjs.com/package/@azure/communication-calling/v/1.33.2)
 
 ### New features:
-- <b>handleIncomingCall event</b> - The application can subscribe to the event to know whether the incoming call notification has been succussfully acknowledged or not.
+- <b>handleIncomingCall event</b> - Added new telemetry value handleIncomingCall to the Calling SDK that notifies whether the incoming call notification on the client side has been acknowledged. This telemetry will be available in the Call client operations log schema. Azure Communication Services call client operations log schema - An Azure Communication Services concept article | Microsoft Learn and will appear as part of the [OperationsPayload property](https://learn.microsoft.com/en-us/azure/communication-services/concepts/analytics/logs/call-client-operations-log-schema#call-client-operations-log-schema-1).
 
 ### Fixes and Improvements:
 - Addressed an issue that the user could not stop video when a cameraFailed UFD is fired before the call is connected.
-- Transferor information was added to Incoming Call in case of transfer or forward scenario.
-
+- Added new  event named transferorInfoChanged object that contains information about the prior call state, the callerInfo (about the initial caller) and the transferorInfo (about the entity transferring or forwarding the call). For more information about these objects, see [transfer calls](https://learn.microsoft.com/en-us/azure/communication-services/how-tos/calling-sdk/transfer-calls#initial-caller-and-transferor-information).
 
 ## 1.33.2-beta.1 (2025-01-30)
 - Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.33.2-beta.1](https://www.npmjs.com/package/@azure/communication-calling/v/1.33.2-beta.1)
