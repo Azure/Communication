@@ -27,6 +27,15 @@ If you are working with **Teams users**, please follow the `Teams identities` do
 - Addressed an issue that the user could not stop video when a cameraFailed UFD is fired before the call is connected.
 - Added new  event named transferorInfoChanged object that contains information about the prior call state, the callerInfo (about the initial caller) and the transferorInfo (about the entity transferring or forwarding the call). For more information about these objects, see [transfer calls](https://learn.microsoft.com/en-us/azure/communication-services/how-tos/calling-sdk/transfer-calls#initial-caller-and-transferor-information).
 
+## 1.33.1 (2025-02-11)
+- Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.33.1](https://www.npmjs.com/package/@azure/communication-calling/v/1.33.1)
+
+### Fixes and Improvements:
+- Enhanced the End of Call survey feature in the stable SDK to use slightly less memory. Please see [https://learn.microsoft.com/en-us/azure/communication-services/concepts/voice-video-calling/end-of-call-survey-concept](https://learn.microsoft.com/en-us/azure/communication-services/concepts/voice-video-calling/end-of-call-survey-concept) for more detials.
+- Implemented improvements in the NetworkInfo telemetry ability so that network telemetry data can be collected before a client joins a call. This data is now also available in the Call Diagnostics toolkit. See [https://learn.microsoft.com/en-us/azure/communication-services/concepts/voice-video-calling/call-diagnostics](https://learn.microsoft.com/en-us/azure/communication-services/concepts/voice-video-calling/call-diagnostics) to learn more about Call Diagnostics capabilities
+- Improved the calling experience when a WebJS user calls another directly, and the caller closes the browser tab before the recipient accepts. The call will now signal properly as the call ended instead of continuously ringing for the recipient.
+- A new telemetry value handleIncomingCall has been added to Caling SDk that notifies whether the incoming call notification on the client side has been acknowledged.
+  
 ## 1.33.2-beta.1 (2025-01-30)
 - Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.33.2-beta.1](https://www.npmjs.com/package/@azure/communication-calling/v/1.33.2-beta.1)
 
