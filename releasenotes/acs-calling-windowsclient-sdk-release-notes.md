@@ -2,6 +2,10 @@
 
 Package location: [NuGet](https://www.nuget.org/packages/Azure.Communication.Calling.WindowsClient/)
 
+## 1.11.1
+### Bug Fixes:
+  - Bug fix for PSTN mute/unmute
+
 ## 1.11.0
 ### New Features:
 - [Real time text](https://learn.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/get-started-with-real-time-text?pivots=programming-language-csharp)
