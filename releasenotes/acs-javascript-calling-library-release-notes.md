@@ -11,7 +11,7 @@ If you are working with **Teams users**, please follow the `Teams identities` do
 - [Teams Identities object model](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/get-started-with-voice-video-calling-custom-teams-client#azure-communication-services-calling-web-sdk-object-model)
 
 ## 1.34.1-beta.2 (2025-03-20)
-- Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.33.3](https://www.npmjs.com/package/@azure/communication-calling/v/1.33.3)
+- Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.34.1-beta.2](https://www.npmjs.com/package/@azure/communication-calling/v/1.34.1-beta.2)
 
 ### New features:
 - Introduce the [Collaborator role](https://learn.microsoft.com/azure/communication-services/concepts/rooms/room-concept#predefined-participant-roles-and-permissions-in-virtual-rooms-calls) for Rooms, granting participants permissions for using audio, video, and screensharing features.
