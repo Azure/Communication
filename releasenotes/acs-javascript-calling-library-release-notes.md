@@ -11,7 +11,7 @@ If you are working with **Teams users**, please follow the `Teams identities` do
 - [Teams Identities object model](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/get-started-with-voice-video-calling-custom-teams-client#azure-communication-services-calling-web-sdk-object-model)
 
 ## 1.34.1 (2025-04-7)
-- Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.34.1](https://www.npmjs.com/package/@azure/communication-calling/v/1.35.1)
+- Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.34.1](https://www.npmjs.com/package/@azure/communication-calling/v/1.34.1)
 
 ### New Features
 - Desktop browsers (Chrome and Edge), now support sending [1080p video resolution](https://learn.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/optimizing-video-placement#how-to-configure-to-send-a-1080p-stream).
@@ -30,7 +30,6 @@ If you are working with **Teams users**, please follow the `Teams identities` do
 
 ### New Features
 - Desktop browsers (Chrome and Edge), now support sending [1080p video resolution](https://learn.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/optimizing-video-placement#how-to-configure-to-send-a-1080p-stream)
-- Remote Client User Facing Diagnostics.
 - Mobile web browsers now support sending video at [720p resolution](https://learn.microsoft.com/en-us/azure/communication-services/concepts/voice-video-calling/calling-sdk-features#supported-video-resolutions).
 
 ### Fixes and Improvements
