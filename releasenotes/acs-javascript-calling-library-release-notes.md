@@ -14,7 +14,6 @@ If you are working with **Teams users**, please follow the `Teams identities` do
 - Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.34.1](https://www.npmjs.com/package/@azure/communication-calling/v/1.34.1)
 
 ### New Features
-- Desktop browsers (Chrome and Edge), now support sending [1080p video resolution](https://learn.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/optimizing-video-placement#how-to-configure-to-send-a-1080p-stream).
 - Mobile web browsers now support sending video at [720p resolution](https://learn.microsoft.com/en-us/azure/communication-services/concepts/voice-video-calling/calling-sdk-features#supported-video-resolutions).
 - [Real Time Text](https://learn.microsoft.com/en-us/azure/communication-services/concepts/voice-video-calling/real-time-text) Instantly transmit text as you type while in a call, enabling seamless and immediate communication for more accessible and responsive interactions.
 - [Collaborator role](https://learn.microsoft.com/en-us/azure/communication-services/concepts/rooms/room-concept#predefined-participant-roles-and-permissions-in-virtual-rooms-calls) for Rooms, granting participants permissions for using audio, video, and screensharing features.
