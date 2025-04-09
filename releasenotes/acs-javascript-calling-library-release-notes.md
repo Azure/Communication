@@ -10,6 +10,34 @@ If you are working with **Teams users**, please follow the `Teams identities` do
 - [Teams Identities quick start](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/get-started-with-voice-video-calling-custom-teams-client)
 - [Teams Identities object model](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/get-started-with-voice-video-calling-custom-teams-client#azure-communication-services-calling-web-sdk-object-model)
 
+## 1.34.1 (2025-04-7)
+- Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.34.1](https://www.npmjs.com/package/@azure/communication-calling/v/1.35.1)
+
+### New Features
+- Desktop browsers (Chrome and Edge), now support sending [1080p video resolution](https://learn.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/optimizing-video-placement#how-to-configure-to-send-a-1080p-stream).
+- Mobile web browsers now support sending video at [720p resolution](https://learn.microsoft.com/en-us/azure/communication-services/concepts/voice-video-calling/calling-sdk-features#supported-video-resolutions).
+- [Real Time Text](https://learn.microsoft.com/en-us/azure/communication-services/concepts/voice-video-calling/real-time-text) Instantly transmit text as you type while in a call, enabling seamless and immediate communication for more accessible and responsive interactions.
+- [Collaborator role](https://learn.microsoft.com/en-us/azure/communication-services/concepts/rooms/room-concept#predefined-participant-roles-and-permissions-in-virtual-rooms-calls) for Rooms, granting participants permissions for using audio, video, and screensharing features.
+- [Background blur and background replacement](https://learn.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/get-started-video-effects?pivots=platform-web) on Android mobile browsers.
+
+### Fixes and Improvements
+- Fixed an issue that caused the Web SDK bundle size to improperly increase in size, starting in version 1.33 and 1.34.1-beta.
+- Updated message for subcode 0/5003: "Call was ended by Azure Communication Service as the call has ended."
+- Added a new subcode for 401/71005: "Call failed due to a validation error in Azure Communication Services."
+
+## 1.35.1-beta.1 (2025-04-7)
+- Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.35.1-beta.1](https://www.npmjs.com/package/@azure/communication-calling/v/1.35.1-beta.1)
+
+### New Features
+- Desktop browsers (Chrome and Edge), now support sending [1080p video resolution](https://learn.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/optimizing-video-placement#how-to-configure-to-send-a-1080p-stream)
+- Remote Client User Facing Diagnostics.
+- Mobile web browsers now support sending video at [720p resolution](https://learn.microsoft.com/en-us/azure/communication-services/concepts/voice-video-calling/calling-sdk-features#supported-video-resolutions).
+
+### Fixes and Improvements
+- Fixed an issue that caused the Web SDK bundle size to improperly increase in size, starting in version 1.33 and 1.34.1-beta.
+- Updated message for subcode 0/5003: "Call was ended by Azure Communication Service as the call has ended."
+- Added a new subcode for 401/71005: "Call failed due to a validation error in Azure Communication Services."
+
 ## 1.34.1-beta.2 (2025-03-20)
 - Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.34.1-beta.2](https://www.npmjs.com/package/@azure/communication-calling/v/1.34.1-beta.2)
 
