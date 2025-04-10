@@ -41,6 +41,7 @@ If you are working with **Teams users**, please follow the `Teams identities` do
 
 ### New features:
 - Introduce the [Collaborator role](https://learn.microsoft.com/azure/communication-services/concepts/rooms/room-concept#predefined-participant-roles-and-permissions-in-virtual-rooms-calls) for Rooms, granting participants permissions for using audio, video, and screensharing features.
+- Support for muting remote PSTN participants
 
 ## 1.33.3 (2025-03-07)
 - Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.33.3](https://www.npmjs.com/package/@azure/communication-calling/v/1.33.3)
