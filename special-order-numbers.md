@@ -1,5 +1,7 @@
 # Create a Special Order for Telephone Numbers
 
+[!INCLUDE [Azure Prepayment](/includes/attention.md)]
+
 ### New Number Request
 In some countries phone numbers cannot be purchased directly through [Azure Portal](https://portal.azure.com). Customers who are interested in a special order (ex. acquiring large quantities of numbers or specific area codes) or if the number acquisition needs to be completed manually, can do so by following the process below. For general information on how to acquire a phone number, see the [quickstart here](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/telephony/get-phone-number?pivots=platform-azp).
 
