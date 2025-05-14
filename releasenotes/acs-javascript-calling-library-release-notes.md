@@ -10,6 +10,21 @@ If you are working with **Teams users**, please follow the `Teams identities` do
 - [Teams Identities quick start](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/get-started-with-voice-video-calling-custom-teams-client)
 - [Teams Identities object model](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/get-started-with-voice-video-calling-custom-teams-client#azure-communication-services-calling-web-sdk-object-model)
 
+## 1.35.1 (2025-05-08)
+- Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.35.1](https://www.npmjs.com/package/@azure/communication-calling/v/1.35.1)
+
+### New Features
+- Added a new feature that allows for promoting Teams Shared Line Appearance for CTE users to GA. Please see [here](https://learn.microsoft.com/en-us/azure/communication-services/concepts/interop/teams-user/teams-shared-line-appearance) for more details.
+
+### Fixes and Improvements
+- [Real Time Text](https://learn.microsoft.com/en-us/azure/communication-services/concepts/voice-video-calling/real-time-text) support for Custom Teams Endpoint (CTE) participants.
+
+## 1.36.1-beta.1 (2025-05-08)
+- Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.36.1-beta.1](https://www.npmjs.com/package/@azure/communication-calling/v/1.36.1-beta.1)
+
+### Fixes and Improvements
+- [Real Time Text](https://learn.microsoft.com/en-us/azure/communication-services/concepts/voice-video-calling/real-time-text) support for Custom Teams Endpoint (CTE) participants.
+
 ## 1.34.1 (2025-04-7)
 - Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.34.1](https://www.npmjs.com/package/@azure/communication-calling/v/1.34.1)
 
