@@ -1,5 +1,6 @@
 # Release Note History
 
+- [06/04/2025 - 06/05/2025](2025-06-05.md) - **The Common** team released GA packages for the languages (***.NET & JS***), allowing an Entra user with a Teams license to use Teams Phone Extensibility.
 - [03/28/2025 - 04/02/2025](2025-03-28.md) - **The Common** team released beta packages for the languages (***.NET & JS***), enabling Entra users to authorize Communication Services and allowing an Entra user with a Teams license to use Teams Phone Extensibility.
 - [02/12/2024 - 02/23/2024](2024-02-23.md) - **The Common** team released GA packages for the languages (***.NET, Java, JS, Python, Android & iOS***) and **the Identity** team released GA package for ***Python***, which added support for a new communication identifier `MicrosoftTeamsAppIdentifier`.
 - [11/28/2023 - 11/30/2023](2023-11-30.md) - **The Identity** team released GA packages for the main languages (***.NET, Java, JS, & Python***), which added introduction of new scopes for token generation.
