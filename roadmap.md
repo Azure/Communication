@@ -29,7 +29,6 @@ April 2025 - June 2025
 | Calling | Public Preview| In Progress  | Teams Phone extensibility          | Call Automation and Calling SDK now enable CCaaS developers to extend Teams Phone capabilities into their application |
 | Chat    | GA            | In Progress  | Configurable chat data retention policy | Can configure how many days after thread creation for the chat data to be automatically deleted |
 | Chat    | GA            | In Progress  | Chat Thread/Participant Metadata   | Chat thread and participant supports metadata information                   |
-| Chat    | Public Preview| Planned      | Message Streaming                  | The response back from a LLM is streamed word-by-word                       |
 | Rooms   | Public Preview| Launched  | Collaborator role                  | Introduce a new role called Collaborator.                                   |
 | SMS     | GA            | In Progress  | 10DLC                              | Two-way SMS via 10DLC                                                       |
 | SMS     | Public Preview| Launched     | SMS Mobile Numbers                 | Two-way SMS communications in Europe + AU (10 countries)                    |
