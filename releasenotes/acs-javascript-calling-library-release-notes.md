@@ -10,6 +10,20 @@ If you are working with **Teams users**, please follow the `Teams identities` do
 - [Teams Identities quick start](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/get-started-with-voice-video-calling-custom-teams-client)
 - [Teams Identities object model](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/get-started-with-voice-video-calling-custom-teams-client#azure-communication-services-calling-web-sdk-object-model)
 
+
+## 1.36.1 (2025-06-16)
+- Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.36.1](https://www.npmjs.com/package/@azure/communication-calling/v/1.36.1)
+
+### New Features
+- RAW screen sharing stream API access - Enabled the ability to use screen share as a second virtual camera [https://learn.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/get-started-raw-media-access?pivots=platform-web#access-raw-screen-sharing](https://learn.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/get-started-raw-media-access?pivots=platform-web#access-raw-screen-sharing))
+
+
+## 1.37.1-beta.1 (2025-06-16)
+- Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.37.1-beta.1](https://www.npmjs.com/package/@azure/communication-calling/v/1.37.1-beta.1)
+
+### New Features
+- Bugfix:  Resolved issue related to adding a dual persona participant to a call. See [https://learn.microsoft.com/en-us/azure/communication-services/quickstarts/tpe/teams-phone-extensibility-quickstart#ccaas-client-developer-how-to-authenticate-as-dual-persona]( for more details on dual persona.Teams Phone System extensibility)
+
 ## 1.35.1 (2025-05-08)
 - Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.35.1](https://www.npmjs.com/package/@azure/communication-calling/v/1.35.1)
 
@@ -22,6 +36,9 @@ If you are working with **Teams users**, please follow the `Teams identities` do
 ## 1.36.1-beta.1 (2025-05-08)
 - Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.36.1-beta.1](https://www.npmjs.com/package/@azure/communication-calling/v/1.36.1-beta.1)
 
+### New features 
+- Teams Phone System extensibility [https://learn.microsoft.com/en-us/azure/communication-services/quickstarts/tpe/teams-phone-extensibility-quickstart#ccaas-client-developer-how-to-authenticate-as-dual-persona](https://learn.microsoft.com/en-us/azure/communication-services/quickstarts/tpe/teams-phone-extensibility-quickstart#ccaas-client-developer-how-to-authenticate-as-dual-persona))
+  
 ### Fixes and Improvements
 - [Real Time Text](https://learn.microsoft.com/en-us/azure/communication-services/concepts/voice-video-calling/real-time-text) support for Custom Teams Endpoint (CTE) participants.
 
