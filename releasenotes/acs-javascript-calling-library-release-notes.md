@@ -10,6 +10,11 @@ If you are working with **Teams users**, please follow the `Teams identities` do
 - [Teams Identities quick start](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/get-started-with-voice-video-calling-custom-teams-client)
 - [Teams Identities object model](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/get-started-with-voice-video-calling-custom-teams-client#azure-communication-services-calling-web-sdk-object-model)
 
+## 1.37.1 (2025-07-08)
+- Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.37.1](https://www.npmjs.com/package/@azure/communication-calling/v/1.37.1)
+
+### New Features
+- Dual Pin - Released to GA support for rendering 2 streams with high resolution - up to [2 streams with resolution up to 720p](https://learn.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/optimizing-video-placement#things-to-consider-when-adding-a-1080p-or-720p-video-to-a-page) can be rendered simultaneously.
 
 ## 1.36.1 (2025-06-16)
 - Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.36.1](https://www.npmjs.com/package/@azure/communication-calling/v/1.36.1)
