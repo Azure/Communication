@@ -10,6 +10,22 @@ If you are working with **Teams users**, please follow the `Teams identities` do
 - [Teams Identities quick start](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/get-started-with-voice-video-calling-custom-teams-client)
 - [Teams Identities object model](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/get-started-with-voice-video-calling-custom-teams-client#azure-communication-services-calling-web-sdk-object-model)
 
+## 1.38.1 (2025-07-21)
+- Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.38.1-beta.1](https://www.npmjs.com/package/@azure/communication-calling/v/1.38.1-beta.1)
+
+### New Features
+- Support for [3-layer simulcast support]( https://learn.microsoft.com/en-us/azure/communication-services/concepts/voice-video-calling/simulcast)  is now available on Desktop Chrome and Edge environments. This allows multiple renditions of video streams to be sent, providing options for video quality selection.-
+- A [5x5 video grid]( https://learn.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/optimizing-video-placement#how-many-videos-to-place-in-a-grid-at-a-time) is now available on Web Desktop, enabling up to 25 remote participants to be displayed for enhanced group calls.
+- The Calling SDK for Web Desktop has enhanced its audio technology by introducing [echo suppression]( https://learn.microsoft.com/en-us/azure/communication-services/tutorials/audio-quality-enhancements/add-noise-supression?pivots=platform-web) functionality. This advancement enables developers to offer their customers the ability to eliminate undesired microphone feedback echoes.
+
+### Bug Fixes
+- Improved compatibility with the Next.js frameworks by Removing 'browser' key from package.json .
+- Addressed screen sharing resolution degradation affecting some desktop environments in low network conditions.
+- Resolved issue where calls were dropped in iOS Safari when multiple microphones (e.g., built-in and Bluetooth) were simultaneously connected.
+- Fixed a bug where the hold API was failing during rendering of 4x4 video layouts.
+- Corrected issue causing call drops with subcode 3111 under certain conditions.
+- Fixed a bug where DeviceManager failed to enumerate devices, improving reliability of device selection across environments.
+
 ## 1.37.1 (2025-07-08)
 - Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.37.1](https://www.npmjs.com/package/@azure/communication-calling/v/1.37.1)
 
