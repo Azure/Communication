@@ -10,7 +10,9 @@ If you are working with **Teams users**, please follow the `Teams identities` do
 - [Teams Identities quick start](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/get-started-with-voice-video-calling-custom-teams-client)
 - [Teams Identities object model](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/get-started-with-voice-video-calling-custom-teams-client#azure-communication-services-calling-web-sdk-object-model)
 
-## 1.38.1 (2025-08-02)
+## 1.38.1 (2025-09-02)
+- Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.38.1-beta.1](https://www.npmjs.com/package/@azure/communication-calling/v/1.38.1)
+  
 ### New Features
 - Remote Client User Facing Diagnostics are now available in GA. See [here](https://learn.microsoft.com/en-us/azure/communication-services/concepts/voice-video-calling/user-facing-diagnostics?pivots=platform-web) for more details on using User Facing Diagnostics.
 - Echo cancelation audio effects are now available in GA. See [here](https://learn.microsoft.com/en-us/azure/communication-services/tutorials/audio-quality-enhancements/add-noise-supression?pivots=platform-web) for more details.
@@ -20,7 +22,9 @@ If you are working with **Teams users**, please follow the `Teams identities` do
 ### Bug Fixes
 - Fixed an issue where the call ID might change in-between connecting and connected call state
 
-## 1.39.1-beta.1 (2025-08-02)
+## 1.39.1-beta.1 (2025-09-02)
+- Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.38.1-beta.1](https://www.npmjs.com/package/@azure/communication-calling/v/1.39.1-beta.1)
+
 ### New Features
 - Allowed for Cloud Video Interop (CVI) devices to join Teams Interop calls. See [here](https://learn.microsoft.com/en-us/microsoftteams/cloud-video-interop) for more details on Cloud Video Interop devices.
 
