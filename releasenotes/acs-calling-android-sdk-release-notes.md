@@ -4,6 +4,10 @@ Package location: [Maven](https://search.maven.org/artifact/com.azure.android/az
 
 Please note, packages version 2.2.2 and older has been deprecated and will no longer be maintained. We encourage you to upgrade to the latest version to continue receiving updates.
 
+## 2.14.1-beta.1
+### Bug Fixes:
+  - Support 16 KB page sizes
+
 ## 2.13.1
 ### Bug Fixes:
   - Bug fix for PSTN mute/unmute
