@@ -15,6 +15,7 @@ If you are working with **Teams users**, please follow the `Teams identities` do
   
 ### New Features
 - Remote Client User Facing Diagnostics are now available in GA. See [here](https://learn.microsoft.com/en-us/azure/communication-services/concepts/voice-video-calling/user-facing-diagnostics?pivots=platform-web) for more details on using User Facing Diagnostics.
+- Echo cancelation audio effects are now available in GA. See [here](https://learn.microsoft.com/en-us/azure/communication-services/tutorials/audio-quality-enhancements/add-noise-supression?pivots=platform-web) for more details.
 - Allowed for Cloud Video Interop (CVI) devices to join Teams Interop calls. See [here](https://learn.microsoft.com/en-us/microsoftteams/cloud-video-interop) for more details on Cloud Video Interop devices.
 - The Azure Communication Services Calling WebJS SDK now logs the CallEndReason directly in the JavaScript console. Alongside the reason, it provides a clickable URL that takes developers to relevant documentation for quick debugging and deeper context.
 
