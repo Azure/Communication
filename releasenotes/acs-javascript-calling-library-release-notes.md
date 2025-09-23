@@ -14,7 +14,7 @@ If you are working with **Teams users**, please follow the `Teams identities` do
 - Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.39.2-beta.1](https://www.npmjs.com/package/@azure/communication-calling/v/1.39.2-beta.1)
 
 ### New Features
-- Media modalities have been added to the join and accept call options, allowing Contoso to configure which modalities (e.g., audio, video, screenShare) are required when initiating or accepting a call. This enhancement prevents unnecessary device permission prompts by respecting the specified modality configuration.
+- We've added support for when joining or accepting a call clients can connect with audio only, video only, or screen sharing only. This enhancement reduces unnecessary device permission prompts by aligning with the selected modalities.
 
 ## 1.38.1 (2025-09-02)
 - Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.38.1-beta.1](https://www.npmjs.com/package/@azure/communication-calling/v/1.38.1)
