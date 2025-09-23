@@ -10,6 +10,12 @@ If you are working with **Teams users**, please follow the `Teams identities` do
 - [Teams Identities quick start](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/get-started-with-voice-video-calling-custom-teams-client)
 - [Teams Identities object model](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/get-started-with-voice-video-calling-custom-teams-client#azure-communication-services-calling-web-sdk-object-model)
 
+## 1.39.2-beta.1 (2025-09-22)
+- Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.39.2-beta.1](https://www.npmjs.com/package/@azure/communication-calling/v/1.39.2-beta.1)
+
+### New Features
+- Media modalities have been added to the join and accept call options, allowing Contoso to configure which modalities (e.g., audio, video, screenShare) are required when initiating or accepting a call. This enhancement prevents unnecessary device permission prompts by respecting the specified modality configuration.
+
 ## 1.38.1 (2025-09-02)
 - Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.38.1-beta.1](https://www.npmjs.com/package/@azure/communication-calling/v/1.38.1)
   
@@ -23,7 +29,7 @@ If you are working with **Teams users**, please follow the `Teams identities` do
 - Fixed an issue where the call ID might change in-between connecting and connected call state
 
 ## 1.39.1-beta.1 (2025-09-02)
-- Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.38.1-beta.1](https://www.npmjs.com/package/@azure/communication-calling/v/1.39.1-beta.1)
+- Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.39.1-beta.1](https://www.npmjs.com/package/@azure/communication-calling/v/1.39.1-beta.1)
 
 ### New Features
 - Allowed for Cloud Video Interop (CVI) devices to join Teams Interop calls. See [here](https://learn.microsoft.com/en-us/microsoftteams/cloud-video-interop) for more details on Cloud Video Interop devices.
