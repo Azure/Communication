@@ -9,6 +9,16 @@ If you are working with **Teams users**, please follow the `Teams identities` do
 - [Teams Identities API usage](https://docs.microsoft.com/en-us/azure/communication-services/how-tos/cte-calling-sdk/manage-calls)
 - [Teams Identities quick start](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/get-started-with-voice-video-calling-custom-teams-client)
 - [Teams Identities object model](https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/voice-video-calling/get-started-with-voice-video-calling-custom-teams-client#azure-communication-services-calling-web-sdk-object-model)
+- 
+## Stable: 1.39.0 (R33) / Beta: 1.40.0 (R38)
+ 
+### **New Features**
+- Added `reason` property to [Optimal Video Count (OVC)](https://learn.microsoft.com/en-us/azure/starts/voice-video-calling/optimizing-video-placement API in GA, enabling developers to identify changes due to bandwidth or performance. Includes improved response and results for screen sharing scenarios.
+ 
+### **Fixes**
+ 
+- Resolved an issue where captions were not appearing correctly on Teams interop calls when an ACS user joined.
+- Fixed a bug causing background blur to fail in certain scenarios on macOS.
 
 ## 1.39.2-beta.1 (2025-09-22)
 - Available in NPM - [https://www.npmjs.com/package/@azure/communication-calling/v/1.39.2-beta.1](https://www.npmjs.com/package/@azure/communication-calling/v/1.39.2-beta.1)
