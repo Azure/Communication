@@ -15,6 +15,7 @@ If you are working with **Teams users**, please follow the `Teams identities` do
 
 ### New Features
  - Adding debugging features to VDI.
+ - GA 5x5 video grid
 
 ### **Fixes**
 - Telemetry updates.
