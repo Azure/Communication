@@ -15,7 +15,7 @@ If you are working with **Teams users**, please follow the `Teams identities` do
 ### New Features
 - Active Call Transfer - Updates feature to be accessed through callAgent.feature API. 
 - WebRTO feature - New feature to support run time optimization for audio-only scenarios with Remote Desktop Client
-- Copilot (Facilitator) support in ACS Calling SDK: ACS users can now see Copilot (Facilitator) as a visible participant in Teams interop calls, and M365‑licensed CTE users can add Copilot to scheduled Teams meetings.
+- Copilot (Facilitator) feature: ACS users can now see Copilot (Facilitator) as a visible participant in Teams interop calls, and M365‑licensed CTE users can add Copilot to scheduled Teams meetings.
 ### Fixes
 - Active Call Transfer fixes - getActiveCallDetails now returns an array of active calls for the user.
 
