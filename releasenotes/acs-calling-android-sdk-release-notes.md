@@ -4,6 +4,15 @@ Package location: [Maven](https://search.maven.org/artifact/com.azure.android/az
 
 Please note, packages version 2.2.2 and older has been deprecated and will no longer be maintained. We encourage you to upgrade to the latest version to continue receiving updates.
 
+## 2.16.0
+### Bug Fixes:
+- **Screen sharing crash**: Fixed an issue where applications could crash when initiating or using screen sharing.
+- **IncomingCallListener not triggered**: Resolved issue where `IncomingCallListener` was not firing correctly in recent builds, impacting incoming call handling scenarios.
+
+## 2.15.0
+### Bug Fixes:
+- Support for Android devices with **16 KB memory page size**, ensuring compatibility with latest Android platform requirements and Google Play policies. Apps using older SDK versions **may fail to run or crash** on devices configured with 16 KB page size. Google Play requires 16 KB page size support for newer Android versions; upgrading is recommended to avoid **submission or compatibility issues**.
+
 ## 2.14.1-beta.1
 ### Bug Fixes:
   - Support 16 KB page sizes
