@@ -4,6 +4,10 @@ Package location: [Maven](https://search.maven.org/artifact/com.azure.android/az
 
 Please note, packages version 2.2.2 and older has been deprecated and will no longer be maintained. We encourage you to upgrade to the latest version to continue receiving updates.
 
+## 3.0.0
+### Major Version Update
+Version 3.0.0 establishes the latest supported baseline for the Azure Communication Services SDKs. This release does not introduce functional API changes. The major version increment reflects an update to the SDK support baseline and enables the delivery of future break/fix, reliability, and security updates, and an update to the licensing framework in the terms of use.
+
 ## 2.16.0
 ### Bug Fixes:
 - **Screen sharing crash**: Fixed an issue where applications could crash when initiating or using screen sharing.
